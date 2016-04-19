@@ -1,0 +1,7 @@
+[global]
+server.socket_port=9000
+[/]
+tools.staticdir.on=True
+tools.staticdir.dir="/Users/Antrromet/Documents/USC/Spring2016/CDA_CSCI599/Assignment_3/599-Evaluating-Content-Analysis/task-11"
+tools.staticdir.index="index.html"
+            
