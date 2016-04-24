@@ -58,10 +58,28 @@
         align: right;
         width: 50px;
     }
+    
+    body {
+        font-family: "Lucida Grande", "Droid Sans", Arial, Helvetica, sans-serif;
+    }
+    
+    .legend-desc {
+        border: 1px solid #555555;
+        border-radius: 5px 5px 5px 5px;
+        font-size: 0.8em;
+        margin: 0px 100px 10px 100px;
+        padding: 8px;
+        display: inline-block;
+    }
 
 </style>
 
 <body>
+    <div id="wrapper" style="text-align: center;">
+        <div class="legend-desc">
+            <p>This visualization indicates the Language Diversity amongst mime types!</p>
+        </div>
+    </div>
     <div id='dashboard'>
     </div>
     <script src="../js/d3.min.js"></script>
@@ -103,7 +121,7 @@
                         b: 30,
                         l: 0
                     };
-                hGDim.w = 500 - hGDim.l - hGDim.r,
+                hGDim.w = 800 - hGDim.l - hGDim.r,
                     hGDim.h = 300 - hGDim.t - hGDim.b;
 
                 //create svg for histogram.
@@ -279,6 +297,29 @@
                 return pC;
             }
 
+            // function to handle language legend.
+            function lang_legend(lD) {
+                var leg = {};
+
+                // create table for legend.
+                var legend = d3.select(id).append("table").attr('class', 'legend');
+
+                // create one row per segment.
+                var tr = legend.append("tbody").selectAll("tr").data(lD).enter().append("tr");
+
+                // create the second column for each segment.
+                tr.append("td").text(function(d) {
+                    return d.short;
+                });
+
+                // create the third column for each segment.
+                tr.append("td").attr("class", 'legendFreq')
+                    .text(function(d) {
+                        return d.full;
+                    });
+                return leg;
+            }
+
             // function to handle legend.
             function legend(lD) {
                 var leg = {};
@@ -353,8 +394,91 @@
                 return [d.State, d.total];
             });
 
+            var lan = [{
+                short: 'be',
+                full: 'Belarusian'
+            }, {
+                short: 'ca',
+                full: 'Catalan; Valencian'
+            }, {
+                short: 'da',
+                full: 'Danish'
+            }, {
+                short: 'de',
+                full: 'German'
+            }, {
+                short: 'en',
+                full: 'English'
+            }, {
+                short: 'eo',
+                full: 'Esperanto'
+            }, {
+                short: 'es',
+                full: 'Spanish; Castilian'
+            }, {
+                short: 'et',
+                full: 'Estonian'
+            }, {
+                short: 'fa',
+                full: 'Persian'
+            }, {
+                short: 'fi',
+                full: 'Finnish'
+            }, {
+                short: 'fr',
+                full: 'French'
+            }, {
+                short: 'gl',
+                full: 'Galician'
+            }, {
+                short: 'hu',
+                full: 'Hungarian'
+            }, {
+                short: 'is',
+                full: 'Icelandic'
+            }, {
+                short: 'it',
+                full: 'Italian'
+            }, {
+                short: 'lt',
+                full: 'Lithuanian'
+            }, {
+                short: 'nl',
+                full: 'Dutch; Flemish'
+            }, {
+                short: 'no',
+                full: 'Norwegian'
+            }, {
+                short: 'pl',
+                full: 'Polish'
+            }, {
+                short: 'pt',
+                full: 'Portuguese'
+            }, {
+                short: 'ro',
+                full: 'Romanian'
+            }, {
+                short: 'ru',
+                full: 'Russian'
+            }, {
+                short: 'sk',
+                full: 'Slovak'
+            }, {
+                short: 'sl',
+                full: 'Slovenian'
+            }, {
+                short: 'sv',
+                full: 'Swedish'
+            }, {
+                short: 'th',
+                full: 'Thai'
+            }, {
+                short: 'uk',
+                full: 'Ukrainian'
+            }];
             var hG = histoGram(sF), // create the histogram.
                 pC = pieChart(tF), // create the pie-chart.
+                lan_leg = lang_legend(lan),
                 leg = legend(tF); // create the legend.
         }
 
