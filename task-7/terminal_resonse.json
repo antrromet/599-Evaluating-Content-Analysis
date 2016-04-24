@@ -1,0 +1,268 @@
+[
+    {
+        "Languages": {
+            "gl": 1, 
+            "nl": 1, 
+            "ca": 15, 
+            "hu": 219, 
+            "sk": 239, 
+            "lt": 6, 
+            "uk": 2, 
+            "ro": 5, 
+            "is": 4, 
+            "pl": 8
+        }, 
+        "ContentType": "application/mp4"
+    }, 
+    {
+        "Languages": {
+            "en": 333, 
+            "ro": 1, 
+            "is": 1, 
+            "it": 3, 
+            "hu": 89, 
+            "sk": 47, 
+            "lt": 10, 
+            "pl": 4, 
+            "gl": 7, 
+            "es": 5
+        }, 
+        "ContentType": "application/msword"
+    }, 
+    {
+        "Languages": {
+            "en": 18, 
+            "nl": 1, 
+            "is": 43, 
+            "sv": 1, 
+            "hu": 80, 
+            "sk": 71, 
+            "lt": 46, 
+            "uk": 1, 
+            "sl": 3, 
+            "et": 4, 
+            "ro": 4, 
+            "ca": 2, 
+            "pl": 16, 
+            "gl": 10
+        }, 
+        "ContentType": "application/octet-stream"
+    }, 
+    {
+        "Languages": {
+            "be": 2, 
+            "fr": 9, 
+            "en": 4, 
+            "ro": 7, 
+            "no": 9, 
+            "is": 84, 
+            "sv": 1, 
+            "hu": 1849, 
+            "sk": 6837, 
+            "lt": 779, 
+            "uk": 101, 
+            "it": 1, 
+            "et": 15, 
+            "gl": 9, 
+            "ca": 27, 
+            "pl": 266
+        }, 
+        "ContentType": "application/pdf"
+    }, 
+    {
+        "Languages": {
+            "fr": 384, 
+            "en": 2378, 
+            "no": 50, 
+            "sv": 1, 
+            "de": 4, 
+            "it": 773, 
+            "hu": 11, 
+            "sk": 15, 
+            "lt": 651, 
+            "th": 12, 
+            "fi": 1, 
+            "et": 295, 
+            "ro": 410, 
+            "ca": 1, 
+            "es": 3, 
+            "gl": 11
+        }, 
+        "ContentType": "application/rss+xml"
+    }, 
+    {
+        "Languages": {
+            "sk": 154, 
+            "fr": 67, 
+            "en": 1209, 
+            "nl": 1, 
+            "es": 2, 
+            "no": 113, 
+            "de": 5, 
+            "is": 1, 
+            "sl": 2, 
+            "it": 2624, 
+            "hu": 1364, 
+            "gl": 30, 
+            "fa": 3, 
+            "lt": 1093, 
+            "pl": 4, 
+            "uk": 5, 
+            "fi": 2, 
+            "et": 1262, 
+            "ro": 2055, 
+            "ca": 1, 
+            "ru": 3
+        }, 
+        "ContentType": "application/xhtml+xml"
+    }, 
+    {
+        "Languages": {
+            "sk": 15, 
+            "fr": 91, 
+            "en": 502, 
+            "pt": 1, 
+            "no": 37, 
+            "ca": 1, 
+            "it": 362, 
+            "hu": 9, 
+            "gl": 5, 
+            "lt": 3176, 
+            "eo": 1, 
+            "sl": 5, 
+            "et": 641, 
+            "ro": 152, 
+            "is": 1, 
+            "pl": 1
+        }, 
+        "ContentType": "application/xml"
+    }, 
+    {
+        "Languages": {
+            "sk": 96, 
+            "lt": 12, 
+            "en": 1, 
+            "hu": 391
+        }, 
+        "ContentType": "audio/mpeg"
+    }, 
+    {
+        "Languages": {
+            "be": 1, 
+            "fr": 1, 
+            "en": 18, 
+            "ro": 1, 
+            "no": 4, 
+            "is": 164, 
+            "it": 11, 
+            "hu": 6674, 
+            "sk": 2792, 
+            "lt": 226, 
+            "sl": 4, 
+            "gl": 14, 
+            "da": 1, 
+            "ca": 3, 
+            "pl": 86
+        }, 
+        "ContentType": "image/gif"
+    }, 
+    {
+        "Languages": {
+            "gl": 8, 
+            "is": 113, 
+            "hu": 1396, 
+            "sk": 7859, 
+            "lt": 421, 
+            "en": 1, 
+            "fi": 1, 
+            "et": 8, 
+            "ro": 27, 
+            "ca": 1, 
+            "pl": 165
+        }, 
+        "ContentType": "image/jpeg"
+    }, 
+    {
+        "Languages": {
+            "fr": 1, 
+            "ro": 12, 
+            "no": 15, 
+            "is": 121, 
+            "hu": 3555, 
+            "sk": 5335, 
+            "lt": 721, 
+            "en": 1, 
+            "es": 1, 
+            "et": 105, 
+            "gl": 11, 
+            "pl": 122
+        }, 
+        "ContentType": "image/png"
+    }, 
+    {
+        "Languages": {
+            "el": 1, 
+            "fr": 27, 
+            "en": 1025, 
+            "no": 302, 
+            "it": 1617, 
+            "hu": 900, 
+            "sk": 357, 
+            "lt": 2881, 
+            "th": 1, 
+            "fi": 1, 
+            "et": 704, 
+            "ro": 2170, 
+            "pl": 1, 
+            "gl": 13
+        }, 
+        "ContentType": "text/html"
+    }, 
+    {
+        "Languages": {
+            "fi": 6, 
+            "fr": 271, 
+            "en": 2460, 
+            "nl": 2, 
+            "uk": 2, 
+            "pt": 11, 
+            "no": 941, 
+            "is": 37, 
+            "de": 2, 
+            "it": 1273, 
+            "hu": 1077, 
+            "sk": 149, 
+            "lt": 1341, 
+            "eo": 45, 
+            "sl": 19, 
+            "et": 1155, 
+            "ro": 1114, 
+            "da": 10, 
+            "ca": 31, 
+            "es": 1, 
+            "gl": 53
+        }, 
+        "ContentType": "text/plain"
+    }, 
+    {
+        "Languages": {
+            "no": 2, 
+            "is": 16, 
+            "hu": 169, 
+            "sk": 270, 
+            "lt": 35, 
+            "gl": 2, 
+            "ca": 2, 
+            "pl": 4
+        }, 
+        "ContentType": "video/mp4"
+    }, 
+    {
+        "Languages": {
+            "sk": 58, 
+            "lt": 6, 
+            "hu": 36
+        }, 
+        "ContentType": "video/quicktime"
+    }
+]

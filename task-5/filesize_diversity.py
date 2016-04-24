@@ -188,9 +188,9 @@ def write_bar_chart_files(bar_chart_data):
     for child in bar_chart_data:
         name = child['name']
         name = name.replace('/', '_')
-        if not os.path.exists('bar_chart_data'):
-            os.makedirs('bar_chart_data')
-        with open('bar_chart_data/' + name + '_data.tsv', 'w+') as data_file:
+        if not os.path.exists('filesize_diversity_data'):
+            os.makedirs('filesize_diversity_data')
+        with open('filesize_diversity_data/' + name + '_data.tsv', 'w+') as data_file:
             data_file.write('Range\tFrequency\n')
             data_file.write("0-0.05" + '\t' + str(child["0-0.05"]) + '\n')
             data_file.write("0.05-0.1" + '\t' + str(child["0.05-0.1"]) + '\n')

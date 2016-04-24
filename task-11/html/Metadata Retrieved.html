@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    .bar {
+        fill: steelblue;
+    }
+    
+    .bar:hover {
+        fill: brown;
+    }
+    
+    .axis {
+        font: 10px sans-serif;
+    }
+    
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+    
+    .x.axis path {
+        display: none;
+    }
+    
+    body {
+        font-family: "Lucida Grande", "Droid Sans", Arial, Helvetica, sans-serif;
+    }
+    
+    .legend {
+        border: 1px solid #555555;
+        border-radius: 5px 5px 5px 5px;
+        font-size: 0.8em;
+        margin: 0px 100px 10px 100px;
+        padding: 8px;
+        display: inline-block;
+    }
+
+</style>
+
+<body>
+
+    <div id="wrapper" style="text-align: center;">
+        <div class="legend">
+            <p>This visualization indicates the ratio of the amount of Metadata retrieved per file size per MIME type</p>
+            <p>The ratio was normalized to be between 0-1 for all files and then these graphs were generated.</p>
+        </div>
+    </div>
+    <div>
+        <p>
+            Mime Type:
+            <select id="mime_type">
+                <option value="application_mp4">application/mp4</option>
+                <option value="application_msword">application/msword</option>
+                <option value="application_octet-stream">application/octet stream</option>
+                <option value="application_pdf">application/pdf</option>
+                <option value="application_rss+xml">application/rss+xml</option>
+                <option value="application_xhtml+xml">application/xhtml+xml</option>
+                <option value="application_xml">application/xml</option>
+                <option value="audio_mpeg">audio/mpeg</option>
+                <option value="image_gif">image/gif</option>
+                <option value="image_jpeg">image/jpeg</option>
+                <option value="image_png">image/png</option>
+                <option value="text_html">text/html</option>
+                <option value="text_plain">text/plain</option>
+                <option value="video_mp4">video/mp4</option>
+                <option value="video_quicktime">video/quicktime</option>
+            </select>
+        </p>
+    </div>
+    <div>
+        <p id="parser-chain">
+        </p>
+    </div>
+
+    <script src="../js/d3.min.js"></script>
+    <script>
+        var parsersJson = '[ { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.mp4.MP4Parser", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.CompositeParser" ], "name": "application/mp4" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.microsoft.OfficeParser", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.CompositeParser" ], "name": "application/msword" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.geo.topic.GeoParser" ], "name": "application/octet-stream" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.netcdf.NetCDFParser", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.CompositeParser" ], "name": "application/x-netcdf" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.gdal.GDALParser", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.CompositeParser" ], "name": "application/fits" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.pdf.PDFParser", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.CompositeParser" ], "name": "application/pdf" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.feed.FeedParser", "a", "c", "e", "g", "p", "i", "h", "k", "m", "l", "o", ".", "P", "s", "r", "t", "H", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.CompositeParser" ], "name": "application/rss+xml" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.html.HtmlParser", "org.apache.tika.parser.ner.NamedEntityParser", "org.apache.tika.parser.CompositeParser", "org.apache.tika.parser.geo.topic.GeoParser" ], "name": "application/xhtml+xml" }, { "parsers": [ "o", "r", "g", ".", "a", "p", "a", "c", "h", "e", ".", "t", "i", "k", "a", ".", "p", "a", "r", "s", "e", "r", ".", "h", "t", "m", "l", ".", "H", "t", "m", "l", "P", "a", "r", "s", "e", "r", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.DefaultParser" ], "name": "application/xml" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.mp3.Mp3Parser", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.CompositeParser" ], "name": "audio/mpeg" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.image.ImageParser", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.CompositeParser" ], "name": "image/gif" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.jpeg.JpegParser", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.CompositeParser" ], "name": "image/jpeg" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.image.ImageParser", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.CompositeParser" ], "name": "image/png" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.html.HtmlParser", "org.apache.tika.parser.ner.NamedEntityParser", "org.apache.tika.parser.CompositeParser", "org.apache.tika.parser.geo.topic.GeoParser" ], "name": "text/html" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.txt.TXTParser", "org.apache.tika.parser.ner.NamedEntityParser", "org.apache.tika.parser.CompositeParser", "org.apache.tika.parser.geo.topic.GeoParser" ], "name": "text/plain" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.pot.PooledTimeSeriesParser", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.external.ExternalParser", "org.apache.tika.parser.external.CompositeExternalParser", "org.apache.tika.parser.CompositeParser" ], "name": "video/mp4" }, { "parsers": [ "org.apache.tika.parser.DefaultParser", "org.apache.tika.parser.mp4.MP4Parser", "org.apache.tika.parser.geo.topic.GeoParser", "org.apache.tika.parser.CompositeParser" ], "name": "video/quicktime" } ]';
+        
+        var parsers = JSON.parse(parsersJson);
+        
+        var main = function(path) {
+            d3.select("svg").remove();
+            var margin = {
+                    top: 20,
+                    right: 20,
+                    bottom: 30,
+                    left: 40
+                },
+                width = 960 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
+
+            var x = d3.scale.ordinal()
+                .rangeRoundBands([0, width], .1);
+
+            var y = d3.scale.linear()
+                .range([height, 0]);
+
+            var xAxis = d3.svg.axis()
+                .scale(x)
+                .orient("bottom");
+
+            var yAxis = d3.svg.axis()
+                .scale(y)
+                .orient("left")
+                .ticks(10);
+
+            var svg = d3.select("body").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            d3.tsv(path, type, function(error, data) {
+                if (error) throw error;
+
+                x.domain(data.map(function(d) {
+                    return d.Range;
+                }));
+                y.domain([0, d3.max(data, function(d) {
+                    return d.Frequency;
+                })]);
+
+                svg.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis);
+
+                svg.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis)
+                    .append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 6)
+                    .attr("dy", ".71em")
+                    .style("text-anchor", "end")
+                    .text("Frequency");
+
+                svg.selectAll(".bar")
+                    .data(data)
+                    .enter().append("rect")
+                    .attr("class", "bar")
+                    .attr("x", function(d) {
+                        return x(d.Range);
+                    })
+                    .attr("width", x.rangeBand())
+                    .attr("y", function(d) {
+                        return y(d.Frequency);
+                    })
+                    .attr("height", function(d) {
+                        return height - y(d.Frequency);
+                    });
+            });
+        }
+
+        function type(d) {
+            d.Frequency = +d.Frequency;
+            return d;
+        }
+        
+        var updateparsers = function(mime) {
+            console.log(mime);
+            for(var i=0;i<parsers.length;i++){
+                if(parsers[i]['name'] == mime){
+                    var parsersStr = '';
+                    parsersJsonArray = parsers[i].parsers;
+                    for(var j=0;j<parsersJsonArray.length;j++){
+                        parsersStr += (parsersJsonArray[j]+'<br>');
+                    }
+                    document.getElementById('parser-chain').innerHTML = parsersStr;
+                    break;
+                }
+            }
+        }
+
+        window.onload = function() {
+
+            var mime_type = d3.select("select#mime_type")[0][0].value;
+            d3.select("select#mime_type").on("change", function() {
+                mime_type = this.value;
+                path = "../data_files/metadata_retrieved_data/" + mime_type + "_data.tsv";
+                main(path);
+                mime_type = mime_type.replace(/_/g, "/");
+                updateparsers(mime_type);
+            });
+
+            main("../data_files/metadata_retrieved_data/application_mp4_data.tsv");
+            updateparsers('application/mp4')
+        }
+
+    </script>

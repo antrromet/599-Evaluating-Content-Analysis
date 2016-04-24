@@ -44,7 +44,7 @@
     <div id="wrapper" style="text-align: center;">
         <div class="legend">
             <p>This visualization indicates the File size diversity of CCA dataset by MIME type</p>
-            <p>The size ratio of Solr index to file size original diversity was normalized to be between 0-1 for all files and then the  graphs were generated.</p>
+            <p>The size ratio of Solr index to file size original diversity was normalized to be between 0-1 for all files and then these  graphs were generated.</p>
         </div>
     </div>
     
@@ -155,11 +155,11 @@
             var mime_type = d3.select("select#mime_type")[0][0].value;
             d3.select("select#mime_type").on("change", function() {
                 mime_type = this.value;
-                path = "../data_files/bar_chart_data/" + mime_type + "_data.tsv";
+                path = "../data_files/filesize_diversity_data/" + mime_type + "_data.tsv";
                 main(path);
             });
 
-            main("../data_files/bar_chart_data/application_mp4_data.tsv");
+            main("../data_files/filesize_diversity_data/application_mp4_data.tsv");
         }
 
     </script>
