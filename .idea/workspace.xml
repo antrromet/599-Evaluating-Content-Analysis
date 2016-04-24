@@ -2,28 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1486a10c-0391-497c-8fd3-31392fac26fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-7/detect_language.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/application_fits_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/application_mp4_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/application_msword_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/application_octet-stream_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/application_pdf_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/application_rss+xml_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/application_x-netcdf_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/application_xhtml+xml_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/application_xml_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/audio_mpeg_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/image_gif_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/image_jpeg_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/image_png_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/text_html_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/text_plain_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/video_mp4_data.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/bar_chart_data/video_quicktime_data.tsv" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-11/data_files/text_retrieved.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-11/html/Text Retrieved.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-6/errors.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-6/merge_features.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-6/merged_features.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-6/metadata_retrieved.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-6/size.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-6/temp_size.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-6/text_ratio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-6/text_retrieved.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task-6/text_retrieved.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/application_fits_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/application_mp4_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/application_msword_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/application_octet-stream_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/application_pdf_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/application_rss+xml_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/application_x-netcdf_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/application_xhtml+xml_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/application_xml_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/audio_mpeg_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/image_gif_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/image_jpeg_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/image_png_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/text_html_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/text_plain_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/video_mp4_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-11/data_files/metadata_retrieved_data/video_quicktime_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/application_fits_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/application_mp4_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/application_msword_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/application_octet-stream_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/application_pdf_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/application_rss+xml_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/application_x-netcdf_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/application_xhtml+xml_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/application_xml_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/audio_mpeg_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/image_gif_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/image_jpeg_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/image_png_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/text_html_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/text_plain_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/video_mp4_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved_data/video_quicktime_data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/ratio.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task-6/temp_ratio.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task-11/html/File Size Diversity.html" afterPath="$PROJECT_DIR$/task-11/html/File Size Diversity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task-11/html/Metadata Retrieved.html" afterPath="$PROJECT_DIR$/task-11/html/Metadata Retrieved.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task-11/html/Word Cloud.html" afterPath="$PROJECT_DIR$/task-11/html/Word Cloud.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task-11/index.html" afterPath="$PROJECT_DIR$/task-11/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task-5/filesize_diversity.py" afterPath="$PROJECT_DIR$/task-5/filesize_diversity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task-6/metadata_retrieved.py" afterPath="$PROJECT_DIR$/task-6/metadata_retrieved.py" />
     </list>
     <ignored path="599-Evaluating-Content-Analysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +75,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="metadata_retrieved.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-6/metadata_retrieved.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8888888">
+              <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="merge_features.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task-6/merge_features.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4817987">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="filesize_diversity.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task-5/filesize_diversity.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="76" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="76" />
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -56,23 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="host_cherry_server.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-11/host_cherry_server.py">
+      <file leaf-file-name="text_ratio.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-6/text_ratio.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="metadata_retrieved.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-6/metadata_retrieved.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <caret line="63" column="45" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="45" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -80,26 +121,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detect_language.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task-7/detect_language.py">
+      <file leaf-file-name="text_retrieved.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-6/text_retrieved.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fix_language_data.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task-7/fix_language_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.721519">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-11.518518">
+              <caret line="87" column="53" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,10 +141,13 @@
       <list>
         <option value="$PROJECT_DIR$/task-5/filesize_diversity.py" />
         <option value="$PROJECT_DIR$/task-11/host_cherry_server.py" />
-        <option value="$PROJECT_DIR$/task-6/metadata_retrieved.py" />
         <option value="$PROJECT_DIR$/task-7/metadata_retrieved.py" />
         <option value="$PROJECT_DIR$/task-7/detect_language.py" />
         <option value="$PROJECT_DIR$/task-7/fix_language_data.py" />
+        <option value="$PROJECT_DIR$/task-6/metadata_retrieved.py" />
+        <option value="$PROJECT_DIR$/task-6/text_ratio.py" />
+        <option value="$PROJECT_DIR$/task-6/text_retrieved.py" />
+        <option value="$PROJECT_DIR$/task-6/merge_features.py" />
       </list>
     </option>
   </component>
@@ -227,8 +257,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,27 +268,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task-6" />
       <recent name="$PROJECT_DIR$/task-7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fix_language_data">
-    <configuration default="false" name="filesize_diversity" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task-5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="599-Evaluating-Content-Analysis" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task-5/filesize_diversity.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.text_retrieved">
     <configuration default="false" name="metadata_retrieved" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,23 +290,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="metadata_retrieved (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task-7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="599-Evaluating-Content-Analysis" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task-7/detect_language.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="fix_language_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,6 +303,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="599-Evaluating-Content-Analysis" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task-7/fix_language_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="merge_features" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task-6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="599-Evaluating-Content-Analysis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task-6/merge_features.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="text_ratio" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task-6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="599-Evaluating-Content-Analysis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task-6/text_ratio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="text_retrieved" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task-6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="599-Evaluating-Content-Analysis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task-6/text_retrieved.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -432,18 +480,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.filesize_diversity" />
-      <item index="1" class="java.lang.String" itemvalue="Python.metadata_retrieved" />
-      <item index="2" class="java.lang.String" itemvalue="Python.metadata_retrieved (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.fix_language_data" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.metadata_retrieved" />
+      <item index="1" class="java.lang.String" itemvalue="Python.fix_language_data" />
+      <item index="2" class="java.lang.String" itemvalue="Python.merge_features" />
+      <item index="3" class="java.lang.String" itemvalue="Python.text_ratio" />
+      <item index="4" class="java.lang.String" itemvalue="Python.text_retrieved" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.fix_language_data" />
-        <item index="1" class="java.lang.String" itemvalue="Python.metadata_retrieved (1)" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.text_retrieved" />
+        <item index="1" class="java.lang.String" itemvalue="Python.text_ratio" />
         <item index="2" class="java.lang.String" itemvalue="Python.metadata_retrieved" />
-        <item index="3" class="java.lang.String" itemvalue="Python.filesize_diversity" />
+        <item index="3" class="java.lang.String" itemvalue="Python.merge_features" />
+        <item index="4" class="java.lang.String" itemvalue="Python.fix_language_data" />
       </list>
     </recent_temporary>
   </component>
@@ -462,14 +512,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21303657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -479,7 +530,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -491,9 +541,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33068362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45151034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -532,9 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,7 +600,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,9 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,9 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,16 +645,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-11/host_cherry_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -626,20 +657,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/task-7/fix_language_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4556962">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task-7/detect_language.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5063291">
           <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-11/host_cherry_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6455696">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task-6/metadata_retrieved.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state vertical-scroll-proportion="-3.8888888">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -649,20 +694,36 @@
     <entry file="file://$PROJECT_DIR$/task-5/filesize_diversity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="76" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="76" />
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-7/fix_language_data.py">
+    <entry file="file://$PROJECT_DIR$/task-6/text_ratio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.721519">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="45" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="45" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-6/text_retrieved.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.518518">
+          <caret line="87" column="53" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-6/merge_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4817987">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
