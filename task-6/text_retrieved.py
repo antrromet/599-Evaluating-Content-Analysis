@@ -7,6 +7,7 @@ __author__ = "Antrromet"
 __email__ = "antrromet@gmail.com"
 
 
+# Return the range in words depending upon the size. The range is spread out into 20 categories from 0-1
 def get_range(size):
     rang = ''
     if size <= 0.05:
@@ -52,6 +53,7 @@ def get_range(size):
     return rang
 
 
+# Generate D3 data
 def generate_d3_data():
     merged_file_path = 'size.json'
     output_file = open('text_retrieved.json', 'w+')
