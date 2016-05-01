@@ -1,0 +1,742 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- default/layout.jsp ------------------------------------------------ -->
+    <title>GCMD</title>
+
+    <script type="text/javascript" src="default/javascript.js"></script>
+    <script type="text/javascript" src="default/custom.js"></script>
+
+<!-- OpenSearch instructions -->
+<link rel="search"
+    type="application/opensearchdescription+xml"
+    title="USDA"
+    href="/KeywordSearch/default/openSearch.jsp?Portal=usda" />
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="usda/styles.css">
+    
+    
+    <script type="text/javascript" src="WidgetWrappers/WidgetWrappers.nocache.js"></script>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    
+    
+    
+</head>
+
+<body onLoad="browserDetect(); tabOn(current_Tab); menuOn(current_Item);" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<script language="javascript1.2">
+    <!--
+    current_Tab = "";
+    current_Item = "m17";
+    // -->
+</script>
+
+<table height="100%" width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td valign="top" align="left">
+            
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="750">
+    <tr>
+    
+    <td><a href="http://www.usda.gov/wps/portal/usda/usdahome" target="_blank"><img src="usda/images/logo.gif" alt="" border="0"/></a></td>
+    
+    <td><a href="Home.do?Portal=usda&MetadataType=0&lbnode=mdlb4"  ><img src="usda/images/header.gif" alt="Portal Home" border="0"/></a></td>
+    </tr>
+</table>
+
+            <table width="750" border="0" cellpadding="0" cellspacing="0" summary="This table is used to format the content area">
+                <tr>
+                    <td width="152" class="navMenuColor" valign="top" align="center"><a href="#skipNav"></a>
+                        <img src="default/images/spacer.gif" width="148" height="17" alt=""><img src="default/images/spacer.gif" width="148" height="25" alt="">
+                        
+
+
+
+
+
+
+<!-- default/menu.jsp -->
+
+<table width="148" border="0" cellpadding="0" cellspacing="0">
+
+<tr> 
+    <td width="15"><img src="default/images/spacer.gif" alt="" width="15" height="1"></td>
+    <td width="133"><img src="default/images/spacer.gif" alt="" width="133" height="1"></td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+
+<tr id="m0">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m0"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7CAGRICULTURE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m0')"  onMouseOut="menuRollOff('m0')"  >
+		Agriculture
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m1">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m1"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7CATMOSPHERE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m1')"  onMouseOut="menuRollOff('m1')"  >
+		Atmosphere
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m2">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m2"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7CBIOLOGICAL+CLASSIFICATION&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m2')"  onMouseOut="menuRollOff('m2')"  >
+		Biological Classification
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m3">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m3"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7CBIOSPHERE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m3')"  onMouseOut="menuRollOff('m3')"  >
+		Biosphere
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m4">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m4"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7CCLIMATE+INDICATORS&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m4')"  onMouseOut="menuRollOff('m4')"  >
+		Climate Indicators
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m5">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m5"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7CCRYOSPHERE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m5')"  onMouseOut="menuRollOff('m5')"  >
+		Cryosphere
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m6">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m6"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7CHUMAN+DIMENSIONS&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m6')"  onMouseOut="menuRollOff('m6')"  >
+		Human Dimensions
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m7">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m7"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7CLAND+SURFACE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m7')"  onMouseOut="menuRollOff('m7')"  >
+		Land Surface
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m8">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m8"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7COCEANS&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m8')"  onMouseOut="menuRollOff('m8')"  >
+		Oceans
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m9">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m9"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7CSOLID+EARTH&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m9')"  onMouseOut="menuRollOff('m9')"  >
+		Solid Earth
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m10">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m10"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7CSPECTRAL%2FENGINEERING&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m10')"  onMouseOut="menuRollOff('m10')"  >
+		Spectral/Engineering
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m11">
+
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m11"></td>
+<td>
+	<a href="Keywords.do?Portal=usda&KeywordPath=Parameters%7CTERRESTRIAL+HYDROSPHERE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m11')"  onMouseOut="menuRollOff('m11')"  >
+		Terrestrial Hydrosphere
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+  <tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"><hr></td>
+  </tr>
+  <tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+  </tr>
+
+<tr id="m14">
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m14"></td>
+<td>
+<a href="Keywords.do?Portal=usda&KeywordPath=DataCenters&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m14')"  onMouseOut="menuRollOff('m14')"  >Data Centers</a>
+</td></tr>
+<tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+<tr id="m15">
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m15"></td>
+<td> 
+<a href="Keywords.do?Portal=usda&KeywordPath=Locations&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m15')"  onMouseOut="menuRollOff('m15')"  >Locations</a>
+</td></tr>
+<tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+<tr id="m16">
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m16"></td>
+<td>
+<a href="Keywords.do?Portal=usda&KeywordPath=Instruments&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m16')"  onMouseOut="menuRollOff('m16')"  >Instruments/Sensors</a>
+</td></tr>
+<tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+<tr id="m17">
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m17"></td>
+<td>
+<a href="Keywords.do?Portal=usda&KeywordPath=Platforms&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m17')"  onMouseOut="menuRollOff('m17')"  >Platforms/Sources</a>
+</td></tr>
+<tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+<tr id="m18">
+<td valign="top"><img src="default/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m18"></td>
+<td>
+<a href="Keywords.do?Portal=usda&KeywordPath=Projects&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m18')"  onMouseOut="menuRollOff('m18')"  >Projects</a>
+</td></tr>
+
+</table>
+
+<br>
+
+                        <img src="default/images/spacer.gif" width="120" height="18" alt="">
+                    </td>
+                    <td width="598" valign="top" align="left">
+                        <a href="#skipContents"></a>
+                        <table width="598" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td id="navMenuColor" class="navMenuColor" colspan="2"><img src="default/images/spacer.gif" width="598" height="17" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td id="highlightColor" class="highlightColor" colspan="2"><img src="default/images/spacer.gif" width="598" height="2" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td width="9"><a href="#skipContent"></a><img src="default/images/spacer.gif" width="13" height="25" alt=""></td>
+                            </tr>
+                        </table>
+                        <table width="598" cellpadding="0" cellspacing="0" border="0">
+                            <!-- JNP added this row to put space above thumbnail -->
+                            <tr>
+                                <td width="9"><img src="default/images/spacer.gif" width="9" height="5" alt="">
+                                </td>
+                                <td width="589">
+                                    <img src="default/images/spacer.gif" width="589" height="5" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="9"><img src="default/images/spacer.gif" width="9" height="5" alt="">
+                                </td>
+                                <td width="589">
+                                    
+
+
+
+
+
+
+
+
+<!-- start to default/platforms.jsp -->
+<script type="text/javascript" src="default/supplemental_common.js"></script>
+
+<table width="589" border="0" cellpadding="0" cellspacing="0">
+<tr>
+    <td width="46" valign="top">
+    <img src="default/images/supplementals.gif" width="46" height="47" border="0" alt="Supplementals Thumbnail"/>
+    </td>
+    <td width="4"><img src="default/images/spacer.gif" width="4" height="10" alt=""></td>
+
+    <td width="539" valign="top">
+
+    <span class="breadCrumb">
+    Platforms
+    </span>
+    </td>
+</tr>
+</table>
+<table width="589" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+ </tr>
+ <tr>
+  <td valin="right">
+  
+
+
+<!-- BEGIN refinementCallout.jsp____________________________________________________________ -->
+
+<br>
+<br>
+
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr valign="right">
+    <td width="256">
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- top border -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Category</strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>
+
+        <tr> <!-- box contents -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+              <tr> <!-- spacing -->
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="110" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+
+              <tr> <!-- select a field row -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+               
+<script language="JavaScript" type="text/javascript">
+function getSelectedValue(select) {
+    var index = select.selectedIndex;
+    if ((index >= 0) && (index < select.length)) {
+        return select.options[index].value;
+    }
+    return '';
+}
+function submit(select) {
+    if (getSelectedValue(select) != '') {
+        select.form.submit();
+    }
+}
+</script>
+	  <form method=GET name="parameters" action="Refinement.do">
+        <td bgcolor="E8EFF5" align="center">
+          <div align="center">
+ <select name="Refinement" onchange="submit(this)" size="1" class="footerText">
+              <option value=""> Please select a field </option>
+              <option value="Projects">Projects</option>
+              <option value="DataCenters">Data Centers</option>
+              <option value="Locations">Locations</option>
+              <option value="Instruments">Instruments/Sensors</option>
+              <option value="Platforms">Platforms/Sources</option>
+	      <option value="Parameters">Science Keywords</option>
+	      <!-- <option value="Spatial Coverage">Spatial Coverage</option> -->
+              <option value="Temporal Coverage">Temporal Coverage</option>
+              
+            </select>
+            <input name="action" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+          </div>
+        </td>
+	 <input type="hidden" name="KeywordPath" value="Platforms">
+	 <input type="hidden" name="Portal" value="usda">
+	 <input type="hidden" name="MetadataType" value="0">
+        </form>
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td>
+              </tr>
+
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+
+            </table>
+          </td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"><img src="default/images/spacer.gif" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+
+    </td>
+
+    <td width="6">&nbsp;</td> <!-- spacing cell -->
+
+    <td width="256" align="top"> <!-- right cell -->
+
+      <!-- table with Refine by Full text -->
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- row with label -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Full Text </strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>        
+
+        <tr>
+          <!-- cell with spacing -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+
+          <!-- cell with free-text seach field -->
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+            <table  width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> <!-- spacing -->
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td> 
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+               <td><img src="default/images/spacer.gif" width="126" height="3" alt=""></td>
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+              <tr> <!-- free-text search field -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+
+<!-- NOTE:  Forms based version of free-text search -->
+                <form method=GET name="freeText" action="Freetext.do">
+                  <td bgcolor="E8EFF5" align="center">
+                    <input type="text" name="Freetext" size=17 id="Freetext" class="footerText" value="" 
+                           onFocus="this.value=' '" tabindex="1">
+                    <input name="action2" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" 
+                           align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+                    <input type="hidden" name="KeywordPath" value="Platforms">
+                    <input type="hidden" name="Portal" value="usda">
+                    <input type="hidden" name="MetadataType" value="0">
+                  </td>
+                </form>
+
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td> 
+              </tr>
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+            </table>
+          </td>
+
+        </tr>
+
+        <tr> <!-- bottom border -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p> 
+
+<!-- END refinementCallout.jsp______________________________ -->
+
+  </td>
+ </tr>
+</table>
+
+<table width="589" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td width="9"><img src="default/images/spacer.gif" width="9" height="5" alt=""></td>
+    <td width="580"><a href="#skipContent"></a>
+    
+    <br>
+    <table width="580" border="0" cellpadding="0" cellspacing="0">
+        
+        
+            <tr>
+            <td width="48%" class="" valign="top">
+                <a href="Keywords.do?Portal=usda&KeywordPath=Platforms%7CAircraft&MetadataType=0&lbnode=mdlb4"  class="header_5"  >
+                   Aircraft
+                </a> <span class="searchTermCount">(2)</span>
+	    
+            <a href="Supplementals.do?Portal=usda&KeywordPath=Platforms&NumericId=11427&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,574,355,this); return false"  ><IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" title="null" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+	    
+	    <br>
+            	<span class="descriptText">
+		aircraft... 
+		
+		</span>
+            </td>
+	    <td width="4%" class="" valign="top"><img src="default/images/spacer.gif" alt=""></td>
+            
+	    
+            
+        
+        
+            
+            <td width="48%" class="" valign="top">
+	    <a href="Keywords.do?Portal=usda&KeywordPath=Platforms%7CMaps%2FCharts%2FPhotographs&MetadataType=0&lbnode=mdlb4"  class="header_5"  >
+                   Maps/Charts/Photographs
+                </a> <span class="searchTermCount">(5)</span>
+	    
+            <a href="Supplementals.do?Portal=usda&KeywordPath=Platforms&NumericId=12501&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,574,355,this); return false"  ><IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" title="null" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+	    
+	    <br>
+            <span class="descriptText">
+		aerial photographs, 
+		maps... 
+		
+	    </span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><img src="default/images/spacer.gif" width="1" height="15" alt=""></td>
+        </tr>
+	
+        
+        
+            <tr>
+            <td width="48%" class="" valign="top">
+                <a href="Keywords.do?Portal=usda&KeywordPath=Platforms%7CEarth+Observation+Satellites&MetadataType=0&lbnode=mdlb4"  class="header_5"  >
+                   Earth Observation Satellites
+                </a> <span class="searchTermCount">(8)</span>
+	    
+            <a href="Supplementals.do?Portal=usda&KeywordPath=Platforms&NumericId=12498&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,574,355,this); return false"  ><IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" title="null" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+	    
+	    <br>
+            	<span class="descriptText">
+		aqua, 
+		dmsp (defense meteorological satellite program), 
+		gms (japan geostationary meteorological satellite), 
+		goes (geostationary operational environmental satellite), 
+		jason-1... 
+		
+		</span>
+            </td>
+	    <td width="4%" class="" valign="top"><img src="default/images/spacer.gif" alt=""></td>
+            
+	    
+            
+        
+        
+            
+            <td width="48%" class="" valign="top">
+	    <a href="Keywords.do?Portal=usda&KeywordPath=Platforms%7CModels%2FAnalyses&MetadataType=0&lbnode=mdlb4"  class="header_5"  >
+                   Models/Analyses
+                </a> <span class="searchTermCount">(1)</span>
+	    
+            <a href="Supplementals.do?Portal=usda&KeywordPath=Platforms&NumericId=12502&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,574,355,this); return false"  ><IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" title="null" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+	    
+	    <br>
+            <span class="descriptText">
+		dem... 
+		
+	    </span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><img src="default/images/spacer.gif" width="1" height="15" alt=""></td>
+        </tr>
+	
+        
+        
+            <tr>
+            <td width="48%" class="" valign="top">
+                <a href="Keywords.do?Portal=usda&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms&MetadataType=0&lbnode=mdlb4"  class="header_5"  >
+                   In Situ Land-based Platforms
+                </a> <span class="searchTermCount">(72)</span>
+	    
+            <a href="Supplementals.do?Portal=usda&KeywordPath=Platforms&NumericId=12504&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,574,355,this); return false"  ><IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" title="null" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+	    
+	    <br>
+            	<span class="descriptText">
+		field investigation, 
+		field surveys, 
+		fixed observation stations, 
+		ground stations, 
+		ground-based observations... 
+		
+		</span>
+            </td>
+	    <td width="4%" class="" valign="top"><img src="default/images/spacer.gif" alt=""></td>
+            
+            </tr>
+            
+	    
+            
+        
+        </table>
+    </td>
+</tr>
+</table>
+<!--end to default/platforms.jsp-->
+
+                                </td>
+                            </tr>
+                        </table>
+                        <img src="default/images/spacer.gif" width="120" height="18" alt="">
+                    </td>
+                </tr>
+            </table>
+            <div style="margin-top:-7px">
+<hr>
+<table align="left" width="750" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center" width="152">
+            <a href="http://www.nasa.gov">
+                <img src="default/images/nasa_logo_sm.gif" border="0"
+                    title="Link to NASA website" alt="Link to NASA website"></a>
+        </td>
+        <td align="left" width="598">
+            <div  style="padding-bottom:0.33em" style="textsmall">
+                <a class="navsmall"
+                    href="http://www.nasa.gov/about/highlights/HP_Privacy.html">
+                    NASA Privacy Policy and Important Notices</a>
+            </div>
+            <div class="textsmall">
+                Responsible NASA Official: &nbsp;
+                <a class="navsmall" 
+                    href="http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=wharton" target="_blank">
+                    Dr. Stephen Wharton</a><br>
+                Webmaster: &nbsp;
+                <a class="navsmall"
+                    href="http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=lyles" target="_blank">
+                    Monica Lyles</a>
+                &nbsp; <b>&middot;</b>&nbsp; Contact 
+                <a class="support"
+                    href="http://gcmd.nasa.gov/MailComments/index.html" target="_blank">
+                    GCMD User Support</a> for assistance
+            </div>
+        </td>
+    </tr>
+</table>
+</div>
+
+<!-- BEGIN: NetTracker Page Tag -->
+<script type="text/javascript" language="JavaScript" src="/ntpagetag.js"></script>
+<noscript>
+    <img src="http://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="">
+</noscript>
+<!-- END: NetTracker Page Tag -->
+
+        </td>
+    </tr>
+</table>
+</body>
+</html>

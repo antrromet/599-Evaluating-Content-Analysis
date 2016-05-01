@@ -1,0 +1,411 @@
+<div style="display: none;" id="MathJax_Message"></div><div class="fixed" id="earthdata-tophat"><div class="fixed-container"><div id="tophat-search"><form action="https://earthdata.nasa.gov/gsearch/"><input title="Search" type="text"></form></div><a href="https://earthdata.nasa.gov" id="meatball-heading">NASA Earthdata Network</a><ul id="top-level-menu"><li><a>Data Discovery <span class="caret"></span></a></li><li><a>Data Centers <span class="caret"></span></a></li><li><a>Community <span class="caret"></span></a></li><li><a>Science Disciplines <span class="caret"></span></a></li></ul><ul style="display: none;" class="tophat-submenu"></ul></div></div>
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+<script data-layout="fixed" type="text/javascript" src="https://cdn.earthdata.nasa.gov/tophat/tophat.js"></script>
+          <a href="/cms/" title="Home" rel="home" id="logo">
+        <img src="/cms/files/oceancolor_banner.png" alt="Home" height="96&quot;">
+      </a>
+    
+    
+    
+    
+    
+  </div></div> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+<!--   Disabled Breadcrumbs VCFW 130329 UNdisabled 130425 re-disabled 140401
+     VCFW -->
+          <div id="sidebar-first" class="column sidebar"><div class="section">
+          <div class="region region-sidebar-first">
+    <div id="block-block-16" class="block block-block">
+
+    
+  <div class="content">
+    <div class="tex2jax"><script type="text/javascript">
+function toggle(element) {
+    document.getElementById(element).style.display = (document.getElementById(element).style.display == "none") ? "" : "none";
+}
+</script>
+
+<table><tbody><tr>
+
+<td valign="top"><a href="javascript:toggle('dataaccess')">Data Access</a>
+<div id="dataaccess" style="display: none">
+<table><tbody><tr><td>
+<a href="/cms/dataaccess">Overview</a>
+<br><a href="http://oceancolor.gsfc.nasa.gov/cgi/browse.pl?sen=am" target="_blank">Level 1&amp;2  Browser</a>
+<br><a href="http://oceancolor.gsfc.nasa.gov/cgi/l3" target="_blank">Level 3 Browser</a>
+<br><a href="http://oceandata.sci.gsfc.nasa.gov/" target="_blank">Direct Data Access</a>
+<br><a href="http://oceandata.sci.gsfc.nasa.gov/search/file_search.cgi" target="_blank">Data File Search</a>
+<br> <a href="http://seabass.gsfc.nasa.gov/seabasscgi/search.cgi" target="_blank">SeaBASS Field Data</a>
+<br><a href="/cms/otherresources">Other Resources</a>
+</td></tr></tbody></table>
+</div>
+</td></tr>
+
+<tr><td valign="top"><a href="javascript:toggle('missions')">Missions &amp; Sensors</a>
+<div id="missions" style="display: none;">
+<table><tbody><tr><td>
+<a href="/cms/data/czcs">CZCS</a>
+<br><a href="/cms/data/octs">OCTS</a>
+<br><a href="/cms/data/seawifs">SeaWiFS</a>
+<br><a href="/cms/data/terra">MODIS Terra</a>
+<br><a href="/cms/data/aqua">MODIS Aqua</a>
+<br><a href="/cms/data/meris">MERIS</a>
+<br><a href="/cms/data/hico">HICO</a>
+<br><a href="/cms/data/aquarius">Aquarius</a>
+<br><a href="/cms/data/viirs">VIIRS</a>
+</td></tr></tbody></table>
+</div>
+</td></tr>
+<tr><td>
+<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/forum_show.pl" class="dir" target="_blank">OceanColor Forum</a> 
+</td></tr>
+
+<tr><td valign="top"><a href="javascript:toggle('USS')">Support Services</a>
+<div id="USS" style="display: none;">
+<table><tbody><tr><td>
+<a href="http://oceancolor.gsfc.nasa.gov/SUPPORT/register.html" target="_blank" "="">Registration</a>
+<br><a href="http://oceancolor.gsfc.nasa.gov/sdpscgi/public/subscriptions_home.cgi" target="_blank">Data Subscription</a>
+<br><a href="/cms/hplc">HPLC Pigments</a>
+<br><a href="http://oceancolor.gsfc.nasa.gov/FEATURE/gallery.html" target="_blank">Image Gallery</a>
+<br><a href="http://www.youtube.com/user/nasaoceancolor" target="_blank">Informational Videos</a>
+<br><a href="http://oceancolor.sci.gsfc.nasa.gov/mailman/listinfo" target="_blank">Mailing Lists</a>
+<br><a href="http://oceandata.sci.gsfc.nasa.gov/cgi/overpass_pred">Overpass Predictor</a>
+<br><a href="/sdpscgi/registered/orders_manager.cgi">Orders Manager</a>
+</td></tr></tbody></table>
+</div>
+</td></tr>
+
+
+<tr><td valign="top"><a href="javascript:toggle('docs')">Documentation</a>
+<div id="docs" style="display: none;">
+<table><tbody><tr><td>
+<a href="/cms/products">Product Definitions</a>
+<br><a href="/cms/atbd">Algorithm Descriptions</a>
+<br><a href="/cms/reprocessing">Processing History</a>
+<br><a href="/cms/ancillary">Ancillary Sources</a>
+<br><a href="/cms/techdocs">Technical Documents</a>
+<br><a href="/cms/meetings">Meetings/Workshops</a>
+<br><a href="/cms/education">Educational Material</a>
+</td></tr></tbody></table>
+</div>
+</td></tr>
+<tr><td valign="top"><a href="javascript:toggle('analyses')">Quality Assessment</a>
+<div id="analyses" style="display: none;">
+<table><tbody><tr><td>
+<a href="http://seabass.gsfc.nasa.gov/seabasscgi/search.cgi?t=val" target="_blank">Product Validation</a>      
+<br><a href="/ANALYSIS/PROCTEST/" target="_blank">Global L3 Trends</a>
+<!-- br><a href="/cms/regl2">Regional L2 Trends</a -->
+<!-- br><a href="/cms/onorbitcalib">On-orbit Calibration</a -->
+<!-- br><a href="/cms/misc-qaa">Miscellaneous</a -->
+</td></tr></tbody></table>
+</div>
+</td></tr>
+
+<tr><td valign="top"><a href="javascript:toggle('tools')">Software &amp; Tools</a>
+<div id="tools" style="display: none;">
+<table><tbody><tr><td>
+<a href="http://seadas.gsfc.nasa.gov">SeaDAS</a>
+<!-- li><a href="http://oceancolor.gsfc.nasa.gov/DOCS/OCSSW/">Science Software</a></li -->
+<br><a href="http://oceancolor.gsfc.nasa.gov/cgi/idllibrary.cgi" target="_blank">IDL Library</a>
+<br><a href="http://disc.sci.gsfc.nasa.gov/giovanni/" target="_blank">Giovanni</a>
+</td></tr></tbody></table>
+</div>
+</td></tr>
+<tr><td valign="top"><a href="/cms/extpart">External Partners</a></td></tr>
+<tr><td valign="top"><a href="javascript:toggle('about')">About Us</a>
+<div id="about" style="display: none;">
+<table><tbody><tr><td>
+<a href="/cms/aboutus">What We Do</a>
+<br><a href="/cms/staff">Who We Are</a>
+<br><a href="/cms/contactus">Contact Us</a>
+</td></tr></tbody></table>
+</div>
+</td></tr></tbody></table>
+</div>  </div>
+</div>
+  </div>
+      </div></div> <!-- /.section, /#sidebar-first -->
+    
+    <div id="content" class="column"><div class="section">
+      <div id="highlighted">  <div class="region region-highlighted">
+    <div id="block-block-11" class="block block-block">
+
+    
+  <div class="content">
+    <div class="tex2jax"><div style="text-align:center">View the <a href="/legacy.html">Legacy Website</a></div></div>  </div>
+</div>
+  </div>
+</div>      <a id="main-content"></a>
+                                <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-15" class="node node-page clearfix" about="/cms/homepage" typeof="foaf:Document">
+
+      <span property="dc:title" content="OC Home Page" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><div id="homebody">
+<div id="homepagetop">
+NASA's OceanColor Web is supported by the Ocean Biology Processing Group (OBPG) at NASA's Goddard Space Flight Center. Our responsibilities include the collection, processing, calibration, validation, archive and distribution of ocean-related products from a large number of operational, satellite-based remote-sensing missions providing ocean color, sea surface temperature and sea surface salinity data to the international research community since 1996. 
+</div>
+    <div id="homefeature">
+      <center><h2 style="margin: 0;">Ocean Color Feature</h2></center>
+      <!--
+This bit of markup gets included on the oceancolor homepage within a
+<div></div> (having an id of "homefeature") that is styled with a width
+of 420 pixels at the time of this writing (January 2015).
+-->
+
+<h3 id="feature_title">The Patchiness of Ocean Color</h3>
+
+<a href="/FEATURE/IMAGES/V2015038.Baja.jpg"><img src="/FEATURE/IMAGES/V2015038.Baja.icon.png" alt="" title="Click for a broader view of the region."></a>
+
+<p>
+The ability to capture nearly instantaneous views of large areas of
+ocean surface makes satellite radiometers invaluable for the study of
+this often patchy and dynamic environment.  That same patchiness
+can, however, challenge developers of satellite ocean color algorithms
+when they
+<a href="http://dx.doi.org/10.3390/rs6098524">compare satellite and
+in situ measurements</a> with each other.
+</p>
+
+<p>
+The VIIRS data used to create the above image were collected on
+February 7, 2015.
+</p>
+    </div>
+    <div id="homecol2">
+      <center>
+         <a href="http://seadas.gsfc.nasa.gov/"><img src="/ocweb.gcf.files/SeaDAS_icon.png" alt="SeaDAS icon"></a>
+      </center>
+      <p><a href="http://seadas.gsfc.nasa.gov/">SeaDAS</a> is an image analysis package for the processing and display of satellite ocean color data.</p>
+      <hr width="50%"><p>
+      </p><center>
+        <a href="http://seabass.gsfc.nasa.gov/"><img src="/ocweb.gcf.files/SeaBASS_icon.png" alt="SeaBASS icon" class="shadow"></a>
+      </center>
+      <p><a href="http://seabass.gsfc.nasa.gov/">SeaBASS</a> is a repository of in situ oceanographic data to support algorithm development and satellite data product validation activities.</p>
+      <hr width="50%"><p>
+      </p><center>
+         <a href="/cms/dataaccess"><img src="/cms/files/OBDAAC_icon.png" alt="OBDAAC icon"></a>
+      </center>
+      <p>The OBPG serves as a <a href="/cms/dataaccess/">Distributed Active Archive Center</a> for satellite ocean biology data produced or collected under NASA's Earth Observing System Data and Information System, including those from historical missions and partner space organizations. </p>
+      <hr width="50%"><p>
+      </p><center>
+         <a href="/cms/FSG"><img src="/cms/files/fsg_logo_1.png" alt="FSG icon"></a>
+      </center>
+      <p>The OBPG maintains a <a href="/cms/FSG/">Field Support Group</a> that collects in situ data, engages in community measurement protocols activities, and hosts an <a href="/cms/hplc/">HPLC</a> phytoplankton pigment processing facility.</p>  </div>
+</div>
+
+</div></div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+          <div id="footer-columns" class="clearfix">
+          <div class="region region-footer-firstcolumn">
+    <div id="block-block-4" class="block block-block">
+
+    
+  <div class="content">
+    <div class="tex2jax">Curator:&nbsp;<a href="mailto: webadmin@oceancolor.gsfc.nasa.gov">OceanColor Webmaster</a><br>
+Authorized by: <a href="http://oceancolor.gsfc.nasa.gov/staff/gene/" style="font-size: small;">gene carl feldman</a><br>
+<a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" style="font-size: 12px;">Privacy Policy and Important Notices</a>
+</div>  </div>
+</div>
+  </div>
+          <div class="region region-footer-secondcolumn">
+    <div id="block-block-6" class="block block-block">
+
+    
+  <div class="content">
+    <p>&nbsp;</p>
+  </div>
+</div>
+  </div>
+          <div class="region region-footer-thirdcolumn">
+    <div id="block-block-7" class="block block-block">
+
+    
+  <div class="content">
+    <div class="tex2jax">&nbsp;</div>  </div>
+</div>
+  </div>
+          <div class="region region-footer-fourthcolumn">
+    <div id="block-block-5" class="block block-block">
+
+    
+  <div class="content">
+    <div class="tex2jax"><a href="http://www.nasa.gov"><img src="/images/logo_nasa_sm.png" alt="NASA logo" align="right" border="0"></a></div>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer-columns -->
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-block-8" class="block block-block">
+
+    
+  <div class="content">
+    <div class="tex2jax"><script type="text/javascript">
+function toggle(element) {
+    document.getElementById(element).style.display = (document.getElementById(element).style.display == "none") ? "" : "none";
+}
+</script>
+<a href="javascript:toggle('sitemap')">Site Map</a>
+<div id="sitemap" style="display: none;">
+
+
+<!-- font color="#1a1a1a" link="#1a1a1a" vlink="#1a1a1a" alink="#1a1a1a" -->
+<table id="FatFooter" style="FatFooter"><!-- border="0" bordercolor="#71909f" bgcolor="#1c4960" -->
+<tbody><tr>
+<td valign="top"><b>Missions</b><p>
+      .&nbsp;<a href="/cms/data/czcs">CZCS</a><br>
+      .&nbsp;<a href="/cms/data/octs">OCTS</a><br>
+      .&nbsp;<a href="/cms/data/seawifs">SeaWiFS</a><br>
+      .&nbsp;<a href="/cms/data/aqua">MODIS Aqua</a><br>
+      .&nbsp;<a href="/cms/data/terra">MODIS Terra</a><br>
+      .&nbsp;<a href="/cms/data/meris">MERIS</a><br>
+      .&nbsp;<a href="/cms/data/aquarius/">Aquarius</a><br>
+      .&nbsp;<a href="/cms/data/viirs/">VIIRS</a><br>
+      .&nbsp;<a href="/cms/data/hico">HICO</a><br>
+  </p></td><td valign="top">
+  <a href="/cms/PRODUCTS/product_level_desc.html"><b>Data</b></a><p> 
+      .Data Access<br>
+          .&nbsp;.&nbsp;CZCS<br>
+              .&nbsp;.&nbsp;.&nbsp;&nbsp;<a href="/cgi/browse.pl?sen=cz">L1/2&nbsp;Visual&nbsp;Browser</a>
+              <br>.&nbsp;.&nbsp;.&nbsp;&nbsp;<a href="/cgi/l3?sen=C&amp;per=MO&amp;prd=CHLO">L3&nbsp;Visual&nbsp;Browser</a><br>
+            
+          .&nbsp;.&nbsp;OCTS<br>
+            
+              .&nbsp;.&nbsp;.&nbsp;&nbsp;<a href="/cgi/browse.pl?sen=oc">L1/2 Visual Browser</a>
+              <br>.&nbsp;.&nbsp;.&nbsp;&nbsp;<a href="/cgi/l3?sen=O&amp;per=MO&amp;prd=CHLO">L3 Visual Browser</a><br>
+	    
+	  
+          .&nbsp;.&nbsp;SeaWIFS<br>
+            
+              .&nbsp;.&nbsp;.&nbsp;&nbsp;<a href="/cgi/browse.pl?sen=sw&amp;typ=GAC">L1/2 Visual Browser</a>
+              <br>.&nbsp;.&nbsp;.&nbsp;&nbsp;<a href="/cgi/l3?sen=S&amp;per=MO&amp;prod=CHL_chlor_a">L3 Visual Browser</a><br>
+            
+          .&nbsp;.&nbsp;MODIS Aqua<br>
+            
+              .&nbsp;.&nbsp;.&nbsp;&nbsp;<a href="/cgi/browse.pl?sen=am">L1/2 Visual Browser</a>
+              <br>.&nbsp;.&nbsp;.&nbsp;&nbsp;<a href="/cgi/l3?sen=A&amp;per=MO&amp;prd=CHLO">L3 Visual Browser</a><br>
+            
+        
+          .&nbsp;.&nbsp;MODIS Terra<br>
+            
+              .&nbsp;.&nbsp;.&nbsp;&nbsp;<a href="/cgi/browse.pl?sen=tm">L1/2 Visual Browser</a>
+              <br>.&nbsp;.&nbsp;.&nbsp;&nbsp;<a href="/cgi/l3?sen=T&amp;per=MO&amp;prd=CHLO">L3 Visual Browser</a><br>
+	    
+          
+          .&nbsp;.&nbsp;MERIS<br>
+            
+              .&nbsp;.&nbsp;.&nbsp;&nbsp;<a href="/cgi/browse.pl?sen=me">L1/2 Visual Browser</a><br>
+	    
+      
+.&nbsp;<a href="http://oceandata.sci.gsfc.nasa.gov/">Data Archive</a>
+  </p></td><td valign="top">
+  <a href="/cms/DOCS/"><b>Documents</b></a><p>
+  .&nbsp;<a href="/cms/panda?s=1">Products &amp; Algorithms</a><br>
+  .&nbsp;<a href="/cms/DOCS/publications.html">Publications/Presentations</a><br>
+  .&nbsp;<a href="/cms/MEETINGS/">Meetings/Workshops</a><br>
+  .&nbsp;<a href="/cms/DOCS/TechMemo/">Tech Memos</a><br>
+  .Data Products<br>
+  
+  .&nbsp;.&nbsp;&nbsp;<a href="/cms/DOCS/ocformats.html">Format Specifications</a><br>
+  .&nbsp;.&nbsp;&nbsp;<a href="/cgi/algorithms.cgi">L2 Products</a><br>
+  
+  
+  .Software/Tools<br>
+  
+  .&nbsp;.&nbsp;&nbsp;<a href="/cms/DOCS/MSL12/">L2gen User's Guide</a>
+  <br>.&nbsp;.&nbsp;&nbsp;<a href="/cgi/idllibrary.cgi">IDL Library</a>
+  <br>.&nbsp;.&nbsp;&nbsp;<a href="/cms/seadas/help.html">SeaDAS Help</a>
+  
+  
+  
+  </p></td><td valign="top"><a href="/cms/ANALYSIS/" class="dir"><b>Analyses</b></a><p>  
+    
+      .&nbsp;<a href="/cgi/smistats.pl">Global Time Series</a>	<br>
+      .&nbsp;<a href="/ANALYSIS/PROCTEST/">Global L3 Trends</a>	<br>
+      .&nbsp;<a href="/cgi/regions.cgi">Regional L2 Trends</a>	<br>
+      .&nbsp;<a href="/cms/VALIDATION/">Calibration/Validation</a>	<br>
+      .&nbsp;<a href="/cms/WIKI/OCReproc.html">Data Reprocessings</a><br>
+
+  
+  </p></td><td valign="top">
+  <a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/forum_show.pl" class="dir"><b>Forum</b></a><p>  
+
+    
+      .&nbsp;<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/board_show.pl?bid=1">Announcements</a><br>
+      .FAQ<br>
+        
+          .&nbsp;.&nbsp;&nbsp;<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/board_show.pl?bid=22">General FAQ</a><br>
+          .&nbsp;.&nbsp;&nbsp;<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/board_show.pl?bid=13">Product/Algorithm</a><br>
+          .&nbsp;.&nbsp;&nbsp;<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/board_show.pl?bid=21">Data Access</a><br>
+          .&nbsp;.&nbsp;&nbsp;<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/board_show.pl?bid=12">SeaDAS</a><br>
+        
+      
+      .&nbsp;<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/board_show.pl?bid=3">Product/Algorithm</a> <br>
+     .&nbsp;<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/board_show.pl?bid=4">Data Access</a> <br>
+      .&nbsp;SeaDAS<br>
+        
+          .&nbsp;.&nbsp;&nbsp;<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/board_show.pl?bid=8">SeaDAS&nbsp;Questions</a><br>
+          .&nbsp;.&nbsp;&nbsp;<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/board_show.pl?bid=26">Virtual&nbsp;Appliance</a><br>
+          .&nbsp;.&nbsp;&nbsp;<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/board_show.pl?bid=15">MODIS DB</a><br>
+        
+      
+      .&nbsp;<a href="http://oceancolor.gsfc.nasa.gov/forum/oceancolor/board_show.pl?bid=6">Field Data - SeaBASS</a>
+   
+   
+  </p></td><td valign="top"><b> Services</b><p>
+   
+     .&nbsp;<a href="/cms/seadas/">SeaDAS</a><br>
+     .&nbsp;<a href="/seabass/">SeaBASS</a><br>
+     .&nbsp;<a href="/sdpscgi/public/subscriptions_home.cgi">NRT Support</a><br>
+     .&nbsp;<a href="/cms/SUPPORT/register.html">Registration&nbsp;Services</a><br>
+     .&nbsp;<a href="/cms/FSG/">Field Support Group</a><br>
+     .&nbsp;<a href="/cms/HPLC/">HPLC</a><br>
+    
+  </p></td>
+<td valign="top"><b>About</b><p>
+  <a href="/cms/staff/">Staff</a><br>
+  <a href="/cms/extpart/">External Partners</a><br>
+  <a href="mailto:webadmin@oceancolor.gsfc.nasa.gov">Contact Us</a><br>
+  </p></td></tr>
+  </tbody></table>
+</div></div>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  
+

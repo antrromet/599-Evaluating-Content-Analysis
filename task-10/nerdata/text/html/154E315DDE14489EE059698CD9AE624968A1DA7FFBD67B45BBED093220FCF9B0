@@ -1,0 +1,1244 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=8"><!--fixes IE-->
+    
+    
+    
+    <title>Global Change Master Directory (GCMD)</title>
+
+    <script type="text/javascript" src="default/javascript.js"></script>
+    <script type="text/javascript" src="GCMD/custom.js"></script>
+
+<!-- OpenSearch instructions -->
+<link rel="search"
+    type="application/opensearchdescription+xml"
+    title="GCMD"
+    href="/KeywordSearch/default/openSearch.jsp?Portal=GCMD" />
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+        
+<!-- other styles -->
+    <link rel="stylesheet" type="text/css" href="GCMD/common.css">
+        <link rel="stylesheet" type="text/css" href="GCMD/style/preview.css">
+        <link rel="stylesheet" type="text/css" href="default/style/feedback.css">
+    
+    
+    <!--[if lte IE 7]>
+            <link rel="stylesheet" type="text/css" href="GCMD/ie_specific.css">
+    
+    <![endif]-->
+    
+    <script type="text/javascript" src="WidgetWrappers/WidgetWrappers.nocache.js"></script>
+    
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    
+    
+    
+    <!-- BEGIN - maptime advanced search related javascript -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="gcmd_google_map_v3.js"></script>
+    <script type="text/javascript" src="temporal.js"></script>
+    <!-- END maptime advanced search related javascript -->
+    
+</head>
+<body class="search" onLoad="browserDetect();doOnLoad();">
+
+<div id="siteContainer">
+    <div class="hidden">
+        <a href="#maincontent" title="Skip to Main Content" accesskey="3">
+            Skip to Main Content Navigation (press 3)
+        </a>
+    </div>
+    
+
+
+
+
+ <!--
+    <div class="hidden"><a href="#leftnav" title="Skip to Left Navigation" accesskey="2">Skip to Left Navigation (press 2)</a></div>
+    <div class="hidden"><a href="#maincontent" title="Skip to Main Content" accesskey="3">Skip to Main Content Navigation (press 3)</a></div>
+  -->
+
+    <div id="sitelinks">
+        <ul>
+            <li><a href="/learn/faqs/faqpage.html" title="Frequently Asked Questions about Earth Science and About the GCMD">FAQ</a></li>
+            <li><a href="/sitemap.html" title="Looking for a specific page or information?: Use the sitemap to find it quickly.">Site Map</a></li>
+            <li><a href="/MailComments/MailComments.jsf?rcpt=gcmduso" target="_blank" title="Have suggestions, comments, and questions about GCMD contact us here.">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div id="gcmdhead">
+        <div id="metaltop"><span></span></div>
+        <div id="banner">
+            <div id="bannerImg">
+                <a href="/index.html">
+                    <img width="1000" height="123" alt="" title="GCMD Banner Image" src="default/images/spacer.gif" border="0" /></a>
+            </div>
+        </div>
+    </div>
+    <div id="topNav">
+        <div id="topNavCenter">
+            <div id="topNavBtns">
+                <a href="/index.html" class="homeBtn" title="GCMD Home page: Welcome to the GCMD."><span class="context">Home</span></a>
+                <a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0#maincontent" class="searchBtn" title="Locate Earth science data, data services, and more through descriptive records."><span class="context">Search GCMD</span></a>
+                <a href="/learn/index.html" class="learnBtn" title="Learn about GCMD"><span class="context">Learn about GCMD</span></a>
+                <a href="/add/portals.html" class="portalsBtn" title="Learn about GCMD's Portal Collaborations."><span class="context">Portals</span></a>
+                <a href="/collaborate/docbuilder.html" class="collaborateBtn" title="Collaborate with GCMD"><span class="context">Collaborate</span></a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="page" class="alignCenter">
+        <div id="content">
+            <a name="maincontent"></a>
+            <div id="mainTabs" class="left">
+                
+                <div class='tab' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent">Data Sets</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent">Services / Tools</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent">Ancillary Descriptions</a></span>
+                </div>
+            </div>
+            <div id="mainContainer">
+                <div class="shadowBox_top blue clear"><span class="nested"></span></div>
+                <div class="shadowBox_contents blue">
+                    <!-- CONTENT AREA START -->
+                    
+                    
+
+
+
+
+
+
+<!-- link type="text/css" rel="stylesheet" href="TitlesApp.css" -->
+
+
+
+
+
+
+</div>
+<!-- This is the closing DIV tag for "shadowBox_contents blue" in layout.jsp -->
+
+
+
+
+<script type="text/javascript">
+    /*
+    add a link tag to the head element to assist tools looking for the
+    non-dynamic version of this page.
+    */
+    var headList = document.getElementsByTagName("head");
+    if (headList!=null && 0<headList.length)
+    {
+        var head = headList[0];
+        var link = document.createElement("link");
+        link.setAttribute("creator", "app");
+        link.setAttribute("type", "text/html");
+        link.setAttribute("rel", "alternate");
+        link.setAttribute("href"
+            , window.location.pathname
+            + "?Portal=GCMD"
+            + "&KeywordPath=[Sensor_Name: Short_Name=&#039;GPR&#039;]"
+            + "&MetadataType=0"
+            + "&Output=basic"
+        );
+        
+        
+        head.appendChild(link);
+    }
+</script>
+<noscript>
+    <!-- no javascript, just dump a tag at hope that google knows what to do with it-->
+    <link type="text/html" rel="alternate" href="/KeywordSearch/Titles.do?Portal=GCMD&KeywordPath=[Sensor_Name: Short_Name=&#039;GPR&#039;]&MetadataType=0&Output=basic">
+</noscript>
+
+<script type="text/javascript" language="javascript" src="titlesapp/titlesapp.nocache.js"></script>
+
+<script type="text/javascript">
+if (window.portal==null)
+{
+    window.portal = "GCMD";
+    window.pcheck = "2182003";
+}
+</script>
+
+<div class="shadowBox_contents alignLeft">
+    <span class="nested" style="padding-top:12px;">
+        <div id="treeDiv">
+            <!-- use this text if GWT can not display -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="alternate" type="application/atom+xml"
+      title="ATOM Feed for [Sensor_Name: Short_Name=_sic_GPR_sic_]"
+      href="Titles.do?KeywordPath=[Sensor_Name: Short_Name=_sic_GPR_sic_]&Portal=GCMD&clientId=null&Output=atom" />
+
+
+<div style="display:none">
+<!--
+The following content is here for Google to index and is replaced by the
+Refinment tool which displays the same content in a more User Interactive fasion
+-->
+<table width="90%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="46" valign="top">
+            <image src="default/images/default_icon.gif" width="46" height="47" alt="Thumbnail Icon" border="0"/>
+        </td>
+        <td width="4"><img src="default/images/spacer.gif" width="4" height="10" alt=""></td>
+        <td width="539" valign="top">
+            <span class="breadCrumb">
+                [Sensor_Name: Short_Name=&#039;GPR&#039;]
+            </span>
+        </td>
+    </tr>
+</table>
+<table width="589" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td valign="center">
+            
+
+
+
+
+<!-- BEGIN refinementCallout.jsp____________________________________________________________ -->
+
+<br>
+<br>
+
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr valign="right">
+    <td width="256">
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- top border -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Category</strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>
+
+        <tr> <!-- box contents -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+              <tr> <!-- spacing -->
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="110" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+
+              <tr> <!-- select a field row -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+               
+<script language="JavaScript" type="text/javascript">
+function getSelectedValue(select) {
+    var index = select.selectedIndex;
+    if ((index >= 0) && (index < select.length)) {
+        return select.options[index].value;
+    }
+    return '';
+}
+function submit(select) {
+    if (getSelectedValue(select) != '') {
+        select.form.submit();
+    }
+}
+</script>
+	  <form method=GET name="parameters" action="Refinement.do">
+        <td bgcolor="E8EFF5" align="center">
+          <div align="center">
+ <select name="Refinement" onchange="submit(this)" size="1" class="footerText">
+              <option value=""> Please select a field </option>
+              <option value="Projects">Projects</option>
+              <option value="DataCenters">Data Centers</option>
+              <option value="Locations">Locations</option>
+              <option value="Instruments">Instruments/Sensors</option>
+              <option value="Platforms">Platforms/Sources</option>
+	      <option value="Parameters">Science Keywords</option>
+	      <option value="Spatial Coverage">Spatial Coverage</option>
+              <option value="Temporal Coverage">Temporal Coverage</option>
+              
+              <option value="-------------------">-------------------</option>
+	      <option value="Parent Only">Parent Records Only</option>
+	      <option value="Child Only">Children Records Only</option>
+	      <option value="Include Global Land">Include Global Land</option>
+      <option value="Include Global Ocean">Include Global Ocean</option>
+              
+            </select>
+            <input name="action" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+          </div>
+        </td>
+	 <input type="hidden" name="KeywordPath" value="%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D">
+	 <input type="hidden" name="Portal" value="GCMD">
+	 <input type="hidden" name="MetadataType" value="0">
+        </form>
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td>
+              </tr>
+
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+
+            </table>
+          </td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"><img src="default/images/spacer.gif" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+
+    </td>
+
+    <td width="6">&nbsp;</td> <!-- spacing cell -->
+
+    <td width="256" align="top"> <!-- right cell -->
+
+      <!-- table with Refine by Full text -->
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- row with label -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Full text </strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>        
+
+        <tr>
+          <!-- cell with spacing -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+
+          <!-- cell with free-text seach field -->
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+            <table  width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> <!-- spacing -->
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td> 
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+               <td><img src="default/images/spacer.gif" width="126" height="3" alt=""></td>
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+              <tr> <!-- free-text search field -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+
+<!-- NOTE:  Forms based version of free-text search -->
+                <form method=GET name="freeText" action="Freetext.do">
+                  <td bgcolor="E8EFF5" align="center">
+                    <input type="text" name="Freetext" size=17 id="Freetext" class="footerText" value="" 
+                           onFocus="this.value=' '" tabindex="1">
+                    <input name="action2" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" 
+                           align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+                    <input type="hidden" name="KeywordPath" value="%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D">
+                    <input type="hidden" name="Portal" value="GCMD">
+                    <input type="hidden" name="MetadataType" value="0">
+                  </td>
+                </form>
+
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td> 
+              </tr>
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+            </table>
+          </td>
+
+        </tr>
+
+        <tr> <!-- bottom border -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p> 
+
+<!-- END refinementCallout.jsp______________________________ -->
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <b></b>
+        </td>
+    </tr>
+</table>
+
+<table style="margin-top: 15px" width="90%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td valign="top">
+            <table width="100%" border="1">
+                <tr>
+                    <td class="calloutTitle" align="center">71 Titles Match Your Query</td>
+                </tr>
+                
+                
+                <tr>
+                    <td align="center">
+                        <img src="default/images/spacer.gif" width="1" height="30" alt="" align="absmiddle">
+                        
+                        Showing 1 through 50 of 71
+                        
+                            <a href="Titles.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&MetadataType=0&Offset=50&lbnode=mdlb3"  >
+                                <img src="default/images/nextArrow.gif" hspace="3" align="absmiddle" alt="Next" border="0">
+                            </a>
+                        
+                    </td>
+                </tr>
+                
+                
+                
+                    <tr>
+                        <td>
+                            1.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=AADC&EntryId=survey_2000_01_velthuis&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Report on GPR and science investigations at Macquarie island and Casey station  [survey_2000_01_velthuis]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Taken from the survey report:
+
+Documentation is provided for surveying tasks - by Tom Velthuis - at Macquarie Island and Casey, during the summer of 2000/1.  The report is presented in five key sections: ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            2.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=AADC&EntryId=GPR_miscellaneous&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Ground Penetrating Radar Data from Windmill Islands - miscellaneous data  [GPR_miscellaneous]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Old data collected by Jared Pettersson, and found by the Australian Antarctic Data Centre.  Note, this metadata record has not been produced by the scientist in question, but by the Australian Antarctic ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            3.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=AADC&EntryId=ASAC_3103&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                ICECAP - Casey/Aurora Basin Component  [ASAC_3103]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Metadata record for data from AAS (ASAC) project 2936.
+
+Public
+The ICECAP Project will conduct a major airborne survey in East Antarctica. The survey will employ multi-frequency ice penetrating radar, ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            4.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=conway_0087345&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Collaborative Research: Western Divide West Antarctic Ice Cores (WAISCORES) Site Selection  [conway_0087345]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This award supports a program of ground-based geophysical measurements to map in detail the spatial variations of ice flow, accumulation rate, internal layering and ice thickness at the sites which ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            5.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=LARISSA_0732921&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Collaborative Research in IPY: Abrupt Environmental Change in the Larsen Ice Shelf System, a Multidisciplinary Approach -- Cryosphere and Oceans  [LARISSA_0732921]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This award supports the cryospheric and oceano-graphic components of an integrated multi-disciplinary program to address these rapid and fundamental changes now taking place in Antarctic Peninsula ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            6.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=NSIDC-0274&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Compilation of Antarctic Radar Data, Siple Coast, 2000-2002  [NSIDC-0274]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">These data consist of ground-based, ice-penetrating radar profiles across satellite-detected lineations and terrains that were taken in the lower reaches of Ross Ice Stream C, also known as the Kamb ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            7.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=NSIDC-0282&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                GPR and GPS Data: Characteristics of Snow Megadunes and their Potential Effects on Ice Core Interpretation  [NSIDC-0282]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Antarctic megadune research was conducted during two field seasons, one in November 2002 and the other in December 2003 through January 2004. The megadune field site is located on the East Antarctic ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            8.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=NSIDC-0269&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                US International Trans-Antarctic Scientific Expedition (US ITASE): GPR Profiles and Accumulation Mapping  [NSIDC-0269]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Snow accumulation rates typically show high variability over short distances. This data set contains accumulation rates using ground-penetrating radar (GPR) to detect isochronal layers in the firn ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            9.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=NSIDC-0303&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Radar Investigations of Antarctic Ice Stream Margins, Siple Dome, 1998  [NSIDC-0303]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set consists of surface-based radar measurements, including geometry of the bed, surface, and internal layers, and bed reflectivity measurements at two sites along ice stream margins at ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            10.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=NSIDC-0473&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Histories of Accumulation, Thickness, and WAIS Divide Location, Antarctica  [NSIDC-0473]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set contains radar internal layer and ice sheet topography data for two sites in Antarctica, along with associated model results from two studies. This project used geophysical inverse theory ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            11.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=G02200&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SEDNA: Sea ice Experiment - Dynamic Nature of the Arctic  [G02200]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Sea Ice Experiment - Dynamic Nature of the Arctic (SEDNA) is an international collaborative effort to improve the understanding of the interaction between sea ice dynamics and Arctic climate. ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            12.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=K064_2010_2013_NZ_1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                The Glaciological Basis of Palaeoclimatic Reconstructions of Ice-Shelf Moraines  [K064_2010_2013_NZ_1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The research is giving us an understanding of the entrainment, transfer and deposition of sediment by ice shelves. The investigation of the structure, composition and motion of the Southern McMurdo ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            13.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=IPEV&EntryId=1053_1_IPEV_FR&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Bedrock topography over the entire drainage basin of the Astrolabe outlet glacier, Terre Adélie Sector, Antarctica  [1053_1_IPEV_FR]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">All these data over the Astrolabe Glacier have been collected in the framework of a better understanding of the specific dynamics of outlet glaciers in Antarctica. 
+
+The major set is represented by ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            14.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=NSIDC-0548&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Glacial history of Foundation Ice Stream, West Antarctica  [NSIDC-0548]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The past ice extent and deglaciation history of the Weddell Sea embayment of Antarctica is the single largest uncertainty in relating Antarctic ice volume changes to global sea level change since ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            15.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=KPDC_EIWPFG_KGI_2006&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                An englacial image and water pathways of the Fourcade glacier on King George Island, Antarctic Peninsula, inferred from ground-penetrating radar  [KPDC_EIWPFG_KGI_2006]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The distribution of small fractures and water content of the Fourcade glacier on King George Island, Antarctica, was investi- gated in November 2006 and December 2007 by two ground-based (470- and ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            16.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=KPDC_GPRIGL_ANTARCTIC_1997&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                GPR Investigation of Glacier on Livingstone Island, Antarctica  [KPDC_GPRIGL_ANTARCTIC_1997]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">With the aim of global environmental monitoring we carried out GPR (Ground Penetrating Radar) surveys
+at the Livingston Island in Antarctica. Research area is near the Mt. Charra (340 m) in Livingston ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            17.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=KPDC_HBGTR_ANTARCTIC_2006&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Helicopter-borne and ground-towed radar surveys of the Fourcade Glacier on King George Island, Antarctica  [KPDC_HBGTR_ANTARCTIC_2006]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">To determine subglacial topography and internal features of the Fourcade Glacier on King George Island in
+Antarctica, helicopter-borne and ground-towed ground-penetrating radar (GPR) data were recorded ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            18.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=steffen_0732946&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                IPY: Stability of Larsen C Ice Shelf in a Warming Climate  [steffen_0732946]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Our ground penetrating radar surveys focused on key structural features of the ice shelf, including basal crevasses, marine ice and rifts.  Here we present our published work on basal crevasses.  ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            19.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=Anandakrishnan_0632198&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Thwaites International Polar Year (IPY) Geophysics, Antarctica  [Anandakrishnan_0632198]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">A project to study ice sheet history and dynamics on the Thwaites Glacier and Pine Island Glacier in the Amundsen Sea sector of the West Antarctic Ice Sheet.</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            20.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=K049_1999_2012_NZ_10&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Holocene climate history from investigations of the glacial system, ice cores and local climate patterns from Skinner Saddle, Victoria Land Coast Antarctica  [K049_1999_2012_NZ_10]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&EntryId=K049_1999_2008_NZ_1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">To understand the drivers and consequences of climate change on timescales important to humans, the paleoclimate of ice cores, the glacial system and local climate patterns were analysed from Skinner ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            21.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=scambos_0732921&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Collaborative Research in IPY: Abrupt Environmental Change in the Larsen Ice Shelf System, a Multidisciplinary Approach - Cryosphere and Oceans  [scambos_0732921]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This award supports the cryospheric and oceano-graphic components of an integrated multi-disciplinary program to address these rapid and fundamental changes now taking place in Antarctic Peninsula ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            22.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=K063_2011_2012_NZ_1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Antarctic Sea Ice Thickness Mapping in McMurdo Sound  [K063_2011_2012_NZ_1]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&EntryId=K053_2009_2010_NZ_1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">In-depth research has been conducted into sea ice thickness in the McMurdo Sound. The subice platelet layer thickness under sea ice was measured in regular intervals at two North-South oriented profiles ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            23.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=K064_2010_2012_NZ_1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                The Glaciological Basis of Palaeoclimatic Reconstructions of Ice-Shelf Moraines  [K064_2010_2012_NZ_1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The research is giving us an understanding of the entrainment, transfer and deposition of sediment by ice shelves. The investigation of the structure, composition and motion of the Southern McMurdo ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            24.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=K053_2009_2012_NZ_1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Land and sea ice sructure west and south of Ross Island measured by ground penetrating radar, UAV, and helicopter EM bird  [K053_2009_2012_NZ_1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set decribes surface and volume properties of snow and ice to validate radar satellite measurements. Ground penetrating radar (GPR) at 500 and 1000GHz provides information on snow layers ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            25.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=hamilton_0440792&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Ice Dynamics and Surface Glaciology along US ITASE Traverse Routes in East Antarctica  [hamilton_0440792]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This award supports a series of field measurements that will improve our understanding of the East Antarctic ice sheet. The objectives of this project are to take advantage of the overland traverse ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            26.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=hulbe_0538015&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Collaborative Research: Grounding Line Forensics: The History of Grounding Line Retreat in the Kamb Ice Stream Outlet Region  [hulbe_0538015]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This a project to identify and map ice surface and internal features that chronicle the sequence of events leading to the shut-down of Kamb ice stream. In particular, the project will study past grounding ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            27.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=Sediment_Supply_Arctic_Winter_IPY90_NL&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Sediment Supply to the Arctic Coastal Zone  [Sediment_Supply_Arctic_Winter_IPY90_NL]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The data described here are various types of land-based geophysical survey data. The methods used are; Ground Penetrating Radar, Refraction Seismics and Transient Electromagnetics. Surveys are performed ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            28.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=mlp_MDV_GPR&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                McMurdo Dry Valleys Ground Penetrating Radar and Surficial Geology  [mlp_MDV_GPR]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The data are ground-penetrating radar profiles across a variety of
+      transects in the McMurdo Dry Valleys.  The data were collected at 400,
+      100, and 50 Mhz.  The software used to process ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            29.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=K056_2006_2010_NZ_1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Dynamics and change of the Darwin Hatherton Glacial System  [K056_2006_2010_NZ_1]
+                            </a>
+                            
+                                &nbsp;
+                                <a href="Keywords.do?KeywordPath=%5BParent_DIF%3D%27K056_2006_2010_NZ_1%27%5D&Portal=GCMD&MetadataType=0"  class="searchTermCount" target="_blank"  >
+                                    CHILD DIFs
+                                </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Darwin-Hatherton glacial system offers a unique opportunity to investigate the response of the Antarctic Ice Sheet to future climate change.  As well as draining the East Antarctic Ice Sheet into ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            30.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=K064_2008_2010_NZ_1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                GPR surveys, meteorological and hydrology data from the Joyce, Garwood and Hobbs glaciers in the McMurdo Dry Valleys to investigate glacier-permafrost interactions  [K064_2008_2010_NZ_1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The aim of this study was to develop an understanding of the interactions between glaciers and their permafrost beds that will permit models of glaciers to realistically parameterise ice motion. Improvement ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            31.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=K056_2006_2007_NZ_3&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Ground penetrating radar survey of the Darwin and Hatherton glacial systems  [K056_2006_2007_NZ_3]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">More than 300 km of ground penetrating radar (GPR) data were collected on the glaciers around Roadend Nunatak, Lake Wellman and Lake Wilson.  Reflections from the bedrock were observed on most profiles, ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            32.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=K053_2009_2010_NZ_1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Land and sea ice sructure west and south of Ross Island measured by ground penetrating radar, UAV, and helicopter EM bird  [K053_2009_2010_NZ_1]
+                            </a>
+                            
+                                &nbsp;
+                                <a href="Keywords.do?KeywordPath=%5BParent_DIF%3D%27K053_2009_2010_NZ_1%27%5D&Portal=GCMD&MetadataType=0"  class="searchTermCount" target="_blank"  >
+                                    CHILD DIFs
+                                </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set decribes surface and volume properties of snow and ice to validate radar satellite measurements. Ground penetrating radar (GPR) at 500 and 1000GHz provides information on snow layers ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            33.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=K053_2003_2005_NZ_1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                The depth, motion and mass balance of the McMurdo Ice Shelf, Antarctica  [K053_2003_2005_NZ_1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">An examination of the McMurdo Ice Shelf processes was carried out over two field seasons, 2003-2005. Measurements of surface ice motion and mass balance were made by placing stakes across the McMurdo ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            34.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=conway_OPP008714&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Glacial history of Conway Ice Ridge, West Antarctica  [conway_OPP008714]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The primary goal of the work was to investigate the glacial history of Conway Ridge, the ice ridge between Mercer Ice Stream and Van der Veen Ice Stream. Primary investigative tools were: high and ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            35.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=blankenship_OPP9814816&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Ground Based 60 MHz Deep Radar at Onset D  [blankenship_OPP9814816]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Deep ground radar sounding was carried out at the onset of Ice Stream D
+      (Bindschadler Ice Stream), Siple Coast, West Antarctica using the UT/TUD 60 MHz
+      radar system, configured for pulsed ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            36.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=conway_OPP0229490&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Investigation of the glacial history of the Siple Coast using radar-detected internal layers and the ice core from Siple Dome  [conway_OPP0229490]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">We are using ice-penetrating radar data collected over the course of several field seasons in West Antarctica to analyze and detect englacial radar layers. These radar layers are due to fluctuations ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            37.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=hallet_0230338ecp&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Dry-Based Ice-Cliff Dynamics: Taylor Glacier, Antarctica  [hallet_0230338ecp]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This project is a comprehensive study of land-based polar ice cliffs. Through field measurements, modeling, and remote sensing, the physics underlying the formation of ice cliffs at the margin of ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            38.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=tulaczyk_0338295&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Glaciological Investigations of the Bulge-Trunk Transition on Kamb Ice Stream, West Antarctica  [tulaczyk_0338295]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This award supports a project to test whether Kamb Ice Stream (formerly Ice Stream C (ISC)), an ice stream that is thought to have stopped ~150 years ago, may be already in the process of restarting. ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            39.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=Kanagaratnam_0230378&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                High Resolution Ice Thickness and Plane Wave Mapping of Ice Sheet Near-Surface Layers   [Kanagaratnam_0230378]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This award supports a project to build and test a 12-18 GHz radar system with a
+      plane wave antenna. This is a wideband radar operating over a frequency range
+      of 12 to 18 GHz to detect ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            40.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=Storglaciaren_Radar_Data&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Radar sounding of englacial water on Storglaciaren, Sweden   [Storglaciaren_Radar_Data]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">These data were acquired by a ground-based, ice-penetrating radar study of
+      Storglaciaren in July of 2001 and 2002.  Closely spaced grids were made in 4
+      locations using GPR at frequencies ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            41.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27GPR%27%5D&OrigMetadataNode=GCMD&EntryId=Western_Divide_WAIS_Icecores_Site_Selection&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Proposed Drill Site: Ross-Amundsen Ice Divide, West Antarctica  [Western_Divide_WAIS_Icecores_Site_Selection]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Proposed drill site near the Ross-Amundsen ice divide, West Antarctica
+            
+            Describes conditions near the Ross-Amundsen ice divide, and discusses candidate
+            drill sites ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>

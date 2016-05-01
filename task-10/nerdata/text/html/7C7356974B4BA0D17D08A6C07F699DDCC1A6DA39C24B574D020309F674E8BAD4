@@ -1,0 +1,1236 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=8"><!--fixes IE-->
+    
+    
+    
+    <title>Global Change Master Directory (GCMD)</title>
+
+    <script type="text/javascript" src="default/javascript.js"></script>
+    <script type="text/javascript" src="GCMD/custom.js"></script>
+
+<!-- OpenSearch instructions -->
+<link rel="search"
+    type="application/opensearchdescription+xml"
+    title="GCMD"
+    href="/KeywordSearch/default/openSearch.jsp?Portal=GCMD" />
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+        
+<!-- other styles -->
+    <link rel="stylesheet" type="text/css" href="GCMD/common.css">
+        <link rel="stylesheet" type="text/css" href="GCMD/style/preview.css">
+        <link rel="stylesheet" type="text/css" href="default/style/feedback.css">
+    
+    
+    <!--[if lte IE 7]>
+            <link rel="stylesheet" type="text/css" href="GCMD/ie_specific.css">
+    
+    <![endif]-->
+    
+    <script type="text/javascript" src="WidgetWrappers/WidgetWrappers.nocache.js"></script>
+    
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    
+    
+    
+    <!-- BEGIN - maptime advanced search related javascript -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="gcmd_google_map_v3.js"></script>
+    <script type="text/javascript" src="temporal.js"></script>
+    <!-- END maptime advanced search related javascript -->
+    
+</head>
+<body class="search" onLoad="browserDetect();doOnLoad();">
+
+<div id="siteContainer">
+    <div class="hidden">
+        <a href="#maincontent" title="Skip to Main Content" accesskey="3">
+            Skip to Main Content Navigation (press 3)
+        </a>
+    </div>
+    
+
+
+
+
+ <!--
+    <div class="hidden"><a href="#leftnav" title="Skip to Left Navigation" accesskey="2">Skip to Left Navigation (press 2)</a></div>
+    <div class="hidden"><a href="#maincontent" title="Skip to Main Content" accesskey="3">Skip to Main Content Navigation (press 3)</a></div>
+  -->
+
+    <div id="sitelinks">
+        <ul>
+            <li><a href="/learn/faqs/faqpage.html" title="Frequently Asked Questions about Earth Science and About the GCMD">FAQ</a></li>
+            <li><a href="/sitemap.html" title="Looking for a specific page or information?: Use the sitemap to find it quickly.">Site Map</a></li>
+            <li><a href="/MailComments/MailComments.jsf?rcpt=gcmduso" target="_blank" title="Have suggestions, comments, and questions about GCMD contact us here.">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div id="gcmdhead">
+        <div id="metaltop"><span></span></div>
+        <div id="banner">
+            <div id="bannerImg">
+                <a href="/index.html">
+                    <img width="1000" height="123" alt="" title="GCMD Banner Image" src="default/images/spacer.gif" border="0" /></a>
+            </div>
+        </div>
+    </div>
+    <div id="topNav">
+        <div id="topNavCenter">
+            <div id="topNavBtns">
+                <a href="/index.html" class="homeBtn" title="GCMD Home page: Welcome to the GCMD."><span class="context">Home</span></a>
+                <a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0#maincontent" class="searchBtn" title="Locate Earth science data, data services, and more through descriptive records."><span class="context">Search GCMD</span></a>
+                <a href="/learn/index.html" class="learnBtn" title="Learn about GCMD"><span class="context">Learn about GCMD</span></a>
+                <a href="/add/portals.html" class="portalsBtn" title="Learn about GCMD's Portal Collaborations."><span class="context">Portals</span></a>
+                <a href="/collaborate/docbuilder.html" class="collaborateBtn" title="Collaborate with GCMD"><span class="context">Collaborate</span></a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="page" class="alignCenter">
+        <div id="content">
+            <a name="maincontent"></a>
+            <div id="mainTabs" class="left">
+                
+                <div class='tab' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent">Data Sets</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent">Services / Tools</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent">Ancillary Descriptions</a></span>
+                </div>
+            </div>
+            <div id="mainContainer">
+                <div class="shadowBox_top blue clear"><span class="nested"></span></div>
+                <div class="shadowBox_contents blue">
+                    <!-- CONTENT AREA START -->
+                    
+                    
+
+
+
+
+
+
+<!-- link type="text/css" rel="stylesheet" href="TitlesApp.css" -->
+
+
+
+
+
+
+</div>
+<!-- This is the closing DIV tag for "shadowBox_contents blue" in layout.jsp -->
+
+
+
+
+<script type="text/javascript">
+    /*
+    add a link tag to the head element to assist tools looking for the
+    non-dynamic version of this page.
+    */
+    var headList = document.getElementsByTagName("head");
+    if (headList!=null && 0<headList.length)
+    {
+        var head = headList[0];
+        var link = document.createElement("link");
+        link.setAttribute("creator", "app");
+        link.setAttribute("type", "text/html");
+        link.setAttribute("rel", "alternate");
+        link.setAttribute("href"
+            , window.location.pathname
+            + "?Portal=GCMD"
+            + "&KeywordPath=Locations|SPACE|SOLAR REGION|PHOTOSPHERE"
+            + "&MetadataType=0"
+            + "&Output=basic"
+        );
+        
+        
+        head.appendChild(link);
+    }
+</script>
+<noscript>
+    <!-- no javascript, just dump a tag at hope that google knows what to do with it-->
+    <link type="text/html" rel="alternate" href="/KeywordSearch/Titles.do?Portal=GCMD&KeywordPath=Locations|SPACE|SOLAR REGION|PHOTOSPHERE&MetadataType=0&Output=basic">
+</noscript>
+
+<script type="text/javascript" language="javascript" src="titlesapp/titlesapp.nocache.js"></script>
+
+<script type="text/javascript">
+if (window.portal==null)
+{
+    window.portal = "GCMD";
+    window.pcheck = "2182003";
+}
+</script>
+
+<div class="shadowBox_contents alignLeft">
+    <span class="nested" style="padding-top:12px;">
+        <div id="treeDiv">
+            <!-- use this text if GWT can not display -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="alternate" type="application/atom+xml"
+      title="ATOM Feed for Locations|SPACE|SOLAR REGION|PHOTOSPHERE"
+      href="Titles.do?KeywordPath=Locations|SPACE|SOLAR REGION|PHOTOSPHERE&Portal=GCMD&clientId=null&Output=atom" />
+
+
+<div style="display:none">
+<!--
+The following content is here for Google to index and is replaced by the
+Refinment tool which displays the same content in a more User Interactive fasion
+-->
+<table width="90%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="46" valign="top">
+            <image src="default/images/locations.gif" width="46" height="47" alt="Thumbnail Icon" border="0"/>
+        </td>
+        <td width="4"><img src="default/images/spacer.gif" width="4" height="10" alt=""></td>
+        <td width="539" valign="top">
+            <span class="breadCrumb">
+                <a href="Keywords.do?Portal=GCMD&KeywordPath=Locations&MetadataType=0&&lbnode=mdlb3" target=""  >Locations</a> > <a href="Keywords.do?Portal=GCMD&KeywordPath=Locations%7CSPACE&MetadataType=0&&lbnode=mdlb3" target=""  >SPACE</a> > <a href="Keywords.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION&MetadataType=0&&lbnode=mdlb3" target=""  >SOLAR REGION</a> > PHOTOSPHERE
+            </span>
+        </td>
+    </tr>
+</table>
+<table width="589" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td valign="center">
+            
+
+
+
+
+<!-- BEGIN refinementCallout.jsp____________________________________________________________ -->
+
+<br>
+<br>
+
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr valign="right">
+    <td width="256">
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- top border -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Category</strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>
+
+        <tr> <!-- box contents -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+              <tr> <!-- spacing -->
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="110" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+
+              <tr> <!-- select a field row -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+               
+<script language="JavaScript" type="text/javascript">
+function getSelectedValue(select) {
+    var index = select.selectedIndex;
+    if ((index >= 0) && (index < select.length)) {
+        return select.options[index].value;
+    }
+    return '';
+}
+function submit(select) {
+    if (getSelectedValue(select) != '') {
+        select.form.submit();
+    }
+}
+</script>
+	  <form method=GET name="parameters" action="Refinement.do">
+        <td bgcolor="E8EFF5" align="center">
+          <div align="center">
+ <select name="Refinement" onchange="submit(this)" size="1" class="footerText">
+              <option value=""> Please select a field </option>
+              <option value="Projects">Projects</option>
+              <option value="DataCenters">Data Centers</option>
+              <option value="Locations">Locations</option>
+              <option value="Instruments">Instruments/Sensors</option>
+              <option value="Platforms">Platforms/Sources</option>
+	      <option value="Parameters">Science Keywords</option>
+	      <option value="Spatial Coverage">Spatial Coverage</option>
+              <option value="Temporal Coverage">Temporal Coverage</option>
+              
+              <option value="-------------------">-------------------</option>
+	      <option value="Parent Only">Parent Records Only</option>
+	      <option value="Child Only">Children Records Only</option>
+	      <option value="Include Global Land">Include Global Land</option>
+      <option value="Include Global Ocean">Include Global Ocean</option>
+              
+            </select>
+            <input name="action" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+          </div>
+        </td>
+	 <input type="hidden" name="KeywordPath" value="Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE">
+	 <input type="hidden" name="Portal" value="GCMD">
+	 <input type="hidden" name="MetadataType" value="0">
+        </form>
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td>
+              </tr>
+
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+
+            </table>
+          </td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"><img src="default/images/spacer.gif" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+
+    </td>
+
+    <td width="6">&nbsp;</td> <!-- spacing cell -->
+
+    <td width="256" align="top"> <!-- right cell -->
+
+      <!-- table with Refine by Full text -->
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- row with label -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Full text </strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>        
+
+        <tr>
+          <!-- cell with spacing -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+
+          <!-- cell with free-text seach field -->
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+            <table  width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> <!-- spacing -->
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td> 
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+               <td><img src="default/images/spacer.gif" width="126" height="3" alt=""></td>
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+              <tr> <!-- free-text search field -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+
+<!-- NOTE:  Forms based version of free-text search -->
+                <form method=GET name="freeText" action="Freetext.do">
+                  <td bgcolor="E8EFF5" align="center">
+                    <input type="text" name="Freetext" size=17 id="Freetext" class="footerText" value="" 
+                           onFocus="this.value=' '" tabindex="1">
+                    <input name="action2" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" 
+                           align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+                    <input type="hidden" name="KeywordPath" value="Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE">
+                    <input type="hidden" name="Portal" value="GCMD">
+                    <input type="hidden" name="MetadataType" value="0">
+                  </td>
+                </form>
+
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td> 
+              </tr>
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+            </table>
+          </td>
+
+        </tr>
+
+        <tr> <!-- bottom border -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p> 
+
+<!-- END refinementCallout.jsp______________________________ -->
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <b></b>
+        </td>
+    </tr>
+</table>
+
+<table style="margin-top: 15px" width="90%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td valign="top">
+            <table width="100%" border="1">
+                <tr>
+                    <td class="calloutTitle" align="center">64 Titles Match Your Query</td>
+                </tr>
+                
+                
+                <tr>
+                    <td align="center">
+                        <img src="default/images/spacer.gif" width="1" height="30" alt="" align="absmiddle">
+                        
+                        Showing 1 through 50 of 64
+                        
+                            <a href="Titles.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&MetadataType=0&Offset=50&lbnode=mdlb3"  >
+                                <img src="default/images/nextArrow.gif" hspace="3" align="absmiddle" alt="Next" border="0">
+                            </a>
+                        
+                    </td>
+                </tr>
+                
+                
+                
+                    <tr>
+                        <td>
+                            1.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_TCTE3TSI6_V001&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                TCTE Level 3 Total Solar Irradiance 6-Hour Means V001 (TCTE3TSI6) at GES DISC  [GES_DISC_TCTE3TSI6_V001]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Total Solar Irradiance (TSI) Calibration Transfer Experiment (TCTE) data set TCTE3TSI6 contains 6-hour averaged total solar irradiance (a.k.a solar constant) data collected by the Total Irradiance ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            2.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_TCTE3TSID_V001&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                TCTE Level 3 Total Solar Irradiance Daily Means V001 (TCTE3TSID) at GES DISC  [GES_DISC_TCTE3TSID_V001]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Total Solar Irradiance (TSI) Calibration Transfer Experiment (TCTE) data set TCTE3TSID contains daily averaged total solar irradiance (a.k.a solar constant) data collected by the Total Irradiance ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            3.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_SOR3TSI6_V017&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE Level 3 Total Solar Irradiance 6-Hour Means V017 (SOR3TSI6) at GES DISC  [GES_DISC_SOR3TSI6_V017]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Total Solar Irradiance (TSI) data set SOR3TSI6 contains the total solar irradiance (a.k.a solar constant) data collected by the Total Irradiance Monitor (TIM) instrument covering the full wavelength ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            4.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_SOR3TSID_V017&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE Level 3 Total Solar Irradiance Daily Means V017 (SOR3TSID) at GES DISC  [GES_DISC_SOR3TSID_V017]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Total Solar Irradiance (TSI) data set SOR3TSID contains the total solar irradiance (a.k.a solar constant) data collected by the Total Irradiance Monitor (TIM) instrument covering the full wavelength ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            5.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_SOR3TSID_V016&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE Level 3 Total Solar Irradiance Daily Means V016 (SOR3TSID) at GES DISC  [GES_DISC_SOR3TSID_V016]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Total Solar Irradiance (TSI) data set SOR3TSID contains the total solar irradiance (a.k.a solar constant) data collected by the Total Irradiance Monitor (TIM) instrument covering the full wavelength ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            6.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=SDO_DIF_PLACEHOLDER&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NASA Solar Dynamics Observatory (SDO) Science Data Products  [SDO_DIF_PLACEHOLDER]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">[Text Source: The Solar Dynamics Observatory (SDO) Project Home page, http://sdo.gsfc.nasa.gov/ ]
+                  
+SDO: The Solar Dynamics Observatory is the first mission to be launched for NASA's ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            7.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_SOR3SIMD_V021&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE SIM Level 3 Solar Spectral Irradiance Daily Means V021 (SOR3SIMD) at GES DISC  [GES_DISC_SOR3SIMD_V021]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The SORCE SIM Solar Spectral Irradiance (SSI) data product SOR3SIMD is constructed using measurements from the SIM instruments, which are combined into merged daily solar spectra over the spectral ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            8.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_UARSU3BS_V001&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                UARS Solar Ultraviolet Spectral Irradiance Monitor (SUSIM) Level 3BS V001 (UARSU3BS) at GES DISC  [GES_DISC_UARSU3BS_V001]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">
+The Solar Ultraviolet Spectral Irradiance Monitor (SUSIM) Level 3BS data product consists of daily, 1 nm resolution, solar spectral irradiances and selected solar parameters.  The instrument consisted ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            9.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_UARSO3BS_V001&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                UARS Solar-Stellar Irradiance Comparison Experiment (SOLSTICE) Level 3BS V001 (UARSO3BS) at GES DISC  [GES_DISC_UARSO3BS_V001]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">
+The Solar-Stellar Irradiance Comparison Experiment (SOLSTICE) Level 3BS data product consists of daily, 1 nm resolution, solar spectral irradiances and selected solar parameters.  The instrument ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            10.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_SOR3SOLFUVD_V013&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE SOLSTICE FUV Level 3 Solar Spectral Irradiance Daily Means V013 (SOR3SOLFUVD) at GES DISC  [GES_DISC_SOR3SOLFUVD_V013]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The SORCE SOLSTICE Far-UV Solar Spectral Irradiance (SSI) data product SOR3SOLFUVD is constructed using measurements from the SOLSTICE FUV instrument, which are combined into merged daily solar spectra ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            11.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_SOR3SOLMUVD_V013&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE SOLSTICE MUV Level 3 Solar Spectral Irradiance Daily Means V013 (SOR3SOLMUVD) at GES DISC  [GES_DISC_SOR3SOLMUVD_V013]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The SORCE SOLSTICE Mid-UV Solar Spectral Irradiance (SSI) data product SOR3SOLMUVD is constructed using measurements from the SOLSTICE MUV instrument, which are combined into merged daily solar spectra ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            12.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar-features&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Features  [gov.noaa.ngdc.stp.solar.solar-features]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Collection includes a variety of solar feature datasets contributed by a number of national and private solar observatories located worldwide.</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            13.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar-features_solar-flares_patrol&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Features - Solar Flares - Patrol  [gov.noaa.ngdc.stp.solar.solar-features_solar-flares_patrol]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The H-alpha Flare Patrol identifies time periods each day when the sun is being continuously monitored by select ground-based solar observatories.</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            14.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar-features_solar-flares_x-rays&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Features - Solar Flares - X-rays  [gov.noaa.ngdc.stp.solar.solar-features_solar-flares_x-rays]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Listings and characterizations of solar x-ray flares</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            15.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar_geophysical_data&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Geophysical Data (SGD) Reports (1955-2009)  [gov.noaa.ngdc.stp.solar.solar_geophysical_data]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Solar-Geophysical Data (SGD) reports were a comprehensive compilation of many different kinds of observational data of the sun's activity and its effects on the Earth. Data from the worldwide network ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            16.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar-imagery&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Imagery  [gov.noaa.ngdc.stp.solar.solar-imagery]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Collection includes a variety of solar photographic and illustrated datasets contributed by a number of national and private solar observatories located worldwide. Daily solar observations range from ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            17.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar-imagery_composites_full-sun-drawings_boulder&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Imagery - Composites - Full Sun Drawings - Boulder  [gov.noaa.ngdc.stp.solar.solar-imagery_composites_full-sun-drawings_boulder]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Synoptic Analysis Drawings, also known as Neutral Line (NL) drawings, are produced each day by space weather forecaster at the NOAA National Weather Service (NWS) Space Weather Prediction Center (SWPC). ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            18.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar-imagery_photosphere_sunspot-drawings_mcmath&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Imagery - Photosphere - Sunspot Drawings - McMath-Hulbert Observatory  [gov.noaa.ngdc.stp.solar.solar-imagery_photosphere_sunspot-drawings_mcmath]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The McMath-Hulbert Observatory is a decommissioned solar observatory in Lake Angelus, Michigan, USA. It was established in 1929 as a private observatory by father and son Francis Charles McMath and ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            19.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar-imagery_photosphere_white-light&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Imagery - Photosphere - White Light  [gov.noaa.ngdc.stp.solar.solar-imagery_photosphere_white-light]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Collection consists of white-light, full-disk images of the sun provided by various solar observatories and institutions.</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            20.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar-images_white-light_isoon&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Imagery - White Light - ISOON  [gov.noaa.ngdc.stp.solar.solar-images_white-light_isoon]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Improved Solar Observing Optical Network (ISOON) project is a collaboration between the Air Force Research Laboratory Space Vehicles Directorate and the National Solar Observatory. ISOON is a ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            21.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar-indices&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Indices  [gov.noaa.ngdc.stp.solar.solar-indices]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Collection includes a variety of indices related to solar activity contributed by a number of national and private solar observatories located worldwide. This metadata record is currently under construction.[SolarIndices ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            22.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar-indices_plage-regions&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Indices - Plage Regions  [gov.noaa.ngdc.stp.solar.solar-indices_plage-regions]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Collection includes a variety of indices related to solar activity contributed by a number of national and private solar observatories located worldwide. This metadata record is currently under construction.[SolarIndices ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            23.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=NOAA-NGDC&EntryId=gov.noaa.ngdc.stp.solar.solar-indices_solar-corona&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Indices - Solar Corona  [gov.noaa.ngdc.stp.solar.solar-indices_solar-corona]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Collection includes a variety of indices related to solar activity contributed by a number of national and private solar observatories located worldwide. This metadata record is currently under construction.[SolarIndices ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            24.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_SOR3SIMD_V019&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE SIM Level 3 Solar Spectral Irradiance Daily Means V019 (SOR3SIMD) at GES DISC  [GES_DISC_SOR3SIMD_V019]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The SORCE SIM Solar Spectral Irradiance (SSI) data product SOR3SIMD is constructed using measurements from the SIM instruments, which are combined into merged daily solar spectra over the spectral ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            25.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_SOR3SIMD_V020&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE SIM Level 3 Solar Spectral Irradiance Daily Means V020 (SOR3SIMD) at GES DISC  [GES_DISC_SOR3SIMD_V020]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The SORCE SIM Solar Spectral Irradiance (SSI) data product SOR3SIMD is constructed using measurements from the SIM instruments, which are combined into merged daily solar spectra over the spectral ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            26.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_SOR3TSI6_V016&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE Level 3 Total Solar Irradiance 6-Hour Means V016 (SOR3TSI6) at GES DISC  [GES_DISC_SOR3TSI6_V016]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Total Solar Irradiance (TSI) data set SOR3TSI6 contains the total solar irradiance (a.k.a solar constant) data collected by the Total Irradiance Monitor (TIM) instrument covering the full wavelength ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            27.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_SOR3XPS6_V010&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE XPS Level 3 Solar Spectral Irradiance 6-Hour Means V010 (SOR3XPS6) at GES DISC  [GES_DISC_SOR3XPS6_V010]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The SORCE XUV Photometer System (XPS) Solar Spectral Irradiance (SSI) 6-Hour Data Product SOR3XPS6 contains solar XUV irradiances in the 0.1 to 27 nm range, as well as Lyman-alpha, in broad bands ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            28.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=GES_DISC_SOR3XPSD_V010&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE XPS Level 3 Solar Spectral Irradiance Daily Means V010 (SOR3XPSD) at GES DISC  [GES_DISC_SOR3XPSD_V010]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The SORCE XUV Photometer System (XPS) Solar Spectral Irradiance (SSI) Daily Data Product SOR3XPSD contains solar XUV irradiances in the 0.1 to 27 nm range, as well as Lyman-alpha, in broad bands (7-10 ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            29.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=SOHO_VIRGO&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SOHO/Variability of Solar Irradiance and Gravity Oscillations (VIRGO) Data Archive  [SOHO_VIRGO]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The VIRGO Experiment on the ESA/NASA SOHO Mission has three types of
+instruments to measure total solar irradiance (TSI) with the absolute
+radiometers DIARAD and PMO6V, spectral solar irradiance at ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            30.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=MSFC-SOLAR&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Vector Magnetograph Data from the Solar Physics Branch, NASA/MSFC  [MSFC-SOLAR]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Vector Magnetograph built and maintained at NASA Marshall Space
+Flight Center (MSFC) is a dedicated instrument to observe the solar
+vector magnetic field. The instrument has been upgraded regularly ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            31.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=SORCE_XPS&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SORCE Extreme Ultraviolet (XUV) Data from the XPS  [SORCE_XPS]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set consists of SORCE Extreme Ultraviolet (XUV) data from the XPS
+instrument on-board the SORCE spacecraft. The XPS instrument has 12 photodiodes
+for measuring XUV and EUV irradiance. 7 ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            32.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=TIMED_SEE&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar EUV Experiment (SEE) Data from the Thermosphere, Ionosphere, Mesosphere Energetics and Dynamics (TIMED) Mission  [TIMED_SEE]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Solar EUV Experiment (SEE) is one of four instruments that
+      constitute the TIMED spacecraft, the first mission of the NASA Solar
+      Connections program.
+      
+      All SEE data products ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            33.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=IMP8_MAG&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Interplanetary Monitoring Platform (IMP-8) Magnetometer Experiment Data  [IMP8_MAG]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">IMP-8 (IMP-J) was launched by NASA on October 26, 1973 to measure the
+      magnetic fields, plasmas, and energetic charged particles (e.g.,
+      cosmic rays) of the Earth&#039;s magnetotail and ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            34.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=SOHO_CDS&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                SOHO/Coronal Diagnostics Spectrometer (CDS) Data Archive  [SOHO_CDS]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Coronal Diagnostics Spectrometer (CDS) onboard SOHO studies the
+emission line characteristics in the extreme ultraviolet (EUV) of the
+Sun. CDS observes the Sun's coronal properties and its interaction ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            35.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=CEDAR_NCAR_HAO&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Coupling, Energetics, and Dynamics of Atmospheric Regions (CEDAR) Database at NCAR/HAO  [CEDAR_NCAR_HAO]
+                            </a>
+                            
+                                &nbsp;
+                                <a href="Keywords.do?KeywordPath=%5BParent_DIF%3D%27CEDAR_NCAR_HAO%27%5D&Portal=GCMD&MetadataType=0"  class="searchTermCount" target="_blank"  >
+                                    CHILD DIFs
+                                </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Coupling, Energetics, and Dynamics of Atmospheric regions (CEDAR) is a
+program sponsored by the National Science Foundation (NSF) designed to enhance
+the capability of ground-based instruments ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            36.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=CEDAR_GEO_INDICES&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Geophysical Indices from the CEDAR Data Base at NCAR/HAO  [CEDAR_GEO_INDICES]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&EntryId=CEDAR_NCAR_HAO&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Coupling, Energetics, and Dynamics of Atmospheric Regions (CEDAR)
+Data Base has some files of geophysical indices. These include Dst,
+Kp, ap, AP, solar 10.7 cm flux, sunspot number, AE indices, ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            37.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=SPDS-General&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Space Physics, Solar Physics and Astronomy Data from Space Physics Data System  [SPDS-General]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Space Physics Data System (SPDS) ( http://spdf.gsfc.nasa.gov/ )
+         serves the four science disciplines encompassed within the programs
+         of the NASA Space Physics Division, namely: ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            38.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=IMP8_LANL&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Interplanetary Monitoring Platform (IMP-8) Solar Plasma Electrostatic Analyzer Data  [IMP8_LANL]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">IMP-8 (IMP-J) was launched by NASA on October 26, 1973 to measure the
+            magnetic fields, plasmas, and energetic charged particles (e.g.,
+            cosmic rays) of the Earth's magnetotail ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            39.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=NASA_STEREO_DATA_PLACEHOLDER&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NASA STEREO (Solar TErrestrial RElations Observatory) Data Products  [NASA_STEREO_DATA_PLACEHOLDER]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">[Source: NASA/GSFC Solar TErrestrial RElations Observatory (STEREO)  home page, http://stereo.gsfc.nasa.gov/ ]
+                                    
+                                    STEREO (Solar ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            40.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=SEL-01&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NOAA Space Environment Laboratory On-Line Solar and Geophysical Data  [SEL-01]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The NOAA Space Environment Laboratory collects, evaluates, and
+distributes data relating to space plasma events, solar activity,
+and cosmic ray particle activity on a nearly real-time basis.
+Space ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            41.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=Locations%7CSPACE%7CSOLAR+REGION%7CPHOTOSPHERE&OrigMetadataNode=GCMD&EntryId=SOLAR_BASS2000&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Solar Ground-Based Data from the Base de donnees Solaire Sol (BASS) 2000 Project  [SOLAR_BASS2000]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                      

@@ -1,0 +1,127 @@
+
+
+
+
+
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- default/definition.jsp -->
+    <title>Global Change Master Directory - Variable Definition Page</title>
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="amd/styles.css">
+    
+    <link rel="stylesheet" type="text/css" href="default/supplemental.css"></link>
+    <style type="text/css">
+        td {background-color:#E8EFF5;}
+        .title{font-size:110%;}/* make it bigger then the 90% in the style */
+    </style>
+    <script type="text/javascript" src="default/supplemental_common.js"></script>
+</head>
+
+<body onload="showOnInline()">
+    <div class="buttonRow"><a href="javascript:doClose();">Close This Window</a></div>
+    <table width="400" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="1">
+                <img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt="">
+            </td>
+            <td width="8">
+                <img src="default/images/callOut_topLeft.gif" width="8" height="20" alt="">
+            </td>
+            <td background="default/images/callOut_topTile_B.gif">
+                <img src="default/images/spacer.gif" width="8" height="20" alt="">
+            </td>
+            <td width="8">
+                <img src="default/images/callOut_topRght.gif" width="8" height="20" alt="">
+            </td>
+            <td width="1">
+                <img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td background="default/images/gray_1x1.gif">
+                <img src="default/images/spacer.gif" width="1" height="2" alt="">
+            </td>
+            <td><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+            <td><img src="default/images/spacer.gif" width="432" height="2" alt=""></td>
+            <td><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+            <td background="default/images/gray_1x1.gif">
+                <img src="default/images/spacer.gif" width="1" height="2" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+                <img src="default/images/spacer.gif" width="1" height="1" alt="">
+            </td>
+            <td><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+            <td>
+                
+                <div class="field">Parameter Tree:</div>
+                <div class="textrecord">
+                    <div>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > ORGANIC MATTER</div>
+                </div>
+                <div class="field">Definition:</div>
+                <div class="textrecord">
+                    <div>Soil constituents consisting of a wide range of  organic<br>(carbonaceous)&nbsp;substances, including living organisms, carbonaceous<br>remains of organisms which&nbsp;once occupied the soil, and organic compounds<br>produced by current and past&nbsp;metabolism in the soil.&nbsp;</div>
+                </div>
+                
+                    <div class="field">Reference:</div>
+                    <div class="textrecord">
+                        <div>
+                            
+                                The Nature and Properties of Soils, Prentice Hall, 1996. 
+                            
+                        </div>
+                    </div>
+                
+            </td>
+            <td><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+            <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+                <img src="default/images/spacer.gif" width="1" height="1" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td background="default/images/gray_1x1.gif">
+                <img src="default/images/spacer.gif" width="1" height="13" alt="">
+            </td>
+            <td><img src="default/images/spacer.gif" width="8" height="13" alt=""></td>
+            <td><img src="default/images/spacer.gif" width="300" height="13" alt=""></td>
+            <td><img src="default/images/spacer.gif" width="8" height="13" alt=""></td>
+            <td background="default/images/gray_1x1.gif">
+                <img src="default/images/spacer.gif" width="1" height="13" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+            <td><img src="default/images/callOut_btmLeft_1.gif" width="8" height="7" alt=""></td>
+            <td background="default/images/callOut_btmTile.gif">
+                <img src="default/images/spacer.gif" alt="">
+            </td>
+            <td><img src="default/images/callOut_btmRght_1.gif" width="8" height="7" alt=""></td>
+            <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+    </table>
+
+    <!-- BEGIN: Use this section to set page specific variables for the NetTracker Page Tag -->
+    <script language="JavaScript">
+    // var NTPT_PGEXTRA = '';
+    // var NTPT_PGREFTOP = false;
+    // var NTPT_NOINITIALTAG = false;
+    </script>
+    <!-- END: Use this section to set page specific variables for the NetTracker Page Tag -->
+    
+    <!-- BEGIN: NetTracker Page Tag -->
+    <!-- Copyright 2004 Sane Solutions, LLC.  All rights reserved. -->
+    <script language="JavaScript" src="/ntpagetag.js"></script>
+    <noscript>
+        <img src="http://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1"
+            border="0" hspace="0" vspace="0" alt="">
+    </noscript>
+    <!-- END: NetTracker Page Tag -->
+    <div class="buttonRow"><a href="javascript:doClose();">Close This Window</a></div>
+</body>
+</html>

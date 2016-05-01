@@ -1,0 +1,1863 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+    <title>Paleoenvironmental Reconstruction of Buried Glacier Ice</title>
+
+
+
+<script src="amd/javascript.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="WidgetWrappers/WidgetWrappers.nocache.js"></script>
+<link rel="stylesheet" type="text/css" href="PageViewerApp/gwt/standard/standard.css">
+<link rel="stylesheet" type="text/css" href="css/gxt-all.css">
+<link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="amd/styles.css">
+    
+</head>
+<body onLoad="browserDetect(); tabOn(current_Tab); menuOn(current_Item);" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<script language="javascript1.2">
+<!--
+current_Tab = "";
+current_Item = "";
+// -->
+</script>
+
+<table height="100%" width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr> 
+        <td valign="top" align="left"> 
+        <script language="JavaScript" type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+try
+{
+    MM_preloadImages('amd/images/amd_home_on.gif'
+        ,'amd/images/search_on.gif'
+        ,'amd/images/services_on.gif'
+        ,'amd/images/tools_on.gif'
+        ,'amd/images/portals_on.gif'
+        ,'amd/images/about_us_on.gif'
+        ,'/amd/images/gcmd_on.gif');
+}
+catch(e)
+{
+    /*
+    dude, this junk was in an extra body tag found in this page, moved the
+    onload call to here, if it does not work, to bad!
+    */
+    if (console!=null && console.log!=null){console.log(e.toString());}
+}
+//-->
+</script>
+<div>
+<table width="750" height="88" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td colspan="2">
+            <a href="#skip2content">
+                <img src="amd/images/skip2content.gif" alt="Skip to page 
+                    content" width="4" height="66" border="0"
+                ></a><a
+                    href="Home.do?Portal=amd&MetadataType=0"><img 
+                    src="amd/images/amd_logo.gif" alt="Link to AMD home page" 
+                    width="183" height="66" border="0"></a
+        ></td>
+        <td colspan="5">
+            <a href="Home.do?Portal=amd&MetadataType=0">
+                <img width="562" height="66" border="0"
+                    src="amd/images/photo.gif"
+                    alt=
+                    "Photograph by: Jeff Kietzmann, National Science Foundation"
+                    ></a
+        ></td>
+    </tr>
+    <tr>
+        <td width="77" height="22">
+            <a href="Home.do?Portal=amd&MetadataType=0" target="_top" 
+                    onClick="MM_nbGroup('down','group1','amd_home_off','amd/images/amd_home_on.gif',1)"
+                    onMouseOver="MM_nbGroup('over','amd_home_off','amd/images/amd_home_on.gif','',1)"
+                    onMouseOut="MM_nbGroup('out')">
+                <img name="amd_home_off" width="77" height="22" border="0"
+                    src="amd/images/amd_home_off.gif"
+                    alt="Link to AMD web site"
+                    ></a
+        ></td>
+        <td width="112" height="22">
+            <a target="_top"
+                    href="/KeywordSearch/Freetext.do?KeywordPath=&Portal=amd&MetadataType=0&Freetext=DIF%2FIDN_Node%3A+AMD*"
+                    onClick="MM_nbGroup('down','group1','search_off','amd/images/search_on.gif',1)"
+                    onMouseOver="MM_nbGroup('over','search_off','amd/images/search_on.gif','',1)"
+                    onMouseOut="MM_nbGroup('out')">
+                <img name="search_off" width="112" height="22" border="0"
+                    src="amd/images/search_off.gif"
+                    alt="Link to AMD advanced search"
+                    ></a
+        ></td>
+        <td width="122" height="22">
+            <a target="_top"
+                    href="/KeywordSearch/Home.do?Portal=GCMD_Services&MetadataType=1"
+                    onClick="MM_nbGroup('down','group1','services_off','amd/images/services_on.gif',1)"
+                    onMouseOver="MM_nbGroup('over','services_off','amd/images/services_on.gif','',1)"
+                    onMouseOut="MM_nbGroup('out')">
+                <img name="services_off" width="122" height="22" border="0"
+                    src="amd/images/services_off.gif"
+                    alt="Link to GCMD data services"
+                    ></a
+        ></td>
+        <td width="132" height="22">
+            <a target="_top"
+                    href="/DocumentBuilder/Home.do?Portal=AMD&MetadataType=0"
+                    onClick="MM_nbGroup('down','group1','tools_off','amd/images/tools_on.gif',1)"
+                    onMouseOver="MM_nbGroup('over','tools_off','amd/images/tools_on.gif','',1)"
+                    onMouseOut="MM_nbGroup('out')">
+                <img name="tools_off" width="132" height="22" border="0"
+                    src="amd/images/tools_off.gif"
+                    alt="Link to AMD metadata authoring tools"
+                    ></a
+        ></td>
+        <td width="97" height="22" bgcolor="#006699">
+            <a target="_top"
+                    href="/KeywordSearch/amd/nadc_portals.html"
+                    onClick="MM_nbGroup('down','group1','portals_off','amd/images/portals_on.gif',1)"
+                    onMouseOver="MM_nbGroup('over','portals_off','amd/images/portals_on.gif','',1)"
+                    onMouseOut="MM_nbGroup('out')">
+                <img name="portals_off" width="97" height="22" border="0"
+                    src="amd/images/portals_off.gif"
+                    alt="Link to National Antarctic Data Centers"
+                    ></a
+        ></td>
+        <td width="105" height="22">
+            <a target="_blank"
+                    href="/KeywordSearch/amd/scar_projects.html"
+                    onClick="MM_nbGroup('down','group1','about_us_off','amd/images/about_us_on.gif',1)"
+                    onMouseOver="MM_nbGroup('over','about_us_off','amd/images/about_us_on.gif','',1)"
+                    onMouseOut="MM_nbGroup('out')">
+                <img name="about_us_off" width="105" height="22" border="0"
+                    src="amd/images/about_us_off.gif"
+                    alt="Link to more information on AMD SCAR projects"
+                    ></a
+        ></td>
+        <td width="105" height="22">
+            <a target="_top"
+                    href="/KeywordSearch/amd/astrophysics.html"
+                    onClick="MM_nbGroup('down','group1','gcmd_off','amd/images/gcmd_on.gif',1)"
+                    onMouseOver="MM_nbGroup('over','gcmd_off','amd/images/gcmd_on.gif','',1)"
+                    onMouseOut="MM_nbGroup('out')">
+                <img name="gcmd_off" width="105" height="22" border="0"
+                    src="amd/images/gcmd_off.gif"
+                    alt="Link to GCMD web site"
+                    ></a
+        ></td>
+    </tr>
+</table>
+</div>
+
+        
+        <table width="750" border="0" cellpadding="0" cellspacing="0" summary="This table is used to format the content area">
+            <tr> 
+                <td width="152" class="navMenuColor" valign="top" align="center"><a href="#skipNav"></a> 
+                <img src="default/images/spacer.gif" width="148" height="17" alt=""><img src="default/images/spacer.gif" width="148" height="25" alt="">
+        
+                
+
+
+
+
+
+
+<table width="148" border="0" cellpadding="0" cellspacing="0">
+
+<tr> 
+    <td width="15"><img src="default/images/spacer.gif" alt="" width="15" height="1"></td>
+    <td width="133"><img src="default/images/spacer.gif" alt="" width="133" height="1"></td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+
+<tr id="m0">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m0"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CAGRICULTURE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m0')"  onMouseOut="menuRollOff('m0')"  >
+		Agriculture
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m1">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m1"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CATMOSPHERE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m1')"  onMouseOut="menuRollOff('m1')"  >
+		Atmosphere
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m2">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m2"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CBIOLOGICAL+CLASSIFICATION&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m2')"  onMouseOut="menuRollOff('m2')"  >
+		Biological Classification
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m3">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m3"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CBIOSPHERE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m3')"  onMouseOut="menuRollOff('m3')"  >
+		Biosphere
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m4">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m4"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CCLIMATE+INDICATORS&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m4')"  onMouseOut="menuRollOff('m4')"  >
+		Climate Indicators
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m5">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m5"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CCRYOSPHERE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m5')"  onMouseOut="menuRollOff('m5')"  >
+		Cryosphere
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m6">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m6"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CHUMAN+DIMENSIONS&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m6')"  onMouseOut="menuRollOff('m6')"  >
+		Human Dimensions
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m7">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m7"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CLAND+SURFACE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m7')"  onMouseOut="menuRollOff('m7')"  >
+		Land Surface
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m8">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m8"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7COCEANS&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m8')"  onMouseOut="menuRollOff('m8')"  >
+		Oceans
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m9">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m9"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CPALEOCLIMATE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m9')"  onMouseOut="menuRollOff('m9')"  >
+		Paleoclimate
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m10">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m10"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CSOLID+EARTH&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m10')"  onMouseOut="menuRollOff('m10')"  >
+		Solid Earth
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m11">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m11"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CSPECTRAL%2FENGINEERING&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m11')"  onMouseOut="menuRollOff('m11')"  >
+		Spectral/Engineering
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m12">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m12"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CSUN-EARTH+INTERACTIONS&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m12')"  onMouseOut="menuRollOff('m12')"  >
+		Sun-Earth Interactions
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+<tr id="m13">
+
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m13"></td>
+<td>
+	<a href="Keywords.do?Portal=amd&KeywordPath=Parameters%7CTERRESTRIAL+HYDROSPHERE&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m13')"  onMouseOut="menuRollOff('m13')"  >
+		Terrestrial Hydrosphere
+	</a>
+</td>
+</tr>
+<tr> 
+	<td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+
+  <tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"><hr></td>
+  </tr>
+  <tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+  </tr>
+
+<tr id="m14">
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m14"></td>
+<td>
+<a href="Keywords.do?Portal=amd&KeywordPath=DataCenters&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m14')"  onMouseOut="menuRollOff('m14')"  >Data Centers</a>
+</td></tr>
+<tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+<tr id="m15">
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m15"></td>
+<td> 
+<a href="Keywords.do?Portal=amd&KeywordPath=Locations&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m15')"  onMouseOut="menuRollOff('m15')"  >Locations</a>
+</td></tr>
+<tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+<tr id="m16">
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m16"></td>
+<td>
+<a href="Keywords.do?Portal=amd&KeywordPath=Instruments&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m16')"  onMouseOut="menuRollOff('m16')"  >Instruments</a>
+</td></tr>
+<tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+<tr id="m17">
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m17"></td>
+<td>
+<a href="Keywords.do?Portal=amd&KeywordPath=Platforms&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m17')"  onMouseOut="menuRollOff('m17')"  >Platforms/Sources</a>
+</td></tr>
+<tr>
+        <td colspan="2"><img src="default/images/spacer.gif" alt="" width="7" height="9" hspace="2" align="top"></td>
+</tr>
+
+<tr id="m18">
+<td valign="top"><img src="amd/images/bullet_menu.gif" alt="bullet" width="7" height="12" hspace="6" name="m18"></td>
+<td>
+<a href="Keywords.do?Portal=amd&KeywordPath=Projects&MetadataType=0&lbnode=mdlb4"  class="menuLevel1"  onMouseOver="menuRollOn('m18')"  onMouseOut="menuRollOff('m18')"  >Projects</a>
+</td></tr>
+
+</table>
+
+<br>
+
+                
+                <img src="default/images/spacer.gif" width="120" height="18" alt="">
+                </td>
+                <td width="598" valign="top" align="left"><a href="#skipContents"></a>
+                    <table width="598" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td id="navMenuColor" class="navMenuColor" colspan="2"><img src="default/images/spacer.gif" width="598" height="0" alt=""></td>
+                        </tr> 
+                        <tr> 
+                            <td id="highlightColor" class="highlightColor" colspan="2"><img src="default/images/spacer.gif" width="598" height="2" alt=""></td>
+                        </tr>
+                        <tr> 
+                            <td width="9"><a href="#skipContent"></a><img src="default/images/spacer.gif" width="13" height="25" alt=""></td>
+                        </tr>                       
+                    </table>
+                    
+                    <table width="598" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td width="9"><img src="default/images/spacer.gif" width="13" height="5" alt="">
+                            </td>
+                            <td width="589">
+                            
+
+
+
+
+
+
+<!-- start default/fullRecord.jsp -------------------------------------------------------------  -->
+<script language="JavaScript" src="default/newcollapse_expand_single_item.js"></script>
+<script language="JavaScript" src="default/newcollapse_expand_summary.js"></script>
+<script type="text/javascript" src="default/supplemental_common.js"></script>
+<script src="gmaps_util.js" type="text/javascript"></script>
+<noscript>
+    <div class="jsalert">
+        <strong>Are you using a browser that doesn't support JavaScript or have you disabled JavaScript?</strong><br>
+        <br>
+        If you have disabled JavaScript, you must re-enable JavaScript to use this page.<br>
+        Or you can view this record using the <span style="color:#090">
+        <a href="Metadata.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&EntryId=BU-054-005&MetadataView=Text&MetadataType=0&lbnode=mdlb4"  >Text Only Format</a></span>.
+    </div>
+</noscript>
+
+<!-- Bread crumb =========================================================== -->
+<span class="breadCrumbtxt">Record Search Query:</span>
+<span class="breadCrumb">[Personnel: Last_Name=&amp;#039;MARCHANT&amp;#039;, Middle_Name=&amp;#039;R.&amp;#039;, First_Name=&amp;#039;DAVID&amp;#039;]</span>
+
+<!-- Start record table -->
+<table width="598">
+    <tr>
+        <td>
+
+            <!-- Entry Title and Entry ID ============================================== -->
+            
+
+
+
+
+
+<!-- default/dif/entry_title.jsp -->
+<!-- Entry_Title ============================================================-->
+<div class="fieldSection">
+    <div class="mediumText">
+        <div>
+            <strong>
+                Paleoenvironmental Reconstruction of Buried Glacier Ice
+            </strong>
+        </div>
+        <!-- Entry_ID =======================================================-->
+        
+            <span class="field">Entry ID:</span>
+            <span class="textrecord">
+                BU-054-005
+            </span>
+            <br/>
+            <br/>
+        
+    </div>
+</div>
+
+
+            <!-- DIF tab bar =========================================================== -->
+            
+
+
+
+
+
+
+<!-- start to default/dif/dif_tab_bar_full_record.jsp ========================================== -->
+
+<table border="0" cellpadding="1" cellspacing="1">
+<tr>
+    <td class="mediumText"> 
+    <strong>
+        <!-- Test for Get Data Tab ===================================================== -->
+        
+        
+            
+                
+                    
+                    
+                 
+            
+                
+                    
+                    
+                 
+            
+        
+         
+        <!-- Test for Get Data Tab ===================================================== -->
+             <strong>
+            
+                <div style="text-align:center">
+            
+                <span class="tab" id="updateTabTop">
+                    <span class="textrecord">[</span>
+                    <span class="textrecord">
+                        <span class="textabs" onClick="dbDetails(this)">
+                            Update this Record
+                        </span>
+                        <span class="textrecord">]</span>
+                    </span>
+                </span>
+                </div>
+            </strong>
+    </strong>
+    </td>
+</tr>
+<tr>
+    <td width="570" align="center" class="mediumText">
+        <script type="text/javascript">
+            function dbDetails(obj)
+            {
+                var dbDetailsWindow =document.getElementById("dbDetailsWindow");
+                var tab2 = document.getElementById("updateTabTop");
+                
+                if (dbDetailsWindow!=null)
+                {
+                    if (dbDetailsWindow.state && dbDetailsWindow.state==true)
+                    {
+                        dbDetailsWindow.style.display="none";
+                        dbDetailsWindow.state = false;
+                        tab2.style.backgroundColor = "";
+                        tab2.style.border="";
+                    }
+                    else
+                    {
+                        dbDetailsWindow.style.display="block";
+                        dbDetailsWindow.state = true;
+                        tab2.style.backgroundColor
+                            = dbDetailsWindow.style.backgroundColor;
+                        tab2.style.border="1px solid";
+                        tab2.style.borderBottom="0px";
+                    }
+                }
+            }
+        </script> 
+           
+        <div id="dbDetailsWindow" class="textrecord" style="margin-right:2%;display:none;padding:0.5em 0;width:280px;border:1px solid black; background-color:rgb(236, 233, 216);">
+               
+
+            <div>Updating this record requires registration.</div>
+            
+            <div style="float:left;margin:0.5em;border-right:1px solid;width:125px;">
+                (Account holders)
+                <div class="texttabs">
+                
+                
+                    
+                    <a target="_blank"
+                            href='/DocumentBuilder/Home.do?Portal=AMD&amp;OrigMetadataNode=GCMD&amp;EntryId=BU-054-005&amp;RequestAction=Build&amp;MetadataType=0&amp;UseCacheDocument=true&amp;interface=FROMGETDIF'>
+                        Update this Record</a>
+                
+                
+                
+                </div>
+            </div>
+            <div style="float:right;margin:0.5em;border-left:1px solid;width:125px;">
+                <div>
+                    <a class="texttabs"
+                        href="/collaborate/docbuilder.html">Need an account?</a>
+                    <div>&nbsp;</div>
+                </div>
+            </div>
+            <div style="clear:both"><a href="javascript:dbDetails()">close</a>
+        </div>
+    </td>
+</tr>
+</table>
+<br>
+<!-- end to default/dif/dif_tab_bar_full_record.jsp ============================================ -->
+
+
+            <!-- Aggregation =========================================================== -->
+            
+
+
+
+
+
+
+
+
+
+            <!-- Summary =============================================================== -->
+            
+
+
+
+
+
+
+<!-- default/dif/summary.jsp -->
+
+
+    <div class="fieldSection">
+        <div class="field">Summary</div>
+        <div class="fieldSummary">
+        
+        
+            
+            <div>
+                
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Abstract: </strong>
+                            This project studies ancient ice buried in the Dry Valleys of Antarctica. The ice, which may approach ten million years in age, will be dated using argon and uranium radioisotope techniques. High-risk work, if successful it will offer the first and perhaps only samples of the Earth's atmosphere from millions of years in the past. These samples could offer critically important tests of paleoclimate records and proxies, as well as a glimpse into the characteristics of a past world much like the predicted future, warmer Earth. The broader impacts are graduate student education, and potentially contributing to society's understanding of global climate change and sea level rise.     
+                        </div>
+                    
+                    
+                
+            </div>
+            </div>    
+    
+    </div>
+
+
+            <!-- Related URL =========================================================== -->
+            
+
+
+
+
+
+
+
+<!-- default/dif/related_url.jsp. -->
+
+
+    <div class="fieldSection">
+        <span class="field">Related URL</span>
+        
+            
+            <table border="0" width="80%">
+                <tr><td>
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+                                        <a href="RedirectAction.do?target=MeElQXppVrk%2BazoBvQe5%2FlM7%2FSn4KiPD2iSf%2FnWBpGhXr0pdr8s3I5s%2B25VrFX%2BLnAQzjRf1yb0%3D" target="_blank">
+                                            
+                                                VIEW PROJECT HOME PAGE
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                        
+                        
+                            <br/>
+                        
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+                                        <a href="RedirectAction.do?target=S6cqF6vMwKx6G7e%2Bjl6ybKJ8gX795ReNqtBUyjunIDj%2BB1U31fLdomUKCw3ljjX789Fdhb7CIe3C%0D%0AnDhIORNzVA%3D%3D" target="_blank">
+                                            
+                                                VIEW RELATED INFORMATION
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                NSF Award #0636705 Abstract 
+                            </div>
+                        
+                        
+                        
+                    
+                    
+                </td></tr>
+            </table>
+        
+    </div>
+
+
+
+            <!-- Multimedia_Sample and Spatial Coverage ================================ -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<!-- default/dif/google_map.jsp-->
+
+
+
+
+
+
+    
+        
+            
+            
+            
+            
+        
+    
+
+
+<div class="fieldSection">
+    <div class="field">Geographic Coverage</div>
+
+    
+        
+            
+                <script language="javascript">
+                    var box = [];
+                    box.push(-77.84513);
+                    box.push(-77.909454);
+                    box.push(160.63568);
+                    box.push(160.48705);
+                    bboxes.push(box);
+                </script>
+            
+        
+        <script type="text/javascript">
+            
+            function doGoogleMapOpen()
+            {
+                gcmd.gwt.widgetwrappers.pageViewerApp.showWindow("map1");
+                initGoogleMap();
+            }
+            
+            function doGoogleMapLoad(list)
+            {
+                gcmd.gwt.widgetwrappers.pageViewerApp.showWindow("map1");
+                loadGoogleMap(list);
+            }
+            
+            function doneLoadingPageViewer()
+            {
+                var html = 
+                    "<div style=\"text-align:center\"><div id=\"map1\""
+                    + " style=\"overflow:hidden; height:100%; width:100%;"
+                    + " max-width:640px; max-height:640px; text-align:center;\""
+                    + " title=\"Google map with geographic coverage"
+                    + " highlighted.\"><" + "/div><" + "/div>";
+                gcmd.gwt.widgetwrappers.pageViewerApp.setWindow("map1", "Interactive Map", html, 270, 292, 650, 675);
+            }
+            
+        </script>
+        
+        
+            <div class="map_area">
+                <div>
+                    <img id="smap1" src='ImageReducerAction.do?url=iU7GspUsafedS4aoVwVf96NjQ99Da%2Fhec%2Bn7lKhlXM1xp0stNu%2BEc3pgZiOluHaqTZ2LSuMemyVA%0D%0AsgkHA6thI9VSdDtUvcczBRccbuMPWrUr%2FkKtiQjAqVec7hKeLzSZ6%2B0nK0nBC5sI9CX08dYw0FW2%0D%0AcERKi%2FCehlcaEAuSCn9WYxak3vFgWqAMNKaiqdY%2BayEYNnh%2FhxbRWU9vtlCC%2BSaxDysknD7n&maxWidth=640&maxHeight=640' width="260" height="260">
+                </div>
+                <!-- <div class="screen_control directions" onclick="doGoogleMapOpen()">
+                    (Click for Interactive Map)
+                </div> -->
+            </div>
+            
+            <div class="textrecord screen_control">
+                <strong>Spatial coordinates&nbsp; &nbsp;</strong>
+            </div>
+            
+            
+        
+        
+        
+            <table>
+                
+                
+                <tr>
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>N: </strong>-77.85
+                                </span>
+                            </td>
+                        
+                    
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>S: </strong>-77.91
+                                </span>
+                            </td>
+                        
+                    
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>E: </strong>160.64
+                                </span>
+                            </td>
+                        
+                    
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>W: </strong>160.49
+                                </span>
+                            </td>
+                        
+                    
+                    
+                    
+                </tr>
+                
+                
+                
+                
+            </table>
+        
+        
+        <br/>
+    
+</div>
+
+
+
+
+</div>
+
+            <!-- Citation ============================================================== -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Reference/Publications ================================================ -->
+            
+
+
+
+
+
+
+
+
+
+<!-- Parent_DIF ============================================================ -->
+
+
+
+
+            <!-- Temporal Coverage ===================================================== -->
+            
+
+
+
+
+<!-- default/dif/temporal_coverage.jsp -->
+
+
+
+            <!-- Paleo Temporal Coverage =============================================== -->
+            
+
+
+
+
+
+
+
+
+            <!-- Location Keywords ===================================================== -->
+            
+
+
+
+
+<!-- default/dif/location.jsp -->
+
+
+
+            <!-- Data Resolution ======================================================= -->
+            
+
+
+
+
+
+
+
+
+            <!-- Parameters ============================================================ -->
+            
+
+
+
+
+
+
+
+<!-- start to dif/parameters.jsp ---------------------------------------------->
+
+    <div class="fieldSection">
+        <div class="field">Science Keywords </div>
+        
+        
+            
+            <div style="width:95%">
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27CRYOSPHERE%27%2C+Term%3D%27GLACIERS%2FICE+SHEETS%27%2C+Variable_Level_1%3D%27GLACIERS%27%5D&Portal=amd&MetadataType=0"  >
+                            
+                                CRYOSPHERE
+                            
+                            
+                                >
+                                GLACIERS/ICE SHEETS
+                            
+                            
+                                >
+                                GLACIERS
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&NumericId=62457&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27PALEOCLIMATE%27%2C+Term%3D%27LAND+RECORDS%27%5D&Portal=amd&MetadataType=0"  >
+                            
+                                PALEOCLIMATE
+                            
+                            
+                                >
+                                LAND RECORDS
+                            
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&NumericId=61463&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                        <div style="display: none;" id="parameters"  align="left">
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27CRYOSPHERE%27%2C+Term%3D%27FROZEN+GROUND%27%2C+Variable_Level_1%3D%27PERMAFROST%27%5D&Portal=amd&MetadataType=0"  >
+                            
+                                CRYOSPHERE
+                            
+                            
+                                >
+                                FROZEN GROUND
+                            
+                            
+                                >
+                                PERMAFROST
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&NumericId=62095&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27CRYOSPHERE%27%2C+Term%3D%27FROZEN+GROUND%27%2C+Variable_Level_1%3D%27ROCK+GLACIERS%27%5D&Portal=amd&MetadataType=0"  >
+                            
+                                CRYOSPHERE
+                            
+                            
+                                >
+                                FROZEN GROUND
+                            
+                            
+                                >
+                                ROCK GLACIERS
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&NumericId=62683&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27CRYOSPHERE%27%2C+Term%3D%27FROZEN+GROUND%27%2C+Variable_Level_1%3D%27PERIGLACIAL+PROCESSES%27%5D&Portal=amd&MetadataType=0"  >
+                            
+                                CRYOSPHERE
+                            
+                            
+                                >
+                                FROZEN GROUND
+                            
+                            
+                                >
+                                PERIGLACIAL PROCESSES
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&NumericId=61629&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27CRYOSPHERE%27%2C+Term%3D%27FROZEN+GROUND%27%2C+Variable_Level_1%3D%27GROUND+ICE%27%5D&Portal=amd&MetadataType=0"  >
+                            
+                                CRYOSPHERE
+                            
+                            
+                                >
+                                FROZEN GROUND
+                            
+                            
+                                >
+                                GROUND ICE
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&NumericId=62867&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27CLIMATE+INDICATORS%27%2C+Term%3D%27ATMOSPHERIC%2FOCEAN+INDICATORS%27%2C+Variable_Level_1%3D%27TEMPERATURE+INDICES%27%2C+Variable_Level_2%3D%27COMMON+SENSE+CLIMATE+INDEX%27%5D&Portal=amd&MetadataType=0"  >
+                            
+                                CLIMATE INDICATORS
+                            
+                            
+                                >
+                                ATMOSPHERIC/OCEAN INDICATORS
+                            
+                            
+                                >
+                                TEMPERATURE INDICES
+                            
+                            
+                                >
+                                COMMON SENSE CLIMATE INDEX
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&NumericId=64391&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27CRYOSPHERE%27%2C+Term%3D%27GLACIERS%2FICE+SHEETS%27%2C+Variable_Level_1%3D%27ABLATION+ZONES%2FACCUMULATION+ZONES%27%5D&Portal=amd&MetadataType=0"  >
+                            
+                                CRYOSPHERE
+                            
+                            
+                                >
+                                GLACIERS/ICE SHEETS
+                            
+                            
+                                >
+                                ABLATION ZONES/ACCUMULATION ZONES
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&NumericId=61555&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27PALEOCLIMATE%27%2C+Term%3D%27PALEOCLIMATE+RECONSTRUCTIONS%27%2C+Variable_Level_1%3D%27AIR+TEMPERATURE+RECONSTRUCTION%27%5D&Portal=amd&MetadataType=0"  >
+                            
+                                PALEOCLIMATE
+                            
+                            
+                                >
+                                PALEOCLIMATE RECONSTRUCTIONS
+                            
+                            
+                                >
+                                AIR TEMPERATURE RECONSTRUCTION
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&NumericId=63483&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27PALEOCLIMATE%27%2C+Term%3D%27PALEOCLIMATE+RECONSTRUCTIONS%27%2C+Variable_Level_1%3D%27ATMOSPHERIC+CIRCULATION+RECONSTRUCTION%27%5D&Portal=amd&MetadataType=0"  >
+                            
+                                PALEOCLIMATE
+                            
+                            
+                                >
+                                PALEOCLIMATE RECONSTRUCTIONS
+                            
+                            
+                                >
+                                ATMOSPHERIC CIRCULATION RECONSTRUCTION
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&NumericId=63177&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27PALEOCLIMATE%27%2C+Term%3D%27LAND+RECORDS%27%2C+Variable_Level_1%3D%27BOREHOLES%27%5D&Portal=amd&MetadataType=0"  >
+                            
+                                PALEOCLIMATE
+                            
+                            
+                                >
+                                LAND RECORDS
+                            
+                            
+                                >
+                                BOREHOLES
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&NumericId=63361&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                
+                    </div>
+                    <a onClick="shoh('parameters');">
+                        <img src="default/images/more.gif" alt="View entire list" 
+                            name="imgparameters" border="0" align="absbottom"> </a>
+                
+            </div>
+        
+    </div>
+
+<!-- end to dif/parameters.jsp --------------------------------------------- -->
+
+            <!-- ISO_Topic_Category  =================================================== -->
+            
+
+
+
+
+<!-- default/dif/iso_topic_category.jsp -->
+
+
+
+    <div class="fieldSection">
+        <div class="field">ISO Topic Category </div>
+        <div>
+            
+                
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BISO_Topic_Category%3D%27GEOSCIENTIFIC+INFORMATION%27%5D&Portal=amd&MetadataType=0"  >
+                            GEOSCIENTIFIC INFORMATION
+                        </a>
+                    </div>
+                    
+                
+                
+            
+        </div>
+    </div>
+
+
+            <!-- Sources =============================================================== -->
+            
+
+
+
+
+
+<!-- start default slash dif slash source dot jsp -------------------------  -->
+
+<!-- start default slash dif slash source dot jsp -------------------------  -->
+
+            <!-- Sensors =============================================================== -->
+            
+
+
+
+
+
+
+<!-- start default/dif/sensor.jsp -------------------------------------------------------------  -->
+
+
+<!-- stop default/dif/source.jsp ------------------------------------------------------------------>
+
+
+            <!-- Project/Campaign ====================================================== -->
+            
+
+
+
+
+<!-- start default/dif/project.jsp ------------------------------------------------------------- -->
+
+
+
+    <div class="fieldSection">
+        <div class="field">Project</div>
+        
+            
+            <div>
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BProject%3A+Short_Name%3D%27NSF%2FPLR%27%5D&Portal=amd&MetadataType=0"  >
+                            NSF/PLR
+                            
+                                &gt;
+                                Division of Polar Programs, National Science Foundation
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Supplementals.do?Portal=amd&KeywordPath=Projects&NumericId=7873&MetadataType=0&lbnode=mdlb4"  onClick="return exit(this.href,525,355,this)"  >
+                            <IMG SRC="default/images/definition.gif" alt="Supplemental Info" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                
+            </div>
+        
+    </div>
+
+<!-- stop default/dif/project.jsp -------------------------------------------------------------  -->
+
+
+            <!-- Quality =============================================================== -->
+            
+
+
+
+
+
+
+
+
+
+            <!-- Access Constraints ==================================================== -->
+            
+
+
+
+
+
+<!-- start to access_contraints.jsp -->
+
+<!-- end to access_constraints.jsp -->
+
+            <!-- Use Constraints ======================================================= -->
+            
+
+
+
+
+
+
+
+
+
+            <!-- Keywords  ============================================================= -->
+            
+
+
+
+
+
+
+
+
+            <!-- Dataset Progress ====================================================== -->
+            
+
+
+
+
+<!-- default/dif/data_set_progress.jsp -->
+
+
+
+
+            <!-- Originating Center ==================================================== -->
+            
+
+
+
+
+
+
+
+
+            <!-- Data Center =========================================================== -->
+            
+
+
+
+
+
+
+
+<!-- default/dif/data_center.jsp -->
+
+
+
+
+    <div class="fieldSection">
+        <div class="field">Data Center</div>
+        
+            
+            
+            <table border="0" width="100%" cellpadding="0" cellspacing="0">    <tr> <td>
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BData_Center%3A+Short_Name%3D%27BU%2FES%27%5D&Portal=amd&MetadataType=0"  >
+                            <!--BU/ES-->
+                            
+                                Department of Earth Sciences, Boston University
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Supplementals.do?Portal=amd&KeywordPath=DataCenters&NumericId=3789&MetadataType=0&lbnode=mdlb4"  onClick="return exit(this.href,574,355,this);"  ><IMG SRC="default/images/definition.gif" alt="Supplemental Info" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                    
+                    <br/>
+                    
+                    
+                        
+                            <span class="textrecord"><strong>Data Center URL: </strong></span>
+                            <span class="textrecord"><a href="RedirectAction.do?target=S6cqF6vMwKz7jz3htP9cNivd9n2HgD3w" target="_blank">http://www.bu.edu/es/</a></span><br/>
+                        
+                    
+                    
+                    
+                        
+                    
+                    
+                    <!-- Personnel Table -->
+                    
+                        
+                            
+                                <br/>
+                                <table width="90%" align="center" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td  height="2" colspan="2" valign="top" class="field">Data Center Personnel</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="textrecord">
+                                                <strong>Name: </strong>
+                                                <a href="Keywords.do?KeywordPath=%5BPersonnel%3A+Last_Name%3D%27MARCHANT%27%2C+Middle_Name%3D%27R.%27%2C+First_Name%3D%27DAVID%27%5D&Portal=amd&MetadataType=0"  >
+                                                    DAVID
+                                                    R.
+                                                    MARCHANT
+                                                </a>
+                                            <div/>
+                                            
+                                                
+                                                    
+                                                        <div class="textrecord">
+                                                            <strong>Phone: </strong>
+                                                            617-353-3236
+                                                        </div>
+                                                    
+                                                
+                                            
+                                            
+                                            
+                                                
+                                                    
+                                                        <div class="textrecord">
+                                                            <strong>Fax: </strong>
+                                                            617-353-3290
+                                                        </div>
+                                                    
+                                                
+                                            
+                                            
+                                            
+                                                
+                                                    
+                                                        <div class="textrecord">
+                                                            <strong>Email: </strong>
+                                                            marchant at bu.edu
+                                                        </div>
+                                                    
+                                                
+                                            
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                            <div class="textrecord"><strong>Contact Address: </strong></div>
+                                                            
+                                                                <div class="textrecord">
+                                                                    
+                                                                        Department of Earth Sciences<br/>
+                                                                    
+                                                                        Boston University<br/>
+                                                                    
+                                                                        685 Commonwealth Ave<br/>
+                                                                    
+                                                                </div>
+                                                            
+                                                        
+                    
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>City: </strong>
+                                                                Boston
+                                                            </div>
+                                                        
+                                                        
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>Province or State: </strong>
+                                                                MA
+                                                            </div>
+                                                        
+                                                        
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>Postal Code: </strong>
+                                                                02215
+                                                            </div>
+                                                        
+                                                        
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>Country: </strong>
+                                                                USA
+                                                            </div>
+                                                        
+                                                    
+                                                
+                                            
+                                        </td>
+                                    </tr>
+                                </table>  <!-- End personnel table -->
+                                
+                            
+                        
+                    
+                    
+                    
+                    
+                    
+                
+                
+                
+            </table>  <!-- end data center table -->
+        
+    </div>
+
+
+
+
+            <!-- Distribution ========================================================== -->
+            
+
+
+
+
+
+
+
+
+            <!-- Personnel ============================================================= -->
+            
+
+
+
+
+<!-- default/dif/personnel.jsp -->
+
+
+
+
+
+
+            <!-- Reference/Publications ================================================ -->
+            
+
+
+
+
+
+
+<!-- default/dif/reference.jsp -->
+
+
+
+            <!-- Creation/Review Dates  ================================================ -->
+            
+
+
+
+
+
+<div class="fieldSection">
+    <div class="field">Creation and Review Dates</div>
+    <div>
+        
+            <div class="textrecord">
+                <strong>DIF Creation Date:</strong>
+                2011-02-03
+            </div>
+        
+        
+            <div class="textrecord">
+                <strong>Last DIF Revision Date:</strong>
+                2011-02-10
+            </div>
+        
+        
+    </div>
+</div>
+<p/>
+
+            <!-- FGDC Format ==========================================================  -->
+            
+
+
+
+
+<!-- default/dif/metadata_transformation.jsp -->
+
+
+
+<div class="fieldSection">
+    <div class="smallBold">
+        <img src="default/images/bullet.gif" width="7" height="9">&nbsp;
+        <strong>
+            <a href="MetadataTransformation.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&EntryId=BU-054-005&MetadataType=0&lbnode=mdlb4"  >
+                Reformat as FGDC document
+            </a>
+        </strong>
+    </div>
+    <div class="smallBold">
+        <img src="default/images/bullet.gif" width="7" height="9" />&nbsp;
+        <strong>
+            <a href="MetadataTransformation.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&EntryId=BU-054-005&MetadataType=0&to=iso-csw&lbnode=mdlb4"  >
+                 Reformat as ISO 19115 document
+            </a>
+        </strong>
+    </div>
+    <div class="smallBold">
+        <img src="default/images/bullet.gif" width="7" height="9">&nbsp;
+        <strong>
+            <a href="Metadata.do?Portal=amd&KeywordPath=%5BPersonnel%3A+Last_Name%3D%26%23039%3BMARCHANT%26%23039%3B%2C+Middle_Name%3D%26%23039%3BR.%26%23039%3B%2C+First_Name%3D%26%23039%3BDAVID%26%23039%3B%5D&EntryId=BU-054-005&MetadataView=Text&MetadataType=0&lbnode=mdlb4"  >
+                View Text Only Format
+            </a>
+        </strong>
+    </div>
+</div>
+
+            <!-- End Main Content Area ================================================= -->
+
+        </td>
+    </tr>
+</table>
+<!-- stop default/fullRecord.jsp ------------------------------------------------------------------>
+<br>
+
+                            </td>
+                        </tr>
+                    </table>                    
+                    <img src="default/images/spacer.gif" width="120" height="18" alt="">
+                </td>               
+            </tr>
+        </table>        
+        <div style="margin-top:-7px">
+<hr>
+<table align="left" width="750" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center" width="152">
+            <a href="http://www.nasa.gov">
+                <img src="default/images/nasa_logo_sm.gif" border="0"
+                    title="Link to NASA website" alt="Link to NASA website"></a>
+        </td>
+        <td align="left" width="598">
+            <div  style="padding-bottom:0.33em" style="textsmall">
+                <a class="navsmall"
+                    href="http://www.nasa.gov/about/highlights/HP_Privacy.html">
+                    NASA Privacy Policy and Important Notices</a>
+            </div>
+            <div class="textsmall">
+                Responsible NASA Official: &nbsp;
+                <a class="navsmall" 
+                    href="http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=wharton" target="_blank">
+                    Dr. Stephen Wharton</a><br>
+                Webmaster: &nbsp;
+                <a class="navsmall"
+                    href="http://gcmd.nasa.gov/MailComments/MailComments.jsf?rcpt=lyles" target="_blank">
+                    Monica Lyles</a>
+                &nbsp; <b>&middot;</b>&nbsp; Contact 
+                <a class="support"
+                    href="http://gcmd.nasa.gov/MailComments/index.html" target="_blank">
+                    GCMD User Support</a> for assistance
+            </div>
+        </td>
+    </tr>
+</table>
+</div>
+
+<!-- BEGIN: NetTracker Page Tag -->
+<script type="text/javascript" language="JavaScript" src="/ntpagetag.js"></script>
+<noscript>
+    <img src="http://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="">
+</noscript>
+<!-- END: NetTracker Page Tag -->
+
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+

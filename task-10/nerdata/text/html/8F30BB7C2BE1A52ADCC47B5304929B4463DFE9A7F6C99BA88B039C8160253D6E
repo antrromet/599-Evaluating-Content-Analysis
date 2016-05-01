@@ -1,0 +1,379 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>        
+        <meta charset="utf-8">
+        <title>Wallow Fire, Arizona : Natural Hazards</title>
+        <!-- Mobile viewport optimized -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- standard metadata -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="title" content="Wallow Fire, Arizona : Natural Hazards">
+        <!-- NASA required metadata -->
+        <meta name="orgcode" content="610">
+        <meta name="rno" content="Charles.M.Ichoku.1">
+        <meta name="content-owner" content="Paul.D.Przyborski.1">
+        <meta name="webmaster" content="Paul.D.Przyborski.1">
+        <meta name="description" content="This image shows the extent of Arizona’s Wallow Fire on June 15, 2011.">
+        <!-- Dublin Core Metadata Initiative (DCMI) metadata - http://dublincore.org/ -->
+        <meta name="DC.Identifier" content="http://earthobservatory.nasa.gov">
+        <meta name="DC.Title" content="NASA Earth Observatory : ">
+        <meta name="DC.Description" content="This image shows the extent of Arizona’s Wallow Fire on June 15, 2011.">
+        <meta name="DC.Date" scheme="ISO8601" content="2011-06-15">
+        <meta name="DC.Date.X-MetadataLastModified" scheme="ISO8601" content="2011-06-17">
+        <meta name="DC.Publisher" content="NASA Earth Observatory">
+        <meta name="DC.Publisher.Address" content="http://earthobservatory.nasa.gov/Contact/">
+        <meta name="DC.Language" scheme="ISO639-1" content="en">
+        <meta name="DC.Type" content="Text.Article">
+        <meta name="DC.Format" scheme="IMT" content="text/html">
+        <meta name="DC.Subject" content="climate change, global climate change, global warming, natural hazards, Earth, environment, remote sensing, atmosphere, land processes, oceans, volcanoes, land cover, Earth science data, NASA, environmental processes, Blue Marble, global maps">
+        <link rel="icon" href="/favicon.ico" type="image/ico">
+        <!-- facebook thumbnail -->
+        <link rel="image_src" href="http://eoimages.gsfc.nasa.gov/images/imagerecords/51000/51064/wallow_tm5_2011166_tn.jpg" />
+        <!-- google thumbnail -->
+        <meta name="thumbnail" content="http://eoimages.gsfc.nasa.gov/images/imagerecords/51000/51064/wallow_tm5_2011166_tn.jpg" />
+        
+        <link rel="stylesheet" type="text/css" href="/css/global.css" media="all" />
+                
+        <script src="/js/eo.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="/js/jquery.easing.js"></script>
+        <script src="/js/global.js"></script>
+        
+                
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        <!--[if IE 6]>
+        <style type="text/css"> body { behavior:url(/js/csshover.htc); } </style>
+        <script src="/js/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+            DD_belatedPNG.fix('.pngbg');
+        </script>
+        <![endif]-->
+        
+
+        <!-- sidebar calendar -->
+        <script src="/js/jquery.date.js"></script>
+        <script src="/js/jquery.datePicker-mod.js"></script>
+        <script type="text/javascript">
+		
+	        var selM = ''; // selected month
+	        var selY = ''; // selected year
+			var firstY = '1999'; // first year (with data)
+			var realY = ((new Date()).zeroTime()).getFullYear(); // current year
+			var realM = 1 + ((new Date()).zeroTime()).getMonth(); // current month
+			var pageUrl = window.location.pathname;
+			dayPops = {};
+
+            $(document).ready(function() {
+
+                // this loads different versions of this page wo/ a back-end
+                var urlParams = {};
+                (function () {
+                    var e,
+                        a = /\+/g,
+                        r = /([^&;=]+)=?([^&;]*)/g,
+                        d = function (s) { return decodeURIComponent(s.replace(a, " ")); },
+                        q = window.location.search.substring(1);
+
+                    while (e = r.exec(q))
+                       urlParams[d(e[1])] = d(e[2]);
+                })();
+
+
+				selM = urlParams['m'] == undefined ? realM : urlParams['m']; //	set selected month based on query string
+				selY = urlParams['y'] == undefined ? realY : urlParams['y']; // set selected year based on query string
+
+                if (selY < firstY) {
+                    selY = firstY;
+                }
+
+                refreshCal('/xml/images-' + selY +'.json', selM,selY);
+            });
+
+        </script>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-17823747-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+		
+		<script id="_fed_an_js_tag" type="text/javascript" src="/js/federated-analytics.all.min.js?agency=NASA&yt=true"></script>
+
+    </head>
+
+
+    <!--[if lt IE 7 ]><body class="ie6"><![endif]-->
+    <!--[if IE 7 ]><body class="ie7"><![endif]-->
+    <!--[if IE 8 ]><body class="ie8"><![endif]-->
+    <!--[if IE 9 ]><body class="ie9"><![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+        
+        <div id="header">            
+            <div id="header-in">
+                <a href="http://www.nasa.gov" class="nasa-logo">NASA</a>
+                <a href="/?eocn=topnav&eoci=logo" class="logo">Earth Observatory</a>
+                <ul>
+                    <li class="menu-home"><a href="/?eocn=topnav&eoci=home">Home</a></li>
+                    <li class="menu-images"><a href="/Images/?eocn=topnav&eoci=images" class="sel-link">Images</a></li>
+                    <li class="menu-maps"><a href="/GlobalMaps/?eocn=topnav&eoci=globalmaps">Global Maps</a></li>
+                    <li class="menu-features"><a href="/Features/?eocn=topnav&eoci=features">Features</a></li>
+                    <li class="menu-blogs"><a href="/blogs/?eocn=topnav&eoci=blogs">News &amp; Notes</a></li>
+                </ul>
+
+                <div class="search">
+                    <form action="/Search/index.php" id="searchbox_002358070019171462865:rvzidec6wz4" name="qs">
+                    <input type="hidden" name="hq" id="hq" value="site:earthobservatory.nasa.gov/NaturalHazards/">                    <input type="text" onblur="if (!this.value) this.value=this.defaultValue" onfocus="if (this.value==this.defaultValue) this.value=''; else this.select()" value="Search" name="q">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            
+            <div class="col-double">
+                
+                <div class="col-l">
+
+                    <div class="box box-topmarg box-notop">
+                        <div class="mid">   
+                        <div class="headimage-detail">
+                            <a href="http://eoimages.gsfc.nasa.gov/images/imagerecords/51000/51064/wallow_tm5_2011166_742_lrg.jpg">    
+                            <img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/51000/51064/wallow_tm5_2011166.jpg" alt="Wallow Fire, Arizona" title="Wallow Fire, Arizona">
+                            </a>
+                            <div class="detail-desc">
+                                <span class="rf">acquired June 15, 2011</span>
+                                <a href="http://eoimages.gsfc.nasa.gov/images/imagerecords/51000/51064/wallow_tm5_2011166_742_lrg.jpg">download</a> large image (3 MB, JPEG, 2489x2489)
+                            </div>
+                            <div class="detail-desc">
+                                <span class="rf">acquired June 15, 2011</span>
+                                <a href="http://eoimages.gsfc.nasa.gov/images/imagerecords/51000/51064/wallow_tm5_2011166_742_crop_geo.tif">download</a>  GeoTIFF file (14 MB, TIFF, 2489x2489)
+                            </div>
+                            <div class="detail-desc">
+                                <span class="rf">acquired June 15, 2011</span>
+                                <a href="http://eoimages.gsfc.nasa.gov/images/imagerecords/51000/51064/wallow_tm5_2011166_lrg.jpg">download</a> large natural color image (3 MB, JPEG, 2489x2489)
+                            </div>
+                            <div class="detail-desc">
+                                <span class="rf">acquired June 15, 2011</span>
+                                <a href="http://eoimages.gsfc.nasa.gov/images/imagerecords/51000/51064/wallow_tm5_2011166_crop_geo.tif">download</a> natural color GeoTIFF file (10 MB, TIFF, 2489x2489)
+                            </div>
+
+                        </div>
+                          
+
+                            <div class="stnd-desc globalimages">
+                                
+                                <p>The newly burned land left in the wake of the Wallow Fire is dark red in this false-color image taken on June 15, 2011. The image, acquired by the Landsat 5 satellite, is made with infrared light. The slightly blue blur is smoke, and dots of bright orange-red on the south side of the burn are active fires. Unburned forest is green, and sparsely vegetated land is pink.</p>
+
+<p>By the end of the day on June 15, the Wallow Fire had burned 487,016 acres of forest in eastern Arizona and was 20 percent contained. Most of the fire activity was on the south side of the fire, away from the majority of the communities that had been evacuated. Among the places evacuated were Greer and Eager, labeled in the image. Irrigated plants (like lawns) are pale spots of green and buildings are tiny dots of blue. Most of the 32 homes destroyed in the fire were in Greer, where the fire clearly burned to the edge of the community. While the burned area encroaches on Eager in places, a buffer of green separates the community from the fire.</p>
+
+<ol class="references"><li><h4>References</h4></li>
+<li>InciWeb. (2011, June 15). <a href="http://www.inciweb.org/incident/article/2262/11798/">Wallow Fire p.m. update June 15, 2011.</a> Accessed June 17, 2011.</li>
+<li>InciWeb. (2011, June 15). <a href="http://www.inciweb.org/incident/2262/">Wallow.</a> Accessed June 17, 2011.</li>
+</ol>
+                                <p class="credit">NASA Earth Observatory image created by Jesse Allen, using Landsat data provided by the <a href="http://www.usgs.gov/">United States Geological Survey.</a>. Caption by Holli Riebeek.
+                                </p>
+
+<dl>
+    <dt>Instrument(s):&nbsp;</dt>    
+
+    <dd>Landsat 5 - TM</dd>    
+
+</dl>
+                            </div>
+
+                        </div>
+                        <div class="bot"></div>
+                    </div>
+
+                </div>
+
+                <div class="col-r">
+
+                    <div class="box box-topmarg">
+                        <div class="mid">
+
+                            <div class="side-img-attributes">
+                                <div class="img-desc">
+                                    <h3>Wallow Fire, Arizona</h3>
+                                    <h5></h5>
+                                </div>
+                                <div class="img-share">
+
+<span class="share-buttons">    
+    <a href="http://www.facebook.com/share.php?u=<url>" onclick="return fbs_click()" target="_blank" title="Share on Facebook"><img src="/siteimages/buttons/btn-share-facebook.png" height="16" width="16" alt="facebook"></a>
+    <a href="http://twitter.com/home?status=Wallow+Fire,+Arizona+:+Natural+Hazards+http://earthobservatory.nasa.gov/NaturalHazards/view.php%3Fid=51064%26eocn=image%26eoci=morenh%26src=share+%23NASA" onclick="window.open(this.href,'window','width=626,height=436,resizeable,scrollbars,toolbar,menubar');return false"; title="Share on Twitter"><img src="/siteimages/buttons/btn-share-twitter.png" height="16" width="16" alt="twitter"></a>
+    <a href="http://www.stumbleupon.com/submit?url=http://earthobservatory.nasa.gov/NaturalHazards/view.php%3Fid=51064%26eocn=image%26eoci=morenh%26src=share" onclick="window.open(this.href,'window','width=995,height=930,resizeable,scrollbars,toolbar,menubar');return false"; title="Share on StumbleUpon"><img src="/siteimages/buttons/btn-share-stumble.png" height="16" width="16" alt="stumbleupon"></a>   
+    <a href="http://plusone.google.com/_/+1/confirm?hl=en&url=http://earthobservatory.nasa.gov/NaturalHazards/view.php%3Fid=51064%26eocn=image%26eoci=morenh%26src=share&title=Wallow+Fire,+Arizona+:+Natural+Hazards" onclick="window.open(this.href,'window','width=626,height=400,resizeable,scrollbars,toolbar,menubar');return false"; title="Share on Google+"><img src="/siteimages/buttons/btn-share-googleplus.png" height="16" width="16" alt="Google+"></a>
+    <a href="http://pinterest.com/pin/create/button/?url=http://earthobservatory.nasa.gov/NaturalHazards/view.php%3Fid=51064%26eocn=image%26eoci=morenh%26src=share&media=http%3A%2F%2Feoimages.gsfc.nasa.gov%2Fimages%2Fimagerecords%2F51000%2F51064%2Fwallow_tm5_2011166_tn.jpg&description=Wallow+Fire%2C+Arizona+%3A+Natural+Hazards+%3A+NASA+Earth+Observatory" onclick="window.open(this.href,'window','width=626,height=236,resizeable,scrollbars,toolbar,menubar');return false";><img src="/siteimages/buttons/btn-share-pinterest.png" height="16" width="16" alt="pinterest" title="Pin It"></a>
+
+</span>
+
+<script>
+    function fbs_click() {
+        u=location.href;
+        if (u[u.length-1] == "/") {
+            u=u+"?src=share";
+        } else {
+            u=u+"&src=share";
+        }
+        t=document.title;
+        window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');
+        return false;
+    }
+</script>                                    <span class="lf">
+                                        <strong></strong>
+                                    </span>
+
+                                </div>
+                                <div class="headimage-globe">
+                                    <span class="shadetop pngbg"></span>
+                                    <span class="shadebot pngbg"></span>
+                                    <h5>Image Location</h5>
+                                    <div style="width: 246px; height: 110px;" 
+                                        class="location_map">
+                                        <img width="246" height="110" alt="Image Location" 
+                                            src="/siteimages/maps/headimg-globe-small.jpg">
+                                        <span class="location pngbg" 
+                                            style="top: 18px; left: 57px;"></span>
+                                    </div>
+                                </div>
+                                <div class="img-slider">
+                                    <h5>More in this Event (<a href="event.php?id=50872">view all</a>)</h5>
+                                    <a href="#" class="slide-l">Left</a>
+                                    <div class="slider-wrap">
+                                        <div class="slider-wrap-in">
+                                            <a href="/NaturalHazards/view.php?id=50871&eocn=image&eoci=morenh"><img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/50000/50871/Arizona_amo_2011155_tn_mini.jpg" width="90" height="60" alt="Wallow Fire, Arizona" title="Wallow Fire, Arizona"></a>
+                                            <a href="/NaturalHazards/view.php?id=50885&eocn=image&eoci=morenh"><img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/50000/50885/Wallow_amo_2011157_tn_mini.jpg" width="90" height="60" alt="Wallow Fire, Arizona" title="Wallow Fire, Arizona"></a>
+                                            <a href="/NaturalHazards/view.php?id=50916&eocn=image&eoci=morenh"><img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/50000/50916/Arizona_tmo_2011158_tn_mini.jpg" width="90" height="60" alt="Wallow Fire Sends Smoke across Midwest" title="Wallow Fire Sends Smoke across Midwest"></a>
+                                            <a href="/NaturalHazards/view.php?id=50924&eocn=image&eoci=morenh"><img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/50000/50924/wallow_amo_2011159_tn_mini.jpg" width="90" height="60" alt="Wallow Fire, Arizona" title="Wallow Fire, Arizona"></a>
+                                            <a href="/NaturalHazards/view.php?id=50928&eocn=image&eoci=morenh"><img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/50000/50928/wallowfire_etm_2011158_tn_mini.jpg" width="90" height="60" alt="Wallow Fire, Arizona" title="Wallow Fire, Arizona"></a>
+                                            <a href="/NaturalHazards/view.php?id=50949&eocn=image&eoci=morenh"><img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/50000/50949/arizona_msr_2011158_tn_mini.jpg" width="90" height="60" alt="Wallow Fire, Arizona" title="Wallow Fire, Arizona"></a>
+                                            <a href="/NaturalHazards/view.php?id=50952&eocn=image&eoci=morenh"><img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/50000/50952/Arizona_tmo_2011160_tn_mini.jpg" width="90" height="60" alt="Wallow Fire, Arizona" title="Wallow Fire, Arizona"></a>
+                                            <a href="/NaturalHazards/view.php?id=50999&eocn=image&eoci=morenh"><img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/50000/50999/Arizona_amo_2011164_tn_mini.jpg" width="90" height="60" alt="Wallow Fire, Arizona" title="Wallow Fire, Arizona"></a>
+                                            <a href="/NaturalHazards/view.php?id=51064&eocn=image&eoci=morenh"><img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/51000/51064/wallow_tm5_2011166_tn_mini.jpg" width="90" height="60" alt="Wallow Fire, Arizona" title="Wallow Fire, Arizona"></a>
+                                            <a href="/NaturalHazards/view.php?id=51204&eocn=image&eoci=morenh"><img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/51000/51204/wallow_ast_2011172_tn_mini.jpg" width="90" height="60" alt="Wallow Fire Burn Scar, Arizona" title="Wallow Fire Burn Scar, Arizona"></a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="slide-r">Right</a>
+                                </div>
+                            </div>
+                    
+                        </div>
+                        <div class="bot"></div>
+                    </div>
+
+                </div>
+
+                <div class="col-r">
+                    <div class="side-sub">
+                        <a href="/Subscribe/" class="btn-subscribe">Subscribe Today</a>
+                        <div class="subscribe-feeds">
+                        <!--
+                            <a href="/Subscribe/feeds.php" class="btn-rss">RSS</a>
+                            <a href="/Subscribe/feeds.php" class="btn-rss">Google Earth</a>
+                            <a href="http://www.facebook.com/NASAEarthObservatory" class="btn-fb">Facebook</a>
+                            <a href="http://twitter.com/nasa_eo/" class="btn-twitter">Twitter</a>
+                        -->
+                        </div>
+                    </div>
+<div class="box">
+    <div class="mid">
+        <div class="side-hd">
+            <h3>
+                <span class="arr"></span>
+                <span class="l"></span>
+                <a href="#">Related Images</a>
+            </h3>
+        </div>
+		        <div class="side-post post-wimage">
+            <a href="/NaturalHazards/view.php?id=50885&eocn=image&eoci=related_image"><img width="90" height="60" alt="" src="http://eoimages.gsfc.nasa.gov/images/imagerecords/50000/50885/Wallow_amo_2011157_tn_mini.jpg" class="side-post-img"></a>
+            <h2><a href="/NaturalHazards/view.php?id=50885&eocn=image&eoci=related_image">Wallow Fire, Arizona</a></h2>
+            <h5 class="post-date">June 6, 2011</h5>
+        </div>
+		        <div class="side-post post-wimage">
+            <a href="/NaturalHazards/view.php?id=50999&eocn=image&eoci=related_image"><img width="90" height="60" alt="" src="http://eoimages.gsfc.nasa.gov/images/imagerecords/50000/50999/Arizona_amo_2011164_tn_mini.jpg" class="side-post-img"></a>
+            <h2><a href="/NaturalHazards/view.php?id=50999&eocn=image&eoci=related_image">Wallow Fire, Arizona</a></h2>
+            <h5 class="post-date">June 13, 2011</h5>
+        </div>
+		        <div class="side-post post-wimage">
+            <a href="/NaturalHazards/view.php?id=40198&eocn=image&eoci=related_image"><img width="90" height="60" alt="" src="http://eoimages.gsfc.nasa.gov/images/imagerecords/40000/40198/stationfire_tm5_2009250_tn_mini.jpg" class="side-post-img"></a>
+            <h2><a href="/NaturalHazards/view.php?id=40198&eocn=image&eoci=related_image">Fires in Los Angeles County</a></h2>
+            <h5 class="post-date">September 7, 2009</h5>
+        </div>
+		        <div class="side-post post-wimage">
+            <a href="/NaturalHazards/view.php?id=50952&eocn=image&eoci=related_image"><img width="90" height="60" alt="" src="http://eoimages.gsfc.nasa.gov/images/imagerecords/50000/50952/Arizona_tmo_2011160_tn_mini.jpg" class="side-post-img"></a>
+            <h2><a href="/NaturalHazards/view.php?id=50952&eocn=image&eoci=related_image">Wallow Fire, Arizona</a></h2>
+            <h5 class="post-date">June 9, 2011</h5>
+        </div>
+		        <div class="side-post post-wimage">
+            <a href="/IOTD/view.php?id=8164&eocn=image&eoci=related_image"><img width="90" height="60" alt="" src="http://eoimages.gsfc.nasa.gov/images/imagerecords/8000/8164/California_EO1_2007296_tn_mini.jpg" class="side-post-img"></a>
+            <h2><a href="/IOTD/view.php?id=8164&eocn=image&eoci=related_image">Witch Fire</a></h2>
+            <h5 class="post-date">October 25, 2007</h5>
+        </div>
+				<div class="side-post">
+        	<h2 class="post-sml">View more <a style="color:#005DBD" href="/Images/related_to.php?id=51064">related images</a></h2>
+		</div>
+	</div>
+    <div class="bot"></div>
+</div>
+
+                </div>
+
+                <div class="cf"></div>
+
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div id="footer-in">
+                <div class="footer-btn">
+                    <a href="/Subscribe/feeds.php" alt="RSS Feeds"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-rss.png" height="16" width="16" alt="RSS Feeds"></a>
+                    <a href="http://instagram.com/nasa_eo/" alt="Instagram"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-instagram.png" height="16" width="16" alt="Instagram"></a>
+                    <a href="http://www.facebook.com/NASAEarthObservatory" alt="Find us on Facebook"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-facebook.png" height="16" width="16" alt="Find us on Facebook"></a>
+                    <a href="http://twitter.com/nasa_eo/" alt="Follow us on Twitter"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-twitter.png" height="16" width="16" alt="Follow us on Twitter"></a>
+                </div> <!-- /footer-btn -->
+                <div class="footer-sub">
+                    <a href="/Subscribe/index.php?src=subscribe-foot">Subscribe Today</a>
+                </div> <!-- /footer-sub -->             
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="/Subscribe/feeds.php">Feeds</a></li>
+                        <li><a href="/Contact/">Contact Us</a></li>
+                        <li><a href="/About/">About the Earth Observatory</a></li>
+                        <li><a href="/ImageUse/">Image Use Policy</a></li>
+                        <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy &amp; Important Notices</a></li>
+                    </ul>
+                    The Earth Observatory is part of the <a href="http://eospso.nasa.gov/">EOS Project Science Office</a> located at <a href="http://www.nasa.gov/goddard/">NASA Goddard Space Flight Center</a><br>
+                    webmaster: <a href="/Contact/">Paul Przyborski</a> | NASA official: <a href="/Contact/">Charles Ichoku</a>
+                </div> <!-- /footer-links -->
+            </div> <!-- /footer-in -->
+        </div> <!-- /footer -->
+
+
+        <script type="text/javascript">
+                
+            function mobileCookie() {
+                        
+                var theDate = new Date();
+                var oneYearLater = new Date(theDate.getTime() + 31536000000);
+                var expiryDate = oneYearLater.toGMTString();
+            
+                document.cookie = 'eoMobile=false; expires='+expiryDate+'; path=/';
+                setTimeout("window.location = 'http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=51064&eocn=image&eoci=morenh'",500);
+            
+            }
+            
+        </script>
+
+    </body>
+</html>

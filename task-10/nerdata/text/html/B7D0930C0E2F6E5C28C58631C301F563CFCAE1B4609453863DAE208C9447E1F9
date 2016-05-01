@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=8"><!--fixes IE-->
+    
+    <title>Global Change Master Directory - Variable Definition Page</title>
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+    
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+        
+<!-- other styles -->
+    <link rel="stylesheet" type="text/css" href="GCMD/common.css">
+    
+    <script type="text/javascript" src="default/supplemental_common.js"></script>
+</head>
+<body class="subpage" onload="showOnInline();">
+<div class="shadowBox ltGray" style="margin:5%;">
+<div class="shadowBox_top"><span class="nested"></span></div>
+<div class="shadowBox_contents">
+<span class="nested">
+<table border="0">
+<tr>
+            <td>
+                
+                <span class="field">Parameter Tree:</span><br/>
+                <span class="textrecord">
+                    EARTH SCIENCE SERVICES > ENVIRONMENTAL ADVISORIES > SPACE WEATHER ADVISORIES > SOLAR RADIATION STORMS<br/>
+                    <br/>
+                </span>
+                <span class="field">Definition:</span><br />
+                <span class="textrecord">
+                    Caused by solar flares, radiation storms are made up of photons, electrons, and<br>protons.  Protons take the lead in these storms, posing much more danger to<br>those not protected by the Earth's magnetic field.  They cause damage by<br>breaking chemical bonds in genetic material.
+                </span>
+                <br/>
+                <br/>
+                
+                    <span class="field">Reference:</span><br />
+                    <span class="textrecord">
+                        
+                            Adapted from SpaceWeather.com <a href="RedirectAction.do?target=S6cqF6vMwKyYOahoZYAJpL35ZRtPK%2Brf1HoezgzAIaJ%2FQN2UEnWBy5wEM40X9cm9" target="_blank" >http://www.spaceweather.com/glossary/srs.html</a> <BR> and NOAA Space Weather <a href="RedirectAction.do?target=S6cqF6vMwKwmwa6ZdlpB6NCnkLTid2B0SerDL7XwmRfshGZkRqCNWQ%3D%3D" target="_blank" >http://www.sec.noaa.gov/NOAAscales/</a> 
+                        
+                    </span>
+                    <br/>
+                    <br/>
+                
+            </td>       
+        </tr>
+</table>
+       </span>
+</div>
+<div class="shadowBox_bottom"><span class="nested"></span></div>
+</div>
+
+    <!-- BEGIN: NetTracker Page Tag -->
+    <script type="text/javascript" language="JavaScript" src="/ntpagetag.js"></script>
+    <noscript>
+        <img src="http://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1"
+            border="0" hspace="0" vspace="0" alt="">
+    </noscript>
+    <!-- END: NetTracker Page Tag -->
+</body>
+</html>

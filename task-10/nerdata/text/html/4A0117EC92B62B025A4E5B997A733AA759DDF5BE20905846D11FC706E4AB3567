@@ -1,0 +1,665 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>        
+        <meta charset="utf-8">
+        <title>April Puzzler  :  Earth Matters : Blogs</title>
+        <!-- Mobile viewport optimized -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- standard metadata -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="title" content="April Puzzler  :  Earth Matters : Blogs">
+        <!-- NASA required metadata -->
+        <meta name="orgcode" content="610">
+        <meta name="rno" content="Charles.M.Ichoku.1">
+        <meta name="content-owner" content="Paul.D.Przyborski.1">
+        <meta name="webmaster" content="Paul.D.Przyborski.1">
+        <meta name="description" content="">
+        <!-- Dublin Core Metadata Initiative (DCMI) metadata - http://dublincore.org/ -->
+        <meta name="DC.Identifier" content="http://earthobservatory.nasa.gov">
+        <meta name="DC.Title" content="NASA Earth Observatory : ">
+        <meta name="DC.Description" content="">
+        <meta name="DC.Date" scheme="ISO8601" content="2015-02-18">
+        <meta name="DC.Date.X-MetadataLastModified" scheme="ISO8601" content="2015-02-18">
+        <meta name="DC.Publisher" content="NASA Earth Observatory">
+        <meta name="DC.Publisher.Address" content="http://earthobservatory.nasa.gov/Contact/">
+        <meta name="DC.Language" scheme="ISO639-1" content="en">
+        <meta name="DC.Type" content="Text.Article">
+        <meta name="DC.Format" scheme="IMT" content="text/html">
+        <meta name="DC.Subject" content="climate change, global climate change, global warming, natural hazards, Earth, environment, remote sensing, atmosphere, land processes, oceans, volcanoes, land cover, Earth science data, NASA, environmental processes, Blue Marble, global maps">
+        <link rel="icon" href="/favicon.ico" type="image/ico">
+        
+        <link rel="stylesheet" type="text/css" href="/css/global.css" media="all" />
+                
+        <script src="/js/eo.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="/js/jquery.easing.js"></script>
+        <script src="/js/global.js"></script>
+        
+                
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        <!--[if IE 6]>
+        <style type="text/css"> body { behavior:url(/js/csshover.htc); } </style>
+        <script src="/js/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+            DD_belatedPNG.fix('.pngbg');
+        </script>
+        <![endif]-->
+        
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-17823747-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+		
+		<script id="_fed_an_js_tag" type="text/javascript" src="/js/federated-analytics.all.min.js?agency=NASA&yt=true"></script>
+
+<link rel="stylesheet" href="http://earthobservatory.nasa.gov/blogs/earthmatters/wp-content/themes/eo-default-2011/style.css" type="text/css" media="screen" >
+	<link rel="stylesheet" href="/blogs/wp-includes/css/admin-bar.css" type="text/css" media="screen">
+	<link rel="alternate" type="application/rss+xml" title="Earth Matters RSS Feed" href="http://earthobservatory.nasa.gov/blogs/earthmatters/feed/" >
+	<link rel="alternate" type="application/atom+xml" title="Earth Matters Atom Feed" href="http://earthobservatory.nasa.gov/blogs/earthmatters/feed/atom/" >
+	<link rel="pingback" href="http://earthobservatory.nasa.gov/blogs/earthmatters/xmlrpc.php" >
+	    </head>
+
+
+    <!--[if lt IE 7 ]><body class="ie6"><![endif]-->
+    <!--[if IE 7 ]><body class="ie7"><![endif]-->
+    <!--[if IE 8 ]><body class="ie8"><![endif]-->
+    <!--[if IE 9 ]><body class="ie9"><![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+        
+        <div id="header">            
+            <div id="header-in">
+                <a href="http://www.nasa.gov" class="nasa-logo">NASA</a>
+                <a href="/?eocn=topnav&eoci=logo" class="logo">Earth Observatory</a>
+                <ul>
+                    <li class="menu-home"><a href="/?eocn=topnav&eoci=home">Home</a></li>
+                    <li class="menu-images"><a href="/Images/?eocn=topnav&eoci=images">Images</a></li>
+                    <li class="menu-maps"><a href="/GlobalMaps/?eocn=topnav&eoci=globalmaps">Global Maps</a></li>
+                    <li class="menu-features"><a href="/Features/?eocn=topnav&eoci=features">Features</a></li>
+                    <li class="menu-blogs"><a href="/blogs/?eocn=topnav&eoci=blogs" class="sel-link">News &amp; Notes</a></li>
+                </ul>
+
+                <div class="search">
+                    <form action="/Search/index.php" id="searchbox_002358070019171462865:rvzidec6wz4" name="qs">
+                    <input type="hidden" name="hq" id="hq" value="site:earthobservatory.nasa.gov/blogs/">                    <input type="text" onblur="if (!this.value) this.value=this.defaultValue" onfocus="if (this.value==this.defaultValue) this.value=''; else this.select()" value="Search" name="q">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+
+            <div class="col-double">
+
+                <div class="col-l">
+
+                    <div class="box">
+                        
+                        <div class="mid">
+                                                
+                            <div class="full-hd">
+                                <div class="breadcrumb">
+<a href="/index.php">Home</a> / <a href="/blogs/index.php">Blogs</a> / <a href="http://earthobservatory.nasa.gov/blogs/earthmatters">Earth Matters</a>  /  April Puzzler
+                                </div>
+                                                    </div>
+
+                            <div class="feature new blog">
+    
+                                <div class="section">
+
+
+                                    <div class="post-4664 post type-post status-publish format-standard hentry category-eos-satellite-puzzler" id="post-4664">
+                                        <h2>April Puzzler</h2>
+                                        <span class="date">April 21st, 2014 by Adam Voiland</span>
+                                            
+                                        <div class="img-share img-share-blogs">
+
+<span class="share-buttons">    
+    <a href="http://www.facebook.com/share.php?u=<url>" onclick="return fbs_click()" target="_blank" title="Share on Facebook"><img src="/siteimages/buttons/btn-share-facebook.png" height="16" width="16" alt="facebook"></a>
+    <a href="http://twitter.com/home?status=+http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/%3Fsrc=share+%23NASA" onclick="window.open(this.href,'window','width=626,height=436,resizeable,scrollbars,toolbar,menubar');return false"; title="Share on Twitter"><img src="/siteimages/buttons/btn-share-twitter.png" height="16" width="16" alt="twitter"></a>
+    <a href="http://www.stumbleupon.com/submit?url=http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/%3Fsrc=share" onclick="window.open(this.href,'window','width=995,height=930,resizeable,scrollbars,toolbar,menubar');return false"; title="Share on StumbleUpon"><img src="/siteimages/buttons/btn-share-stumble.png" height="16" width="16" alt="stumbleupon"></a>   
+    <a href="http://plusone.google.com/_/+1/confirm?hl=en&url=http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/%3Fsrc=share&title=" onclick="window.open(this.href,'window','width=626,height=400,resizeable,scrollbars,toolbar,menubar');return false"; title="Share on Google+"><img src="/siteimages/buttons/btn-share-googleplus.png" height="16" width="16" alt="Google+"></a>
+    <a href="http://pinterest.com/pin/create/button/?url=http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/%3Fsrc=share&description=+%3A++%3A+" onclick="window.open(this.href,'window','width=626,height=236,resizeable,scrollbars,toolbar,menubar');return false";><img src="/siteimages/buttons/btn-share-pinterest.png" height="16" width="16" alt="pinterest" title="Pin It"></a>
+
+</span>
+
+<script>
+    function fbs_click() {
+        u=location.href;
+        if (u[u.length-1] == "/") {
+            u=u+"?src=share";
+        } else {
+            u=u+"&src=share";
+        }
+        t=document.title;
+        window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');
+        return false;
+    }
+</script>                                        </div>
+
+                                        <div class="entry">                
+                                            <p><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/files/2014/04/aprilpuzzler2014.jpg"><img class="alignnone size-full wp-image-4665" alt="aprilpuzzler2014" src="http://earthobservatory.nasa.gov/blogs/earthmatters/files/2014/04/aprilpuzzler2014.jpg" width="720" height="480" /></a></p>
+<p>Every month we offer a puzzling satellite image here on <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/">Earth Matters. </a>The April 2014 puzzler is above. <strong><em>Your challenge is to use the comments section to tell us what the image shows, what part of the world we are looking at, when the image was acquired, and why the scene is interesting.</em></strong></p>
+<p><strong>How to answer.</strong> Your answer can be a few words or several paragraphs. (Try to keep it shorter than 200 words). You might simply tell us what part of the world an image shows. Or you can dig deeper and explain what satellite and instrument produced the image, what spectral bands were used to create it, or what is compelling about some obscure speck in the far corner of an image. If you think something is interesting or noteworthy, tell us about it.</p>
+<p><strong>The prize.</strong> We can’t offer prize money, but, we can promise you credit and glory (well, maybe just credit). Roughly one week after a puzzler image appears on this blog, we will post an annotated and captioned version as our <a href="http://earthobservatory.nasa.gov/IOTD/">Image of the Day</a>. In the credits, we’ll acknowledge the person who was first to correctly ID the image. We’ll also recognize people who offer the most interesting tidbits of information about the geological, meteorological, or human processes that have played a role in molding the landscape. Please include your preferred name or alias with your comment. If you work for or attend an institution that you want us to recognize, please mention that as well.</p>
+<p><strong>Recent winners.</strong> If you’ve won the puzzler in the last few months or work in geospatial imaging, please sit on your hands for at least a few days to give others a chance to play.</p>
+<p><strong>Releasing Comments</strong>. Savvy readers have solved many of our puzzlers after only a few minutes or hours. To give more people a chance to play, we may wait between 24-48 hours before posting the answers we receive in the comment thread.</p>
+
+                                                                                        
+                                            <p class="postmetadata alt">
+                                                <small>
+                                                    This entry was posted
+                                                    on Monday, April 21st, 2014 at 11:57 am                                                    and is filed under <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/eos-satellite-puzzler/" rel="category tag">EO's Satellite Puzzler</a>.
+                                                    You can follow any responses to this entry through the <a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/feed/'>RSS 2.0</a> feed.
+
+                                                        You can skip to the end and leave a response. Pinging is currently not allowed.
+
+
+                                                </small>
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                
+<!-- You can start editing here. -->
+
+
+    <h3 id="comments">17 Responses to &#8220;April Puzzler&#8221;</h3>
+
+    <div class="navigation">
+        <div class="alignleft"></div>
+        <div class="alignright"></div>
+    </div>
+
+    <ol class="commentlist">
+        		<li class="comment even thread-even depth-1 parent" id="comment-14217">
+				<div id="div-comment-14217" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">Kent Sawatzky</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14217">
+			April 22, 2014 at 1:06 am</a>		</div>
+
+		<p>The Dolomites with a rock quarry in the upper middle of the picture casting shadows.</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14217#respond' onclick='return addComment.moveForm( "div-comment-14217", "14217", "respond", "4664" )' aria-label='Reply to Kent Sawatzky'>Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-2" id="comment-14238">
+				<div id="div-comment-14238" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">ScootR</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14238">
+			April 23, 2014 at 3:59 pm</a>		</div>
+
+		<p>Doesn&#8217;t look like the Dolomites. Looks like old weathered  Granite and Gneiss formations to me. Something glaciated to create that overall morphology.</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14238#respond' onclick='return addComment.moveForm( "div-comment-14238", "14238", "respond", "4664" )' aria-label='Reply to ScootR'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-14222">
+				<div id="div-comment-14222" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">MIke G.</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14222">
+			April 22, 2014 at 11:54 am</a>		</div>
+
+		<p>Yosemite National Park, Mount Starr King is the granite outcropping near the middle left of the image. Half dome is not shown but is just outside the top left of the area.</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14222#respond' onclick='return addComment.moveForm( "div-comment-14222", "14222", "respond", "4664" )' aria-label='Reply to MIke G.'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-14224">
+				<div id="div-comment-14224" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">Jeff Purton</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14224">
+			April 22, 2014 at 5:01 pm</a>		</div>
+
+		<p>The Merced River meandering through the Little Yosemite Valley along the north and the roadless areas of Yosemite National Park and the Yosemite Wilderness fill the bottom 3/4 of the frame.</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14224#respond' onclick='return addComment.moveForm( "div-comment-14224", "14224", "respond", "4664" )' aria-label='Reply to Jeff Purton'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-14225">
+				<div id="div-comment-14225" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">ruth</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14225">
+			April 22, 2014 at 7:19 pm</a>		</div>
+
+		<p>antartica, penquin population.</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14225#respond' onclick='return addComment.moveForm( "div-comment-14225", "14225", "respond", "4664" )' aria-label='Reply to ruth'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-14226">
+				<div id="div-comment-14226" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">P Tucker</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14226">
+			April 22, 2014 at 11:52 pm</a>		</div>
+
+		<p>Looks like an image of somewhere in Yellowstone NP or somewhere like Yellowstone.  I see possible remnants of water flow and lakes at the top of the image.</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14226#respond' onclick='return addComment.moveForm( "div-comment-14226", "14226", "respond", "4664" )' aria-label='Reply to P Tucker'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-14227">
+				<div id="div-comment-14227" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">Mike Guilbert</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14227">
+			April 22, 2014 at 11:55 pm</a>		</div>
+
+		<p>It&#8217;s a view of Little Yosemite Valley, east of the main valley.  Cascade Cliffs make the shadow feature in the upper right, with the circular Starr Lake in the upper central portion and Panorama Cliff on the left.  You can see the meandering Sunrise Creek, which is undersized for the valley because the valley was eroded by glaciers which for a U shape valley, opposed to a V shape valley eroded by running water.  The rock appears white because it is composed on granite, specifically granodiorite, which is mostly composed of luecocratic minerals (quartz and feldspar) and minimal ferromagnesium minerals (hornblende) with some biotite.  The granite is Cretaceous in age.  Center of image is approximately 37°43&#8217;41.17&#8243;N, 119°29&#8217;59.30&#8243;W.</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14227#respond' onclick='return addComment.moveForm( "div-comment-14227", "14227", "respond", "4664" )' aria-label='Reply to Mike Guilbert'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-14232">
+				<div id="div-comment-14232" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">Frederic</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14232">
+			April 23, 2014 at 1:40 pm</a>		</div>
+
+		<p>Yosemite NP, California.</p>
+<p>Sierra Nevada Mountains got uplifted and then Rivers and Glaciers formed the Valleys and the Domes.</p>
+<p>Greetings from Germany.</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14232#respond' onclick='return addComment.moveForm( "div-comment-14232", "14232", "respond", "4664" )' aria-label='Reply to Frederic'>Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment even depth-2 parent" id="comment-14248">
+				<div id="div-comment-14248" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">Chris Mentrek</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14248">
+			April 24, 2014 at 4:25 pm</a>		</div>
+
+		<p>Good work, Frederic!  Gut gemacht!<br />
+How did you solve the puzzle?</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14248#respond' onclick='return addComment.moveForm( "div-comment-14248", "14248", "respond", "4664" )' aria-label='Reply to Chris Mentrek'>Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment odd alt depth-3" id="comment-14256">
+				<div id="div-comment-14256" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">Frederic</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14256">
+			April 26, 2014 at 10:57 am</a>		</div>
+
+		<p>I knew how yosemite looks from above <img src="http://earthobservatory.nasa.gov/blogs/earthmatters/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> would love to visit it one day.</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14256#respond' onclick='return addComment.moveForm( "div-comment-14256", "14256", "respond", "4664" )' aria-label='Reply to Frederic'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-14236">
+				<div id="div-comment-14236" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">Chris Mentrek</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14236">
+			April 23, 2014 at 3:44 pm</a>		</div>
+
+		<p>Hmmmm&#8230; what can we learn from the image?</p>
+<p>The size of the wiggly river meanders (center top) and the trees (which appear as green dots) hint that this is a wide-scale view; I bet the image are covers several kilometers.<br />
+If that&#8217;s right, the white objects casting the shadows are probably the size of small mountains / large hills.  </p>
+<p>The shadows point towards the top of the image;  if that&#8217;s North, then this place is somewhere in the northern hemisphere.</p>
+<p>Only some of the gray hilly-things are casting shadows, while the rest of the area is evenly-lit.  This hints that there&#8217;s a sharp change in elevation at the gray, shadow-casting features.  Cliffs?</p>
+<p>If that&#8217;s right, we&#8217;re looking for some large cliffs in a mountainous area of the northern hemisphere.  (I&#8217;m going to post my guess separately, to see if I&#8217;m on the right track!)</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14236#respond' onclick='return addComment.moveForm( "div-comment-14236", "14236", "respond", "4664" )' aria-label='Reply to Chris Mentrek'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-14237">
+				<div id="div-comment-14237" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">Chris Mentrek</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14237">
+			April 23, 2014 at 3:54 pm</a>		</div>
+
+		<p>Okay, here&#8217;s my guess: Yosemite National Park.  </p>
+<p>I went to a map to check my guess that the image might show the world-famous Half Dome (which is probably the most famous cliff in North America, and the first thing that came to mind).  It turns out, the crafty posters left that landmark out of the image!  However, chasing that hunch lead me to notice the two nearby peaks that matched the puzzler image:</p>
+<p>The two gray lumps in the extreme upper-left are Mount Broderick and Liberty Cap.  The meandering river at top appears to be the Merced River, and the gray shadow-casting feature at top-center is Cascade Cliffs.  It looks like a fun place to visit!</p>
+<p>(This is the first time I&#8217;ve been able to hazard a guess at the Puzzler.  I&#8217;ve always been curious how others have made their winning deductions, so I shared my guesswork methods.)</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14237#respond' onclick='return addComment.moveForm( "div-comment-14237", "14237", "respond", "4664" )' aria-label='Reply to Chris Mentrek'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-14239">
+				<div id="div-comment-14239" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">H. Rademacher</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14239">
+			April 23, 2014 at 5:36 pm</a>		</div>
+
+		<p>This looks like Yosemite National Park in California, more specifically the area just to the SE of Half Dome. The image is interesting because it shows the jointing patterns in granitic domes (or in the batholith in general) that have been revealed via surface erosion and alpine glaciation. I can&#8217;t wait to get back here!</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14239#respond' onclick='return addComment.moveForm( "div-comment-14239", "14239", "respond", "4664" )' aria-label='Reply to H. Rademacher'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-14242">
+				<div id="div-comment-14242" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">Greg Roelofs</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14242">
+			April 23, 2014 at 11:11 pm</a>		</div>
+
+		<p>Yosemite National Park, just south and east of Half Dome.  The two domes at upper left are Mt. Broderick and Liberty Cap, according to Google Maps, and the small lake is Starr King Lake.</p>
+<p><a href="https://maps.google.com/maps?q=Yosemite+National+Park,+Yosemite+Village,+CA&#038;hl=en&#038;ll=37.690613,-119.480267&#038;spn=0.105819,0.07021&#038;sll=46.383564,11.850348&#038;sspn=0.002883,0.004238&#038;oq=yosem&#038;t=h&#038;hq=Yosemite+National+Park,+Yosemite+Village,+CA&#038;z=13" rel="nofollow">https://maps.google.com/maps?q=Yosemite+National+Park,+Yosemite+Village,+CA&#038;hl=en&#038;ll=37.690613,-119.480267&#038;spn=0.105819,0.07021&#038;sll=46.383564,11.850348&#038;sspn=0.002883,0.004238&#038;oq=yosem&#038;t=h&#038;hq=Yosemite+National+Park,+Yosemite+Village,+CA&#038;z=13</a></p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14242#respond' onclick='return addComment.moveForm( "div-comment-14242", "14242", "respond", "4664" )' aria-label='Reply to Greg Roelofs'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-14243">
+				<div id="div-comment-14243" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">Kenny Pascarelli</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14243">
+			April 24, 2014 at 3:43 am</a>		</div>
+
+		<p>It is an area scraped from a glacier. Looks like maybe granite.</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14243#respond' onclick='return addComment.moveForm( "div-comment-14243", "14243", "respond", "4664" )' aria-label='Reply to Kenny Pascarelli'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-14244">
+				<div id="div-comment-14244" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">john Hunt</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14244">
+			April 24, 2014 at 4:08 am</a>		</div>
+
+		<p>looks like  old     karst terrain;  river meander  on RHS    appears to      commence without         clear catchment-network; and   so    I infer there is a major     karst/ cave spring/ resurgence draining  an aquifer perched on  a shale strata  below</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14244#respond' onclick='return addComment.moveForm( "div-comment-14244", "14244", "respond", "4664" )' aria-label='Reply to john Hunt'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-14245">
+				<div id="div-comment-14245" class="comment-body">
+				<div class="comment-author vcard">
+						<cite class="fn">Jim Bernard</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/21/april-puzzler/#comment-14245">
+			April 24, 2014 at 8:23 am</a>		</div>
+
+		<p>Yosemite. Glacier formed</p>
+
+		<div class="reply"><a class='comment-reply-link' href='/blogs/earthmatters/2014/04/21/april-puzzler/?replytocom=14245#respond' onclick='return addComment.moveForm( "div-comment-14245", "14245", "respond", "4664" )' aria-label='Reply to Jim Bernard'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+    </ol>
+
+    <div class="navigation">
+        <div class="alignleft"></div>
+        <div class="alignright"></div>
+    </div>
+    
+
+
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+<p><small>Keep comments relevant. Inappropriate or offensive comments may be 
+    edited and/or deleted. Avoid adding Web site urls.</small></p>
+
+<div class="cancel-comment-reply">
+    <small><a rel="nofollow" id="cancel-comment-reply-link" href="/blogs/earthmatters/2014/04/21/april-puzzler/#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://earthobservatory.nasa.gov/blogs/earthmatters/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: 
+<code></code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="86" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='4664' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+
+<div style="display:block;" id="captchaImgDiv">
+
+<div style="display:block; padding-top:5px;" id="captchaInputDiv"><input type="text" value="" name="captcha_code" id="captcha_code" tabindex="4"  aria-required="true"  style="width:65px;" />
+ <label for="captcha_code"><small>Please enter the 4-character code you see below</small></label> </div>
+<div style="width: 250px; height: 40px; padding-top:10px;"><img class="si-captcha" id="si_image_com" style="border-style:none; margin:0; padding-right:5px; float:left;" src="http://earthobservatory.nasa.gov/blogs/earthmatters/wp-content/mu-plugins/si-captcha-for-wordpress/captcha-secureimage/securimage_show.php?si_sm_captcha=1&amp;si_form_id=com" alt="CAPTCHA Image" title="CAPTCHA Image" />
+    <div id="si_audio_com">
+      <a id="si_aud_com" href="http://earthobservatory.nasa.gov/blogs/earthmatters/wp-content/mu-plugins/si-captcha-for-wordpress/captcha-secureimage/securimage_play.php?si_form_id=com" rel="nofollow" title="CAPTCHA Audio">
+     <img src="http://earthobservatory.nasa.gov/blogs/earthmatters/wp-content/mu-plugins/si-captcha-for-wordpress/captcha-secureimage/images/audio_icon.gif" alt="CAPTCHA Audio" style="border-style:none; margin:0; vertical-align:top;" onclick="this.blur();" /></a>
+     </div>
+</div>
+</div>
+      <script type='text/javascript'>
+          var sUrlInput = document.getElementById("comment");
+                  var oParent = sUrlInput.parentNode;
+          var sSubstitue = document.getElementById("captchaImgDiv");
+                  oParent.appendChild(sSubstitue, sUrlInput);
+      </script>
+            <noscript>
+          <style type='text/css'>#submit {display:none;}</style><br />           <input name="submit" type="submit" id="submit-alt" tabindex="6" value="Submit Comment" />
+          </noscript>
+  <p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="4d4cdcc7df" /></p><script type='text/javascript' src='http://earthobservatory.nasa.gov/blogs/earthmatters/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://earthobservatory.nasa.gov/blogs/earthmatters/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://earthobservatory.nasa.gov/blogs/earthmatters/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="121"/></p>
+</form>
+
+</div>
+
+
+                                    
+                                </div>
+    
+
+<!-- Content Ends -->
+
+                            </div>
+
+                        </div>
+                        <div class="bot"></div>
+                    </div>
+
+                </div>
+
+                <div class="col-r">
+
+                    <div class="feature-nav">
+
+                        <h3><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/">Earth Matters</a></h3>
+
+                        <ul>
+                            <li><strong>Browse by Topic</strong></li>
+                            	<li class="cat-item cat-item-1136"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/aerial-imagery/" >Aerial Imagery</a>
+</li>
+	<li class="cat-item cat-item-1135"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/astronaut-photography/" >Astronaut Photography</a>
+</li>
+	<li class="cat-item cat-item-670"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/earth-indicator/" >Earth Indicator</a>
+</li>
+	<li class="cat-item cat-item-676"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/eos-satellite-puzzler/" >EO&#039;s Satellite Puzzler</a>
+</li>
+	<li class="cat-item cat-item-1131"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/from-the-archives/" >From the Archives</a>
+</li>
+	<li class="cat-item cat-item-1147"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/ground-photography/" >Ground Photography</a>
+</li>
+	<li class="cat-item cat-item-1127"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/nasa-news/" >NASA News</a>
+</li>
+	<li class="cat-item cat-item-1138"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/natural-hazards/" >Natural Hazards</a>
+</li>
+	<li class="cat-item cat-item-664"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/news-roundup/" >News Roundup</a>
+</li>
+	<li class="cat-item cat-item-1132"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/reader-mail/" >Reader Mail</a>
+</li>
+	<li class="cat-item cat-item-1133"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/reader-pics/" >Reader Pics</a>
+</li>
+	<li class="cat-item cat-item-1143"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/research-news/" >Research News</a>
+</li>
+	<li class="cat-item cat-item-1137"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/satellite-abcs/" >Satellite ABCs</a>
+</li>
+	<li class="cat-item cat-item-1134"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/tournament-earth/" >Tournament Earth</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/uncategorized/" >Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-665"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/where-on-earth/" >Where on Earth?</a>
+</li>
+                        </ul>
+
+                        <ul id="local_nav">
+                            <li><strong>Browse by Date</strong></li>
+                            	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2015/02/'>February 2015</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2015/01/'>January 2015</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/12/'>December 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/11/'>November 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/10/'>October 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/09/'>September 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/08/'>August 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/07/'>July 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/06/'>June 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/05/'>May 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/'>April 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/03/'>March 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/02/'>February 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/01/'>January 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/12/'>December 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/11/'>November 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/10/'>October 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/'>September 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/08/'>August 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/07/'>July 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/06/'>June 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/05/'>May 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/04/'>April 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/03/'>March 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/02/'>February 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/01/'>January 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/12/'>December 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/11/'>November 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/10/'>October 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/09/'>September 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/08/'>August 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/07/'>July 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/06/'>June 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/05/'>May 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/04/'>April 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/03/'>March 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/02/'>February 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/01/'>January 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/11/'>November 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/10/'>October 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/09/'>September 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/08/'>August 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/07/'>July 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/06/'>June 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/05/'>May 2011</a></li>
+                        </ul>
+
+
+                        <ul>
+                                                    </ul>
+
+                        <ul>
+                        <li><img src="/siteimages/globals/icn-feed-14x14.png" width="14" height="14" alt="RSS"/> <strong>RSS</strong></li>
+                        <li><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/feed/">Entries (RSS)</a></li>
+                        <li><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/comments/feed/">Comments (RSS)</a></li>
+                        </ul>
+                    </div>                    <div class="side-sub">
+                        <a href="/Subscribe/" class="btn-subscribe">Subscribe Today</a>
+                        <div class="subscribe-feeds">
+                        <!--
+                            <a href="/Subscribe/feeds.php" class="btn-rss">RSS</a>
+                            <a href="/Subscribe/feeds.php" class="btn-rss">Google Earth</a>
+                            <a href="http://www.facebook.com/NASAEarthObservatory" class="btn-fb">Facebook</a>
+                            <a href="http://twitter.com/nasa_eo/" class="btn-twitter">Twitter</a>
+                        -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cf"></div>
+
+            </div>
+
+        </div>
+
+<script type='text/javascript' src='http://earthobservatory.nasa.gov/blogs/earthmatters/wp-includes/js/comment-reply.min.js?ver=4.1'></script>
+        <div id="footer">
+            <div id="footer-in">
+                <div class="footer-btn">
+                    <a href="/Subscribe/feeds.php" alt="RSS Feeds"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-rss.png" height="16" width="16" alt="RSS Feeds"></a>
+                    <a href="http://instagram.com/nasa_eo/" alt="Instagram"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-instagram.png" height="16" width="16" alt="Instagram"></a>
+                    <a href="http://www.facebook.com/NASAEarthObservatory" alt="Find us on Facebook"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-facebook.png" height="16" width="16" alt="Find us on Facebook"></a>
+                    <a href="http://twitter.com/nasa_eo/" alt="Follow us on Twitter"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-twitter.png" height="16" width="16" alt="Follow us on Twitter"></a>
+                </div> <!-- /footer-btn -->
+                <div class="footer-sub">
+                    <a href="/Subscribe/index.php?src=subscribe-foot">Subscribe Today</a>
+                </div> <!-- /footer-sub -->             
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="/Subscribe/feeds.php">Feeds</a></li>
+                        <li><a href="/Contact/">Contact Us</a></li>
+                        <li><a href="/About/">About the Earth Observatory</a></li>
+                        <li><a href="/ImageUse/">Image Use Policy</a></li>
+                        <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy &amp; Important Notices</a></li>
+                    </ul>
+                    The Earth Observatory is part of the <a href="http://eospso.nasa.gov/">EOS Project Science Office</a> located at <a href="http://www.nasa.gov/goddard/">NASA Goddard Space Flight Center</a><br>
+                    webmaster: <a href="/Contact/">Paul Przyborski</a> | NASA official: <a href="/Contact/">Charles Ichoku</a>
+                </div> <!-- /footer-links -->
+            </div> <!-- /footer-in -->
+        </div> <!-- /footer -->
+
+    </body>
+</html>
+<script>
+$('#content img').each(function(index) {
+    if ($(this).width() == 720) {
+      $(this).addClass('wide');
+    }
+    
+});
+</script>

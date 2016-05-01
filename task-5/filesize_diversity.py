@@ -10,9 +10,13 @@ __author__ = "Antrromet"
 __email__ = "antrromet@gmail.com"
 
 
+# Calculate the ratio of the solr index size to that of the file size.
+# Also return the max ratio for each content type that will be later used to normalize the ratios
 def calculate_ratio():
     print('Calculating ratios')
+    # The path to the final json file that was fed into Solr from the previous assignment
     merged_file_path = '../../data-files/merged_features.json'
+    # Will dump the results into a temp file, because the final ratio needs to be normalized
     temp_ratio = open('temp_ratio.json', 'w+')
     i = 0
     max_ratio = {}
@@ -38,6 +42,7 @@ def calculate_ratio():
     return max_ratio
 
 
+# Normalize the ratio and write the final results into ratio.json
 def normalize_ratio(max_ratio):
     print('Normalizing ratios')
     temp_ratio = 'temp_ratio.json'
@@ -58,6 +63,8 @@ def normalize_ratio(max_ratio):
     print('Normalized ratio for ' + str(i) + ' files')
 
 
+# Prepare the D3 data by reading from the ratio.json file. The normalized ratio is divided into 20 categories from
+# 0 to 1
 def prepare_d3_data():
     print('Preparing D3 data')
     bar_chart_data = [
@@ -184,6 +191,7 @@ def prepare_d3_data():
     write_bar_chart_files(bar_chart_data)
 
 
+# Write the final TSV files that will be used by the Bar charts
 def write_bar_chart_files(bar_chart_data):
     for child in bar_chart_data:
         name = child['name']

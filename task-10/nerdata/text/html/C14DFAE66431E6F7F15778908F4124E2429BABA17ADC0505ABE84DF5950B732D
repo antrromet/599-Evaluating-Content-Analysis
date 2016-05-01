@@ -1,0 +1,189 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=8"><!--fixes IE-->
+    <title>Ancillary Supplemental</title>
+    
+    
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+    <link rel="stylesheet" type="text/css" href="GCMD/common.css">
+    <script language="JavaScript" src="default/newcollapse_expand_single_item.js"></script>
+    <script type="text/javascript" src="default/supplemental_common.js"></script>
+</script>
+        <noscript>
+            <center>
+                <table cellpadding="4" cellspacing="4" border="0" width="550">
+                    <tr>
+                        <td width="100%" valign="top">
+                            <strong> This display requires that JavaScripts be enabled in your browser. For instructions, view</strong>
+                            <a href="http://www.nasa.gov/home/How_to_enable_Javascript.html">
+                                http://www.nasa.gov/home/How_to_enable_Javascript.html</a>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+    </noscript>
+</head>
+
+<body class="subpage" onload="showOnInline();">
+            <!-- title -->
+            <table width="84%" border="0">
+                <tr>
+                
+
+
+<!-- Instrument Name =============================================================== -->
+<td width="86%" valign="top">
+    <span class="field">Instrument: </span>
+    <span class="textrecord"><strong>
+        LASERS
+    </strong></span>
+
+    
+    : <span class="textrecord">
+    <strong>
+    Light Amplification by Stimulated Emission of Radiation</strong></span>
+    
+</td>
+
+                </tr>
+
+<!-- Instrument Identification =========================================== -->
+
+<tr>
+    <td valign="top">
+        <div style="display: none;" id="details" align="left">
+            <span class="textrecord">
+                <strong>Instrument Category:</strong><br>
+                Earth Remote Sensing Instruments<br>
+                <strong>Instrument Class:</strong>
+                Active Remote Sensing<br>
+                 
+                    <strong>Instrument Type:</strong>
+                    Profilers/Sounders<br>
+                              
+                
+                    <strong>Instrument Subtype:</strong>
+                    Lidar/Laser Sounders<br>
+                
+            </span>
+        </div>
+        <a onClick="shoh('details');">
+            <img src="default/images/more.gif" alt="View entire text"
+                name="imgdetails"  border="0" align="absbottom"></a>
+    </td>
+</tr>
+
+
+            </table>
+            <table width="84%" border="0">
+                <tr>
+                    <td>
+<!-- Associated Platforms ===========================================================  -->
+
+
+
+
+<!-- Spectral Freq Info =========================================================== -->
+
+
+
+<!-- Related Data Sets ===================================================== -->
+<br>
+<span class="field">Related Data Sets</span> <br>
+<span class="textrecord">
+    
+        <A onclick="return doGo(this);" target="recorddrillsearch" href="/KeywordSearch/Keywords.do?KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27LASERS%27%5D&Portal=GCMD&MetadataType=0">
+            View all records related to this instrument
+        </A>
+    
+</span>
+<br/>
+<br/>
+
+<!-- Description =========================================================== -->
+
+
+
+
+    <br />
+    <span class="field">Description</span><br />
+    <span class="textrecord">
+         
+            
+            
+                LASERS (Light Amplification by Stimulated Emission of Radiation): Any <BR />
+
+		
+            
+                 of several devices that emit highly amplified and coherent radiation <BR />
+
+		
+            
+                 of one or more discrete frequencies. One of the most common lasers <BR />
+
+		
+            
+                 makes use of atoms in a metastable energy state that, as they decay to <BR />
+
+		
+            
+                 a lower energy level, stimulate others to decay, resulting in a <BR />
+
+		
+            
+                 cascade of emitted radiation. <BR />
+
+		
+            
+                 <BR />
+
+		
+            
+                 [Source: The American Heritage® Dictionary of the English Language, <BR />
+
+		
+            
+                 Fourth Edition] <BR />
+
+		
+            
+	    
+        
+    </span>
+
+
+<!-- Online Resources ======================================================= -->
+
+
+<!-- Instrument Logistics =========================================================== -->
+
+
+                    </td>
+                </tr>
+            </table>
+<!-- nettracker.jsp -->
+
+<!-- BEGIN: NetTracker Page Tag -->
+<script type="text/javascript" language="JavaScript" src="/ntpagetag.js"></script>
+<noscript>
+    <img src="http://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="">
+</noscript>
+<!-- END: NetTracker Page Tag -->
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>NASA Astrobiology: Life in the Universe
+            
+        </title>
+
+    
+
+    
+        <link rel="stylesheet" href="/static/css/global.css" type="text/css" />
+        <link rel="stylesheet" href="/static/tipsy/src/stylesheets/tipsy.css" type="text/css" />
+        
+    
+
+    
+
+    
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/tipsy/src/javascripts/jquery.tipsy.js"></script>
+        <script src="/static/js/swfobject.js"></script>
+        <script src="/static/js/global.js"></script>
+        <script src="/static/js/init.js"></script>
+        
+        <script src="/static/js/nai-team.js"></script>
+
+    
+    </head>
+    <body class="home-small">
+        
+        <div id="container-head">
+        
+            <div id="container-head-fullsize">
+                <div id="container-head-content">
+                    
+                    <div id="hover-bubble">
+                        <img src="/static/img/icon/arrow-nav.gif" width="7" height="4" alt="" align="top" class="arrow" /><b>NAI</b>
+                    </div>
+                    
+
+                    <div id="log-in-hover">
+                        <form action="/login" method="post">
+                            <div class="txtinput"><input type="text" name="username" value="User Name" onblur="if (!this.value) this.value=this.defaultValue" onfocus="if (this.value==this.defaultValue) this.value=''; else this.select()" /></div>
+                            <div class="txtinput"><input type="password" name="password" value="Password" onblur="if (!this.value) this.value=this.defaultValue" onfocus="if (this.value==this.defaultValue) this.value=''; else this.select()" /></div>
+                            <input type="image" src="/static//img/button/go.gif" alt="Go!" class="btn-go" />
+                            <a href="#" class="btn-close">Close</a>
+                        </form>
+                    </div>
+
+                    <div id="advsearch-hover" class="pngbg">
+                        <a href="#" id="advs-all" class="selsearch">Entire Site</a>
+                        <a href="#" id="advs-nai">NAI</a>
+                        <a href="#" id="advs-astep">ASTEP</a>
+                        <a href="#" id="advs-astid">ASTID</a>
+                        <a href="#" id="advs-exobiology" class="link-last">Exobiology</a>
+                        <div class="bot pngbg"></div>
+                    </div>
+
+                    <div class="bar-top">
+
+                        <div class="bar-utility">
+                            <div class="user">
+                                
+                                <a href= "/login/">Login</a>
+                                
+                            </div>
+                            <div class="search">
+                                <form id="form-search" method="get" action="/search/">
+                                    <div class="txtinput">
+                                        <a href="#" class="advsearch"></a>
+                                        <input type="text" onblur="if (!this.value) this.value=this.defaultValue" onfocus="if (this.value==this.defaultValue) this.value=''; else this.select()" value="Search" name="q" />
+                                    </div>
+                                    <input type="hidden" id="l" name="l" value="all" />
+                                    <a href="#" class="btn-search"><span>Go!</span></a>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <a href="http://www.nasa.gov" target="_blank" title="NASA" class="nasalogo-front">NASA: National Aeronautics and Space Administration</a>
+
+                    </div>
+
+                    <div class="bar-bottom">
+                        <a href="/" rel="home" class="astrologo-front">Astrobiology: Life in the Universe</a>
+                        
+                        <div class="navigation-front">
+                            <a href="/nai/" class="nai">NAI</a>
+                            <a href="/astep/" class="astep">ASTEP</a>
+                            <a href="/astid/" class="astid">ASTID</a>
+                            <a href="/exobiology/" class="exobiology">Exobiology</a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="container-body">
+            
+            <div class="breadcrumb">You are here: 
+
+    
+        
+            <a href="/">Home</a>
+        
+        &raquo;
+    
+
+    
+        <span class="sel">Focus Groups</span>
+    
+
+</div>
+            
+            <!-- BEGIN CONTENT -->
+            <div class="content">
+                <div class="col-left">
+                    <div id="nav-sub">
+                        <div class="nav-sub-foot">
+                            <ul>
+                            
+                            <li><a href="/about-astrobiology/">About Astrobiology</a></li>
+                            
+                            <li><a href="/roadmap/">Roadmap</a></li>
+                            
+                            <li><a href="/funding/">Funding Opportunities</a></li>
+                            
+                            <li class="at"><a href="/focus-groups/">Focus Groups</a></li>
+                            
+                            <li><a href="/education-and-outreach/">Education and Outreach</a></li>
+                            
+                            <li><a href="/nai/collaboration/">Collaboration</a></li>
+                            
+                            <li><a href="/careers/">Careers and Employment</a></li>
+                            
+                            <li><a href="/seminars/">Seminars and Workshops</a></li>
+                            
+                            <li><a href="/calendar/">Calendar</a></li>
+                            
+                            <li><a href="/directory/">Directory</a></li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="nav-context">
+                        <ul>
+                            
+                            <li><a href="/articles/">Articles</a></li>
+                            
+                        </ul>
+                        <div class="nav-context-foot"></div>
+                    </div>
+                    <div id="nav-info">
+                        
+                        <a href="/about/" class="infosite">About this Site</a>
+                        
+                        <a href="/missions/" class="infobiolog">Astrobiology in Missions</a>
+                        
+                        <a href="/ask-an-astrobiologist/" class="infoastro">Ask an Astrobiologist</a>
+                        
+                    </div>
+                </div>
+
+                <div class="col-2-3">
+                    
+                    
+
+
+
+
+
+
+
+                    <div class="page-intro">
+                        <h2>
+                            Astronomy Focus Group<br />
+                            <span class="sub-sml">Currently Inactive</span>
+                        </h2>
+                    </div>
+
+                    <div class="col-center">
+
+                        <div class="page-intro nobot">
+                            <h5 class="stnd-hd"><b>Introduction</b></h5>
+                            	<p>Sara Seager, Chair<br />Carnegie Institution of Washington<br />Washington, D.C.<br /><a href="mailto:seager@dtm.ciw.edu">seager@dtm.ciw.edu</a></p>
+
+	<p>External Link: <a href="http://www.ciw.edu/seager/NAIAFG">Astronomy Focus Group Website</a></p>
+
+	<h2>Background and Significance to Astrobiology</h2>
+
+	<p>The Astrobiology Roadmap defines astrobiology as the study of the origins, evolution, distribution, and future of life in the universe. Although new astrobiology subdisciplines have been developed (e.g., evogenomics), the well established field of astronomy has yet to have its fullest impact on astrobiology or to draw substantial scientific benefits from “cross-pollination” research opportunities. The <span class="caps">NAI</span> Astronomy Focus Group (established September, 2003) will ensure that there is a strong astronomical component to the nascent field of astrobiology, and will serve as an advocate and source of advice for achieving scientific goals of astrobiological significance with current and future <span class="caps">NASA</span> missions. The <span class="caps">NAI</span> Astronomy Focus Group has the potential to influence the field of astrobiology in a significant fashion by helping to develop a strong astronomical component to astrobiology research. This astronomical component includes topics regarded as pure astronomy but also new subdisciplinary topics fostered by interaction among researchers in different, yet overlapping fields of research.</p>
+
+	<h2>Focus Group Objectives</h2>
+
+	<p>The Astronomy Focus Group will:
+	<ul>
+		<li>Examine the observations that could directly address astrobiological topics in existing missions (in flight and under development);</li>
+		<li>Ensure that advanced planning for future missions includes capabilities and instrumentation to support research on astrobiology related topics;</li>
+		<li>Ensure that any mission replanning will not adversely affect astrobiology related topics;</li>
+		<li>Act as a catalyst for proposals for future space missions in the Origins Probes, Discovery, <span class="caps">MIDEX</span> or <span class="caps">SMEX</span> programs that could capitalize on the potential for missions of astrobiological significance;</li>
+		<li>Identify gaps in how NASA’s array of current and future missions address astrobiology goals;</li>
+		<li>Foster dialogue between astronomers and astrobiology related disciplines;</li>
+		<li>Provide a discussion forum for astronomers in <span class="caps">NAI</span>.</li>
+	</ul></p>
+                        </div>
+
+                        <div class="page-intro">
+                            <h5 class="stnd-hd"><b>Activities</b></h5>
+                        </div>
+                        
+                        <div class="page-intro nobot">
+                            <h5 class="stnd-hd"><b>2003</b></h5>
+                            	<p>The proposed Astronomy Focus Group plans to sponsor workshops on highly specific topics devoted to the sharing of information between astronomers and scientists in overlapping astrobiological disciplines (see below for examples). Such meetings would aid researchers in overlapping disciplines to talk, mutually educate themselves and &#8220;cross-over&#8221; between the disciplines. The outcome of these workshops will be new avenues of astrobiology research, education of scientists working on similar topics from different directions, and documents that will benefit the astronomy and astrobiology communities. Potential workshop topics include &#8220;Cosmochemistry&#8221; and &#8220;Atmospheric Biomarker Signatures&#8221;.</p>
+
+	<p>The Astronomy Focus Group also plans for advocacy meetings on specific missions three times a year. Most meetings will be held in Washington DC to enable attendance by <span class="caps">NASA</span> HQ members, with some meetings held at other <span class="caps">NASA</span> centers such as <span class="caps">JPL</span> and <span class="caps">NASA</span> Ames Research Center. Each meeting will include a small set of common core members as well as experts on the meeting topic. The outcome of each meeting will be recommendations to <span class="caps">NASA</span>, or in a few cases other groups, in the form of a white paper. Suggestions for future meetings will come from <span class="caps">NASA</span> HQ and from the Astronomy Focus Group members. In addition to space-based missions, large ground-based projects will be considered because of their astrobiology-related science potential as well as because of their potential impact on <span class="caps">NASA</span> mission planning and selection. Below are described a few potential ideas for meetings.</p>
+
+	<ul>
+		<li>Astrobiology and <span class="caps">JWST</span> (workshop held May 2003 at the <span class="caps">CIW</span>)</li>
+		<li>Astrobiology with Proposed Origins Probes</li>
+		<li>Discovery</li>
+		<li><span class="caps">MIDEX</span></li>
+		<li><span class="caps">SMEX</span> Missions</li>
+		<li>Astrobiology with <span class="caps">SIRTF</span></li>
+		<li>Astrobiology with a 20 to 30 m Telescope</li>
+		<li>Astrobiology with <span class="caps">ALMA</span></li>
+	</ul>
+
+	<p>The final Astronomy Focus Group advisory meeting will use the white papers from the previous three years to summarize astrobiology with <span class="caps">NASA</span> missions. The outcome will aid <span class="caps">NASA</span> planning for astrobiology by identifying gaps in current and future missions.</p>
+
+	<p>The Astronomy Focus Group provides a discussion forum through an email list. The discussions on the list include organization of and reports from workshops and advocacy meetings, as well as debates on astrobiological topics of interest.</p>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="col-right">
+
+                        <div class="team-info">
+                            <ul>
+                                <li class="team-instigator">
+                                    <h5>Chair:</h5>
+                                    
+                                    
+                                    <div>
+                                        <img src="/media/profile-pictures/_sara-seager-74c31/sara-seager_legacy.jpg.37x45_q85_crop.jpg" width="37" height="45" alt="" align="top" />
+                                        <a href="/directory/people/seager-sara/">Sara Seager</a><br />
+                                    </div>
+                                    
+                                    
+                                </li>
+                            </ul>
+                            <div class="bot"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="clear"></div>
+
+                    
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+        </div>
+
+        <!-- END CONTENT -->
+
+        <!-- BEGIN FOOTER -->
+
+        <div id="container-footer">
+            <div class="footer">
+                <a href="/" class="footer-logo">Astrobiology: Life in the Universe</a>
+                <ul class="site-info">
+                    <li><strong>Editor:</strong> Julie Fletcher</li>
+                    <li><strong>NASA Official:</strong> Mary A. Voytek</li>
+                    <li><strong>Last Updated:</strong> February 18, 2015</li>
+                </ul>
+                <ul class="arrow-item">
+                    <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html"> NASA Privacy Statement, Disclaimer, and Accessibility Certification</a></li>
+                    <li><a href="http://www.hq.nasa.gov/office/pao/FOIA/agency/">Freedom of Information Act</a></li>
+                </ul>
+                <ul class="arrow-item">
+                    <li><a href="/contact/">Questions and Comments</a></li>
+                    <li><a href="/credits/">Site Credits</a></li>
+                </ul>
+            </div>
+            <div class="footerlinks">
+                <ul>
+                    <li><a href="/"><strong>Astrobiology Home</strong></a></li>
+                    <li><a href="/nai/">NAI</a></li>
+                    <li><a href="/astep/">ASTEP</a></li>
+                    <li><a href="/astid/">ASTID</a></li>
+                    <li><a href="/exobiology/">Exobiology</a></li>
+                    <li><a href="http://astrobiology.nasa.gov/ask-an-astrobiologist/">Ask an Astrobiologist</a></li>
+                    <li><a href="/about/">About This Site</a></li>
+                    <li><a href="/about-astrobiology/">About Astrobiology</a></li>
+                    <li><a href="http://www.nasa.gov/">NASA Home</a></li>
+                    <li><a href="http://www.nasa.gov/centers/ames/home/">NASA ARC Home</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- END FOOTER -->
+        
+        
+        <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-23028711-2']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_trackPageLoadTime']);
+    // _gaq.push(['_setCustomVar', 1, 'Authentication Type', ut, 2]);
+    
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+    </body>
+</html>

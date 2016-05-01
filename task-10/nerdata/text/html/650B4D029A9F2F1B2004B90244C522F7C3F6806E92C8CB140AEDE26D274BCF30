@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:bes="http://xml.opendap.org/ns/bes/1.0#">
+    <head>
+      <link rel="stylesheet" href="/opendap/docs/css/contents.css" type="text/css"/>
+      <title>OPeNDAP Hyrax: Contents of Aqua_AIRS_Level3/AIRH3STD.005</title>
+   </head>
+   <body>
+      <img alt="OPeNDAP Logo" src="/opendap/docs/images/logo.gif"/>
+      <h1>Contents of
+                    /Aqua_AIRS_Level3/AIRH3STD.005</h1>
+      <hr size="1" noshade="noshade"/>
+      <pre>
+         <table border="0" width="100%">
+            <tr>
+               <th align="left">Name</th>
+               <th align="center">Last Modified</th>
+               <th align="center">Size</th>
+               <th align="center">DAP Response Links</th>
+               <th align="center">Webstart</th>
+            </tr>
+            <tr>
+               <td>
+                  <a href="..">Parent Directory/</a>
+               </td>
+            </tr>
+            <tr>
+               <td align="left">
+                  <a href="2002/contents.html">2002/</a>
+               </td>
+               <td align="center" nowrap="nowrap">2012-05-16T18:57:22</td>
+               <td align="right">-</td>
+               <td align="center">
+                  <table>
+                     <tr>
+                        <td>&nbsp;-&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;&nbsp;</td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+            <tr>
+               <td align="left">
+                  <a href="2003/contents.html">2003/</a>
+               </td>
+               <td align="center" nowrap="nowrap">2012-05-16T18:57:24</td>
+               <td align="right">-</td>
+               <td align="center">
+                  <table>
+                     <tr>
+                        <td>&nbsp;-&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;</td>
+                        <td>&nbsp;-&nbsp;&nbsp;&nbsp;</td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+         </table>
+      </pre>
+      <hr size="1" noshade="noshade"/>
+      <table width="100%" border="0">
+         <tr>
+            <td>
+               <div class="small" align="left">
+                                THREDDS Catalog <a href="catalog.xml">XML</a>
+               </div>
+            </td>
+            <td>
+               <div class="small" align="right">
+                                Hyrax development sponsored by
+                                <a href="http://www.nsf.gov/">NSF</a>
+                                ,
+                                <a href="http://www.nasa.gov/">NASA</a>
+                                , and
+                                <a href="http://www.noaa.gov/">NOAA</a>
+               </div>
+            </td>
+         </tr>
+      </table>
+      <h3>OPeNDAP Hyrax (1.8.4)
+
+                    <br/>
+         <a href="/opendap/docs/">Documentation</a>
+      </h3>
+   </body>
+</html>

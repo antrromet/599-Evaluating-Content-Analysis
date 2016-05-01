@@ -1,0 +1,1841 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=8"><!--fixes IE-->
+    
+    
+    
+    <title>Global Change Master Directory (GCMD)</title>
+
+    <script type="text/javascript" src="default/javascript.js"></script>
+    <script type="text/javascript" src="GCMD/custom.js"></script>
+
+<!-- OpenSearch instructions -->
+<link rel="search"
+    type="application/opensearchdescription+xml"
+    title="GCMD"
+    href="/KeywordSearch/default/openSearch.jsp?Portal=GCMD" />
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+        
+<!-- other styles -->
+    <link rel="stylesheet" type="text/css" href="GCMD/common.css">
+        <link rel="stylesheet" type="text/css" href="GCMD/style/preview.css">
+        <link rel="stylesheet" type="text/css" href="default/style/feedback.css">
+    
+    
+    <!--[if lte IE 7]>
+            <link rel="stylesheet" type="text/css" href="GCMD/ie_specific.css">
+    
+    <![endif]-->
+    
+    <script type="text/javascript" src="WidgetWrappers/WidgetWrappers.nocache.js"></script>
+    
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    
+    
+    
+    <!-- BEGIN - maptime advanced search related javascript -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="gcmd_google_map_v3.js"></script>
+    <script type="text/javascript" src="temporal.js"></script>
+    <!-- END maptime advanced search related javascript -->
+    
+</head>
+<body class="search" onLoad="browserDetect();doOnLoad();">
+
+<div id="siteContainer">
+    <div class="hidden">
+        <a href="#maincontent" title="Skip to Main Content" accesskey="3">
+            Skip to Main Content Navigation (press 3)
+        </a>
+    </div>
+    
+
+
+
+
+ <!--
+    <div class="hidden"><a href="#leftnav" title="Skip to Left Navigation" accesskey="2">Skip to Left Navigation (press 2)</a></div>
+    <div class="hidden"><a href="#maincontent" title="Skip to Main Content" accesskey="3">Skip to Main Content Navigation (press 3)</a></div>
+  -->
+
+    <div id="sitelinks">
+        <ul>
+            <li><a href="/learn/faqs/faqpage.html" title="Frequently Asked Questions about Earth Science and About the GCMD">FAQ</a></li>
+            <li><a href="/sitemap.html" title="Looking for a specific page or information?: Use the sitemap to find it quickly.">Site Map</a></li>
+            <li><a href="/MailComments/MailComments.jsf?rcpt=gcmduso" target="_blank" title="Have suggestions, comments, and questions about GCMD contact us here.">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div id="gcmdhead">
+        <div id="metaltop"><span></span></div>
+        <div id="banner">
+            <div id="bannerImg">
+                <a href="/index.html">
+                    <img width="1000" height="123" alt="" title="GCMD Banner Image" src="default/images/spacer.gif" border="0" /></a>
+            </div>
+        </div>
+    </div>
+    <div id="topNav">
+        <div id="topNavCenter">
+            <div id="topNavBtns">
+                <a href="/index.html" class="homeBtn" title="GCMD Home page: Welcome to the GCMD."><span class="context">Home</span></a>
+                <a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0#maincontent" class="searchBtn" title="Locate Earth science data, data services, and more through descriptive records."><span class="context">Search GCMD</span></a>
+                <a href="/learn/index.html" class="learnBtn" title="Learn about GCMD"><span class="context">Learn about GCMD</span></a>
+                <a href="/add/portals.html" class="portalsBtn" title="Learn about GCMD's Portal Collaborations."><span class="context">Portals</span></a>
+                <a href="/collaborate/docbuilder.html" class="collaborateBtn" title="Collaborate with GCMD"><span class="context">Collaborate</span></a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="page" class="alignCenter">
+        <div id="content">
+            <a name="maincontent"></a>
+            <div id="mainTabs" class="left">
+                
+                <div class='tab' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent">Data Sets</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent">Services / Tools</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent">Ancillary Descriptions</a></span>
+                </div>
+            </div>
+            <div id="mainContainer">
+                <div class="shadowBox_top blue clear"><span class="nested"></span></div>
+                <div class="shadowBox_contents blue">
+                    <!-- CONTENT AREA START -->
+                    
+                    
+
+
+
+
+
+
+
+
+<script language="JavaScript" src="default/newcollapse_expand_single_item.js"></script>
+<script language="JavaScript" src="default/newcollapse_expand_summary.js"></script>
+<script type="text/javascript" src="default/supplemental_common.js"></script>
+<script src="gmaps_util.js" type="text/javascript"></script>
+<noscript>
+    <div class="jsalert">
+        <strong>Are you using a browser that doesn't support JavaScript or have you disabled JavaScript?</strong><br>
+        <br>
+        If you have disabled JavaScript, you must re-enable JavaScript to use this page.<br>
+        Or you can view this record using the <span style="color:#090">
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BISO_Topic_Category%3D%27GEOSCIENTIFIC+INFORMATION%27%5D&EntryId=MOD11A23&MetadataView=Text&MetadataType=0&lbnode=mdlb4"  >Text Only Format</a></span>.
+    </div>
+</noscript>
+
+
+
+
+
+
+</div>
+<!-- This is the closing DIV tag for "shadowBox_contents blue" in layout.jsp -->
+
+
+
+
+<div class="shadowBox_contents alignLeft">
+    <span class="nested" style="padding-top:12px;">
+        <div class="breadCrumb">[ISO_Topic_Category=&#039;GEOSCIENTIFIC INFORMATION&#039;]</div>
+
+<!-- Start record table -->
+<div itemscope="itemscope" itemtype="http://schema.org/Dataset" itemid="http://gcmd.nasa.gov/learn/datasets.html">
+<table width="598">
+    <tr>
+        <td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+            
+        
+    
+
+
+
+
+    
+        
+        
+            
+        
+    
+
+
+
+<img width="1" height="1" src="default/images/spacer.gif?Action=Metadata.do&EntryId=MOD11A23&Terra=true&Aqua=false&Modis=true">
+
+
+
+
+            <!-- Entry Title and Entry ID ============================================== -->
+            
+            
+
+
+
+
+
+
+
+<!-- Entry_Title ============================================================-->
+<div class="fieldSection">
+    <div class="mediumText">
+        <div>
+            <strong>
+                <span itemprop="Dataset">MODIS/Terra Land Surface Temperature/Emissivity 8-Day L3 Global 1km SIN Grid V003</span>
+            </strong>
+        </div>
+        <!-- Entry_ID =======================================================-->
+        
+            <span class="field">Entry ID:</span>
+            <span class="textrecord" itemprop="name">
+                MOD11A23
+            </span>
+            <br/>
+            <br/>
+        
+    </div>
+</div>
+
+            
+            <!-- DIF tab bar =========================================================== -->
+            
+
+
+
+
+
+
+
+
+<!-- start to GCMD/dif/dif_tab_bar_full_record.jsp ========================================== -->
+
+<table border="0" cellpadding="1" cellspacing="1">
+<tr>
+    <td class="mediumText"> 
+    <strong>
+        <!-- Test for Get Data Tab ===================================================== -->
+        
+	
+
+        
+
+            
+                
+                    
+                    
+
+
+		  
+
+                 
+            
+                
+                    
+                    
+
+
+		  
+
+                 
+            
+                
+                    
+                    
+
+
+		  
+
+                 
+            
+        
+        
+         
+        
+
+        
+
+        <!-- Print Update Record Tab  ===================================================== -->
+             <strong>
+            
+                <div style="text-align:center">
+            
+                <span class="tab" id="updateTabTop">
+                    <span class="textrecord">[</span>
+                    <span class="textrecord">
+                        <span class="textabs" onClick="dbDetails(this)">
+                            Update this Record
+                        </span>
+                        <span class="textrecord">]</span>
+                    </span>
+                </span>
+                </div>
+            </strong>
+    </strong>
+    </td>
+</tr>
+<tr>
+    <td width="570" align="center" class="mediumText">
+        <script type="text/javascript">
+            function dbDetails(obj)
+            {
+                var dbDetailsWindow =document.getElementById("dbDetailsWindow");
+                var tab2 = document.getElementById("updateTabTop");
+                
+                if (dbDetailsWindow!=null)
+                {
+                    if (dbDetailsWindow.state && dbDetailsWindow.state==true)
+                    {
+                        dbDetailsWindow.style.display="none";
+                        dbDetailsWindow.state = false;
+                        tab2.style.backgroundColor = "";
+                        tab2.style.border="";
+                    }
+                    else
+                    {
+                        dbDetailsWindow.style.display="block";
+                        dbDetailsWindow.state = true;
+                        tab2.style.backgroundColor
+                            = dbDetailsWindow.style.backgroundColor;
+                        tab2.style.border="1px solid";
+                        tab2.style.borderBottom="0px";
+                    }
+                }
+            }
+        </script> 
+           
+        <div id="dbDetailsWindow" class="textrecord" style="margin-right:2%;display:none;padding:0.5em 0;width:280px;border:1px solid black; background-color:rgb(236, 233, 216);">
+               
+
+            <div>Updating this record requires registration.</div>
+            
+            <div style="float:left;margin:0.5em;border-right:1px solid;width:125px;">
+                (Account holders)
+                <div class="texttabs">
+                
+                        
+                
+                
+                    
+                    <a target="recorddrillsearch"
+                        href="/DocumentBuilder/Metadata.do?OrigMetadataNode=GCMD&amp;EntryId=MOD11A23&amp;Portal=GCMD&amp;RequestAction=Build&amp;MetadataType=0&amp;UseCacheDocument=true&amp;interface=FROMGETDIF">
+                        Update this Record.</a>
+                
+        
+               
+                </div>
+            </div>
+            <div style="float:right;margin:0.5em;border-left:1px solid;width:125px;">
+                <div>
+                    <a class="texttabs"
+                        href="/collaborate/docbuilder.html">Need an account?</a>
+                    <div>&nbsp;</div>
+                </div>
+            </div>
+            <div style="clear:both"><a href="javascript:dbDetails()">close</a>
+        </div>
+    </td>
+</tr>
+</table>
+<br>
+<!-- end to GCMD/dif/dif_tab_bar_full_record.jsp ============================================ -->
+
+            
+            <!-- Aggregation =========================================================== -->
+            
+
+
+
+
+
+
+
+            
+            <!-- Summary =============================================================== -->
+            
+            
+
+
+
+
+
+
+<!-- default/dif/summary.jsp -->
+
+
+    <div class="fieldSection">
+        <div class="field">Summary</div>
+        <div class="fieldSummary">        
+        
+            
+            <div>
+                
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Abstract: </strong>
+                             <span itemprop="description">The level-3 MODIS global Land Surface Temperature (LST) and Emissivity 8-day data are composed from the daily 1-kilometer LST product (MOD11A1) and stored on a 1-km Sinusoidal grid as the average values of clear-sky LSTs during an 8-day period. <br> <br> MOD11A2 is comprised of daytime and nighttime LSTs, quality assessment, observation times, view angles, bits of clear sky days and nights, and <span style="display: inline;" id="Abstract2" align="left"> ... </span><span style="display: none;" id="Abstract" align="left">emissivities estimated in Bands 31 and 32 from land cover types. <br> <br> Further details regarding MODIS land product validation for the LST/E products are available from the following URL: <a href="RedirectAction.do?target=qJ0j61%2BFP%2FOoyIGNsrNPGcdlyPT5QZmpDUipvg2c8qY%2B5wZPad%2FQMMz93h68ywVUdrBey6gHVgjx%0D%0AcuoPfoqaiw%3D%3D" target="_blank">http://landval.gsfc.nasa.gov/ProductStatus.php?ProductID=MOD11</a> <br> <br> V003 Data Set Characteristics (decommissioned): <br> Area: 1100 x 1100 km <br> Image Dimensions: 1200 x 1200 rows/columns <br> File Size: ~5 MB compressed <br> Resolution: 1 kilometer (actual: 0.93 km <br> Projection: Integerized Sinusoidal <br> Data Format: HDF-EOS <br> Science Data Sets (SDS HDF Layers): 13 </span><a onClick="shoh('Abstract');"><img src="default/images/more.gif" alt="View entire text"   name="imgAbstract"  border="0" align="absbottom"></a><br></span>    
+                        </div>
+                    
+                    
+                
+            </div>
+            </div>
+        
+    </div>
+
+                      
+            <!-- Related URL =========================================================== -->
+            
+            
+
+
+
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <span class="field">Related URL</span>
+        
+            
+            <table border="0" width="80%">
+                <tr><td>
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+<meta itemprop="contentUrl" content="http://gcmd.nasa.gov/KeywordSearch/RedirectAction.do?target=E109S6RVT%2BAXv9tsaYEve%2FpbglgBqelCt5DeJp7%2F2I0%3D">
+                                        <a href="RedirectAction.do?target=E109S6RVT%2BAXv9tsaYEve%2FpbglgBqelCt5DeJp7%2F2I0%3D" target="recorddrillsearch">
+                                            
+                                                VIEW PROJECT HOME PAGE
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                The Land Processes Distributed Active Archive Center (LP DAAC) is one of several discipline-specific data centers within the NASA Earth Observing System Data and Information System (EOSDIS). The LP DAAC Web page provides information about available data products, services, documentation, order interfaces, and tools. 
+                            </div>
+                        
+			
+                            <div style="display: none;" id="related"  align="left">
+                        
+                        
+                            <br/>
+                        
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+<meta itemprop="contentUrl" content="http://gcmd.nasa.gov/KeywordSearch/RedirectAction.do?target=iU7GspUsafdxvrWaf%2BMgAiLFSOxL6iD%2BCiaLeIPGcZ63kN4mnv%2FYjQ%3D%3D">
+                                        <a href="RedirectAction.do?target=iU7GspUsafdxvrWaf%2BMgAiLFSOxL6iD%2BCiaLeIPGcZ63kN4mnv%2FYjQ%3D%3D" target="recorddrillsearch">
+                                            
+                                                VIEW PROJECT HOME PAGE
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                The MODIS Land home page is maintained through NASA's Goddard Space Flight Center and documents various aspects of the land component of the MODIS mission. 
+                            </div>
+                        
+			
+                        
+                            <br/>
+                        
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+<meta itemprop="contentUrl" content="http://gcmd.nasa.gov/KeywordSearch/RedirectAction.do?target=E109S6RVT%2BAXv9tsaYEve%2FpbglgBqelC1%2Fgn2%2BAO57%2BKkp1F6R8DapitkOnjax1fZZQNyVXvFWtX%0D%0A8ESCZtwyeQ%3D%3D">
+                                        <a href="RedirectAction.do?target=E109S6RVT%2BAXv9tsaYEve%2FpbglgBqelC1%2Fgn2%2BAO57%2BKkp1F6R8DapitkOnjax1fZZQNyVXvFWtX%0D%0A8ESCZtwyeQ%3D%3D" target="recorddrillsearch">
+                                            
+                                                VIEW RELATED INFORMATION
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                Detailed product descriptions and additional information including links for data access, user guides, and customer support, etc. 
+                            </div>
+                        
+			
+                        
+                    
+		    
+                        </div>
+                        <a onClick="shoh('related');">
+                            <img src="default/images/more.gif" alt="View entire list" name="imgrelated" border="0" align="absbottom"> </a>
+                    
+                </td></tr>
+            </table>
+        
+    </div>
+
+
+            
+            <!-- Multimedia_Sample and Spatial Coverage ================================ -->
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span itemprop="spatialCoverage">
+
+    
+
+</span>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<!-- default/dif/google_map.jsp-->
+
+
+
+
+
+
+    
+        
+            
+            
+            
+            
+        
+    
+
+
+<div class="fieldSection">
+    <div class="field">Geographic Coverage</div>
+
+    
+        
+            
+                <script language="javascript">
+                    var box = [];
+                    box.push(80.0);
+                    box.push(-80.0);
+                    box.push(180.0);
+                    box.push(-180.0);
+                    bboxes.push(box);
+                </script>
+            
+        
+        <script type="text/javascript">
+            
+            function doGoogleMapOpen()
+            {
+                gcmd.gwt.widgetwrappers.pageViewerApp.showWindow("map1");
+                initGoogleMap();
+            }
+            
+            function doGoogleMapLoad(list)
+            {
+                gcmd.gwt.widgetwrappers.pageViewerApp.showWindow("map1");
+                loadGoogleMap(list);
+            }
+            
+            function doneLoadingPageViewer()
+            {
+                var html = 
+                    "<div style=\"text-align:center\"><div id=\"map1\""
+                    + " style=\"overflow:hidden; height:100%; width:100%;"
+                    + " max-width:640px; max-height:640px; text-align:center;\""
+                    + " title=\"Google map with geographic coverage"
+                    + " highlighted.\"><" + "/div><" + "/div>";
+                gcmd.gwt.widgetwrappers.pageViewerApp.setWindow("map1", "Interactive Map", html, 270, 292, 650, 675);
+            }
+            
+        </script>
+        
+        
+            <div class="map_area">
+                <div>
+                    <img class="control box" onclick="doGoogleMapOpen()" id="smap1" src='ImageReducerAction.do?url=iU7GspUsafedS4aoVwVf96NjQ99Da%2Fhec%2Bn7lKhlXM1xp0stNu%2BEc3pgZiOluHaqTZ2LSuMemyVA%0D%0AsgkHA6thI9VSdDtUvcczBRccbuMPWrU6dYB%2Ba%2FjEc2QcAJ1Up8e79tNKthEeR5%2BfoiHFdWJdk%2BTp%0D%0A%2FdGv4LZ5Un9VQ8ztPm0NoPeSvEdhryzPbAwyBYyIwYDXbYTqHNX20Ra2Chq5hqKZZYoesQ%2BmDIZV%0D%0AUYq5aa%2BriqQ0YKLCe5IIwjRBS3yahkzOSWZqbicsOo%2B1285scspH%2B4QXxRL%2FeOnNFiqRZTg9IE6q%0D%0ANLUwk1YYxzzdQabAbkEwqY%2FuhgRuYb0chptNaQ%3D%3D&maxWidth=640&maxHeight=640' width="260" height="260">
+                </div>
+                <div class="screen_control directions" onclick="doGoogleMapOpen()">
+                    (Click for Interactive Map)
+                </div>
+            </div>
+            
+            <div class="textrecord screen_control">
+                <strong>Spatial coordinates&nbsp; &nbsp;</strong>
+            </div>
+            
+            
+        
+        
+        
+            <table>
+                
+                
+                <tr>
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>N: </strong><span itemprop="spatialCoverage">80.0
+                                </span></span>
+                            </td>
+                        
+                    
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>S: </strong><span itemprop="spatialCoverage">-80.0
+                                </span></span>
+                            </td>
+                        
+                    
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>E: </strong><span itemprop="spatialCoverage">180.0
+                                </span></span>
+                            </td>
+                        
+                    
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>W: </strong><span itemprop="spatialCoverage">-180.0
+                                </span></span>
+                            </td>
+                        
+                    
+                    
+                    
+                </tr>
+                
+                
+                
+                
+            </table>
+        
+        
+        <br/>
+    
+</div>
+
+
+
+
+
+</div>
+
+
+            
+            <!-- Citation ============================================================== -->
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <span class="field">Data Set Citation</span>
+        
+        
+            <div style="width:90%">
+                
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Dataset Originator/Creator: </strong>
+                            Land Processes Distributed Active Archive Center
+                        </div>
+                    
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Dataset Title: </strong>
+                            MODIS/Terra Land Surface Temperature/Emissivity 8-Day L3 Global 1km SIN Grid V003
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Dataset Release Place: </strong>
+                            Sioux Falls, South Dakota, USA
+                        </div>
+                    
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Dataset Publisher: </strong>
+                            <span itemprop="publisher">U.S. Geological Survey</span>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+
+
+                    
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Data Presentation Form: </strong>
+                            Remote Sensing Image
+                        </div>
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+                    
+                
+                
+                
+            </div>
+        
+    </div>
+
+<!-- Service Citation -->
+
+            
+            <!-- Reference/Publications ================================================ -->
+            
+
+
+
+
+
+
+
+
+
+<!-- Parent_DIF ============================================================ -->
+
+
+
+            
+            <!-- Temporal Coverage ===================================================== -->
+            
+            
+
+
+
+
+<!-- default/dif/temporal_coverage.jsp -->
+
+
+<div class="fieldSection">
+    <div class="field">Temporal Coverage </div>
+    
+        
+        <div>
+            
+                
+                
+                    <div class="textrecord">
+                        <strong>Start Date: </strong>
+                       <span itemprop="temporalCoverage">2000-03-05</span>
+                    </div>
+                
+
+                <span class="textrecord">
+                
+                        <strong>Stop Date: </strong>
+                        <span itemprop="temporalCoverage">2010-06-30
+                    </span><br />
+                
+                </span>
+
+        	
+                
+            
+	    
+        </div>
+    
+</div>
+
+
+            
+            <!-- Paleo Temporal Coverage =============================================== -->
+            
+
+
+
+
+
+
+
+
+            
+            <!-- Location Keywords ===================================================== -->
+            
+
+
+
+
+<!-- default/dif/location.jsp -->
+
+
+    <div class="fieldSection">
+        <div class="field">Location Keywords</div>
+        
+            
+            <div>
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BLocation%3A+Location_Category%3D%27GEOGRAPHIC+REGION%27%2C+Location_Type%3D%27GLOBAL%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            GEOGRAPHIC REGION
+                            
+                                > GLOBAL
+                            
+                            
+                            
+                            
+                            
+                        </a>
+                    </div>
+		    
+                
+		
+            </div>
+        
+    </div>
+
+
+            
+            <!-- Data Resolution ======================================================= -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <div class="field">Data Resolution</div>
+        <div>
+        
+        
+            
+            
+
+            
+                <span class="textrecord"><strong>Latitude Resolution:</strong>
+                1000 meters
+                </span><br/>
+            
+
+            
+                <span class="textrecord"><strong>Longitude Resolution:</strong>
+                1000 meters
+                </span><br/>
+            
+
+            
+                <span class="textrecord"><strong>Horizontal Resolution Range:</strong>
+                1 km - < 10 km or approximately .01 degree - < .09 degree
+                </span><br/>
+            
+
+            
+
+            
+
+            
+
+            
+
+	    
+
+                
+
+                
+		
+
+            
+        </div>
+    </div>
+
+
+            
+            <!-- Parameters ============================================================ -->
+            
+            
+
+
+
+
+
+
+
+<!-- start to dif/parameters.jsp ---------------------------------------------->
+
+    <div class="fieldSection">
+        <div class="field">Science Keywords </div>
+        
+        
+            
+            <div style="width:95%">
+                
+                    
+                    <span class="textrecord" itemprop="keywords">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27LAND+SURFACE%27%2C+Term%3D%27LAND+TEMPERATURE%27%2C+Variable_Level_1%3D%27LAND+SURFACE+TEMPERATURE%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            
+                                LAND SURFACE
+                            
+                            
+                                >
+                                LAND TEMPERATURE
+                            
+                            
+                                >
+                                LAND SURFACE TEMPERATURE
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=GCMD&KeywordPath=%5BISO_Topic_Category%3D%27GEOSCIENTIFIC+INFORMATION%27%5D&NumericId=64653&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+		    
+		
+                    
+                    <span class="textrecord" itemprop="keywords">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27LAND+SURFACE%27%2C+Term%3D%27SURFACE+RADIATIVE+PROPERTIES%27%2C+Variable_Level_1%3D%27EMISSIVITY%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            
+                                LAND SURFACE
+                            
+                            
+                                >
+                                SURFACE RADIATIVE PROPERTIES
+                            
+                            
+                                >
+                                EMISSIVITY
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=GCMD&KeywordPath=%5BISO_Topic_Category%3D%27GEOSCIENTIFIC+INFORMATION%27%5D&NumericId=63807&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+		    
+		
+		
+            </div>
+        
+    </div>
+
+
+<!-- Service Parameters -->
+
+
+
+
+
+<!-- end to dif/parameters.jsp --------------------------------------------- -->
+
+ 
+            
+            <!-- ISO_Topic_Category  =================================================== -->
+            
+            
+
+
+
+
+<!-- default/dif/iso_topic_category.jsp -->
+
+
+
+    <div class="fieldSection">
+        <div class="field">ISO Topic Category </div>
+        <div>
+            
+                
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BISO_Topic_Category%3D%27CLIMATOLOGY%2FMETEOROLOGY%2FATMOSPHERE%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                           <span itemprop="about">CLIMATOLOGY/METEOROLOGY/ATMOSPHERE</span>
+                        </a>
+                    </div>
+		    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BISO_Topic_Category%3D%27GEOSCIENTIFIC+INFORMATION%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                           <span itemprop="about">GEOSCIENTIFIC INFORMATION</span>
+                        </a>
+                    </div>
+		    
+                
+		
+            
+        </div>
+    </div>
+
+           
+            
+            <!-- Sources =============================================================== -->
+            
+
+
+
+
+
+<!-- start default slash dif slash source dot jsp -------------------------  -->
+
+<div class="fieldSection">
+    <div class="field">Platform</div>
+    
+        
+        <table border="0" WIDTH="100%">
+            <tr>
+                <td>
+                    
+                        
+                            <span class="textrecord">
+                                <a href="Keywords.do?KeywordPath=%5BSource_Name%3A+Short_Name%3D%27TERRA%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                                    TERRA
+                                    
+                                        &gt;
+                                        Earth Observing System, TERRA (AM-1)
+                                    
+                                </a>
+                            </span>
+                        
+                            <a href="Supplementals.do?Portal=GCMD&KeywordPath=Platforms&NumericId=11379&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,574,355,this); return false"  ><IMG 
+                                SRC="default/images/ancdesc.gif" alt="Ancillary Description" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                        
+                        <br />
+			
+                    
+		    
+                </td>
+            </tr>
+        </table>
+    
+</div>
+
+<!-- start default slash dif slash source dot jsp -------------------------  -->
+
+            
+            <!-- Sensors =============================================================== -->
+            
+
+
+
+
+
+
+<!-- start default/dif/sensor.jsp -------------------------------------------------------------  -->
+
+<div class="fieldSection">
+    <div class="field">Instrument</div>
+    
+        
+        <table border="0" width="100%"><tr><td>
+            
+                
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27MODIS%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            MODIS
+                            
+                                &gt;
+                                Moderate-Resolution Imaging Spectroradiometer
+                            
+                        </a>
+                    </span>
+                    
+                    
+                        <a href="Supplementals.do?Portal=GCMD&KeywordPath=Instruments&NumericId=9101&MetadataType=0&lbnode=mdlb4"  onClick="exit(this.href,574,355,this); return false"  ><IMG 
+                            SRC="default/images/ancdesc.gif" alt="Ancillary Description" BORDER=0 
+                            ALIGN="ABSBOTTOM"></a>
+                    
+                    <br />
+		 
+            
+	    
+        </td></tr></table>
+    
+</div>
+
+
+<!-- stop default/dif/source.jsp ------------------------------------------------------------------>
+
+            
+            <!-- Project/Campaign ====================================================== -->
+            
+
+
+
+
+<!-- start default/dif/project.jsp ------------------------------------------------------------- -->
+
+
+
+    <div class="fieldSection">
+        <div class="field">Project</div>
+        
+            
+            <div>
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BProject%3A+Short_Name%3D%27EOSDIS%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            EOSDIS
+                            
+                                &gt;
+                                Earth Observing System Data Information System
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Supplementals.do?Portal=GCMD&KeywordPath=Projects&NumericId=6629&MetadataType=0&lbnode=mdlb4"  onClick="return exit(this.href,525,355,this)"  >
+                            <IMG SRC="default/images/definition.gif" alt="Supplemental Info" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                    
+                    <br />
+		    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BProject%3A+Short_Name%3D%27ESIP%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            ESIP
+                            
+                                &gt;
+                                Earth Science Information Partners Program
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Supplementals.do?Portal=GCMD&KeywordPath=Projects&NumericId=6355&MetadataType=0&lbnode=mdlb4"  onClick="return exit(this.href,525,355,this)"  >
+                            <IMG SRC="default/images/definition.gif" alt="Supplemental Info" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                    
+                    <br />
+		    
+                
+		
+            </div>
+        
+    </div>
+
+<!-- stop default/dif/project.jsp -------------------------------------------------------------  -->
+
+            
+            <!-- Quality =============================================================== -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <span class="field">Quality</span>
+        <span class="textrecord">
+            For more information on potential sensor-related anomalies, consult the following URL: <a href="RedirectAction.do?target=qJ0j61%2BFP%2FN3DYHV%2F20mAe6qpIx8S0LA3x8uFAM41u%2FRmFsC%2Br1MF8xEh%2FtCS6KVVrMbasABMUdX%0D%0AD7pPpk01kGO9aeC3j3ZCX5R149%2BDQpQ%3D" target="_blank">http://landweb.nascom.nasa.gov/cgi-bin/QA_WWW/newPage.cgi?fileName=...</a> 
+        </span>
+    </div>
+
+
+            
+            <!-- Access Constraints ==================================================== -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <span class="field">Access Constraints</span>
+        <span class="textrecord">
+            This product has been decommissioned. 
+        </span>
+    </div>
+
+
+            
+            <!-- Use Constraints ======================================================= -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <span class="field">Use Constraints</span>
+        <span class="textrecord">
+            None 
+        </span>
+    </div>
+
+
+            
+            <!-- Keywords  ============================================================= -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <div class="field">Ancillary Keywords</div>
+        
+            
+            <div>
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BKeyword%3D%27IMAGERY%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            IMAGERY</a>
+                    </div>
+		    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BKeyword%3D%27DAAC%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            DAAC</a>
+                    </div>
+		    
+                        <div style="display: none;" id="more"  align="left">
+                    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BKeyword%3D%27LP+DAAC%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            LP DAAC</a>
+                    </div>
+		    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BKeyword%3D%27EOSDIS%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            EOSDIS</a>
+                    </div>
+		    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BKeyword%3D%27USGS%2FEROS%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            USGS/EROS</a>
+                    </div>
+		    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BKeyword%3D%27ESIP%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            ESIP</a>
+                    </div>
+		    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BKeyword%3D%27USGS%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            USGS</a>
+                    </div>
+		    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BKeyword%3D%27LPDAAC%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            LPDAAC</a>
+                    </div>
+		    
+                
+		
+                    </div>
+                    <a onClick="shoh('more');">
+                        <img src="default/images/more.gif" alt="View entire list" name="imgmore"
+                            border="0" align="absbottom"> </a>
+                
+            </div>
+        
+    </div>
+
+
+            
+            <!-- Dataset Progress ====================================================== -->
+            
+
+
+
+
+<!-- default/dif/data_set_progress.jsp -->
+
+
+
+    <div class="fieldSection">
+        <div class="field">Data Set Progress</div>
+        <div class="textrecord">
+            COMPLETE
+        </div>
+    </div>
+
+            
+            <!-- Originating Center ==================================================== -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <div class="field">Originating Center</div>
+        
+            
+            
+                
+                <div class="textrecord">
+                    <a href="Keywords.do?KeywordPath=%5BOriginating_Center%3D%27USGS%2FEROS%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                        USGS/EROS
+                    </a>
+                </div>
+                
+            
+	    
+        
+    </div>
+
+
+            
+            <!-- Data Center =========================================================== -->
+            
+            
+
+
+
+
+
+
+
+
+<!-- GCMD/dif/data_center.jsp -->
+
+
+
+
+    <div class="fieldSection">
+        <div class="field">Data Center</div>
+        
+            
+            
+            <table border="0" width="100%" cellpadding="0" cellspacing="0">    <tr> <td>
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BData_Center%3A+Short_Name%3D%27LP+DAAC%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                            <!--LP DAAC-->
+                            
+                                <span itemprop="Organization">Land Processes Distributed Active Archive Center</span>
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Supplementals.do?Portal=GCMD&KeywordPath=DataCenters&NumericId=1653&MetadataType=0&lbnode=mdlb4"  onClick="return exit(this.href,574,355,this);"  ><IMG SRC="default/images/definition.gif" alt="Supplemental Info" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                    
+                    <br/>
+                    
+                    
+                        
+                            <span class="textrecord"><strong>Data Center URL: </strong></span>
+                            <span class="textrecord"><a href="RedirectAction.do?target=E109S6RVT%2BAXv9tsaYEve%2FpbglgBqelCt5DeJp7%2F2I0%3D" target="recorddrillsearch">https://lpdaac.usgs.gov/</a></span><br/>
+                        
+                    
+                    
+                    
+                        
+                            <span class="textrecord"><strong>Dataset ID: </strong></span>
+                            <span class="textrecord">MOD11A2</span> <br/>
+                        
+                    
+                    
+                    <!-- Personnel Table -->
+                    
+                        
+                            
+                                <br/>
+                                <table width="90%" align="center" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td  height="2" colspan="2" valign="top" class="field">Data Center Personnel</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="textrecord">
+                                                <strong>Name: </strong>
+                                                <a href="Keywords.do?KeywordPath=%5BPersonnel%3A+Last_Name%3D%27LP+DAAC+USER+SERVICES%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                                                    
+                                                    
+                                                    LP DAAC USER SERVICES
+                                                </a>
+                                            <div/>
+                                            
+                                                
+                                                    
+                                                        <div class="textrecord">
+                                                            <strong>Phone: </strong>
+                                                            (Toll Free) (866) 573-3222
+                                                        </div>
+                                                    
+                                                        <div class="textrecord">
+                                                            <strong>Phone: </strong>
+                                                            (605) 594-6116
+                                                        </div>
+                                                    
+                                                
+                                            
+                                            
+                                            
+                                                
+                                                    
+                                                        <div class="textrecord">
+                                                            <strong>Fax: </strong>
+                                                            (605) 594-6963
+                                                        </div>
+                                                    
+                                                
+                                            
+                                            
+                                            
+                                                
+                                                    
+                                                        <div class="textrecord">
+                                                            <strong>Email: </strong>
+                                                            LPDAAC at usgs.gov
+                                                        </div>
+                                                    
+                                                
+                                            
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                            <div class="textrecord"><strong>Contact Address: </strong></div>
+                                                            
+                                                                <div class="textrecord">
+                                                                    
+                                                                        LP DAAC User Services<br/>
+                                                                    
+                                                                        U.S. Geological Survey (USGS)<br/>
+                                                                    
+                                                                        Earth Resources Observation and Science (EROS) Center<br/>
+                                                                    
+                                                                        47914 252nd Street<br/>
+                                                                    
+                                                                </div>
+                                                            
+                                                        
+                    
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>City: </strong>
+                                                                Sioux Falls
+                                                            </div>
+                                                        
+                                                        
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>Province or State: </strong>
+                                                                SD
+                                                            </div>
+                                                        
+                                                        
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>Postal Code: </strong>
+                                                                57198-0001
+                                                            </div>
+                                                        
+                                                        
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>Country: </strong>
+                                                                USA
+                                                            </div>
+                                                        
+                                                    
+                                                
+                                            
+                                        </td>
+                                    </tr>
+                                </table>  <!-- End personnel table -->
+                                
+                            
+                        
+                    
+                    
+                    
+                    
+                    
+                
+                
+                
+            </table>  <!-- end data center table -->
+        
+    </div>
+
+
+<!-- Service Provider  ================================================= -->
+
+
+            
+            <!-- Distribution ========================================================== -->
+            
+            
+
+
+
+
+
+
+
+ 
+          
+            <!-- Personnel ============================================================= -->
+            
+            
+
+
+
+
+<!-- default/dif/personnel.jsp -->
+
+
+
+
+
+<div class="fieldSection">
+    <div class="field">Personnel</div>
+    
+        
+        <div>
+            
+                
+                <div class="textrecord">
+                    <span itemprop="person">
+                    <a href="Keywords.do?KeywordPath=%5BPersonnel%3A+Last_Name%3D%27LP+DAAC+USER+SERVICES%27%5D&Portal=GCMD&MetadataType=0" target="recorddrillsearch"  >
+                        
+                        
+                        LP DAAC USER SERVICES
+                    </a>
+                    </span>
+                </div>
+                
+                
+                    
+                        
+                            <div class="textrecord">
+                                <strong>Role: </strong>
+                                TECHNICAL CONTACT
+                            </div>
+                        
+                    
+                
+                
+                
+                    
+                        
+                            <div class="textrecord">
+                                <strong>Phone: </strong>
+                                (Toll Free) (866) 573-3222
+                            </div>
+                        
+                            <div class="textrecord">
+                                <strong>Phone: </strong>
+                                (605) 594-6116
+                            </div>
+                        
+                    
+                
+                
+                
+                    
+                        
+                            <div class="textrecord">
+                                <strong>Fax: </strong>
+                                (605) 594-6963
+                            </div>
+                        
+                    
+                
+                
+                
+                    
+                        
+                            <div class="textrecord">
+                                <strong>Email: </strong>
+                                LPDAAC at usgs.gov
+                            </div>
+                        
+                    
+                
+                
+                
+                    
+                        
+                            
+                            
+                                <div class="textrecord">
+                                    <div><strong>Contact Address: </strong></div>
+                                    <span itemprop="address">
+                                    
+                                        <div>
+                                            
+                                                <address>LP DAAC User Services</address>
+                                            
+                                                <address>U.S. Geological Survey (USGS)</address>
+                                            
+                                                <address>Earth Resources Observation and Science (EROS) Center</address>
+                                            
+                                                <address>47914 252nd Street</address>
+                                            
+                                        </div>
+                                    
+                                    </span>
+                                </div>
+                            
+                            
+                            
+                                <div class="textrecord">
+                                    <strong>City: </strong>
+                                    <span itemprop="address">
+                                    Sioux Falls
+                                    </span>
+                                </div>
+                            
+
+                            
+                            
+                                <div class="textrecord">
+                                    <strong>Province or State: </strong>
+                                    <span>
+                                    SD
+                                    </span>
+                                </div>
+                            
+                            </span>
+ 
+                            
+                                <div class="textrecord">
+                                    <strong>Postal Code: </strong>
+                                    <span itemprop="address">
+                                     57198-0001
+                                    </span>
+                                </div>
+                            
+                            
+                            
+                                <div class="textrecord">
+                                    <strong>Country: </strong>
+                                    <span itemprop="address"> 
+                                    USA
+                                    </span>
+                                </div>
+                            
+                            
+                        
+                    
+                
+                
+                
+                
+            
+            
+        </div>
+    
+</div>
+
+
+            
+            <!-- Reference/Publications ================================================ -->
+            
+
+
+
+
+
+
+<!-- default/dif/reference.jsp -->
+
+
+    <div class="fieldSection">
+        <div class="field">Publications/References</div>
+        <div class="textrecord">
+            Moderate Resolution Imaging Spectroradiometer (MODIS) publications written by the MODIS Science Team: [available online at <a href="RedirectAction.do?target=iU7GspUsaffMGXXB%2B1TbV1sVJbwtO224letWmy56oy8x7Em99w4AOsw0l5mrk9Fc" target="_blank">http://modis.gsfc.nasa.gov/sci_team/pubs/</a>] <br> <br> National Aeronautics and Space Administration, 2000, MODIS data products catalog (EOS AM platform): [Greenbelt, Maryland], Goddard Space Flight Center, <a href="RedirectAction.do?target=iU7GspUsaffMGXXB%2B1TbV1sVJbwtO22409HPgQrhYiM3WBGAlCoQXPqajrXFdB4XI1KG4dtT2S4%3D" target="_blank">http://modis.gsfc.nasa.gov/data/dataprod/index.php</a>. <br> <br> National Aeronautics and Space Administration, revised 2004, EOS Reference Handbook, a Guide to NASA's Earth Science Enterprise and the Earth Observing System: Greenbelt, Maryland, Goddard Space Flight Center, 261 p. [available online in pdf format at <a href="RedirectAction.do?target=Gze2Qau6n2MePVdT43gd%2BkKWprSKG4jpZLFOQGycW9P5bcX4ZApzDr4qE6pao5TFdHZ7a1JKlhJc%0D%0Ab%2FIbWsH%2BiqULtr%2BFIp715f6mhzUs7j63kN4mnv%2FYjQ%3D%3D" target="_blank">http://eospso.gsfc.nasa.gov/sites/default/files/publications/data_p...</a>]. <br>
+        </div>    
+    </div>
+
+            
+            <!-- Group-Name-Value  ================================================ -->
+            
+
+
+
+
+
+
+
+
+
+
+<!-- Extended_Metadata ======================================================-->
+<script type="text/javascript">
+
+/*function showPropInfo(text)
+{
+    var html = "<div>" + text + "</div>";
+    var id = "info" + Math.random();
+    gcmd.gwt.widgetwrappers.pageViewerApp.setWindow(id
+        , "Property Information"
+        , html
+        , 300, 150);
+    gcmd.gwt.widgetwrappers.pageViewerApp.showWindow(id);
+}*/
+
+function toggleNameValueList(tag)
+{
+    try
+    {
+        if (tag==null){return;}
+        
+        var disContent = document.getElementById(tag.id + "Content");
+        var disMsg = document.getElementById(tag.id + "Message");
+        var disImg = tag.getElementsByTagName("img")[0];
+        var imgBaseSrc = disImg.src.substring(0, disImg.src.lastIndexOf("/")+1);
+        
+        if (this.state == null){this.state = {open:false};}
+        if (this.state.open)
+        {//close it
+            disImg.src = imgBaseSrc + "plus.gif";
+            disMsg.innerHTML = "view more";
+            disContent.style.display="none";
+        }
+        else
+        {//open it
+            disImg.s

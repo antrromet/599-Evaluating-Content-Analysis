@@ -1,0 +1,539 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+
+
+
+
+
+
+
+
+
+<link rel="alternate" type="application/atom+xml"
+      title="ATOM Feed for [Parent_DIF=_sic_PMIP_sic_]"
+      href="Titles.do?KeywordPath=[Parent_DIF=_sic_PMIP_sic_]&Portal=GCMD&clientId=null&Output=atom" />
+
+<link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+        
+<!-- other styles -->
+    <link rel="stylesheet" type="text/css" href="GCMD/common.css">
+    
+<script type="text/javascript">
+    function doOnLoad()
+        {
+            var parts = document.location.search.split("&");
+            for (var p in parts)
+            {
+                var param = parts[p];
+                if (param.indexOf("?")==0){param = param.substring(1);}
+                var nameValueSep = param.indexOf("=");
+               
+                var nameValue = ["",""];
+                if (nameValueSep<0)
+                {//found no parameters
+                    nameValue[0] = param;
+                }
+                else
+                {
+                    nameValue[0] = param.substring(0,nameValueSep);
+                    nameValue[1] = unescape(param.substring(nameValueSep+1));
+                }
+               
+                if (param!=null&&param.toLowerCase().indexOf("keywordpath")==0)
+                {
+                    var hasFreetext = nameValue[1].indexOf("Freetext=");
+                    var hasRefineBy = nameValue[1].indexOf("Refine By");
+                    var hasSpatial = nameValue[1].indexOf("Spatial_Coverage");
+                    var	hasTemporal = nameValue[1].indexOf("Temporal_Coverage");
+                    if (-1<hasFreetext && (-1<hasRefineBy || -1<hasSpatial))
+                    {//show complex, hide simple
+                        document.getElementById("complex").style.display = "block";
+                        document.getElementById("simple").style.display = "none";
+                    }
+                    else if (-1<hasRefineBy && (-1<hasSpatial || -1<hasTemporal))
+                    {//show complex, hide simple
+                        document.getElementById("complex").style.display = "block";
+                        document.getElementById("simple").style.display = "none";
+                    }
+                    else 
+                    {//show simple, hide complex
+                        document.getElementById("simple").style.display = "block";
+                        document.getElementById("complex").style.display = "none";
+                    }
+                }
+            }
+        }
+</script>
+
+</head>
+<body class="subpage" onLoad="doOnLoad()";>
+
+
+
+
+
+<!-- Print feature -->
+<div style="float:right;v-align:top;">
+    <span class="screen_control" style="vertical-align:top;">
+        <a href="javascript:window.print();" title="Print List">
+            <img src="default/images/print.png?portal=GCMD" alt="Print List"/></a>
+    </span>
+    <span class="screen_control" style="vertical-align:top;">
+        <a href="Titles.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&MetadataType=0&Output=rss&lbnode=mdlb2#maincontent" title="RSS Feed" target="_gcmd_rss"  >
+            <img src="default/images/feed-icon-14x14.png?portal=GCMD" alt="Subscribe to RSS Feed"/></a>
+    </span>
+    
+    
+</div>
+
+
+    <div class="pageDetails">
+        <br />
+        
+        Showing 1 - 19 of 19
+        
+    </div>
+    <br />
+
+
+<!-- #mark - No records found html -->
+
+
+<!-- #mark - Have records found html -->
+
+    <div class="titlelist">
+        1.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_GFDL&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            GFDL Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_GFDL]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>One of several versions of global spectral models in use at the
+Geophysical Fluid Dynamics Laboratory, ithis version of the GFDL model
+is applied primarily to climate studies. In its treatment of ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        2.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_BMRC&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            BMRC/BMRC2 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_BMRC]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The BMRC model is a descendant of a spectral general circulation model
+first developed in the 1970s (cf. Bourke et al. 1977 , and McAvaney et
+al. 1978 ). This version is more recent than that used ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        3.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_CCC2&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            CCC2 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_CCC2]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The CCC model is the second-generation version of a model first
+developed in the early 1980s for climate applications.
+
+The model is identical to the latest AMIP model exept for different
+initial ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        4.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_CCSR1&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            CCSR1 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_CCSR1]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>Model CCSR/NIES AGCM (T21 L20) 1995 is based on a simple global
+atmospheric model first developed at the University of Tokyo
+(cf. Numaguti 1993), and further refined as a collaboration between
+CCSR ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        5.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_CLIMBER2&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            CLIMBER2 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_CLIMBER2]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>CLIMBER-2, is a model developed by the CLIMate and BiosphERe
+groupe-Climate System Department at the Potsdam Institute for Climate
+Impact Research (PIK).
+   
+For the PMIP, CLIMBER-2 consists of runs ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        6.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_CNRM2&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            CNMR-2 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_CNRM2]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The model is a version (Cycle 14) of the ARPEGE climate model, which
+is designed for use by the French climate community. (ARPEGE is the
+acronym for Action de Recherche Petite Echelle Grande Echelle: ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        7.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_CSIRO&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            CSIRO Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_CSIRO]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The CSIRO model is derived from earlier two-level and four-level
+spectral models based on the primitive equations expressed in
+conservative flux form (cf. Gordon 1981, 1993 ).
+
+For the PMIP, CSIRO ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        8.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_ECHAM3&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            ECHAM3 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_ECHAM3]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>This is the third in a series of models developed at MPI that derive
+from an earlier version (cycle 17) of the operational forecast model
+of the European Centre for Medium-Range Weather Forecasts ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        9.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_GEN1&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            GEN1 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_GEN1]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The global climate model used for PMIP is Version 1.02A of GENESIS
+(Global ENvironmental and Ecological Simulation of Interactive
+Systems). It has been developed at NCAR Interdisciplinary Climate ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        10.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_GEN2&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            GEN2 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_GEN2]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The global climate model used for PMIP is Version 2.0 of GENESIS
+(Global ENvironmental and Ecological Simulation of Interactive
+Systems). It has been developed at NCAR Interdisciplinary Climate
+Systems ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        11.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_LMCELMD4&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            LMCELMD4 and LMCELMD5 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_LMCELMD4]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>LMCELMD4:
+The LMD model derives from an earlier version developed for climate
+studies (cf. Sadourny and Laval 1984) . Subsequent modifications
+principally include changes in the representation of ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        12.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_MRI2&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            MRI2 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_MRI2]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The MRI model is derived from an earlier version of the University of
+California at Los Angeles (UCLA) model (cf. Arakawa and Mintz 1974 and
+Arakawa and Lamb 1977 ). Subsequent modifications include ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        13.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_MSU&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            MSU Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_MSU]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The MSU model was developed in 1989 for climate applications. The
+latest version of this model is significantly differ from the first
+version:
+
+a) it is used the simulation with seasonal resolution, ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        14.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_GISS&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            NASA/GISS Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_GISS]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The GISS model used for the PMIP experiment is a modified version of
+Model II that is described by Hansen et al. (1983) . The current model
+(described by Hansen et al., 1997) differs from this predecessor ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        15.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_UGAMP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            UGAMP Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_UGAMP]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The UGAMP model is based on the ECMWF (cycle 27) model (cf. Tiedtke et
+al. 1988 and Simmons et al. 1989 ), but with modifications principally
+in the treatment of radiation, convection, surface fluxes, ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        16.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_UIUC11&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            UIUC11 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_UIUC11]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The 11-layer tropospheric/lower-stratospheric GCM is a descendent of
+the 2-layer atmospheric GCM developed in the late 1960's and early
+1970's by Arakawa and Mintz at UCLA , and subsequently developed ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        17.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_UKMO&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            UKMO Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_UKMO]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The UKMO HADAM2 model part of the line of Unified Models (UM) intended
+to provide a common framework for forecasting and climate applications
+(cf. Cullen 1993 ). The dynamical formulations are those ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        18.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_YONU&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            YONU Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_YONU]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>The model extends the vertical domain and resolution of the AMIP
+baseline model YONU Tr5.1 (4x5 L5) 1994 by the inclusion of 2 more
+vertical levels. The method of obtaining surface values of air
+temperature ...</div>
+        <br>
+    </div>
+
+    <div class="titlelist">
+        19.
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&OrigMetadataNode=GCMD&EntryId=PMIP_CCM13&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);"  >
+            CCM1 and CCM3 Model Runs for Paleoclimate Modelling Intercomparison Project (PMIP)  [PMIP_CCM13]
+        </a>
+        
+        
+            &nbsp;
+            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParent_DIF%3D%27PMIP%27%5D&EntryId=PMIP&MetadataView=Full&MetadataType=0&lbnode=mdlb2#maincontent"  class="searchTermCount"  onClick="return parent.gcmd.gwt.titlesView.showDifView(this.href);" target="_blank"  >
+                PARENT DIF
+            </a>
+        
+        
+        <br>
+        <div>CCM3:
+The Atmospheric model is the fourth generation NCAR Community Climate Model
+(version 3: CCM3). The CCM3 is an evolution of the CCM2 as described by Hack
+and al (1993,1994) and CCM2 is the historical ...</div>
+        <br>
+    </div>
+
+
+
+    <div class="pageDetails">
+        
+        Showing 1 through 19 of 19
+        
+    </div>
+
+
+<iframe style="display:none;" name="_gcmd_kml" width="1" height="1"></iframe>
+<script type="text/javascript">parent.gcmd.gwt.titlesView.doneLoading();</script>
+
+<!-- nettracker.jsp -->
+
+<!-- BEGIN: NetTracker Page Tag -->
+<script type="text/javascript" language="JavaScript" src="/ntpagetag.js"></script>
+<noscript>
+    <img src="http://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="">
+</noscript>
+<!-- END: NetTracker Page Tag -->
+
+
+
+
+</body>
+</html>

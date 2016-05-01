@@ -1,0 +1,1477 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=8"><!--fixes IE-->
+    
+    
+    
+    <title>Global Change Master Directory (GCMD)</title>
+
+    <script type="text/javascript" src="default/javascript.js"></script>
+    <script type="text/javascript" src="GCMD/custom.js"></script>
+
+<!-- OpenSearch instructions -->
+<link rel="search"
+    type="application/opensearchdescription+xml"
+    title="GCMD"
+    href="/KeywordSearch/default/openSearch.jsp?Portal=GCMD" />
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+        
+<!-- other styles -->
+    <link rel="stylesheet" type="text/css" href="GCMD/common.css">
+        <link rel="stylesheet" type="text/css" href="GCMD/style/preview.css">
+        <link rel="stylesheet" type="text/css" href="default/style/feedback.css">
+    
+    
+    <!--[if lte IE 7]>
+            <link rel="stylesheet" type="text/css" href="GCMD/ie_specific.css">
+    
+    <![endif]-->
+    
+    <script type="text/javascript" src="WidgetWrappers/WidgetWrappers.nocache.js"></script>
+    
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    
+    
+    
+    <!-- BEGIN - maptime advanced search related javascript -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="gcmd_google_map_v3.js"></script>
+    <script type="text/javascript" src="temporal.js"></script>
+    <!-- END maptime advanced search related javascript -->
+    
+</head>
+<body class="search" onLoad="browserDetect();doOnLoad();">
+
+<div id="siteContainer">
+    <div class="hidden">
+        <a href="#maincontent" title="Skip to Main Content" accesskey="3">
+            Skip to Main Content Navigation (press 3)
+        </a>
+    </div>
+    
+
+
+
+
+ <!--
+    <div class="hidden"><a href="#leftnav" title="Skip to Left Navigation" accesskey="2">Skip to Left Navigation (press 2)</a></div>
+    <div class="hidden"><a href="#maincontent" title="Skip to Main Content" accesskey="3">Skip to Main Content Navigation (press 3)</a></div>
+  -->
+
+    <div id="sitelinks">
+        <ul>
+            <li><a href="/learn/faqs/faqpage.html" title="Frequently Asked Questions about Earth Science and About the GCMD">FAQ</a></li>
+            <li><a href="/sitemap.html" title="Looking for a specific page or information?: Use the sitemap to find it quickly.">Site Map</a></li>
+            <li><a href="/MailComments/MailComments.jsf?rcpt=gcmduso" target="_blank" title="Have suggestions, comments, and questions about GCMD contact us here.">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div id="gcmdhead">
+        <div id="metaltop"><span></span></div>
+        <div id="banner">
+            <div id="bannerImg">
+                <a href="/index.html">
+                    <img width="1000" height="123" alt="" title="GCMD Banner Image" src="default/images/spacer.gif" border="0" /></a>
+            </div>
+        </div>
+    </div>
+    <div id="topNav">
+        <div id="topNavCenter">
+            <div id="topNavBtns">
+                <a href="/index.html" class="homeBtn" title="GCMD Home page: Welcome to the GCMD."><span class="context">Home</span></a>
+                <a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0#maincontent" class="searchBtn" title="Locate Earth science data, data services, and more through descriptive records."><span class="context">Search GCMD</span></a>
+                <a href="/learn/index.html" class="learnBtn" title="Learn about GCMD"><span class="context">Learn about GCMD</span></a>
+                <a href="/add/portals.html" class="portalsBtn" title="Learn about GCMD's Portal Collaborations."><span class="context">Portals</span></a>
+                <a href="/collaborate/docbuilder.html" class="collaborateBtn" title="Collaborate with GCMD"><span class="context">Collaborate</span></a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="page" class="alignCenter">
+        <div id="content">
+            <a name="maincontent"></a>
+            <div id="mainTabs" class="left">
+                
+                <div class='tabOff' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent">Data Sets</a></span>
+                </div>
+                <div class='tab' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent">Services / Tools</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent">Ancillary Descriptions</a></span>
+                </div>
+            </div>
+            <div id="mainContainer">
+                <div class="shadowBox_top blue clear"><span class="nested"></span></div>
+                <div class="shadowBox_contents blue">
+                    <!-- CONTENT AREA START -->
+                    
+                    
+
+
+
+
+
+
+
+
+<script language="JavaScript" src="default/newcollapse_expand_single_item.js"></script>
+<script language="JavaScript" src="default/newcollapse_expand_summary.js"></script>
+<script type="text/javascript" src="default/supplemental_common.js"></script>
+<script src="gmaps_util.js" type="text/javascript"></script>
+<noscript>
+    <div class="jsalert">
+        <strong>Are you using a browser that doesn't support JavaScript or have you disabled JavaScript?</strong><br>
+        <br>
+        If you have disabled JavaScript, you must re-enable JavaScript to use this page.<br>
+        Or you can view this record using the <span style="color:#090">
+        <a href="Metadata.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&EntryId=NICL_SMO&MetadataView=Text&MetadataType=1&lbnode=mdlb3"  >Text Only Format</a></span>.
+    </div>
+</noscript>
+
+
+
+
+
+
+</div>
+<!-- This is the closing DIV tag for "shadowBox_contents blue" in layout.jsp -->
+
+
+
+
+<div class="shadowBox_contents alignLeft">
+    <span class="nested" style="padding-top:12px;">
+        <div class="breadCrumb"><a href="Keywords.do?Portal=GCMD&KeywordPath=Platforms&MetadataType=1&&lbnode=mdlb3" target=""  >Platforms</a>><a href="Keywords.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms&MetadataType=1&&lbnode=mdlb3" target=""  >In Situ Land-based Platforms</a>>LABORATORY</div>
+
+<!-- Start record table -->
+<div itemscope="itemscope" itemtype="http://schema.org/Dataset" itemid="http://gcmd.nasa.gov/learn/datasets.html">
+<table width="598">
+    <tr>
+        <td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    
+
+
+
+
+    
+        
+        
+            
+        
+    
+
+
+
+<img width="1" height="1" src="default/images/spacer.gif?Action=Metadata.do&EntryId=NICL_SMO&Terra=false&Aqua=false&Modis=false">
+
+
+
+
+            <!-- Entry Title and Entry ID ============================================== -->
+            
+            
+
+
+
+
+
+<!-- default/dif/entry_title.jsp -->
+<!-- debug tag -->
+
+<!-- Entry_Title ============================================================-->
+<div class="fieldSection">
+    <div class="mediumText">
+        <div>
+            <strong>
+                National Ice Core Laboratory Science Management Office
+            </strong>
+        </div>
+        <!-- Entry_ID =======================================================-->
+        
+            <span class="field">Entry ID:</span>
+            <span class="textrecord">
+                NICL_SMO
+            </span>
+            <br/>
+            <br/>
+        
+    </div>
+</div>
+
+            
+            <!-- DIF tab bar =========================================================== -->
+            
+
+
+
+
+
+
+
+
+<!-- start to GCMD/dif/dif_tab_bar_full_record.jsp ========================================== -->
+
+<table border="0" cellpadding="1" cellspacing="1">
+<tr>
+    <td class="mediumText"> 
+    <strong>
+        <!-- Test for Get Data Tab ===================================================== -->
+        
+	
+
+        
+
+            
+                
+                    
+                    
+
+
+		  
+
+                 
+            
+                
+                    
+                    
+                        
+                    
+
+
+		  
+
+                 
+            
+                
+                    
+                    
+                        
+                    
+
+
+		  
+
+                 
+            
+                
+                    
+                    
+                        
+                    
+
+
+		  
+
+                 
+            
+        
+        
+
+        
+        
+        
+
+        <!-- Print Update Record Tab  ===================================================== -->
+             <strong>
+            
+                <div style="float:right;margin-right:15%">
+            
+                <span class="tab" id="updateTabTop">
+                    <span class="textrecord">[</span>
+                    <span class="textrecord">
+                        <span class="textabs" onClick="dbDetails(this)">
+                            Update this Record
+                        </span>
+                        <span class="textrecord">]</span>
+                    </span>
+                </span>
+                </div>
+            </strong>
+    </strong>
+    </td>
+</tr>
+<tr>
+    <td width="570" align="center" class="mediumText">
+        <script type="text/javascript">
+            function dbDetails(obj)
+            {
+                var dbDetailsWindow =document.getElementById("dbDetailsWindow");
+                var tab2 = document.getElementById("updateTabTop");
+                
+                if (dbDetailsWindow!=null)
+                {
+                    if (dbDetailsWindow.state && dbDetailsWindow.state==true)
+                    {
+                        dbDetailsWindow.style.display="none";
+                        dbDetailsWindow.state = false;
+                        tab2.style.backgroundColor = "";
+                        tab2.style.border="";
+                    }
+                    else
+                    {
+                        dbDetailsWindow.style.display="block";
+                        dbDetailsWindow.state = true;
+                        tab2.style.backgroundColor
+                            = dbDetailsWindow.style.backgroundColor;
+                        tab2.style.border="1px solid";
+                        tab2.style.borderBottom="0px";
+                    }
+                }
+            }
+        </script> 
+           
+        <div id="dbDetailsWindow" class="textrecord" style="float:right;margin-right:2%;display:none;padding:0.5em 0;width:280px;border:1px solid black; background-color:rgb(236, 233, 216);">
+           
+
+            <div>Updating this record requires registration.</div>
+            
+            <div style="float:left;margin:0.5em;border-right:1px solid;width:125px;">
+                (Account holders)
+                <div class="texttabs">
+                
+         
+         
+                
+                    
+                    <a target="recorddrillsearch"
+                        href="/DocumentBuilder/Metadata.do?OrigMetadataNode=&amp;EntryId=NICL_SMO&amp;Portal=GCMD&amp;RequestAction=Build&amp;MetadataType=1&amp;UseCacheDocument=true&amp;interface=FROMGETSERF">
+                        Update this Record.</a>
+                
+
+
+
+               
+                </div>
+            </div>
+            <div style="float:right;margin:0.5em;border-left:1px solid;width:125px;">
+                <div>
+                    <a class="texttabs"
+                        href="/collaborate/docbuilder.html">Need an account?</a>
+                    <div>&nbsp;</div>
+                </div>
+            </div>
+            <div style="clear:both"><a href="javascript:dbDetails()">close</a>
+        </div>
+    </td>
+</tr>
+</table>
+<br>
+<!-- end to GCMD/dif/dif_tab_bar_full_record.jsp ============================================ -->
+
+            
+            <!-- Aggregation =========================================================== -->
+            
+
+
+
+
+
+
+
+            
+            <!-- Summary =============================================================== -->
+            
+            
+
+
+
+
+
+
+<!-- default/dif/summary.jsp -->
+
+
+    <div class="fieldSection">
+        <div class="field">Summary</div>
+        <div class="fieldSummary">        
+        
+            
+            <div>
+                
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Abstract: </strong>
+                            Duration: January 15, 2002 - December 31, 2006 <br> <br> Principal Investigator: Mark S. Twickler <br> <br> The National Science Foundation (NSF) and the United States Geological Survey <br> (USGS) jointly manage and operate the National Ice Core Laboratory (NICL) in <br> Denver, Colorado. This facility has proven to be vitally important for <br> researchers from the ice core community. NICL provides a state of the art ice <br> core <span style="display: inline;" id="Abstract2" align="left"> ... </span><span style="display: none;" id="Abstract" align="left">processing area for investigators to conduct research funded by NSF and <br> the USGS. NICL also maintains the integrity of ice core archives by providing a <br> safe and controlled environment to preserve ice cores for future researchers. <br> The Scientific Management Office (SMO) coordinates the Scientific Management of <br> NICL and is located at the Climate Change Research Center (CCRC) of the <br> Institute for the Study of Earth, Oceans and Space (EOS) at the University of <br> New Hampshire (UNH). <br> <br> At NICL, the USGS has the responsibility of maintaining the freezer operations <br> and the day to day operation of the facility. This includes: maintaining <br> current service contracts; assuring that activities and projects from an Annual <br> Program Plan are carried out; assuring the ability to meet scheduling demands, <br> planning, budgeting and contracting for the operation of NICL; providing and <br> setting up laboratory and processing space for individual and group sampling <br> teams; assisting investigators in scheduling, sampling, shipping and record <br> keeping; system monitoring and emergency response; and providing outreach <br> activities. <br> <br> The Scientific Management Office for NICL (NICL SMO) serves as a direct point <br> of contact for principal investigators interested in access to ice cores. It <br> also facilitates the Ice Core Working Group (ICWG) that represents ice core <br> researchers and those in related disciplines whose research uses ice core data. <br> Established in 1985, the ICWG primary role is to provide guidance to NSF. The <br> ICWG investigates a wide range of topics related to ice core research including <br> NICL oversight, sample access and distribution, inventory, policy issues and <br> the development of a plan for future activities. Through yearly meetings and <br> reports, the ICWG provide leadership and direction to the ice core community. <br> Members of the ICWG are nominated by the scientific community and serve on a <br> rotating basis. A Sample Allocation Committee (SAC) developed from members of <br> ICWG provide timely recommendations to NSF and USGS on sample allocation and <br> core access for qualified investigators. <br> <br> Ice core research and the societal relevant results produced from this research <br> have created a large public interest. The NICL SMO serves as a primary point of <br> contact for such public inquiries and a conduit for information for individual <br> researchers, the scientific community, and the public. </span><a onClick="shoh('Abstract');"><img src="default/images/more.gif" alt="View entire text"   name="imgAbstract"  border="0" align="absbottom"></a><br>    
+                        </div>
+                    
+                    
+                
+            </div>
+            </div>
+        
+    </div>
+
+                      
+            <!-- Related URL =========================================================== -->
+            
+            
+
+
+
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <span class="field">Related URL</span>
+        
+            
+            <table border="0" width="80%">
+                <tr><td>
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+                                        <a href="RedirectAction.do?target=S6cqF6vMwKyiL1jK4kfcX4OH7jlnocepp94W1zc3whJvarSBkAeHYGOYyLl0wORr" target="recorddrillsearch">
+                                            
+                                                VIEW PROJECT HOME PAGE
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                The National Ice Core Laboratory-Science Management Office (NICL-SMO) is<br> located at the Climate Change Research Center, Institute for the Study of<br> Earth, Oceans and Space, University of New Hampshire. <br> <br> The NICL-SMO is funded by the National Science Foundation Office of Polar<br> Programs. Our goal is to assist scientist and the public with matters related<br> to Ice Core Science. Come explore the exciting world of ice cores! 
+                            </div>
+                        
+			
+                            <div style="display: none;" id="related"  align="left">
+                        
+                        
+                            <br/>
+                        
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+                                        <a href="RedirectAction.do?target=VtYQWh1WvkWAqkCf4z%2BUM7yxqFsUL1mx" target="recorddrillsearch">
+                                            
+                                                GET DATA
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                The U.S. National Ice Core Laboratory (NICL) is a facility for storing,<br> curating, and studying ice cores recovered from the polar regions of the world.<br> It provides scientists with the capability to conduct examinations and<br> measurements on ice cores, and it preserves the integrity of these ice cores in<br> a long-term repository for current and future investigations. 
+                            </div>
+                        
+			
+                        
+                            <br/>
+                        
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+                                        <a href="RedirectAction.do?target=S6cqF6vMwKyuby4t2nDRbI%2FUTcZtPNfPVANmTjiaKTKDluFBTd%2BGyyIwvqvhFAhx" target="recorddrillsearch">
+                                            
+                                                GET DATA
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                The World Data Centers Ice Core Gateway provides a single portal to the ice<br> core data archives of the NOAA Paleoclimatology Program, World Data Center for<br> Paleoclimatology, National Snow and Ice Data Center, and World Data Center for<br> Glaciology. Users can find data archived in these locations with several search<br> and browse options. 
+                            </div>
+                        
+			
+                        
+                            <br/>
+                        
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+                                        <a href="RedirectAction.do?target=VtYQWh1WvkVX4d5oJqS3ls7G4d3Y3M%2FY" target="recorddrillsearch">
+                                            
+                                                GET DATA
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                The Antarctic Glaciological Data Center (AGDC) at the National Snow and Ice<br> Data Center (NSIDC) archives and distributes Antarctic glaciological and<br> cryospheric system data collected by the U.S. Antarctic Program. 
+                            </div>
+                        
+			
+                        
+                    
+		    
+                        </div>
+                        <a onClick="shoh('related');">
+                            <img src="default/images/more.gif" alt="View entire list" name="imgrelated" border="0" align="absbottom"> </a>
+                    
+                </td></tr>
+            </table>
+        
+    </div>
+
+
+            
+            <!-- Multimedia_Sample and Spatial Coverage ================================ -->
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+            
+            <!-- Citation ============================================================== -->
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Service Citation -->
+
+    <div class="fieldSection">
+        <span class="field">Service Citation</span>
+        
+        
+            <table width="100%" cellspacing="0" cellpadding="0" border="0"> <TR><TD>
+                
+                    
+                    
+                    
+                        <span class="textrecord">
+                            <strong>Title: </strong>
+                            National Ice Core Laboratory-Science Management Office
+                        </span><br/>
+                    
+                    
+                    
+                        <span class="textrecord">
+                            <strong>Provider: </strong>
+                            University of New Hampshire
+                        </span><br/>
+                    
+                    
+                    
+                        <span class="textrecord">
+                            <strong>URL: </strong>
+                            
+                                <a href="RedirectAction.do?target=S6cqF6vMwKyiL1jK4kfcX4OH7jlnocepQLNZviU5H9w%3D" target="_blank">
+                                    http://www.nicl-smo.sr.unh.edu/</a>
+                            
+                        </span><br/>
+                    
+                    
+                    
+                
+                
+            
+        </TD></TR></table>
+    </div>
+
+            
+            <!-- Reference/Publications ================================================ -->
+            
+
+
+
+
+
+
+
+
+
+<!-- Parent_DIF ============================================================ -->
+
+
+
+            
+            <!-- Temporal Coverage ===================================================== -->
+            
+            
+
+
+
+
+<!-- default/dif/temporal_coverage.jsp -->
+
+
+
+            
+            <!-- Paleo Temporal Coverage =============================================== -->
+            
+
+
+
+
+
+
+
+
+            
+            <!-- Location Keywords ===================================================== -->
+            
+
+
+
+
+<!-- default/dif/location.jsp -->
+
+
+
+            
+            <!-- Data Resolution ======================================================= -->
+            
+
+
+
+
+
+
+
+
+            
+            <!-- Parameters ============================================================ -->
+            
+            
+
+
+
+
+
+
+
+<!-- start to dif/parameters.jsp ---------------------------------------------->
+
+
+<!-- Service Parameters -->
+
+    <div class="fieldSection">
+        <span class="field">Service Keywords</span>
+        
+            
+            <table BORDER="0" WIDTH="100%"> <TR><TD>
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BService_Parameters%3A+Service_Topic%3D%27EDUCATION%2FOUTREACH%27%2C+Service_Term%3D%27EXHIBIT+MATERIALS%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                                EDUCATION/OUTREACH
+                            
+                            
+                                &gt;EXHIBIT MATERIALS
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=63055&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  ><IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    
+                    <br /> 
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BService_Parameters%3A+Service_Topic%3D%27DATA+MANAGEMENT%2FDATA+HANDLING%27%2C+Service_Term%3D%27DATA+SEARCH+AND+RETRIEVAL%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                                DATA MANAGEMENT/DATA HANDLING
+                            
+                            
+                                &gt;DATA SEARCH AND RETRIEVAL
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=64455&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  ><IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    
+                    <br /> 
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BService_Parameters%3A+Service_Topic%3D%27METADATA+HANDLING%27%2C+Service_Term%3D%27DATA+DISCOVERY%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                                METADATA HANDLING
+                            
+                            
+                                &gt;DATA DISCOVERY
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=64689&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  ><IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    
+                    <br /> 
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BService_Parameters%3A+Service_Topic%3D%27DATA+MANAGEMENT%2FDATA+HANDLING%27%2C+Service_Term%3D%27DATA+DELIVERY%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                                DATA MANAGEMENT/DATA HANDLING
+                            
+                            
+                                &gt;DATA DELIVERY
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=63883&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  ><IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    
+                    <br /> 
+                    
+                
+            
+            
+</TD></TR></table>
+        
+    <br>
+
+
+
+    <div class="fieldSection">
+        <span class="field">Science Keywords </span>
+        
+            
+            <table BORDER="0" WIDTH="100%"> <TR><TD>
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27CRYOSPHERE%27%2C+Science_Term%3D%27GLACIERS%2FICE+SHEETS%27%2C+Science_Variable_Level_1%3D%27GLACIERS%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            CRYOSPHERE
+                            
+                            
+                            >GLACIERS/ICE SHEETS
+                            
+                            
+                            >GLACIERS
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=62457&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27CRYOSPHERE%27%2C+Science_Term%3D%27GLACIERS%2FICE+SHEETS%27%2C+Science_Variable_Level_1%3D%27ICE+SHEETS%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            CRYOSPHERE
+                            
+                            
+                            >GLACIERS/ICE SHEETS
+                            
+                            
+                            >ICE SHEETS
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=62459&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                        <div style="display: none;" id="eparameters"  align="left">
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27CRYOSPHERE%27%2C+Science_Term%3D%27SNOW%2FICE%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            CRYOSPHERE
+                            
+                            
+                            >SNOW/ICE
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=61643&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27ICE+CORE+RECORDS%27%2C+Science_Variable_Level_1%3D%27CARBON+DIOXIDE%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >ICE CORE RECORDS
+                            
+                            
+                            >CARBON DIOXIDE
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=64293&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27ICE+CORE+RECORDS%27%2C+Science_Variable_Level_1%3D%27ICE+CORE+AIR+BUBBLES%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >ICE CORE RECORDS
+                            
+                            
+                            >ICE CORE AIR BUBBLES
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=64295&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27ICE+CORE+RECORDS%27%2C+Science_Variable_Level_1%3D%27IONS%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >ICE CORE RECORDS
+                            
+                            
+                            >IONS
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=64297&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27ICE+CORE+RECORDS%27%2C+Science_Variable_Level_1%3D%27ISOTOPES%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >ICE CORE RECORDS
+                            
+                            
+                            >ISOTOPES
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=61937&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27ICE+CORE+RECORDS%27%2C+Science_Variable_Level_1%3D%27METHANE%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >ICE CORE RECORDS
+                            
+                            
+                            >METHANE
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=64241&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27ICE+CORE+RECORDS%27%2C+Science_Variable_Level_1%3D%27NITROUS+OXIDE%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >ICE CORE RECORDS
+                            
+                            
+                            >NITROUS OXIDE
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=63937&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27ICE+CORE+RECORDS%27%2C+Science_Variable_Level_1%3D%27PARTICULATE+MATTER%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >ICE CORE RECORDS
+                            
+                            
+                            >PARTICULATE MATTER
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=64299&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27ICE+CORE+RECORDS%27%2C+Science_Variable_Level_1%3D%27VOLCANIC+DEPOSITS%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >ICE CORE RECORDS
+                            
+                            
+                            >VOLCANIC DEPOSITS
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=63405&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27ICE+CORE+RECORDS%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >ICE CORE RECORDS
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=61939&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27CRYOSPHERE%27%2C+Science_Term%3D%27GLACIERS%2FICE+SHEETS%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            CRYOSPHERE
+                            
+                            
+                            >GLACIERS/ICE SHEETS
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=61557&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27CRYOSPHERE%27%2C+Science_Term%3D%27GLACIERS%2FICE+SHEETS%27%2C+Science_Variable_Level_1%3D%27FIRN%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            CRYOSPHERE
+                            
+                            
+                            >GLACIERS/ICE SHEETS
+                            
+                            
+                            >FIRN
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=62463&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27ICE+CORE+RECORDS%27%2C+Science_Variable_Level_1%3D%27ELECTRICAL+PROPERTIES%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >ICE CORE RECORDS
+                            
+                            
+                            >ELECTRICAL PROPERTIES
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=63119&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27PALEOCLIMATE+RECONSTRUCTIONS%27%2C+Science_Variable_Level_1%3D%27AIR+TEMPERATURE+RECONSTRUCTION%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >PALEOCLIMATE RECONSTRUCTIONS
+                            
+                            
+                            >AIR TEMPERATURE RECONSTRUCTION
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=63483&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BScience_Parameters%3A+Science_Category%3D%27EARTH+SCIENCE%27%2C+Science_Topic%3D%27PALEOCLIMATE%27%2C+Science_Term%3D%27PALEOCLIMATE+RECONSTRUCTIONS%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            
+                            PALEOCLIMATE
+                            
+                            
+                            >PALEOCLIMATE RECONSTRUCTIONS
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    <a href="Definitions.do?Portal=GCMD&KeywordPath=Platforms%7CIn+Situ+Land-based+Platforms%7CLABORATORY&NumericId=62079&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this)"  >
+                        <IMG SRC="default/images/info_icon.gif" alt="Parameter Definition" width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    <br />
+                    
+                
+                
+                    </div>
+                    <a onClick="shoh('eparameters');">
+                        <img src="default/images/more.gif" alt="View entire list" name="imgeparameters" border="0" align="absbottom"> </a>
+                    
+            </TD></TR></table>
+        
+    </div>
+
+
+
+<!-- end to dif/parameters.jsp --------------------------------------------- -->
+
+ 
+            
+            <!-- ISO_Topic_Category  =================================================== -->
+            
+            
+
+
+
+
+<!-- default/dif/iso_topic_category.jsp -->
+
+
+
+    <div class="fieldSection">
+        <div class="field">ISO Topic Category </div>
+        <div>
+            
+                
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BISO_Topic_Category%3D%27CLIMATOLOGY%2FMETEOROLOGY%2FATMOSPHERE%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            CLIMATOLOGY/METEOROLOGY/ATMOSPHERE
+                        </a>
+                    </div>
+		    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BISO_Topic_Category%3D%27GEOSCIENTIFIC+INFORMATION%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            GEOSCIENTIFIC INFORMATION
+                        </a>
+                    </div>
+		    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BISO_Topic_Category%3D%27INLAND+WATERS%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            INLAND WATERS
+                        </a>
+                    </div>
+		    
+                
+		
+            
+        </div>
+    </div>
+
+           
+            
+            <!-- Sources =============================================================== -->
+            
+
+
+
+
+
+<!-- start default slash dif slash source dot jsp -------------------------  -->
+
+<div class="fieldSection">
+    <div class="field">Platform</div>
+    
+        
+        <table border="0" WIDTH="100%">
+            <tr>
+                <td>
+                    
+                        
+                            <span class="textrecord">
+                                <a href="Keywords.do?KeywordPath=%5BSource_Name%3A+Short_Name%3D%27FIELD+SURVEYS%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                                    FIELD SURVEYS
+                                    
+                                </a>
+                            </span>
+                        
+                            <a href="Supplementals.do?Portal=GCMD&KeywordPath=Platforms&NumericId=11447&MetadataType=1&lbnode=mdlb3"  onClick="exit(this.href,574,355,this); return false"  ><IMG 
+                                SRC="default/images/ancdesc.gif" alt="Ancillary Description" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                        
+                        <br />
+			
+                    
+                        
+                            <span class="textrecord">
+                                <a href="Keywords.do?KeywordPath=%5BSource_Name%3A+Short_Name%3D%27GROUND+STATIONS%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                                    GROUND STATIONS
+                                    
+                                </a>
+                            </span>
+                        
+                            <a href="Supplementals.do?Portal=GCMD&KeywordPath=Platforms&NumericId=11451&MetadataType=1&lbnode=mdlb3"  onClick="exit(this.href,574,355,this); return false"  ><IMG 
+                                SRC="default/images/ancdesc.gif" alt="Ancillary Description" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                        
+                        <br />
+			
+                            <div style="display: none;" id="sources"  align="left">
+                        
+                    
+                        
+                            <span class="textrecord">
+                                <a href="Keywords.do?KeywordPath=%5BSource_Name%3A+Short_Name%3D%27SV%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                                    SV
+                                    
+                                        &gt;
+                                        Snow Vehicle
+                                    
+                                </a>
+                            </span>
+                        
+                            <a href="Supplementals.do?Portal=GCMD&KeywordPath=Platforms&NumericId=11801&MetadataType=1&lbnode=mdlb3"  onClick="exit(this.href,574,355,this); return false"  ><IMG 
+                                SRC="default/images/ancdesc.gif" alt="Ancillary Description" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                        
+                        <br />
+			
+                    
+                        
+                            <span class="textrecord">
+                                <a href="Keywords.do?KeywordPath=%5BSource_Name%3A+Short_Name%3D%27LABORATORY%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                                    LABORATORY
+                                    
+                                </a>
+                            </span>
+                        
+                            <a href="Supplementals.do?Portal=GCMD&KeywordPath=Platforms&NumericId=11795&MetadataType=1&lbnode=mdlb3"  onClick="exit(this.href,574,355,this); return false"  ><IMG 
+                                SRC="default/images/ancdesc.gif" alt="Ancillary Description" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                        
+                        <br />
+			
+                    
+                        
+                            <span class="textrecord">
+                                <a href="Keywords.do?KeywordPath=%5BSource_Name%3A+Short_Name%3D%27FIELD+INVESTIGATION%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                                    FIELD INVESTIGATION
+                                    
+                                </a>
+                            </span>
+                        
+                            <a href="Supplementals.do?Portal=GCMD&KeywordPath=Platforms&NumericId=11813&MetadataType=1&lbnode=mdlb3"  onClick="exit(this.href,574,355,this); return false"  ><IMG 
+                                SRC="default/images/ancdesc.gif" alt="Ancillary Description" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                        
+                        <br />
+			
+                    
+		    
+                        </div>
+                        <a onClick="shoh('sources');">
+                            <img src="default/images/more.gif" alt="View entire list" 
+                                name="imgsources" border="0" align="absbottom"> </a>
+                    
+                </td>
+            </tr>
+        </table>
+    
+</div>
+
+<!-- start default slash dif slash source dot jsp -------------------------  -->
+
+            
+            <!-- Sensors =============================================================== -->
+            
+
+
+
+
+
+
+<!-- start default/dif/sensor.jsp -------------------------------------------------------------  -->
+
+<div class="fieldSection">
+    <div class="field">Instrument</div>
+    
+        
+        <table border="0" width="100%"><tr><td>
+            
+                
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27CORING+DEVICES%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            CORING DEVICES
+                            
+                        </a>
+                    </span>
+                    
+                    
+                        <a href="Supplementals.do?Portal=GCMD&KeywordPath=Instruments&NumericId=9981&MetadataType=1&lbnode=mdlb3"  onClick="exit(this.href,574,355,this); return false"  ><IMG 
+                            SRC="default/images/ancdesc.gif" alt="Ancillary Description" BORDER=0 
+                            ALIGN="ABSBOTTOM"></a>
+                    
+                    <br />
+		 
+            
+	    
+        </td></tr></table>
+    
+</div>
+
+
+<!-- stop default/dif/source.jsp ------------------------------------------------------------------>
+
+            
+            <!-- Project/Campaign ====================================================== -->
+            
+
+
+
+
+<!-- start default/dif/project.jsp ------------------------------------------------------------- -->
+
+
+
+    <div class="fieldSection">
+        <div class="field">Project</div>
+        
+            
+            <div>
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BProject%3A+Short_Name%3D%27USARP%27%5D&Portal=GCMD&MetadataType=1" target="recorddrillsearch"  >
+                            USARP
+                            
+                                &gt;
+                                U.S. Antarctic Research Program
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Supplementals.do?Portal=GCMD&KeywordPath=Projects&NumericId=7955&MetadataType=1&lbnode=mdlb3"  onClick="return exit(this.href,525,355,this)"  >
+                            <IMG SRC="default/images/definition.gif" alt="Supplemental Info" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                    
+                    <br />
+		    
+                
+		
+            </div>
+        
+    </div>
+
+<!-- stop default/dif/project.jsp -------------------------------------------------------------  -->
+
+            
+            <!-- Quality =============================================================== -->
+            
+
+
+
+
+
+
+
+
+            
+            <!-- Access Constraints ==================================================== -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <span class="field">Access Constraints</span>
+        <span class="textrecord">
+            The Facility's objectives are to (1) insure maximum availability of samples to <br> qualified investigators, (2) encourage analysis over a wide range of research <br> disciplines without unnecessary duplication, and (3) encourage prompt <br> publication of results. <br> <br> Decisions on sample allocation will be coordinated by the NICL-Science <br> Management Office (NICL-SMO) and made by <span style="display: inline;" id="Access_Constraints2" align="left"> ... </span><span style="display: none;" id="Access_Constraints" align="left">the Sample Allocation Committee <br> (referred to as the Committee), appointed by the Ice Core Working Group (ICWG, <br> referred to as Working Group), with final approval from NSF-OPP. The Scientific <br> Coordinator of NICL-SMO is the central point of contact for requests for ice <br> core samples. Through the NICL-SMO, the Committee has developed a communication <br> system to allow for prompt handling of all requests. Once a decision has been <br> made to allocate samples to an investigator, the NICL Curator will assist <br> investigators in accessing the ice core samples and making arrangements for <br> transportation of samples to home institutions, or for analyses to be performed <br> at the Facility. </span><a onClick="shoh('Access_Constraints');"><img src="default/images/more.gif" alt="View entire text"   name="imgAccess_Constraints"  border="0" align="absbottom"></a><br>
+        </span>
+    </div>
+
+
+            
+            <!-- Use Constraint

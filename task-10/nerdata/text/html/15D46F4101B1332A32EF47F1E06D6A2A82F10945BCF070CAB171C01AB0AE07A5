@@ -1,0 +1,1322 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=8"><!--fixes IE-->
+    
+    
+    
+    <title>Global Change Master Directory (GCMD)</title>
+
+    <script type="text/javascript" src="default/javascript.js"></script>
+    <script type="text/javascript" src="GCMD/custom.js"></script>
+
+<!-- OpenSearch instructions -->
+<link rel="search"
+    type="application/opensearchdescription+xml"
+    title="GCMD"
+    href="/KeywordSearch/default/openSearch.jsp?Portal=GCMD" />
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+        
+<!-- other styles -->
+    <link rel="stylesheet" type="text/css" href="GCMD/common.css">
+        <link rel="stylesheet" type="text/css" href="GCMD/style/preview.css">
+        <link rel="stylesheet" type="text/css" href="default/style/feedback.css">
+    
+    
+    <!--[if lte IE 7]>
+            <link rel="stylesheet" type="text/css" href="GCMD/ie_specific.css">
+    
+    <![endif]-->
+    
+    <script type="text/javascript" src="WidgetWrappers/WidgetWrappers.nocache.js"></script>
+    
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    
+    
+    
+    <!-- BEGIN - maptime advanced search related javascript -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="gcmd_google_map_v3.js"></script>
+    <script type="text/javascript" src="temporal.js"></script>
+    <!-- END maptime advanced search related javascript -->
+    
+</head>
+<body class="search" onLoad="browserDetect();doOnLoad();">
+
+<div id="siteContainer">
+    <div class="hidden">
+        <a href="#maincontent" title="Skip to Main Content" accesskey="3">
+            Skip to Main Content Navigation (press 3)
+        </a>
+    </div>
+    
+
+
+
+
+ <!--
+    <div class="hidden"><a href="#leftnav" title="Skip to Left Navigation" accesskey="2">Skip to Left Navigation (press 2)</a></div>
+    <div class="hidden"><a href="#maincontent" title="Skip to Main Content" accesskey="3">Skip to Main Content Navigation (press 3)</a></div>
+  -->
+
+    <div id="sitelinks">
+        <ul>
+            <li><a href="/learn/faqs/faqpage.html" title="Frequently Asked Questions about Earth Science and About the GCMD">FAQ</a></li>
+            <li><a href="/sitemap.html" title="Looking for a specific page or information?: Use the sitemap to find it quickly.">Site Map</a></li>
+            <li><a href="/MailComments/MailComments.jsf?rcpt=gcmduso" target="_blank" title="Have suggestions, comments, and questions about GCMD contact us here.">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div id="gcmdhead">
+        <div id="metaltop"><span></span></div>
+        <div id="banner">
+            <div id="bannerImg">
+                <a href="/index.html">
+                    <img width="1000" height="123" alt="" title="GCMD Banner Image" src="default/images/spacer.gif" border="0" /></a>
+            </div>
+        </div>
+    </div>
+    <div id="topNav">
+        <div id="topNavCenter">
+            <div id="topNavBtns">
+                <a href="/index.html" class="homeBtn" title="GCMD Home page: Welcome to the GCMD."><span class="context">Home</span></a>
+                <a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0#maincontent" class="searchBtn" title="Locate Earth science data, data services, and more through descriptive records."><span class="context">Search GCMD</span></a>
+                <a href="/learn/index.html" class="learnBtn" title="Learn about GCMD"><span class="context">Learn about GCMD</span></a>
+                <a href="/add/portals.html" class="portalsBtn" title="Learn about GCMD's Portal Collaborations."><span class="context">Portals</span></a>
+                <a href="/collaborate/docbuilder.html" class="collaborateBtn" title="Collaborate with GCMD"><span class="context">Collaborate</span></a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="page" class="alignCenter">
+        <div id="content">
+            <a name="maincontent"></a>
+            <div id="mainTabs" class="left">
+                
+                <div class='tab' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent">Data Sets</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent">Services / Tools</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent">Ancillary Descriptions</a></span>
+                </div>
+            </div>
+            <div id="mainContainer">
+                <div class="shadowBox_top blue clear"><span class="nested"></span></div>
+                <div class="shadowBox_contents blue">
+                    <!-- CONTENT AREA START -->
+                    
+                    
+
+
+
+
+
+
+<!-- link type="text/css" rel="stylesheet" href="TitlesApp.css" -->
+
+
+
+
+
+
+</div>
+<!-- This is the closing DIV tag for "shadowBox_contents blue" in layout.jsp -->
+
+
+
+
+<script type="text/javascript">
+    /*
+    add a link tag to the head element to assist tools looking for the
+    non-dynamic version of this page.
+    */
+    var headList = document.getElementsByTagName("head");
+    if (headList!=null && 0<headList.length)
+    {
+        var head = headList[0];
+        var link = document.createElement("link");
+        link.setAttribute("creator", "app");
+        link.setAttribute("type", "text/html");
+        link.setAttribute("rel", "alternate");
+        link.setAttribute("href"
+            , window.location.pathname
+            + "?Portal=GCMD"
+            + "&KeywordPath=[Keyword=&#039;d18O&#039;]"
+            + "&MetadataType=0"
+            + "&Output=basic"
+        );
+        
+        
+        head.appendChild(link);
+    }
+</script>
+<noscript>
+    <!-- no javascript, just dump a tag at hope that google knows what to do with it-->
+    <link type="text/html" rel="alternate" href="/KeywordSearch/Titles.do?Portal=GCMD&KeywordPath=[Keyword=&#039;d18O&#039;]&MetadataType=0&Output=basic">
+</noscript>
+
+<script type="text/javascript" language="javascript" src="titlesapp/titlesapp.nocache.js"></script>
+
+<script type="text/javascript">
+if (window.portal==null)
+{
+    window.portal = "GCMD";
+    window.pcheck = "2182003";
+}
+</script>
+
+<div class="shadowBox_contents alignLeft">
+    <span class="nested" style="padding-top:12px;">
+        <div id="treeDiv">
+            <!-- use this text if GWT can not display -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="alternate" type="application/atom+xml"
+      title="ATOM Feed for [Keyword=_sic_d18O_sic_]"
+      href="Titles.do?KeywordPath=[Keyword=_sic_d18O_sic_]&Portal=GCMD&clientId=null&Output=atom" />
+
+
+<div style="display:none">
+<!--
+The following content is here for Google to index and is replaced by the
+Refinment tool which displays the same content in a more User Interactive fasion
+-->
+<table width="90%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="46" valign="top">
+            <image src="default/images/default_icon.gif" width="46" height="47" alt="Thumbnail Icon" border="0"/>
+        </td>
+        <td width="4"><img src="default/images/spacer.gif" width="4" height="10" alt=""></td>
+        <td width="539" valign="top">
+            <span class="breadCrumb">
+                [Keyword=&#039;d18O&#039;]
+            </span>
+        </td>
+    </tr>
+</table>
+<table width="589" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td valign="center">
+            
+
+
+
+
+<!-- BEGIN refinementCallout.jsp____________________________________________________________ -->
+
+<br>
+<br>
+
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr valign="right">
+    <td width="256">
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- top border -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Category</strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>
+
+        <tr> <!-- box contents -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+              <tr> <!-- spacing -->
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="110" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+
+              <tr> <!-- select a field row -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+               
+<script language="JavaScript" type="text/javascript">
+function getSelectedValue(select) {
+    var index = select.selectedIndex;
+    if ((index >= 0) && (index < select.length)) {
+        return select.options[index].value;
+    }
+    return '';
+}
+function submit(select) {
+    if (getSelectedValue(select) != '') {
+        select.form.submit();
+    }
+}
+</script>
+	  <form method=GET name="parameters" action="Refinement.do">
+        <td bgcolor="E8EFF5" align="center">
+          <div align="center">
+ <select name="Refinement" onchange="submit(this)" size="1" class="footerText">
+              <option value=""> Please select a field </option>
+              <option value="Projects">Projects</option>
+              <option value="DataCenters">Data Centers</option>
+              <option value="Locations">Locations</option>
+              <option value="Instruments">Instruments/Sensors</option>
+              <option value="Platforms">Platforms/Sources</option>
+	      <option value="Parameters">Science Keywords</option>
+	      <option value="Spatial Coverage">Spatial Coverage</option>
+              <option value="Temporal Coverage">Temporal Coverage</option>
+              
+              <option value="-------------------">-------------------</option>
+	      <option value="Parent Only">Parent Records Only</option>
+	      <option value="Child Only">Children Records Only</option>
+	      <option value="Include Global Land">Include Global Land</option>
+      <option value="Include Global Ocean">Include Global Ocean</option>
+              
+            </select>
+            <input name="action" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+          </div>
+        </td>
+	 <input type="hidden" name="KeywordPath" value="%5BKeyword%3D%27d18O%27%5D">
+	 <input type="hidden" name="Portal" value="GCMD">
+	 <input type="hidden" name="MetadataType" value="0">
+        </form>
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td>
+              </tr>
+
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+
+            </table>
+          </td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"><img src="default/images/spacer.gif" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+
+    </td>
+
+    <td width="6">&nbsp;</td> <!-- spacing cell -->
+
+    <td width="256" align="top"> <!-- right cell -->
+
+      <!-- table with Refine by Full text -->
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- row with label -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Full text </strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>        
+
+        <tr>
+          <!-- cell with spacing -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+
+          <!-- cell with free-text seach field -->
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+            <table  width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> <!-- spacing -->
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td> 
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+               <td><img src="default/images/spacer.gif" width="126" height="3" alt=""></td>
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+              <tr> <!-- free-text search field -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+
+<!-- NOTE:  Forms based version of free-text search -->
+                <form method=GET name="freeText" action="Freetext.do">
+                  <td bgcolor="E8EFF5" align="center">
+                    <input type="text" name="Freetext" size=17 id="Freetext" class="footerText" value="" 
+                           onFocus="this.value=' '" tabindex="1">
+                    <input name="action2" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" 
+                           align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+                    <input type="hidden" name="KeywordPath" value="%5BKeyword%3D%27d18O%27%5D">
+                    <input type="hidden" name="Portal" value="GCMD">
+                    <input type="hidden" name="MetadataType" value="0">
+                  </td>
+                </form>
+
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td> 
+              </tr>
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+            </table>
+          </td>
+
+        </tr>
+
+        <tr> <!-- bottom border -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p> 
+
+<!-- END refinementCallout.jsp______________________________ -->
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <b></b>
+        </td>
+    </tr>
+</table>
+
+<table style="margin-top: 15px" width="90%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td valign="top">
+            <table width="100%" border="1">
+                <tr>
+                    <td class="calloutTitle" align="center">158 Titles Match Your Query</td>
+                </tr>
+                
+                
+                <tr>
+                    <td align="center">
+                        <img src="default/images/spacer.gif" width="1" height="30" alt="" align="absmiddle">
+                        
+                        Showing 1 through 50 of 158
+                        
+                            <a href="Titles.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&MetadataType=0&Offset=50&lbnode=mdlb2"  >
+                                <img src="default/images/nextArrow.gif" hspace="3" align="absmiddle" alt="Next" border="0">
+                            </a>
+                        
+                    </td>
+                </tr>
+                
+                
+                
+                    <tr>
+                        <td>
+                            1.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NSIDC-0596&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                17O Excess from WAIS Divide, 0 to 25 ka BP  [NSIDC-0596]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set contains the VSMOW-SLAP d17O, d18O, and 17O-excess data from the WAIS Divide Ice Core Project, Siple Dome and Taylor Dome, along with the published and VSMOW-SLAP normalized d17O, d18O, ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            2.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NSIDC-0123&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Siple Dome Core Date from Measurement of the d18O of Paleoatmospheric Oxygen  [NSIDC-0123]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set is part of the West Antarctic Ice Sheet Cores (WAISCORES) project, an NSF-funded project to understand the influence of the West Antarctic ice sheet on climate and sea level change. ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            3.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=USGS_OFR-97-792&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                500,000 Year-old Stable Isotopic Record from Devils Hole, USGS OFR-97-792  [USGS_OFR-97-792]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Devils Hole is a tectonically formed cave developed in the discharge zone of a
+regional aquifer in south-central Nevada. (See Riggs, et al., 1994.) The walls
+of this subaqueous cavern are coated with ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            4.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2001-075&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Cariaco Basin Stable Isotope Data  [NOAA_NCDC_PALEO_2001-075]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set consists of Planktonic foraminiferal oxygen isotope data from
+Cariaco Basin piston cores  PL07-39PC and PL07-43PC. Records from these two
+cores are spliced together to  produce a data ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            5.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_WDCPALEO_CLIM1500_CH25&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Ice core climate signals from Mount Logan, Yukon, A.D. 1700-1987, Climate Since A.D. 1500 Database, WDC Paleoclimatology  [NOAA_WDCPALEO_CLIM1500_CH25]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&EntryId=EARTH_LAND_NGDC_PALEOCLIM1500AD&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Data from Holdsworth et al.  Mount Logan oxygen isotope (delta O-18)
+      and net accumulation data (meters of water equivalent, per year)
+      (Figures 25.3 and 25.4 in Bradley and Jone (1992)).</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            6.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_95-027&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                NADW Suborbital Timescale Variability    [NOAA_NCDC_PALEO_95-027]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set consists of tables of stable isotope and 14C dates on benthic and
+      planktonic foraminifer assemblages from core V29-202 (subpolar North Atlantic,
+      ~50N, ~23W), used as proxy ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            7.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2006-070&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Ellesmere Island Paleocene Mollusc Stable Isotope Data   [NOAA_NCDC_PALEO_2006-070]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The data consist of oxygen and carbon isotope measurement of carbonate samples 
+      microdrilled from sequential growth increments of 1 specimen of the bivalve 
+      Arctica ovata. The sample was ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            8.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2004-010&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                DSDP Site 607 Isotope Data and Age Models   [NOAA_NCDC_PALEO_2004-010]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">DSDP Site 607 (41.002N, 32.957W,  3427m. depth) 
+Benthic oxygen and carbon isotope data set spanning the last 3 m.y.    These data sets are compiled from a number of  Raymo and Ruddiman publications. ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            9.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2007-067&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Gulf of Guinea MD03-2707 d18O, Ba/Ca, and Mg/Ca Data and  SST/West African Monsoon Reconstruction  [NOAA_NCDC_PALEO_2007-067]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">A detailed reconstruction of West African monsoon hydrology over the 
+past 155,000 years suggests a close linkage to northern high-latitude 
+climate oscillations. Ba/Ca ratio and oxygen isotope composition ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            10.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2005-072&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Okinawa Trough Oxygen Isotope and Mg/Ca-SST Data  [NOAA_NCDC_PALEO_2005-072]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Detailed deglacial and Holocene records of planktonic d18O and Mg/Ca based 
+sea surface temperature (SST) from the Okinawa Trough suggest that at ~18 
+to 17 thousand years before present (kyr B.P.), ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            11.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2002-086&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                South China Sea Benthic Foraminiferal Stable Isotope Data   [NOAA_NCDC_PALEO_2002-086]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Based on benthic foraminiferal d18O from ODP Site 1143, a 5-Myr astronomical 
+timescale for the West Pacific Plio Pleistocene was established using an 
+automatic orbital tuning method. The tuned Brunhes/Matuyama ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            12.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2001-070&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Miocene Mediterranean Foraminiferal Abundance and Isotope Data  [NOAA_NCDC_PALEO_2001-070]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Foraminiferal abundance and oxygen isotope data from the Miocene Monte
+Gibliscemi section, Sicily, Italy.
+
+Bolboforma indicates a group of calcareous microfossils belonging to Protophyta
+
+(Spiegler ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            13.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2005-058&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Paleocene-Eocene Thermal Maximum Isotope and Mg/Ca Data   [NOAA_NCDC_PALEO_2005-058]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">A rapid increase in greenhouse gas levels is thought to have fueled  global
+warming at the Paleocene-Eocene Thermal Maximum (PETM).  Foraminiferal
+magnesium/calcium ratios indicate that bottom waters ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            14.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2000-009&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Santa Barbara Basin Sediment Trap G. bulloides del18O and del13C Data  [NOAA_NCDC_PALEO_2000-009]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Santa Barbara Basin Sediment Trap G. bulloides del18O and del13C Data
+The file sbbtrap-O18C13bulloides.xls contains stable isotope data (oxygen and carbon)  
+generated on specimens of G. bulloides ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            15.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_1999-061&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                California Margin Foraminiferal Stable Isotope Data   [NOAA_NCDC_PALEO_1999-061]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">California Margin Foraminiferal Stable Isotope Data. Tab-delimited ASCII files
+of benthic and planktonic foraminiferal data.  Each file is for a separate
+basin from the California margin.  The cores ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            16.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2003-003&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Equatorial Pacific Planktonic Foraminifera Carbon and Oxygen Isotope Data   [NOAA_NCDC_PALEO_2003-003]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The occurrence of carbon isotope minima at the beginning of glacial
+terminations  is a common feature of planktic foraminifera carbon isotopic
+records from the  Indo-Pacific, Subantarctic and South ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            17.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2000-028&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Bahamas Benthic Foraminiferal Isotope Data   [NOAA_NCDC_PALEO_2000-028]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Bahamas Benthic Foraminiferal Isotope Data Calibration to VPDB The data are
+presented with respect to VPDB based on an published values for NBS-19  of
+-2.20 for 18O and 1.95 for 13C.  Since they were ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            18.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_95-030&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Equatorial Atlantic SST   [NOAA_NCDC_PALEO_95-030]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Comparison of SST estimates for the equatorial atlantic  derived from
+foraminferal assemblages, stable isotopes, and  alkenone unsaturation ratios
+from core 12PC51 (0.25'N, 22 59.89'W, 3870M depth).</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            19.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2000-066&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                MD952042 Oxygen and Carbon Isotope Data   [NOAA_NCDC_PALEO_2000-066]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">MD952042 High Resolution Oxygen and Carbon Isotope Data
+Please note: tuning to GISP2 60-75 ka (GISP-matched agemod,
+revised June 2002 at 68.72 ka) 
+
+latitude: 37 deg 47.99 min N
+longitude: 10 deg ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            20.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2006-063&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Red Sea Sea Level Reconstruction  [NOAA_NCDC_PALEO_2006-063]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The last glacial cycle was characterized by substantial millennial scale
+climate fluctuations, but the extent of any associated changes in global sea
+level (or, equivalently, ice volume) remains elusive. ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            21.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2006-061&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Southern Ocean Middle Miocene ODP1171 Foraminifer Stable Isotope and Mg/Ca Data   [NOAA_NCDC_PALEO_2006-061]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Magnesium/calcium data from Southern Ocean planktonic foraminifera  demonstrate
+that high-latitude (~55°S) southwest Pacific sea surface  temperatures (SSTs)
+cooled 6° to 7°C during the middle Miocene ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            22.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_95-008&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                GeoB Isotopes and SST Estimates data set  [NOAA_NCDC_PALEO_95-008]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Geosciences Bremen SST estimates derived from the alkenone unsaturation index
+(U-k-37, after Brassell et al, 1986) with the temperature calibration of  
+PRAHL, et al.(1988).  Also reported are delta18-O ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            23.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_1998-023&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Ionian Sea Benthic Foraminiferal Data   [NOAA_NCDC_PALEO_1998-023]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">1) Ionian1.txt
+This file contains the raw data of single benthic foraminiferal species
+against core depth and interpolated age.
+
+2) Ionian2.txt
+This file contains planktic foraminiferal isotope data, ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            24.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2006-038&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Western Caribbean ODP 999A Mg/Ca and d18O Data and SST Reconstruction  [NOAA_NCDC_PALEO_2006-038]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Mg/Ca ratios in the planktonic foraminifera Globigerinoides ruber from 
+Colombian Basin core ODP 999A suggest that Caribbean sea surface temperatures 
+(SSTs) were from 2.1 to 2.7°C colder than the ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            25.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2006-036&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Bay of Plenty Foraminiferal Data and SST Reconstruction   [NOAA_NCDC_PALEO_2006-036]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">We present sea surface temperature (SST) records with centennial-scale 
+resolution from the Bay of Plenty, north of New Zealand. Foraminiferal 
+assemblage-based paleo-SST estimates provide a deglacial ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            26.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_1999-054&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Carbonate Ion Effect on Foraminifera Stable Isotopes  [NOAA_NCDC_PALEO_1999-054]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This study looks for evidence of the carbonate ion effect (identified in 
+laboratory experiments) on stable isotopes in foraminifera spanning a  natural
+carbonate ion gradient at the equatorial Pacific. ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            27.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2006-041&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Tropical Atlantic Alkenone SST Reconstruction   [NOAA_NCDC_PALEO_2006-041]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Evidence for abrupt climate changes on millennial and shorter timescales is
+widespread in marine and terrestrial climate records. Rapid reorganization of
+ocean circulation is considered to exert some ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            28.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_1999-010&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                 Arabian Sea Late Quaternary Sediment Data   [NOAA_NCDC_PALEO_1999-010]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Isotope, Organic Carbon, Sr/Ca, and foraminifer data from late Quaternary 
+sediments in the Arabian Sea.
+
+Data precision: For Corg the relative precision was better than 3%.  The
+elements Ca and Sr ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            29.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2002-035&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Planktonic Foraminiferal Cd/Ca:  Paleonutrients or Paleotemperature?    [NOAA_NCDC_PALEO_2002-035]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Planktonic Foraminiferal (G. bulloides) Cd/Ca, Mg/Ca, and d18O data from the
+subantarctic sector of the Southern Ocean.</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            30.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_97-024&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Major Climate Terminations Data   [NOAA_NCDC_PALEO_97-024]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The data from figure 1 of Raymo (1997) are presented in the following  eleven
+data files (one for each core presented).  Each data set consists of  depth in
+core and oxygen isotope data.  To construct ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            31.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2004-020&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                North Atlantic Pleistocene Isotope Records   [NOAA_NCDC_PALEO_2004-020]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Geochemical profiles from the North Atlantic Ocean suggest that the  vertical
+d13C structure of the water column at intermediate depths  did not change
+significantly between glacial and interglacial ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            32.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2007-018&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Indo-Pacific Warm Pool MD9821-60 Last Millennium Mg/Ca, d18O, SST, SSS Data  [NOAA_NCDC_PALEO_2007-018]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Planktonic foraminiferal Mg/Ca and d18O derived sea surface temperature 
+and salinity records from the Makassar Strait, Indonesia, show a long-
+term cooling and freshening trend, as well as considerable ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            33.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=G2050&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Papua New Guinea Stable Isotope (delta 18O) Data for 1922 to 1991  [G2050]
+                            </a>
+                            
+                                &nbsp;
+                                <a href="Keywords.do?KeywordPath=%5BParent_DIF%3D%27G2050%27%5D&Portal=GCMD&MetadataType=0"  class="searchTermCount" target="_blank"  >
+                                    CHILD DIFs
+                                </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Samples were collected in 1991 and 1992 from massive Porites corals in Madang
+Lagoon (5 deg 13'S; 145deg 49'E, .2M Depth) and at Duranguit Reef,   Laing
+Island (4deg 9'S; 144deg 53'E; 3M Depth), Bismark ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            34.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2001-051&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                 Late Paleocene Osmium Isotope Data    [NOAA_NCDC_PALEO_2001-051]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Marine Osmium records during the late Paleocene thermal maximum  interpreted as
+proxies of terrestrial chemical weathering.
+
+Core DSDP-213 Indian Ocean  
+Core DSDP-549 North Atlantic Ocean</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            35.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2005-074&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                South China Sea d18O and Mg/Ca Data and SST Reconstruction  [NOAA_NCDC_PALEO_2005-074]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set consists of Isotope and Mg/Ca results from ODP Site 1145. 
+Isotope measurements were made on a Finnegan MAT 253 mass spectrometer 
+(Ostermann and Curry, 2000). The precision of the measurements ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            36.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2003-032&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Sulu Sea Core MD97-2141 Foraminiferal Oxygen Isotope Data  [NOAA_NCDC_PALEO_2003-032]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set consists of foraminiferal oxygen isotope data from core
+MD97-2141,  Latitude 8.8 N, Longitude 121.3 E, Water depth 3633 m. 
+
+Accelerator Mass Spectrometer (AMS) radiocarbon dates were ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            37.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_1999-017&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                 Northeast Pacific Modern Planktonic Foraminifera Isotope Data  [NOAA_NCDC_PALEO_1999-017]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Average oxygen and carbon isotopic composition of planktonic Foraminifera from
+the MOCNESS plankton tow, plus dissolved inorganic carbon d13C and [NO3-]at 
+four sites along the Multitracers transect.</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            38.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2001-050&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Marine Isotope Stage 5/Termination II Data   [NOAA_NCDC_PALEO_2001-050]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Stage 5 Isotope, Faunal and Lithic Data
+
+The files are ASCII formatted files that contain:
+Site 1059:
+
+1059_rubiso.txt: Core/hole/core/section, depth(cm), mcd(m), age(ka), 
+C13 of G. ruber, O18 of ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            39.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2004-086&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Northwest Pacific Stable Isotope Data and SSS/SST Reconstructions    [NOAA_NCDC_PALEO_2004-086]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The oxygen isotope records of both benthic and planktonic Foraminifera  in five
+piston cores, collected from the region between the Oyashio and  Kuroshio
+Currents near Japan, clearly show the marked ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            40.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2002-044&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Northeastern Caribbean Late Holocene SST Reconstruction   [NOAA_NCDC_PALEO_2002-044]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set consists of Nyberg et al. 2002 Northeastern Caribbean Holocene
+SST Reconstruction. 
+
+Piston Core PRP 12 and Box Core PRB 12, taken at
+17 deg 53.27 min N, 66 deg 36.02 min W, 349m Depth. ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            41.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2001-059&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                Lake Peten-Itza Ostracod and Gastropod Stable Isotopic Data  [NOAA_NCDC_PALEO_2001-059]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This data set consists of Lake Peten-Itza Ostracod and Gastropod Stable
+Isotopic Data.
+
+Stable isotopic data (d18O and d13C) with radiocarbon ages, from ostracod  and
+gastropod samples taken in Lake ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            42.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BKeyword%3D%27d18O%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NCDC_PALEO_2000-031&MetadataView=Full&MetadataType=0&lbnode=mdlb2"  >
+                                North Atlantic Isotopic and Trace Element Data   [NOAA_NCDC_PALEO_2000-031]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The data are presented with respect to VPDB based 

@@ -1,0 +1,1065 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=8"><!--fixes IE-->
+    
+    
+    
+    <title>Global Change Master Directory (GCMD)</title>
+
+    <script type="text/javascript" src="default/javascript.js"></script>
+    <script type="text/javascript" src="GCMD/custom.js"></script>
+
+<!-- OpenSearch instructions -->
+<link rel="search"
+    type="application/opensearchdescription+xml"
+    title="GCMD"
+    href="/KeywordSearch/default/openSearch.jsp?Portal=GCMD" />
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+        
+<!-- other styles -->
+    <link rel="stylesheet" type="text/css" href="GCMD/common.css">
+        <link rel="stylesheet" type="text/css" href="GCMD/style/preview.css">
+        <link rel="stylesheet" type="text/css" href="default/style/feedback.css">
+    
+    
+    <!--[if lte IE 7]>
+            <link rel="stylesheet" type="text/css" href="GCMD/ie_specific.css">
+    
+    <![endif]-->
+    
+    <script type="text/javascript" src="WidgetWrappers/WidgetWrappers.nocache.js"></script>
+    
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    
+    
+    
+    <!-- BEGIN - maptime advanced search related javascript -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="gcmd_google_map_v3.js"></script>
+    <script type="text/javascript" src="temporal.js"></script>
+    <!-- END maptime advanced search related javascript -->
+    
+</head>
+<body class="search" onLoad="browserDetect();doOnLoad();">
+
+<div id="siteContainer">
+    <div class="hidden">
+        <a href="#maincontent" title="Skip to Main Content" accesskey="3">
+            Skip to Main Content Navigation (press 3)
+        </a>
+    </div>
+    
+
+
+
+
+ <!--
+    <div class="hidden"><a href="#leftnav" title="Skip to Left Navigation" accesskey="2">Skip to Left Navigation (press 2)</a></div>
+    <div class="hidden"><a href="#maincontent" title="Skip to Main Content" accesskey="3">Skip to Main Content Navigation (press 3)</a></div>
+  -->
+
+    <div id="sitelinks">
+        <ul>
+            <li><a href="/learn/faqs/faqpage.html" title="Frequently Asked Questions about Earth Science and About the GCMD">FAQ</a></li>
+            <li><a href="/sitemap.html" title="Looking for a specific page or information?: Use the sitemap to find it quickly.">Site Map</a></li>
+            <li><a href="/MailComments/MailComments.jsf?rcpt=gcmduso" target="_blank" title="Have suggestions, comments, and questions about GCMD contact us here.">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div id="gcmdhead">
+        <div id="metaltop"><span></span></div>
+        <div id="banner">
+            <div id="bannerImg">
+                <a href="/index.html">
+                    <img width="1000" height="123" alt="" title="GCMD Banner Image" src="default/images/spacer.gif" border="0" /></a>
+            </div>
+        </div>
+    </div>
+    <div id="topNav">
+        <div id="topNavCenter">
+            <div id="topNavBtns">
+                <a href="/index.html" class="homeBtn" title="GCMD Home page: Welcome to the GCMD."><span class="context">Home</span></a>
+                <a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0#maincontent" class="searchBtn" title="Locate Earth science data, data services, and more through descriptive records."><span class="context">Search GCMD</span></a>
+                <a href="/learn/index.html" class="learnBtn" title="Learn about GCMD"><span class="context">Learn about GCMD</span></a>
+                <a href="/add/portals.html" class="portalsBtn" title="Learn about GCMD's Portal Collaborations."><span class="context">Portals</span></a>
+                <a href="/collaborate/docbuilder.html" class="collaborateBtn" title="Collaborate with GCMD"><span class="context">Collaborate</span></a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="page" class="alignCenter">
+        <div id="content">
+            <a name="maincontent"></a>
+            <div id="mainTabs" class="left">
+                
+                <div class='tab' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent">Data Sets</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent">Services / Tools</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent">Ancillary Descriptions</a></span>
+                </div>
+            </div>
+            <div id="mainContainer">
+                <div class="shadowBox_top blue clear"><span class="nested"></span></div>
+                <div class="shadowBox_contents blue">
+                    <!-- CONTENT AREA START -->
+                    
+                    
+
+
+
+
+
+
+<!-- link type="text/css" rel="stylesheet" href="TitlesApp.css" -->
+
+
+
+
+
+
+</div>
+<!-- This is the closing DIV tag for "shadowBox_contents blue" in layout.jsp -->
+
+
+
+
+<script type="text/javascript">
+    /*
+    add a link tag to the head element to assist tools looking for the
+    non-dynamic version of this page.
+    */
+    var headList = document.getElementsByTagName("head");
+    if (headList!=null && 0<headList.length)
+    {
+        var head = headList[0];
+        var link = document.createElement("link");
+        link.setAttribute("creator", "app");
+        link.setAttribute("type", "text/html");
+        link.setAttribute("rel", "alternate");
+        link.setAttribute("href"
+            , window.location.pathname
+            + "?Portal=GCMD"
+            + "&KeywordPath=[Parameters: Topic=&#039;BIOLOGICAL CLASSIFICATION&#039;, Term=&#039;ANIMALS&#47;INVERTEBRATES&#039;, Variable_Level_1=&#039;ECHINODERMS&#039;, Variable_Level_2=&#039;SEA URCHINS&#039;]"
+            + "&MetadataType=0"
+            + "&Output=basic"
+        );
+        
+        
+        head.appendChild(link);
+    }
+</script>
+<noscript>
+    <!-- no javascript, just dump a tag at hope that google knows what to do with it-->
+    <link type="text/html" rel="alternate" href="/KeywordSearch/Titles.do?Portal=GCMD&KeywordPath=[Parameters: Topic=&#039;BIOLOGICAL CLASSIFICATION&#039;, Term=&#039;ANIMALS&#47;INVERTEBRATES&#039;, Variable_Level_1=&#039;ECHINODERMS&#039;, Variable_Level_2=&#039;SEA URCHINS&#039;]&MetadataType=0&Output=basic">
+</noscript>
+
+<script type="text/javascript" language="javascript" src="titlesapp/titlesapp.nocache.js"></script>
+
+<script type="text/javascript">
+if (window.portal==null)
+{
+    window.portal = "GCMD";
+    window.pcheck = "2182003";
+}
+</script>
+
+<div class="shadowBox_contents alignLeft">
+    <span class="nested" style="padding-top:12px;">
+        <div id="treeDiv">
+            <!-- use this text if GWT can not display -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="alternate" type="application/atom+xml"
+      title="ATOM Feed for [Parameters: Topic=_sic_BIOLOGICAL CLASSIFICATION_sic_, Term=_sic_ANIMALS_sic_INVERTEBRATES_sic_, Variable_Level_1=_sic_ECHINODERMS_sic_, Variable_Level_2=_sic_SEA URCHINS_sic_]"
+      href="Titles.do?KeywordPath=[Parameters: Topic=_sic_BIOLOGICAL CLASSIFICATION_sic_, Term=_sic_ANIMALS_sic_INVERTEBRATES_sic_, Variable_Level_1=_sic_ECHINODERMS_sic_, Variable_Level_2=_sic_SEA URCHINS_sic_]&Portal=GCMD&clientId=null&Output=atom" />
+
+
+<div style="display:none">
+<!--
+The following content is here for Google to index and is replaced by the
+Refinment tool which displays the same content in a more User Interactive fasion
+-->
+<table width="90%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="46" valign="top">
+            <image src="default/images/default_icon.gif" width="46" height="47" alt="Thumbnail Icon" border="0"/>
+        </td>
+        <td width="4"><img src="default/images/spacer.gif" width="4" height="10" alt=""></td>
+        <td width="539" valign="top">
+            <span class="breadCrumb">
+                [Parameters: Topic=&#039;BIOLOGICAL CLASSIFICATION&#039;, Term=&#039;ANIMALS&#47;INVERTEBRATES&#039;, Variable_Level_1=&#039;ECHINODERMS&#039;, Variable_Level_2=&#039;SEA URCHINS&#039;]
+            </span>
+        </td>
+    </tr>
+</table>
+<table width="589" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td valign="center">
+            
+
+
+
+
+<!-- BEGIN refinementCallout.jsp____________________________________________________________ -->
+
+<br>
+<br>
+
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr valign="right">
+    <td width="256">
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- top border -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Category</strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>
+
+        <tr> <!-- box contents -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+              <tr> <!-- spacing -->
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="110" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+
+              <tr> <!-- select a field row -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+               
+<script language="JavaScript" type="text/javascript">
+function getSelectedValue(select) {
+    var index = select.selectedIndex;
+    if ((index >= 0) && (index < select.length)) {
+        return select.options[index].value;
+    }
+    return '';
+}
+function submit(select) {
+    if (getSelectedValue(select) != '') {
+        select.form.submit();
+    }
+}
+</script>
+	  <form method=GET name="parameters" action="Refinement.do">
+        <td bgcolor="E8EFF5" align="center">
+          <div align="center">
+ <select name="Refinement" onchange="submit(this)" size="1" class="footerText">
+              <option value=""> Please select a field </option>
+              <option value="Projects">Projects</option>
+              <option value="DataCenters">Data Centers</option>
+              <option value="Locations">Locations</option>
+              <option value="Instruments">Instruments/Sensors</option>
+              <option value="Platforms">Platforms/Sources</option>
+	      <option value="Parameters">Science Keywords</option>
+	      <option value="Spatial Coverage">Spatial Coverage</option>
+              <option value="Temporal Coverage">Temporal Coverage</option>
+              
+              <option value="-------------------">-------------------</option>
+	      <option value="Parent Only">Parent Records Only</option>
+	      <option value="Child Only">Children Records Only</option>
+	      <option value="Include Global Land">Include Global Land</option>
+      <option value="Include Global Ocean">Include Global Ocean</option>
+              
+            </select>
+            <input name="action" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+          </div>
+        </td>
+	 <input type="hidden" name="KeywordPath" value="%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D">
+	 <input type="hidden" name="Portal" value="GCMD">
+	 <input type="hidden" name="MetadataType" value="0">
+        </form>
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td>
+              </tr>
+
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+
+            </table>
+          </td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"><img src="default/images/spacer.gif" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+
+    </td>
+
+    <td width="6">&nbsp;</td> <!-- spacing cell -->
+
+    <td width="256" align="top"> <!-- right cell -->
+
+      <!-- table with Refine by Full text -->
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- row with label -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Full text </strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>        
+
+        <tr>
+          <!-- cell with spacing -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+
+          <!-- cell with free-text seach field -->
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+            <table  width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> <!-- spacing -->
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td> 
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+               <td><img src="default/images/spacer.gif" width="126" height="3" alt=""></td>
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+              <tr> <!-- free-text search field -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+
+<!-- NOTE:  Forms based version of free-text search -->
+                <form method=GET name="freeText" action="Freetext.do">
+                  <td bgcolor="E8EFF5" align="center">
+                    <input type="text" name="Freetext" size=17 id="Freetext" class="footerText" value="" 
+                           onFocus="this.value=' '" tabindex="1">
+                    <input name="action2" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" 
+                           align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+                    <input type="hidden" name="KeywordPath" value="%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D">
+                    <input type="hidden" name="Portal" value="GCMD">
+                    <input type="hidden" name="MetadataType" value="0">
+                  </td>
+                </form>
+
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td> 
+              </tr>
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+            </table>
+          </td>
+
+        </tr>
+
+        <tr> <!-- bottom border -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p> 
+
+<!-- END refinementCallout.jsp______________________________ -->
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <b></b>
+        </td>
+    </tr>
+</table>
+
+<table style="margin-top: 15px" width="90%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td valign="top">
+            <table width="100%" border="1">
+                <tr>
+                    <td class="calloutTitle" align="center">39 Titles Match Your Query</td>
+                </tr>
+                
+                
+                <tr>
+                    <td align="center">
+                        <img src="default/images/spacer.gif" width="1" height="30" alt="" align="absmiddle">
+                        
+                        Showing 1 through 39 of 39
+                        
+                    </td>
+                </tr>
+                
+                
+                
+                    <tr>
+                        <td>
+                            1.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=ASAC_2201_vulnerability&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                Vulnerability of shallow Antarctic invertebrate-dominated ecosystems  [ASAC_2201_vulnerability]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Human impacts threaten not only species, but also entire ecosystems. Ecosystems under stress can collapse or transition into different states, potentially reducing biodiversity at a variety of scales. ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            2.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=AAS_3051_urchin_genetics&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                Population genetics of east Antarctic sea urchins  [AAS_3051_urchin_genetics]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=ASAC_3051&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Population connectivity and gene flow in near shore Antarctic Echinoids (Sterechinus neumayeri, Abatus nimrodi and Abatus ingens) was investigated in East Antarctica. This data set consists of microsatellite ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            3.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_Meiofauna&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Ecosystems  [SRE4_Meiofauna]
+                            </a>
+                            
+                                &nbsp;
+                                <a href="Keywords.do?KeywordPath=%5BParent_DIF%3D%27SRE4_Meiofauna%27%5D&Portal=GCMD&MetadataType=0"  class="searchTermCount" target="_blank"  >
+                                    CHILD DIFs
+                                </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=ASAC_2201_SRE4&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            4.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_Meiofauna_T2&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Ecosystems  [SRE4_Meiofauna_T2]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=SRE4_Meiofauna&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            5.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_Meiofauna_T4&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Ecosystems  [SRE4_Meiofauna_T4]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=SRE4_Meiofauna&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            6.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_Meiofauna_T5&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Ecosystems  [SRE4_Meiofauna_T5]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=SRE4_Meiofauna&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            7.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_Macrofauna&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Macrofauna  [SRE4_Macrofauna]
+                            </a>
+                            
+                                &nbsp;
+                                <a href="Keywords.do?KeywordPath=%5BParent_DIF%3D%27SRE4_Macrofauna%27%5D&Portal=GCMD&MetadataType=0"  class="searchTermCount" target="_blank"  >
+                                    CHILD DIFs
+                                </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            8.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_Macrofauna_Ambient_T1-5&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Macrofauna Ambient Sampling Time 1 to 5  [SRE4_Macrofauna_Ambient_T1-5]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=SRE4_Macrofauna&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            9.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_Macrofauna_T1&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Macrofauna Sampling Time 1  [SRE4_Macrofauna_T1]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=SRE4_Macrofauna&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            10.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_Macrofauna_T2&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Macrofauna Sampling Time 2  [SRE4_Macrofauna_T2]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=SRE4_Macrofauna&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            11.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_Macrofauna_T3&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Macrofauna Sampling Time 3  [SRE4_Macrofauna_T3]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=SRE4_Macrofauna&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            12.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_Macrofauna_T4&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Macrofauna Sampling Time 4  [SRE4_Macrofauna_T4]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=SRE4_Macrofauna&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            13.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_Macrofauna_T5&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Macrofauna Sampling Time 5  [SRE4_Macrofauna_T5]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=SRE4_Macrofauna&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            14.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_OBrienBaySedimentMetals&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Metals in O'Brien Bay sediments  [SRE4_OBrienBaySedimentMetals]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=ASAC_2201_SRE4&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            15.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_SedimentChemistry&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Sediment Chemistry  [SRE4_SedimentChemistry]
+                            </a>
+                            
+                                &nbsp;
+                                <a href="Keywords.do?KeywordPath=%5BParent_DIF%3D%27SRE4_SedimentChemistry%27%5D&Portal=GCMD&MetadataType=0"  class="searchTermCount" target="_blank"  >
+                                    CHILD DIFs
+                                </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=ASAC_2201_SRE4&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            16.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_SedimentTOCNitrogenPhosphorus&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Sediment Total Organic Carbon plus Nitrogen and Phosphorus  [SRE4_SedimentTOCNitrogenPhosphorus]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=ASAC_2201_SRE4&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            17.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=SRE4_SedimentGrainSize&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Sediment grain size analysis  [SRE4_SedimentGrainSize]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=ASAC_2201_SRE4&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            18.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=TRENZ&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                Trophic Ecology of the Antarctic Nearshore Zone  [TRENZ]
+                            </a>
+                            
+                                &nbsp;
+                                <a href="Keywords.do?KeywordPath=%5BParent_DIF%3D%27TRENZ%27%5D&Portal=GCMD&MetadataType=0"  class="searchTermCount" target="_blank"  >
+                                    CHILD DIFs
+                                </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Project Objectives
+1) To describe trophic relationships in near shore marine benthic ecosystems of East Antarctica and determine the importance of environmental forces (such as sea ice and primary ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            19.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=TRENZ_Stable_Isotopes&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                Trophic Ecology of the Antarctic Nearshore Zone - Stable Isotope datasets  [TRENZ_Stable_Isotopes]
+                            </a>
+                            
+                                &nbsp;
+                                <a href="Keywords.do?KeywordPath=%5BParent_DIF%3D%27TRENZ_Stable_Isotopes%27%5D&Portal=GCMD&MetadataType=0"  class="searchTermCount" target="_blank"  >
+                                    CHILD DIFs
+                                </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=TRENZ&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Project Objectives
+1) To describe trophic relationships in near shore marine benthic ecosystems of East Antarctica and determine the importance of environmental forces (such as sea ice and primary ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            20.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=CEAMARC_CASO_200708_V3_IMAGES&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                2007-08 Voyage 3 of the Aurora Australis, CEAMARC-CASO Image Data - Stills and Video  [CEAMARC_CASO_200708_V3_IMAGES]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Image data (both stills and video) collected from the CEAMARC-CASO voyage of the Aurora Australis during the 2007-2008 summer season.  The data consist of a large number of images, plus documents ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            21.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=CEAMARC_CASO_200708_V3_MINERALOGY&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                2007-08 Voyage 3 of the Aurora Australis, CEAMARC-CASO Mineralogy Biota Data  [CEAMARC_CASO_200708_V3_MINERALOGY]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Mineralogy data collected from the CEAMARC-CASO voyage of the Aurora Australis during the 2007-2008 summer season.  The data consist of a large number of images, plus documents detailing analysis ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            22.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=DAVIS_STP&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                Environmental Impact Assessment of the Davis Sewage Outfall  [DAVIS_STP]
+                            </a>
+                            
+                                &nbsp;
+                                <a href="Keywords.do?KeywordPath=%5BParent_DIF%3D%27DAVIS_STP%27%5D&Portal=GCMD&MetadataType=0"  class="searchTermCount" target="_blank"  >
+                                    CHILD DIFs
+                                </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Untreated, macerated wastewater effluent has been discharged to the sea at Davis Station since 2005, when the old wastewater treatment infrastructure was removed. This environmental assessment was ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            23.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=ASAC_3134_field_lab_books&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                Field and lab books from ASAC project 3134 - Vulnerability of Antarctic marine benthos to increased temperatures and ocean acidification associated with climate change  [ASAC_3134_field_lab_books]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">These are the scanned electronic copies of field and lab books used at Davis Station and Kingston between 2009 and 2012 as part of ASAC (AAS) project 3134 - Vulnerability of Antarctic marine benthos ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            24.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=ASAC_2201_SRE4&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                SRE4 Effects of hydrocarbons on Antarctic Marine Sediment Ecosystems  [ASAC_2201_SRE4]
+                            </a>
+                            
+                                &nbsp;
+                                <a href="Keywords.do?KeywordPath=%5BParent_DIF%3D%27ASAC_2201_SRE4%27%5D&Portal=GCMD&MetadataType=0"  class="searchTermCount" target="_blank"  >
+                                    CHILD DIFs
+                                </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Sediment Recruitment Experiment 4 (SRE4) was a large, long term (5 year) field experiment run at Casey Station (from 2001 to 2006) testing the effects of 4 different hydrocarbons on marine sediment ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            25.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=ASAC_2948_TRENZ_Stable_Isotopes&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                Stable isotope analysis of invertebrate epifauna collected around Casey station, East Antarctica, for the TRENZ program.  [ASAC_2948_TRENZ_Stable_Isotopes]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=TRENZ_Stable_Isotopes&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">A variety of epifaunal invertebrates were collected from hard substrates and soft sediment habitats at various sites in the Windmill Islands near Casey station in East Antarctica. Collected fauna ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            26.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=AADC&EntryId=AAS_3134_XRD&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                Vulnerability of Antarctic marine benthos to increased temperatures and ocean acidification associated with climate change - x-ray diffractometry of sea urchin skeletons  [AAS_3134_XRD]
+                            </a>
+                            
+                            
+                                &nbsp;
+                                <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&EntryId=AAS_3134&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  class="searchTermCount" target="_blank"  >
+                                    PARENT DIF
+                                </a>
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Public 
+Ocean acidification and warming are global phenomena that will impact marine biota through the 21st century. This project will provide urgently needed predictive information on the likely ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            27.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27BIOLOGICAL+CLASSIFICATION%27%2C+Term%3D%27ANIMALS%2FINVERTEBRATES%27%2C+Variable_Level_1%3D%27ECHINODERMS%27%2C+Variable_Level_2%3D%27SEA+URCHINS%27%5D&OrigMetadataNode=GCMD&EntryId=MCN-USB&MetadataView=Full&MetadataType=0&lbnode=mdlb4"  >
+                                Universidad Simon Bolivar. Museo de Ciencias Naturales (MCN-USB).  [MCN-USB]
+                            </a>
+                            
+                            
+  

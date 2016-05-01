@@ -1,0 +1,500 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Isentropic Flow Equations</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="gases, equations, mathematics, fluid dynamics, compressibility, compressible aerodynamics, aerodynamics, area ratio, calculators, modeling, isentropic flow, pressure, temperature, density, Mach number, pressure ratio, temperature ratio, Mach angle, Prandtl-Meyer angle, dynamic pressure, corrected airflow,real gas effects, calorically perfect, calorically imperfect
+">
+
+<link href="portal.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="#000000">
+<table width="730" border="0" align="center" cellpadding="10" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td>
+
+<!-- Header Begins-->
+
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="365" height="68" bgcolor="#CCCCCC"><a href="http://www.nasa.gov"><img src="Images/logo_nasa.gif" alt="NASA Logo - Web Link to NASA.gov" width="288" height="51" border="0"></a></td>
+          <td width="20" height="68" bgcolor="#CCCCCC"></td>
+          <td width="170" height="68" align="left" valign="middle" bgcolor="#CCCCCC"><p><font color="#333333" size="-2" face="Verdana, Arial, Helvetica, sans-serif"><a class="bodygray" href="#">+ 
+              Text Only Site</a><br>
+              <a class="bodygray" href="#">+ Non-Flash Version</a><br>
+              <a class="bodygray" href="http://www.nasa.gov/centers/glenn/about/contact_us.html" target="_blank">+ 
+              Contact Glenn</a></font></p></td>
+          <td width="175" height="68" bgcolor="#006699"><table cellpadding="0" cellspacing="0" border="0"><form name="search" id="search" method="GET" action="http://search.nasa.gov/nasasearch/search/search.jsp"><tr><td rowspan="2" width="20"></td><td colspan="3"><label for="searchfield"><img src="Images/title_find_it_sm.gif" width="92" height="16" alt="FIND IT @ NASA" title="FIND IT @ NASA" border="0"></label></td></tr><tr><td valign="top"><input type="text" size="9" class="search" title="searchfield" id="searchfield" name="nasaInclude" value=""></td><td width="8"><img border="0" alt="" height="1" width="1" src="Images/spacer.gif"></td><td valign="top"><a href="javascript:document.search.submit();"><img name="Go" src="Images/button_go.gif" width="38" height="20" alt="Go" title="Go" border="0"></a></td></tr></form></table>
+			
+			</td>
+        </tr>
+        <tr> 
+          <td colspan="4"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr align="center"> 
+                
+     <td><a href="http://www.nasa.gov/about/highlights/index.html">
+           <img src="Images/nav_top_0_0.gif"
+           alt="ABOUT NASA" height="25" width="123" border=0 align=bottom></a>
+     </td>
+     <td><a href="http://www.nasa.gov/news/highlights/index.html">
+           <img src="Images/nav_top_1_0.gif"
+            alt="NEWS AND EVENTS" height="25" width="140" border=0 align=bottom></a>
+     </td>
+     <td><a href="http://www.nasa.gov/multimedia/highlights/index.html">
+           <img src="Images/nav_top_2_0.gif"
+           alt="MULTIMEDIA" height="25" width="119" border=0 align=bottom></a>
+     </td>
+     <td><a href="http://www.nasa.gov/missions/highlights/index.html">
+           <img src="Images/nav_top_3_0.gif"
+           alt="MISSIONS" height="25" width="106" border=0 align=bottom></a>
+     </td>
+     <td><a href="http://mynasa.nasa.gov/portal/site/mynasa/index.jsp?bandwidth=high">
+           <img src="Images/nav_top_4_0.gif"
+           alt="MyNASA" height="25" width="101" border=0 align=bottom></a>
+     </td>
+     <td><a href="http://www.nasa.gov/about/career/index.html">
+           <img src="Images/nav_top_5_0.gif"
+           alt="WORK FOR NASA" height="25" width="141" border=0 align=bottom></a>
+     </td>
+        </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td colspan="4"> 
+<!-- Header Ends -->			
+
+			<table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td>
+
+<CENTER>
+<IMG SRC="Images/isentrop.gif"
+ALT = "A graphic showing the equations which describe isentropic flow
+  for a calorically perfect gas."
+WIDTH=710 HEIGHT=533 X-CLARIS-USEIMAGEWIDTH X-CLARIS-USEIMAGEHEIGHT ALIGN=bottom></CENTER>
+
+<font size="2" face="Arial, Helvetica, sans-serif">
+<P>
+As a gas is forced through a tube, the gas molecules are deflected
+by the walls of the tube. If the speed of the gas is much less than
+the speed of sound of the gas, the
+<A HREF="fluden.html">density</A>
+of the gas remains constant and the velocity of the flow increases.
+However, as the speed of the flow approaches the
+<A HREF="sound.html">speed of sound</A>
+we must consider
+<A HREF="airsim.html">compressibility effects</A>
+on the gas. The density of the gas varies from
+one location to the next.
+Considering flow through a tube, as shown in
+the figure, if the flow is very gradually compressed (area decreases) and then
+gradually expanded (area increases), the flow conditions return to their
+original values. We say that such a process is <b>reversible</b>.
+From a consideration of the
+<A HREF="thermo2.html">second law</A>
+of thermodynamics,
+a reversible flow maintains a constant value of
+<A HREF="entropy.html">entropy</A>.
+Engineers call this type of flow an <b>isentropic</b> flow;
+a combination of the Greek word "iso" (same) and entropy.
+</P>
+<P>
+Isentropic flows occur when the change in flow variables is small
+and gradual, such as the ideal flow through the  
+<A HREF="nozzle.html">nozzle</A>
+shown above. 
+The generation of
+<A HREF="sndwave.html">sound waves</A>
+is an isentropic process. A
+<A HREF="mach.html">supersonic flow</A> that
+is turned while the flow area increases is also isentropic.
+We call this an isentropic
+<A HREF="expans.html">expansion</A>
+because of the area increase.
+If a supersonic flow is turned
+abruptly and the flow area decreases,
+<A HREF="shock.html">shock waves</A>
+are generated and the flow is <B>irreversible</B>.
+The isentropic relations are no longer
+valid and the flow is
+governed by the <A HREF="oblique.html">oblique</A> or <A HREF="normal.html">normal</A>
+shock relations.
+</P>
+<p>
+During an isentropic process, the 
+<A HREF="eqstat.html">state</A>
+of the thermodynamic variables of a gas can change. If the
+<A HREF="specheat.html">specific heat capacity</A>
+is a constant value, the gas is said
+to be <b>calorically perfect</b> and if the specific heat capacity
+changes, the gas is said to be <b>calorically imperfect</b>.
+At subsonic and low supersonic
+Mach numbers, air is calorically perfect.
+But under low hypersonic conditions, air is
+calorically imperfect.
+Derived flow variables, like the
+<A HREF="sound.html">speed of sound</A> and the
+isentropic flow relations
+are slightly different for a calorically imperfect gas
+than the conditions predicted for a calorically perfect gas
+because some of the energy of the flow excites the vibrational
+modes of the diatomic molecules of nitrogen and oxygen in the air.
+</p>
+<P>
+On this page we have collected many of the important equations
+which describe an isentropic flow. We  present two figures and
+two sets of equations; one for the calorically perfect gas and the
+other for the calorically imperfect gas.
+We begin with the calorically perfect gas and the definition
+of the <A HREF="mach.html">Mach number</A> since this
+parameter 
+<A HREF="machrole.html">appears</A>
+in many of the isentropic flow equations.
+The Mach number <b>M</b> is
+the ratio of the speed of the flow <b>v</b> to the speed of sound <b>a</b>.
+</p>
+<p>
+<LEFT>
+ Eq #1: <br>
+</LEFT>
+<CENTER>
+  M = v / a
+</CENTER>
+<p>
+The
+<A HREF="sound.html">speed of sound</A>, in turn, depends on the
+density <b>r</b>, the
+<A HREF="pressure.html">pressure</A>, <b>p</b>, the
+<A HREF="temptr.html">temperature</A>, <b>T</b>,
+and the
+<A HREF="specheat.html">ratio of specific heats </A>
+<b>gam</b>:
+</p>
+<p>
+<LEFT>
+ Eq #2: <br>
+</LEFT>
+<CENTER>
+  a = sqrt(gam * p / r) = sqrt (gam * R * T)
+</CENTER>
+<p>
+where <b>R</b> is the gas constant from the
+<A HREF="eqstat.html">equations of state</A>. If we begin with the
+<A HREF="entropy.html">entropy equations</A> for a gas, it can be
+<A HREF="isndrv.html">shown</A>
+that the pressure and density of an isentropic flow are related as follows:
+</p>
+<p>
+<LEFT>
+ Eq #3: <br>
+</LEFT>
+<CENTER>
+  p / r^gam = constant
+</CENTER>
+<p>
+We can determine the
+value of the constant by defining <B>total conditions</B> to be the
+pressure and density when the flow is brought to rest isentropically.
+The "t" subscript used in many of these equations stands for "total
+conditions". (You probably already have some idea of total conditions
+from experience with <A HREF="bern.html">Bernoulli's equation</A>).
+</p>
+<p>
+<LEFT>
+ Eq #3: <br>
+</LEFT>
+<CENTER>
+ p / r^gam = constant = pt / rt^gam
+</CENTER>
+<p>
+Using the <A HREF="eqstat.html">equation of state</A>, we can easily
+<A HREF="isndrv.html">derive</A>
+the following relations from equation (3):
+</p>
+<p>
+<LEFT>
+ Eq #4: <br>
+</LEFT>
+<CENTER>
+ p / pt =  (r / rt)^gam = (T / Tt)^[gam/(gam-1)]
+</CENTER>
+<p>
+The <A HREF="dynpress.html">dynamic pressure</A> <b>q</b> is defined to be:
+</p>
+<p>
+<LEFT>
+ Eq #5: <br>
+</LEFT>
+<CENTER>
+ q =  (r * v^2) / 2 = (gam * p * M^2) / 2
+</CENTER>
+<p>
+Using the conservation of
+<A HREF="mass.html">mass</A>,
+<A HREF="conmo.html">momentum</A>, and
+<A HREF="thermo1f.html">energy</A>
+and the definition of
+<A HREF="enthalpy.html">total enthalpy</A>
+in the flow, we can
+<A HREF="isndrv.html">derive</A> the following relations:
+</p>
+<p>
+<LEFT>
+ Eq #6: <br>
+</LEFT>
+<CENTER>
+ p / pt =  [1 +  M^2 * (gam-1)/2]^-[gam/(gam-1)]
+</CENTER>
+</p>
+<p>
+<LEFT>
+ Eq #7: <br>
+</LEFT>
+<CENTER>
+ T / Tt =  [1 +  M^2 * (gam-1)/2]^-1
+</CENTER>
+</p>
+<p>
+<LEFT>
+ Eq #8: <br>
+</LEFT>
+<CENTER>
+ r / rt =  [1 +  M^2 * (gam-1)/2]^-[1/(gam-1)]
+</CENTER>
+<p>
+Then considering the
+<A HREF="mflchk.html">compressible mass flow</A> equation.
+we can <A HREF="astar.html">derive</A>:
+</p>
+<p>
+<LEFT>
+ Eq #9: <br>
+</LEFT>
+<CENTER>
+  A / A* =  {[1 +  M^2 * (gam-1)/2]^[(gam+1)/(gam-1)/2]}*{[(gam+1)/2]^-[(gam+1)/(gam-1)/2]} / M
+</CENTER>
+<p>
+The starred conditions occur
+when the flow is <B>choked</B> and the Mach number is equal to one.
+Notice the important role that the Mach number plays in all the
+equations on the right side of this slide. If the Mach number of the
+flow is determined, all of the other flow relations can be
+determined. Similarly, determining any flow relation (pressure ratio
+for example) will fix the Mach number and set all the other flow
+conditions.</P>
+<p>
+We now turn to the calorically imperfect gas equations.
+</p>
+<p>
+<CENTER>
+<IMG SRC="Images/isenreal.gif"
+ALT = "A graphic showing the equations which describe isentropic flow for a
+  calorically imperfect gas."
+WIDTH=708 HEIGHT=530 X-CLARIS-USEIMAGEWIDTH X-CLARIS-USEIMAGEHEIGHT ALIGN=bottom></CENTER>
+<p>
+<A HREF="realspec.html">Mathematical models</A>
+based on a simple harmonic vibrator have been developed for the calorically
+imperfect gas.
+The details of the analysis were given by Eggers in
+<A HREF="Images/naca959.pdf">NACA Report 959</A>.
+A synopsis of the report is included in
+<A HREF="Images/naca1135.pdf">NACA Report 1135</A>.
+To a first order approximation, the equation for the speed of sound for
+a calorically imperfect gas is given by:
+</p>
+<p>
+<LEFT>
+ Eq #10: <br>
+</LEFT>
+<CENTER>
+ a^2 = R * T * {1 +  (gamma - 1) / ( 1 + (gamma-1) * [(theta/T)^2 * e^(theta/T) /(e^(theta/T) -1)^2]) }
+</CENTER>
+</p>
+<p>
+where <b>gamma</b> is the ratio of specific heats for a perfect gas and  <b>theta</b> is 
+a thermal constant equal to 5500 degrees Rankine.
+The relation for the total temperature is
+<A HREF="stagtmp.html">given</A> as:
+</p>
+<p>
+<LEFT>
+ Eq #11: <br>
+</LEFT>
+<CENTER>
+ M^2 = (2 (Tt/T) / gam) * [(gamma/(gamma-1) * (1 - T/Tt) + (theta/Tt) * (1/(e^theta/Tt -1) - 1/(e^theta/T -1)]
+</p>
+</CENTER>
+<P>
+where <b>gam</b> is the ratio of
+<A HREF="realspec.html">specific heats</A> including a correction for the vibrational
+modes:
+</p>
+<p>
+<LEFT>
+ Eq #12: <br>
+</LEFT>
+<CENTER>
+gam = 1 +  (gamma - 1) / ( 1 + (gamma-1) * [(theta/T)^2 * e^(theta/T) /(e^(theta/T)
+-1)^2])
+</CENTER>
+</p>
+<p>
+The equation relating Mach number and total temperature  must be solved iteratively
+to obtain a value for the total temperature. Having the total temperature ratio,
+the relations between density and total temperature is:
+</p>
+<p>
+<LEFT>
+ Eq #13: <br>
+</LEFT>
+<CENTER>
+rho/rhot = [(e^(theta/Tt) - 1)/(e^(theta/T) - 1)] * [(T/Tt)^(1/(gamma-1))] * exp[(theta/T) *
+(e^(theta/T)/(e^(theta/T) -1)) - (theta/Tt) * (e^(theta/Tt)/(e^(theta/Tt) -1)) ]
+</CENTER>
+</p>
+<p>
+where <b>rho/rhot</b> is the ratio of the static density to the total density. There is a similar relation
+for the ratio of the static and total pressure  <b>p/pt</b>:
+</p>
+<p>
+<LEFT>
+ Eq #14: <br>
+</LEFT>
+<CENTER>
+p/pt = [(e^(theta/Tt) - 1)/(e^(theta/T) - 1)] * [(T/Tt)^(gamma/(gamma-1))] * exp[(theta/T) *
+(e^(theta/T)/(e^(theta/T) -1)) - (theta/Tt) * (e^(theta/Tt)/(e^(theta/Tt) -1)) ]
+</CENTER>
+</p>
+<p>
+The equation for the dynamic pressure coefficient <b>q/p</b> is given by:
+</p>
+<p>
+<LEFT>
+ Eq #15: <br>
+</LEFT>
+<CENTER>
+q/p = (gamma/(gamma-1)) * (Tt/T - 1) + (theta/T)*[1/(e^(theta/Tt) -1) - 1/(e^(theta/T) -1) ]
+</CENTER>
+</p>
+
+<p>
+Here is a Java program that solves the equations given on this page.
+</p>
+<CENTER>
+<P><APPLET CODE="Isentrop.class" alt="Interactive Java applet to learn how isentropic flows behave by varying the individual flow variables" CODEBASE="javplts/isenh/" WIDTH=700 HEIGHT=550 ALIGN=bottom>
+</APPLET></P>
+<noscript>
+<p>
+This page shows an interactive Java applet to learn how isentropic flows
+behave by varying the individual flow variables.
+</p>
+</noscript>
+</CENTER>
+You select an input variable by using the choice button labeled <B>Input
+Variable</B>. Next to the selection, you then type in the value
+of the selected variable. When you hit the red <B> COMPUTE</B> button,
+the output values change. Some of the variables (like the area ratio) are double
+valued. This means that for the same area ratio, there is a subsonic
+and a supersonic solution. The choice button at the right top selects
+the solution that is presented.
+The variable "Wcor/A" is the
+<A HREF="wcora.html">corrected airflow per unit area</A>
+function which can be derived from the
+<A HREF="mflchk.html">compressible mass flow</A>.
+This variable is only a function of the Mach number of the flow. The
+<A HREF="machang.html">Mach angle</A> and
+<A HREF="pranmyer.html">Prandtl-Meyer angle</A>
+are also functions of the Mach number.
+These additional variables are used in the design of high speed
+inlets, nozzles and ducts.
+</P>
+<p>
+If you are an experienced user of this calculator, you can use a
+<A HREF="ieisen.html">sleek version</a>
+of the program which loads faster on your computer and does not include these instructions.
+You can also download your own copy of the program to run off-line by clicking on this button:
+</p> <p>
+<A HREF="javplts/isenh/Isentrop.zip"><IMG SRC="Images/butd.gif"
+ALT="Button to Download a Copy of the Program"
+WIDTH=145 HEIGHT=31 BORDER=0 ALIGN=bottom></A>
+</p>
+
+<HR>
+<b>Activities:</b>
+<br>
+
+<HR>
+<b><A HREF="guided.htm">Guided Tours</a></b>
+<UL>
+</UL>
+
+<HR>
+
+<BR>
+<P><B>Navigation .. </b></p>
+<A HREF="shorth.html"><IMG SRC="Images/buthi.gif"
+ALT="Button to Display Hypersonic Aero Index"
+WIDTH=151 HEIGHT=31 BORDER=0 ALIGN=bottom></A>
+<A HREF="shortc.html"><IMG SRC="Images/butci.gif"
+ALT="Button to Display Hi Speed Aero Index"
+WIDTH=151 HEIGHT=32 BORDER=0 ALIGN=bottom></A>
+
+<A HREF="short.html"><IMG SRC="Images/butai.gif"
+ALT="Button to Display Aerodynamics Index"
+WIDTH=163 HEIGHT=31 BORDER=0 ALIGN=bottom></A>
+
+<br>
+<DL>
+   <DT><A HREF="index.html">Beginner's Guide Home Page</A></DT>
+</DL>
+
+</font>
+					
+         	</td>
+              </tr>
+            </table>
+<!-- Footer Begins -->		  
+
+            <p>&nbsp;</p>
+		  </td>
+        </tr>
+        <tr bgcolor="#CCCCCC"> 
+          <td colspan="4"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+
+                <td width="155" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;
+                  <A HREF="http://www.firstgov.gov/"><img src="Images/logo_first_gov.gif" alt="First Gov Image" width="125" height="42" border="0"><a></td>
+                <td width="251"><p><font size="-1" face="Verdana, Arial, Helvetica, sans-serif"><br>
+                    <font size="-2">
+                <A class="bodygray" HREF="http://www.hq.nasa.gov/office/oig/hq/hotline.html" target="_blank">+ Inspector General Hotline</a><br>
+                <A class="bodygray" HREF="http://www.hq.nasa.gov/office/codee/nofear.html" target="_blank">+ Equal Employment Opportunity Data Posted Pursuant to the No Fear Act</a><br>
+                <A class="bodygray" HREF="http://www.nasa.gov/about/budget/index.html" target="_blank">+ Budgets, Strategic Plans and Accountability Reports</a><br>
+                <A class="bodygray" HREF="http://www.hq.nasa.gov/office/pao/FOIA/agency/" target="_blank">+ Freedom of Information Act</a><br>
+                <A class="bodygray" HREF="http://www.nasa.gov/about/highlights/HP_Management.html" target="_blank">+ The President's Management Agenda</a><br>
+                <A class="bodygray" HREF="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">+ NASA Privacy Statement, Disclaimer,</a><br>
+                <A class="bodygray" HREF="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank"> and Accessibility Certification</a></font></font></p>
+                  <p>&nbsp;</p></td>
+
+                <td align="right" valign="top"><img src="Images/logo_nasa_self.gif" alt="NASA Logo" width="49" height="48">&nbsp;&nbsp;&nbsp;</td>
+                <td width="200" valign="top"><font size="-2" face="Verdana, Arial, Helvetica, sans-serif"><br>
+                  <font color="#333333">Editor: <a class="bodygray" href="mailto:Thomas.J.Benson@NASA.gov">Tom 
+                  Benson</a><br>
+                  NASA Official: <a class="bodygray" href="mailto:Thomas.J.Benson@NASA.gov">Tom 
+                  Benson</a><br>
+                  Last Updated:   Jun 12 2014</font><br>
+                  <a class="bodygray" href="http://www.nasa.gov/centers/glenn/about/contact_us.html" target="_blank">+ 
+                  Contact Glenn</a></font></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+<!-- Footer Ends -->
+
+<!-- For Federated Analytics/DAP -->
+<script type="text/javascript" src="//www.grc.nasa.gov/Doc/Federated-Analytics.js"></script>
+</body>
+</html>

@@ -1,0 +1,1583 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=8"><!--fixes IE-->
+    
+    
+    
+    <title>Global Change Master Directory (GCMD)</title>
+
+    <script type="text/javascript" src="default/javascript.js"></script>
+    <script type="text/javascript" src="GCMD/custom.js"></script>
+
+<!-- OpenSearch instructions -->
+<link rel="search"
+    type="application/opensearchdescription+xml"
+    title="GCMD"
+    href="/KeywordSearch/default/openSearch.jsp?Portal=GCMD" />
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+        
+<!-- other styles -->
+    <link rel="stylesheet" type="text/css" href="GCMD/common.css">
+        <link rel="stylesheet" type="text/css" href="GCMD/style/preview.css">
+        <link rel="stylesheet" type="text/css" href="default/style/feedback.css">
+    
+    
+    <!--[if lte IE 7]>
+            <link rel="stylesheet" type="text/css" href="GCMD/ie_specific.css">
+    
+    <![endif]-->
+    
+    <script type="text/javascript" src="WidgetWrappers/WidgetWrappers.nocache.js"></script>
+    
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    
+    
+    
+    <!-- BEGIN - maptime advanced search related javascript -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="gcmd_google_map_v3.js"></script>
+    <script type="text/javascript" src="temporal.js"></script>
+    <!-- END maptime advanced search related javascript -->
+    
+</head>
+<body class="search" onLoad="browserDetect();doOnLoad();">
+
+<div id="siteContainer">
+    <div class="hidden">
+        <a href="#maincontent" title="Skip to Main Content" accesskey="3">
+            Skip to Main Content Navigation (press 3)
+        </a>
+    </div>
+    
+
+
+
+
+ <!--
+    <div class="hidden"><a href="#leftnav" title="Skip to Left Navigation" accesskey="2">Skip to Left Navigation (press 2)</a></div>
+    <div class="hidden"><a href="#maincontent" title="Skip to Main Content" accesskey="3">Skip to Main Content Navigation (press 3)</a></div>
+  -->
+
+    <div id="sitelinks">
+        <ul>
+            <li><a href="/learn/faqs/faqpage.html" title="Frequently Asked Questions about Earth Science and About the GCMD">FAQ</a></li>
+            <li><a href="/sitemap.html" title="Looking for a specific page or information?: Use the sitemap to find it quickly.">Site Map</a></li>
+            <li><a href="/MailComments/MailComments.jsf?rcpt=gcmduso" target="_blank" title="Have suggestions, comments, and questions about GCMD contact us here.">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div id="gcmdhead">
+        <div id="metaltop"><span></span></div>
+        <div id="banner">
+            <div id="bannerImg">
+                <a href="/index.html">
+                    <img width="1000" height="123" alt="" title="GCMD Banner Image" src="default/images/spacer.gif" border="0" /></a>
+            </div>
+        </div>
+    </div>
+    <div id="topNav">
+        <div id="topNavCenter">
+            <div id="topNavBtns">
+                <a href="/index.html" class="homeBtn" title="GCMD Home page: Welcome to the GCMD."><span class="context">Home</span></a>
+                <a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0#maincontent" class="searchBtn" title="Locate Earth science data, data services, and more through descriptive records."><span class="context">Search GCMD</span></a>
+                <a href="/learn/index.html" class="learnBtn" title="Learn about GCMD"><span class="context">Learn about GCMD</span></a>
+                <a href="/add/portals.html" class="portalsBtn" title="Learn about GCMD's Portal Collaborations."><span class="context">Portals</span></a>
+                <a href="/collaborate/docbuilder.html" class="collaborateBtn" title="Collaborate with GCMD"><span class="context">Collaborate</span></a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="page" class="alignCenter">
+        <div id="content">
+            <a name="maincontent"></a>
+            <div id="mainTabs" class="left">
+                
+                <div class='tab' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0#maincontent">Data Sets</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Keywords.do?Portal=GCMD&KeywordPath=ServiceParameters|Home&MetadataType=1&Columns=0#maincontent">Services / Tools</a></span>
+                </div>
+                <div class='tabOff' onclick="window.location='Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent';">
+                    <span class="tabTitle"><a href="Ancillary.do?Portal=GCMD&MetadataType=0&Columns=0#maincontent">Ancillary Descriptions</a></span>
+                </div>
+            </div>
+            <div id="mainContainer">
+                <div class="shadowBox_top blue clear"><span class="nested"></span></div>
+                <div class="shadowBox_contents blue">
+                    <!-- CONTENT AREA START -->
+                    
+                    
+
+
+
+
+
+
+<!-- link type="text/css" rel="stylesheet" href="TitlesApp.css" -->
+
+
+
+
+
+
+</div>
+<!-- This is the closing DIV tag for "shadowBox_contents blue" in layout.jsp -->
+
+
+
+
+<script type="text/javascript">
+    /*
+    add a link tag to the head element to assist tools looking for the
+    non-dynamic version of this page.
+    */
+    var headList = document.getElementsByTagName("head");
+    if (headList!=null && 0<headList.length)
+    {
+        var head = headList[0];
+        var link = document.createElement("link");
+        link.setAttribute("creator", "app");
+        link.setAttribute("type", "text/html");
+        link.setAttribute("rel", "alternate");
+        link.setAttribute("href"
+            , window.location.pathname
+            + "?Portal=GCMD"
+            + "&KeywordPath=[Parameters: Topic=&#039;OCEANS&#039;, Term=&#039;OCEAN WAVES&#039;, Variable_Level_1=&#039;WAVE PERIOD&#039;]"
+            + "&MetadataType=0"
+            + "&Output=basic"
+        );
+        
+        
+        head.appendChild(link);
+    }
+</script>
+<noscript>
+    <!-- no javascript, just dump a tag at hope that google knows what to do with it-->
+    <link type="text/html" rel="alternate" href="/KeywordSearch/Titles.do?Portal=GCMD&KeywordPath=[Parameters: Topic=&#039;OCEANS&#039;, Term=&#039;OCEAN WAVES&#039;, Variable_Level_1=&#039;WAVE PERIOD&#039;]&MetadataType=0&Output=basic">
+</noscript>
+
+<script type="text/javascript" language="javascript" src="titlesapp/titlesapp.nocache.js"></script>
+
+<script type="text/javascript">
+if (window.portal==null)
+{
+    window.portal = "GCMD";
+    window.pcheck = "2182003";
+}
+</script>
+
+<div class="shadowBox_contents alignLeft">
+    <span class="nested" style="padding-top:12px;">
+        <div id="treeDiv">
+            <!-- use this text if GWT can not display -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="alternate" type="application/atom+xml"
+      title="ATOM Feed for [Parameters: Topic=_sic_OCEANS_sic_, Term=_sic_OCEAN WAVES_sic_, Variable_Level_1=_sic_WAVE PERIOD_sic_]"
+      href="Titles.do?KeywordPath=[Parameters: Topic=_sic_OCEANS_sic_, Term=_sic_OCEAN WAVES_sic_, Variable_Level_1=_sic_WAVE PERIOD_sic_]&Portal=GCMD&clientId=null&Output=atom" />
+
+
+<div style="display:none">
+<!--
+The following content is here for Google to index and is replaced by the
+Refinment tool which displays the same content in a more User Interactive fasion
+-->
+<table width="90%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="46" valign="top">
+            <image src="default/images/default_icon.gif" width="46" height="47" alt="Thumbnail Icon" border="0"/>
+        </td>
+        <td width="4"><img src="default/images/spacer.gif" width="4" height="10" alt=""></td>
+        <td width="539" valign="top">
+            <span class="breadCrumb">
+                [Parameters: Topic=&#039;OCEANS&#039;, Term=&#039;OCEAN WAVES&#039;, Variable_Level_1=&#039;WAVE PERIOD&#039;]
+            </span>
+        </td>
+    </tr>
+</table>
+<table width="589" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td valign="center">
+            
+
+
+
+
+<!-- BEGIN refinementCallout.jsp____________________________________________________________ -->
+
+<br>
+<br>
+
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr valign="right">
+    <td width="256">
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- top border -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Category</strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>
+
+        <tr> <!-- box contents -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+              <tr> <!-- spacing -->
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="110" height="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+
+              <tr> <!-- select a field row -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+               
+<script language="JavaScript" type="text/javascript">
+function getSelectedValue(select) {
+    var index = select.selectedIndex;
+    if ((index >= 0) && (index < select.length)) {
+        return select.options[index].value;
+    }
+    return '';
+}
+function submit(select) {
+    if (getSelectedValue(select) != '') {
+        select.form.submit();
+    }
+}
+</script>
+	  <form method=GET name="parameters" action="Refinement.do">
+        <td bgcolor="E8EFF5" align="center">
+          <div align="center">
+ <select name="Refinement" onchange="submit(this)" size="1" class="footerText">
+              <option value=""> Please select a field </option>
+              <option value="Projects">Projects</option>
+              <option value="DataCenters">Data Centers</option>
+              <option value="Locations">Locations</option>
+              <option value="Instruments">Instruments/Sensors</option>
+              <option value="Platforms">Platforms/Sources</option>
+	      <option value="Parameters">Science Keywords</option>
+	      <option value="Spatial Coverage">Spatial Coverage</option>
+              <option value="Temporal Coverage">Temporal Coverage</option>
+              
+              <option value="-------------------">-------------------</option>
+	      <option value="Parent Only">Parent Records Only</option>
+	      <option value="Child Only">Children Records Only</option>
+	      <option value="Include Global Land">Include Global Land</option>
+      <option value="Include Global Ocean">Include Global Ocean</option>
+              
+            </select>
+            <input name="action" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+          </div>
+        </td>
+	 <input type="hidden" name="KeywordPath" value="%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D">
+	 <input type="hidden" name="Portal" value="GCMD">
+	 <input type="hidden" name="MetadataType" value="0">
+        </form>
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td>
+              </tr>
+
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+
+            </table>
+          </td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"><img src="default/images/spacer.gif" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+
+    </td>
+
+    <td width="6">&nbsp;</td> <!-- spacing cell -->
+
+    <td width="256" align="top"> <!-- right cell -->
+
+      <!-- table with Refine by Full text -->
+      <table width="256" border="0" cellpadding="0" cellspacing="0" bgcolor="#999999">
+
+        <tr> <!-- row with label -->
+          <td width="1"><img src="default/images/callOut_topLeft_2.gif" width="1" height="20" alt=""></td>
+          <td width="12"><img src="default/images/callOut_topLeft_1.gif" width="12" height="20" alt=""></td>
+          <td width="230" background="default/images/callOut_topTile.gif" class="calloutTitle" align="center">
+            <font color="#FFFFFF"><strong>Refine by Full text </strong></font>
+          </td>
+          <td width="12"><img src="default/images/callOut_topRght_1.gif" width="12" height="20" alt=""></td>
+          <td width="1"><img src="default/images/callOut_topRght_2.gif" width="1" height="20" alt=""></td>
+        </tr>
+
+        <tr> <!-- spacing -->
+          <td><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="1" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="126" height="2" alt=""></td>
+          <td bgcolor="E8EFF5"><img src="default/images/spacer.gif" width="8" height="2" alt=""></td>
+        </tr>        
+
+        <tr>
+          <!-- cell with spacing -->
+          <td width="1" bgcolor="#9C9C9C" background="default/images/gray_1x1.gif">
+            <img src="default/images/spacer.gif" width="1" height="1" alt="">
+          </td>
+
+          <!-- cell with free-text seach field -->
+          <td colspan="3" bgcolor="E8EFF5" valign="top">
+            <table  width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> <!-- spacing -->
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td> 
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+               <td><img src="default/images/spacer.gif" width="126" height="3" alt=""></td>
+                 <td><img src="default/images/spacer.gif" width="3" height="3" alt=""></td>
+              </tr>
+              <tr> <!-- free-text search field -->
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+                <td><img src="default/images/spacer.gif" width="3" alt=""></td>
+
+<!-- NOTE:  Forms based version of free-text search -->
+                <form method=GET name="freeText" action="Freetext.do">
+                  <td bgcolor="E8EFF5" align="center">
+                    <input type="text" name="Freetext" size=17 id="Freetext" class="footerText" value="" 
+                           onFocus="this.value=' '" tabindex="1">
+                    <input name="action2" type="image" tabindex="2" value="search" src="default/images/btn_go.gif" 
+                           align="absmiddle" width="26" height="21" border="0" alt="Go Button">
+                    <input type="hidden" name="KeywordPath" value="%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D">
+                    <input type="hidden" name="Portal" value="GCMD">
+                    <input type="hidden" name="MetadataType" value="0">
+                  </td>
+                </form>
+
+
+                <td width="1" bgcolor="E8EFF5"><img src="default/images/spacer.gif" alt="" width="1" height="1"></td> 
+              </tr>
+              <tr> <!-- spacing -->
+                <td colspan="4"><img src="default/images/spacer.gif" width="142" height="9" alt=""></td>
+              </tr>
+            </table>
+          </td>
+
+        </tr>
+
+        <tr> <!-- bottom border -->
+          <td><img src="default/images/callOut_btmLeft_2.gif" width="1" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmLeft_1.gif" width="12" height="7" alt=""></td>
+          <td bgcolor="E8EFF5" background="default/images/callOut_btmTile.gif"></td>
+          <td><img src="default/images/callOut_btmRght_1.gif" width="12" height="7" alt=""></td>
+          <td><img src="default/images/callOut_btmRght_2.gif" width="1" height="7" alt=""></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p> 
+
+<!-- END refinementCallout.jsp______________________________ -->
+
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <b></b>
+        </td>
+    </tr>
+</table>
+
+<table style="margin-top: 15px" width="90%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td valign="top">
+            <table width="100%" border="1">
+                <tr>
+                    <td class="calloutTitle" align="center">119 Titles Match Your Query</td>
+                </tr>
+                
+                
+                <tr>
+                    <td align="center">
+                        <img src="default/images/spacer.gif" width="1" height="30" alt="" align="absmiddle">
+                        
+                        Showing 1 through 50 of 119
+                        
+                            <a href="Titles.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&MetadataType=0&Offset=50&lbnode=mdlb3"  >
+                                <img src="default/images/nextArrow.gif" hspace="3" align="absmiddle" alt="Next" border="0">
+                            </a>
+                        
+                    </td>
+                </tr>
+                
+                
+                
+                    <tr>
+                        <td>
+                            1.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=cdip098&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                PacIOOS Wave Buoy 098: Mokapu Point, Oahu, Hawaii  [cdip098]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Wave buoy 098 measures wave height, wave direction, wave period, and water temperature in the vicinity of Mokapu Point on the windward (eastern) coast of Oahu in the state of Hawaii. Data are transmitted ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            2.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=cdip106&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                PacIOOS Wave Buoy 106: Waimea Bay, Oahu, Hawaii  [cdip106]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Wave buoy 106 measures wave height, wave direction, wave period, and water temperature in the vicinity of Waimea Bay on the North Shore of Oahu in the state of Hawaii. Data are transmitted every half ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            3.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=cdip121&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                PacIOOS Wave Buoy 121: Ipan, Guam  [cdip121]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Wave buoy 121 measures wave height, wave direction, wave period, and water temperature in the vicinity of Ipan beach park near the village of Talofofo on the eastern coast of Guam. Data are transmitted ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            4.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=cdip146&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                PacIOOS Wave Buoy 146: Kaumalapau, Lanai, Hawaii  [cdip146]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Wave buoy 146 measures wave height, wave direction, wave period, and water temperature in the vicinity of Kaumalapau Harbor on the leeward (western) coast of Lanai in the state of Hawaii. Data are ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            5.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=cdip163&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                PacIOOS Wave Buoy 163: Kalo, Majuro, Marshall Islands  [cdip163]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Wave buoy 163 measures wave height, wave direction, wave period, and water temperature in the vicinity of Delap Point on the east shore of Majuro Atoll in the Republic of the Marshall Islands (RMI). ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            6.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=cdip165&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                PacIOOS Wave Buoy 165: Barbers Point, Oahu, Hawaii  [cdip165]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Wave buoy 165 measures wave height, wave direction, wave period, and water temperature in the vicinity of Barbers Point on the leeward (western) coast of Oahu in the state of Hawaii. Data are transmitted ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            7.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=cdip187&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                PacIOOS Wave Buoy 187: Pauwela, Maui, Hawaii  [cdip187]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Wave buoy 187 measures wave height, wave direction, wave period, and water temperature in the vicinity of Pauwela and Kahului on the North Shore of Maui in the state of Hawaii. Data are transmitted ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            8.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=ww3_global&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NOAA WaveWatch III (NWW3) Global Wave Model  [ww3_global]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Through a collaborative effort with NOAA/NCEP and NWS Honolulu, the University of Hawaii has implemented a global-scale WaveWatch III (WW3) model 7.5-day hourly forecast at approximately 50-km or ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            9.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=ww3_hawaii&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NOAA WaveWatch III (NWW3) Hawaii Regional Wave Model  [ww3_hawaii]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Through a collaborative effort with NOAA/NCEP and NWS Honolulu, the University of Hawaii has implemented a global-scale WaveWatch III (WW3) model, which in turn provides boundary conditions for this ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            10.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=ww3_mariana&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NOAA WaveWatch III (NWW3) Mariana Regional Wave Model  [ww3_mariana]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Through a collaborative effort with NOAA/NCEP and NWS Honolulu, the University of Hawaii has implemented a global-scale WaveWatch III (WW3) model, which in turn provides boundary conditions for this ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            11.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=swan_apra&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Simulating WAves Nearshore (SWAN) Regional Wave Model: Guam: Apra Harbor  [swan_apra]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Simulating WAves Nearshore (SWAN) regional wave model 7.5-day hourly forecast for Apra Harbor on the island of Guam at approximately 50-m resolution. This high-resolution model is utilized to capture ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            12.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=swan_kauai&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Simulating WAves Nearshore (SWAN) Regional Wave Model: Kauai  [swan_kauai]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Simulating WAves Nearshore (SWAN) regional wave model 7.5-day hourly forecast for the Hawaiian islands of Kauai and Niihau at approximately 500-m resolution. This high-resolution model is utilized ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            13.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=swan_maui&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Simulating WAves Nearshore (SWAN) Regional Wave Model: Maui  [swan_maui]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Simulating WAves Nearshore (SWAN) regional wave model 7.5-day hourly forecast for the Hawaiian islands of Maui County (Maui, Molokai, Lanai, and Kahoolawe) at approximately 1-km resolution. This high-resolution ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            14.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=swan_tutuila&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Simulating WAves Nearshore (SWAN) Regional Wave Model: Tutuila, American Samoa  [swan_tutuila]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Simulating WAves Nearshore (SWAN) regional wave model 7.5-day hourly forecast for the island of Tutuila, American Samoa at approximately 500-m resolution. This high-resolution model is utilized to ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            15.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=aa_agg&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Liquid Robotics Wave Gliders: Aa  [aa_agg]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Wave gliders provide very detailed information about the physical condition of the waters in which they travel. They are small, unmanned vehicles that can cruise along the ocean surface for several ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            16.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=aa2_agg&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Liquid Robotics Wave Gliders: Aa2  [aa2_agg]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Wave gliders provide very detailed information about the physical condition of the waters in which they travel. They are small, unmanned vehicles that can cruise along the ocean surface for several ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            17.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=ww3_samoa&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NOAA WaveWatch III (NWW3) Samoa Regional Wave Model  [ww3_samoa]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Through a collaborative effort with NOAA/NCEP and NWS Honolulu, the University of Hawaii has implemented a global-scale WaveWatch III (WW3) model, which in turn provides boundary conditions for this ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            18.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NSIDC-0057&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Comprehensive Ocean - Atmosphere Data Set (COADS) LMRF Arctic Subset  [NSIDC-0057]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Comprehensive Ocean - Atmosphere Data Set (COADS) LMRF Arctic subset contains marine surface weather reports for the region north of 65 degrees N from ships, drifting ice stations, and buoys. ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            19.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=FIRE_AX_SOF_BUOY_SPR&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                First ISCCP Regional Experiment (FIRE) Atlantic Stratocumulus Transition Experiment (ASTEX) SOFIA Spear Buoy Data  [FIRE_AX_SOF_BUOY_SPR]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The First ISCCP Regional Experiments have been designed to improve data products and cloud/radiation parameterizations used in general circulation models (GCMs).  Specifically, the goals of FIRE are ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            20.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS256.3&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                MEDS Observed Wave Data  [NCAR_DS256.3]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Data from Canadian buoys through Nov. 1998, data from two NOAA buoys             now operated by Canada, and data from three Canadian waverider             buoys.</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            21.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS123.0&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                ERA40 WAVE Model Analysis on a 1.5 Degree Latitude-Longitude from ECMWF  [NCAR_DS123.0]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This dataset contains 23 variables from the ERA40 WAVE model on an             equally spaced global 1.5 degree latitude-longitude grid . All             variables are reported 4x a day.          ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            22.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS123.1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                ERA40 WAVE Model Forecast on a 1.5 Degree Latitude-Longitude from ECMWF  [NCAR_DS123.1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This dataset contains 23 variables from the ERA40 WAVE model on an             equally spaced global 1.5 degree latitude-longitude grid . All             variables are reported 4x a day.          ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            23.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS388.0&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                GATE Global Upper Air and Surface Observations, 1974Jun-Sep  [NCAR_DS388.0]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Data collected during the GARP Atlantic Tropical Experiment.</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            24.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS541.3&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Global and North Atlantic Atlas of Monthly Ocean Waves, by Gulev et al.  [NCAR_DS541.3]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Monthly 2-degree by 2-degree and 5-degree by 5-degree wave             statistics were computed for 1958-1997 (Global Waves) and 1964-1993             (North Atlantic Waves) respectively from COADS ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            25.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS336.0&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Historical Unidata Internet Data Distribution (IDD) Global Observational Data, May 2003 - current  [NCAR_DS336.0]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This free dataset, derived from real-time Global Telecommunications System (GTS)
+reports distributed via the Unidata Internet Data Distribution
+System (IDD), includes surface station (SYNOP) reports ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            26.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS539.5&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                ICOADS Input Data Sources  [NCAR_DS539.5]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This dataset is comprised of various input datasets used to develop             ICOADS. Some files are in original native format and other are in             the ICOADS binary formats. Note, these ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            27.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS540.0&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                International Comprehensive Ocean-Atmosphere Data Set (ICOADS Release 2.4), Global Marine Surface Observations  [NCAR_DS540.0]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">ICOADS is the largest collection of marine surface in situ  observations with
+over 200 million records from 1784 through the current date. ICOADS
+is formed by merging many national and international ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            28.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS533.1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Marine surface meteorological and actinometric observations from Russian Research Vessels  [NCAR_DS533.1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Meteorological and actinomtric (radiation) observations made aboard             Russian Research Vesssels were digitized from cruise reports and             logbooks at the All-Russian Research Institute ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            29.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS463.3&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NCDC TD3505 Integrated Surface Hourly Data, 1901-continuing  [NCAR_DS463.3]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This worldwide collection of surface weather observations is             produced at the National Climatic Data Center (NCDC) from NCDC             Surface Airway Hourly Observations (TD3280      ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            30.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS463.0&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NCDC TD9685 Global Surface Observations (from USAF DATSAV), hourly 1967-1980  [NCAR_DS463.0]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Global surface observations for many stations in modified SYNOP             format, primarily derived from USAF(ETAC) DATSAV             [http://rda.ucar.edu/cgi-bin/wpg?type=lower%26url_path=datasets/ds463.0%26file=/huron/ftp/datasets/ds463.1/docs/versions_of_DATSAV.html%26spec=spangler%26nopt=3%26title=Versions+of+DATSAV] ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            31.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS461.1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NCEP ADP Eta/NAM Subset Surface Observations, October 2000 - October 2010  [NCAR_DS461.1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">NCEP ADP Eta/NAM Subset Surface Observations are composed of a             regional synoptic set of surface data reports centered over North             America. These were operationally collected ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            32.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS461.0&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NCEP ADP Global Surface Observational Weather Data, October 1999 - continuing  [NCAR_DS461.0]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">NCEP ADP Global Surface Observational Weather Data are composed of             surface weather reports operationally collected by the National             Centers for Environmental Prediction (NCEP). ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            33.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS337.0&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NCEP ADP Global Upper Air and Surface (PREPBUFR and NetCDF formats) Weather Observations, May 1997 - Continuing  [NCAR_DS337.0]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">NCEP ADP Global Upper Air and Surface (PREPBUFR and NetCDF formats)             Weather Observations are composed of a global set of surface and             upper air reports operationally collected ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            34.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS464.0&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NCEP ADP Operational Global Surface Observations, February 1975 - February 2007  [NCAR_DS464.0]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">These NCEP ADP operational global synoptic surface data reports were             collected from the GTS during time slots centered on the 6-hourly             analysis times of their global and regional ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            35.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS464.1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NMC ADP Global Surface Observations Subsets  [NCAR_DS464.1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Intended for area subsets extracted from ds464.0 by DSS. Presently             just for Greenland, 1978-1999May.</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            36.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS535.0&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Ocean station vessel observations  [NCAR_DS535.0]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Surface observations, some XBT profiles, and some sub-surface             station data from permanent observing ocean ships. Earliest data is             1945 and latest data is 1991. Added in June ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            37.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS606.1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                TOGA COARE Air-Sea Fluxes and Sea-Surface Data  [NCAR_DS606.1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This dataset contains air-sea fluxes and sea-surface data obtained             during TOGA COARE by aircraft, ship, buoy, and satellite. For more             information about TOGA COARE, see the ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            38.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS606.4&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                TOGA/COARE Large Scale Ocean Data  [NCAR_DS606.4]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This dataset contains large scale ocean data obtained during TOGA COARE. For
+more information about TOGA COARE, see the TOGA COARE Data
+Information System [http://www.ncdc.noaa.gov/oa/coare/index.html] ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            39.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS465.1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                U.S. Navy SPOT Global Surface and Upper Air Observations, daily 1971-1996  [NCAR_DS465.1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The Navy Fleet Numerical Weather Center (FNWC) collects, on an             operational basis, surface and upper air data from the Global             Telecommunications System (GTS). DSS created the ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            40.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS463.1&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                U.S.A.F. DATSAV Surface Observations, 1973-1981  [NCAR_DS463.1]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Global surface observations from USAF(ETAC) at NCDC in DATSAV3             [http://rda.ucar.edu/cgi-bin/wpg?type=lower%26url_path=datasets/ds463.1%26file=/huron/ftp/datasets/ds463.1/docs/versions_of_DATSAV.html%26spec=spangler%26nopt=3%26title=Versions+of+DATSAV] ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            41.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NCAR_DS463.2&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                U.S.A.F. DATSAV3 Surface Observations, 1901-continuing  [NCAR_DS463.2]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">This ASCII data set (DATSAV3) is produced at the National Climatic             Data Center (NCDC) from a USAF binary set (DATSAV2), a collection of             worldwide surface weather observations ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            42.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=MADIS_METSFC&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                MADIS Meteorological Surface Dataset  [MADIS_METSFC]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Surface land and maritime observing stations report various meteorological
+variables that describe the current weather. These variables include basic
+measurements such as temperature, relative humidity, ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            43.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=gov.noaa.ncdc.C00060&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NORPLAX Shuttle Experiment (DSI-9936)  [gov.noaa.ncdc.C00060]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">NORPLAX Shuttle Experiment is historical digital data set DSI-9936, archived at the National Climatic Data Center (NCDC). In the early 1970s the North Pacific experiment (NORPLAX) was begun as part ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            44.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=SSEC-AMRC-SHIP_BUOY&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Antarctic/Southern Hemisphere Ship and Buoy Weather Observations  [SSEC-AMRC-SHIP_BUOY]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">We have observations from three ships near Antarctica, the R/V Polar Duke the R/V Nathaniel B. Palmer and the R/V Laurence M. Gould. Data from 23 August 1993 are available via ftp and the files are ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            45.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=SSEC-AMRC-NCEP-WWFM&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                NCEP Wind and Wave Forecast model analyses and forecasts over/near Antarctica  [SSEC-AMRC-NCEP-WWFM]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The AMRC has been archiving the National Centers for Environmental Prediction's (formerly the National Meteorological Center) Wind and Wave Forecast Model (WWFM). This collection can be very useful, ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            46.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_PMEL_ENSO&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                El Nino: Centralized Access to Widely Distributed Information About El Nino Southern Oscillation (ENSO)  [NOAA_PMEL_ENSO]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">The El Nino Theme Page is a focused resource of information related to
+      the El Nino Southern Oscillation (ENSO) phenomenon.  It links to
+      widely distributed information related to El Nino, ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            47.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=CBOS&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Chesapeake Bay Observing System Data  [CBOS]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Chesapeake Bay Observing System has a partnership with the National Ocean Service to provide long-term, real-time information about the state of the Chesapeake Bay and its resources. The CBOS monitoring ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            48.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=NOAA_NWS_TLH_MARINE_BUOY&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                National Weather Service Real-Time Marine Observations from Weather Buoys Worldwide  [NOAA_NWS_TLH_MARINE_BUOY]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Interactive Marine Observations:
+      
+      The Tallahassee Office of the National Weather Service (NWS) makes
+      real-time marine weather observations accessible online for worldwide
+      ocean ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            49.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=gov.noaa.ncdc.C00598&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                BOMEX - Miscellaneous Data (DSI-9670)  [gov.noaa.ncdc.C00598]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">BOMEX - Miscellaneous Data is a historical digital data set archived at the National Climatic Data Center (NCDC). BOMEX Archive includes, data collected during the Barbados Oceanographic and Meteorological ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            50.
+                            <a href="Metadata.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&OrigMetadataNode=GCMD&EntryId=gov.noaa.ncdc.C00585&MetadataView=Full&MetadataType=0&lbnode=mdlb3"  >
+                                Climatic Atlas of the Outer Continental Shelf Waters and Coastal Regions of Alaska  [gov.noaa.ncdc.C00585]
+                            </a>
+                            
+                            
+                            
+                            <br>
+                            <div class="fieldSummary">
+                            <font size="-1">Climatic Atlas of the Outer Continental Shelf Waters and Coastal Regions of Alaska is a climatology atlas, available from the National Climatic Data Center (NCDC). These atlases update the knowledge ...</font>
+                            </div>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                
+                
+                
+                <tr>
+                    <td align="center">
+                        
+                        Showing 1 through 50 of 119
+                        
+                            <a href="Titles.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&MetadataType=0&Offset=50&lbnode=mdlb3"  >
+                                <img src="default/images/nextArrow.gif" hspace="3" align="absmiddle" alt="Next" border="0">
+                            </a>
+                        
+                    </td>
+                </tr>
+                
+            </table>
+        </td>
+    </tr>
+</table>
+
+</div>
+        </div>
+        <span class="textSmall" style="padding:0.25em;">
+            Click
+                <a href="Titles.do?Portal=GCMD&KeywordPath=%5BParameters%3A+Topic%3D%27OCEANS%27%2C+Term%3D%27OCEAN+WAVES%27%2C+Variable_Level_1%3D%27WAVE+PERIOD%27%5D&MetadataType=0&Output=gwtTitles&lbnode=mdlb3" title="View Records"  >
+                here
+            </a>
+            for a static view of records.
+        </span>
+    </span>
+</div>
+
+
+                    
+                    <!-- END Content Area -->
+                <div class="shadowBox_bottom clear"><span class="nested"></span></div>
+            </div>
+            <hr />
+        </div>
+    </div>
+    
+    <div id="metalbottom"><span></span></div>
+    
+
+
+
+
+
+
+<script type="text/javascript">
+    function openAnchor(tag, config)
+    {
+        var href = null;
+        try
+        {
+            var rawAttrib = tag.getAttribute("href");
+            if (rawAttrib!=null && 0<rawAttrib.length)
+            {
+                href = rawAttrib;
+            }
+            else
+            {
+                var list = tag.getElementsByTagName("a");
+                for (var y=0; y<list.length; ++y)
+                {
+                    var item = list[y].href
+                    if (item!=null && 0<item.length)
+                    {
+                        href = item;
+                        break;
+                    }
+                }
+            }
+            if (href!=null && 0<href.length)
+            {
+                //append suffix if configured
+                if (config.s!=null && 0<config.s.length){href += config.s;}
+                viewPage(
+                    href
+                    , Math.min(window.screen.width,config.w)
+                    , config.h);
+            }
+        }
+        catch (e){return true;}
+        return false;
+    }
+</script>
+<div id="totalfooter">
+    <div align="center">
+        <ul id="nav">
+            <li><a href="/KeywordSearch/Keywords.do?Portal=GCMD&KeywordPath=Parameters|Home&MetadataType=0&Columns=0&KeywordPath=Parameters|Home" title="Locate Earth science data, data services, and more through descriptive records.">Search</a></li>
+            <li><a href="/collaborate/docbuilder.html" title="Collaborate with GCMD">Collaborate</a></li>
+            <li><a href="/add/portals.html" title="Learn About GCMD's Portal Collaborations">Portals</a></li>
+            <li><a href="/MailComments/MailComments.jsf?rcpt=gcmduso" target="_blank" title="Have suggestions, comments, and questions about GCMD contact us here.">Contact Us</a></li>
+        </ul>
+   </div>
+</div>
+<div id="nasafoot">
+    <div id="nasafootleft">
+        <ul>
+         <li>
+            <a href="/KeywordSearch/Home.do?Portal=GCMD_legacy&MetadataType=0"><img src="/images/gui/togcmd.png" alt="Return to legacy GCMD" site"></a>
+        
+            + <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">
+                NASA Privacy Policy and Important Notices </a></li>
+        </ul>
+    </div>
+    
+    <div id="nasafootright">
+        <div class="logo">
+            <a class="external" href="http://www.nasa.gov/" target="_blank">
+                <img src="GCMD/images/gui/nasa_footer_logo.png" width="55" height="50" alt="NASA Logo - nasa.gov" /></a>
+        </div>
+        <ul>
+            <li onclick="return openAnchor(this, {w:1000,h:550,s:'#maincontent'})">
+                Webmaster:
+                <a class="email" href="/MailComments/MailComments.jsf?rcpt=holland" target="_blank">Monica Holland</a>
+            </li>
+            <li onclick="return openAnchor(this, {w:1000,h:550,s:'#maincontent'})">
+                Responsible NASA Official:
+                <a class="email" href="/MailComments/MailComments.jsf?rcpt=wharton" target="_blank">Dr. Stephen Wharton</a>
+            </li>
+            <li>Last updated: November 2014</li>
+        </ul>
+    </div>
+</div>
+
+<!-- nettracker.jsp -->
+
+<!-- BEGIN: NetTracker Page Tag -->
+<script type="text/javascript" language="JavaScript" src="/ntpagetag.js"></script>
+<noscript>
+    <img src="http://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="">
+</noscript>
+<!-- END: NetTracker Page Tag -->
+
+
+
+
+</div>
+<!-- nettracker.jsp -->
+
+<!-- BEGIN: NetTracker Page Tag -->
+<script type="text/javascript" language="JavaScript" src="/ntpagetag.js"></script>
+<noscript>
+    <img src="http://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="">
+</noscript>
+<!-- END: NetTracker Page Tag -->
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+if (window.globals==null){window.globals = new Object();}
+if (globals.feedback==null)
+{
+    globals.feedback =
+    {
+        doHover: function()
+        {
+            var wrapper = document.getElementById("feedback");
+            wrapper.style.marginLeft = "0";
+        }
+        ,doOut: function()
+        {
+            var wrapper = document.getElementById("feedback");
+            wrapper.style.marginLeft = "-4px";
+        }
+        ,doClick: function()
+        {
+            gcmd.gwt.widgetwrappers.pageViewerApp.viewPage(
+                "Feedback"
+                , "/r/l/report"
+                , 1160, 610);
+            return false;
+        }
+    };
+}
+</script>
+
+<div class="screenControl" id="feedback"
+        onmouseover="globals.feedback.doHover()"
+        onmouseout="globals.feedback.doOut()">
+    <a href="/r/l/report" onclick="return globals.feedback.doClick();">
+        <img src="default/images/feedback.png?portal=GCMD" alt="Link to Web Site" border="0"/></a>
+    <!--/a-->
+</div>
+
+
+<iframe width="1" height="1" style="display:none;" name="cache" id="cache"
+    src='./GCMD/manifest.jsp'></iframe>
+
+
+
+
+</body>
+</html>
+

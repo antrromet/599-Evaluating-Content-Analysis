@@ -1,0 +1,470 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>        
+        <meta charset="utf-8">
+        <title>September  :  2013  :  Earth Matters : Blogs</title>
+        <!-- Mobile viewport optimized -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- standard metadata -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="title" content="September  :  2013  :  Earth Matters : Blogs">
+        <!-- NASA required metadata -->
+        <meta name="orgcode" content="610">
+        <meta name="rno" content="Charles.M.Ichoku.1">
+        <meta name="content-owner" content="Paul.D.Przyborski.1">
+        <meta name="webmaster" content="Paul.D.Przyborski.1">
+        <meta name="description" content="">
+        <!-- Dublin Core Metadata Initiative (DCMI) metadata - http://dublincore.org/ -->
+        <meta name="DC.Identifier" content="http://earthobservatory.nasa.gov">
+        <meta name="DC.Title" content="NASA Earth Observatory : ">
+        <meta name="DC.Description" content="">
+        <meta name="DC.Date" scheme="ISO8601" content="2015-02-18">
+        <meta name="DC.Date.X-MetadataLastModified" scheme="ISO8601" content="2015-02-18">
+        <meta name="DC.Publisher" content="NASA Earth Observatory">
+        <meta name="DC.Publisher.Address" content="http://earthobservatory.nasa.gov/Contact/">
+        <meta name="DC.Language" scheme="ISO639-1" content="en">
+        <meta name="DC.Type" content="Text.Article">
+        <meta name="DC.Format" scheme="IMT" content="text/html">
+        <meta name="DC.Subject" content="climate change, global climate change, global warming, natural hazards, Earth, environment, remote sensing, atmosphere, land processes, oceans, volcanoes, land cover, Earth science data, NASA, environmental processes, Blue Marble, global maps">
+        <link rel="icon" href="/favicon.ico" type="image/ico">
+        
+        <link rel="stylesheet" type="text/css" href="/css/global.css" media="all" />
+                
+        <script src="/js/eo.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="/js/jquery.easing.js"></script>
+        <script src="/js/global.js"></script>
+        
+                
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        <!--[if IE 6]>
+        <style type="text/css"> body { behavior:url(/js/csshover.htc); } </style>
+        <script src="/js/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+            DD_belatedPNG.fix('.pngbg');
+        </script>
+        <![endif]-->
+        
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-17823747-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+		
+		<script id="_fed_an_js_tag" type="text/javascript" src="/js/federated-analytics.all.min.js?agency=NASA&yt=true"></script>
+
+<link rel="stylesheet" href="http://earthobservatory.nasa.gov/blogs/earthmatters/wp-content/themes/eo-default-2011/style.css" type="text/css" media="screen" >
+	<link rel="stylesheet" href="/blogs/wp-includes/css/admin-bar.css" type="text/css" media="screen">
+	<link rel="alternate" type="application/rss+xml" title="Earth Matters RSS Feed" href="http://earthobservatory.nasa.gov/blogs/earthmatters/feed/" >
+	<link rel="alternate" type="application/atom+xml" title="Earth Matters Atom Feed" href="http://earthobservatory.nasa.gov/blogs/earthmatters/feed/atom/" >
+	<link rel="pingback" href="http://earthobservatory.nasa.gov/blogs/earthmatters/xmlrpc.php" >
+	    </head>
+
+
+    <!--[if lt IE 7 ]><body class="ie6"><![endif]-->
+    <!--[if IE 7 ]><body class="ie7"><![endif]-->
+    <!--[if IE 8 ]><body class="ie8"><![endif]-->
+    <!--[if IE 9 ]><body class="ie9"><![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+        
+        <div id="header">            
+            <div id="header-in">
+                <a href="http://www.nasa.gov" class="nasa-logo">NASA</a>
+                <a href="/?eocn=topnav&eoci=logo" class="logo">Earth Observatory</a>
+                <ul>
+                    <li class="menu-home"><a href="/?eocn=topnav&eoci=home">Home</a></li>
+                    <li class="menu-images"><a href="/Images/?eocn=topnav&eoci=images">Images</a></li>
+                    <li class="menu-maps"><a href="/GlobalMaps/?eocn=topnav&eoci=globalmaps">Global Maps</a></li>
+                    <li class="menu-features"><a href="/Features/?eocn=topnav&eoci=features">Features</a></li>
+                    <li class="menu-blogs"><a href="/blogs/?eocn=topnav&eoci=blogs" class="sel-link">News &amp; Notes</a></li>
+                </ul>
+
+                <div class="search">
+                    <form action="/Search/index.php" id="searchbox_002358070019171462865:rvzidec6wz4" name="qs">
+                    <input type="hidden" name="hq" id="hq" value="site:earthobservatory.nasa.gov/blogs/">                    <input type="text" onblur="if (!this.value) this.value=this.defaultValue" onfocus="if (this.value==this.defaultValue) this.value=''; else this.select()" value="Search" name="q">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+
+            <div class="col-double">
+
+                <div class="col-l">
+
+                    <div class="box">
+                        
+                        <div class="mid">
+                                                
+                            <div class="full-hd">
+                                <div class="breadcrumb">
+<a href="/index.php">Home</a> / <a href="/blogs/index.php">Blogs</a> / <a href="http://earthobservatory.nasa.gov/blogs/earthmatters">Earth Matters</a>  /  2013  /  September
+                                </div>
+                        </div>
+
+<div class="feature new blog">
+
+
+    <div class="section archivetitle">
+            <h2>Archive for September, 2013</h2>
+
+		<div class="section">
+		    					    		</div>
+
+    </div>
+
+    
+    <div class="post">
+    
+        <div class="section">
+            <h2><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/27/key-science-points-from-the-2013-ipcc-report/" rel="bookmark" title="Permanent Link to Key Science Points from the 2013 IPCC Report">Key Science Points from the 2013 IPCC Report</a></h2>
+            <span class="date">September 27th, 2013  by Adam Voiland</span>
+        </div>
+        
+        <div class="section">
+            <p style="text-align: left"><iframe width="425" height="344" src="http://www.youtube.com/embed/6yiTZm0y1YA?wmode=transparent" frameborder="0" allowfullscreen> </iframe></p>
+<p style="text-align: left">These key science points were published on September 27, 2013, as <a href="http://www.ipcc.ch/news_and_events/docs/ar5/ar5_wg1_headlines.pdf">&#8220;headline statements&#8221;</a> by the <a href="http://www.ipcc.ch/">Intergovernmental Panel on Climate Change</a> (IPCC) as part of the organization&#8217;s <a href="http://www.ipcc.ch/">fifth assessment report.</a> Background links provided by Earth Observatory.</p>
+<p>+Warming of the climate system is unequivocal, and since the 1950s, many of the observed changes are unprecedented over decades to millennia. The atmosphere and ocean have warmed, the amounts of snow and ice have diminished, sea level has risen, and the concentrations of greenhouse gases have increased. <a href="http://earthobservatory.nasa.gov/Features/GlobalWarming/">Read more about global warming.</a></p>
+<p>+Each of the last three decades has been successively warmer at the Earth’s surface than any preceding decade since 1850. In the Northern Hemisphere, 1983–2012 was likely the warmest 30-year period of the last 1400 years. <a href="http://earthobservatory.nasa.gov/Features/WorldOfChange/decadaltemp.php">See maps showing global temperature trends.</a></p>
+<p>+Ocean warming dominates the increase in energy stored in the climate system, accounting for more than 90% of the energy accumulated between 1971 and 2010 (high confidence). It is virtually certain that the upper ocean (0−700 m) warmed from 1971 to 2010, and it likely warmed between the 1870s and 1971. <a href="http://earthobservatory.nasa.gov/Features/EnergyBalance/page1.php">Read more about Earth&#8217;s energy budget.</a></p>
+<p>+Over the last two decades, the Greenland and Antarctic ice sheets have been losing mass, glaciers have continued to shrink almost worldwide, and Arctic sea ice and Northern Hemisphere spring snow cover have continued to decrease in extent (high confidence). Read more about <a href="http://earthobservatory.nasa.gov/Features/WorldOfChange/sea_ice.php">Arctic</a> and <a href="http://earthobservatory.nasa.gov/Features/WorldOfChange/sea_ice_south.php">Antarctic</a> sea ice.</p>
+<p>+The rate of sea level rise since the mid-19th century has been larger than the mean rate during the previous two millennia (high confidence). Over the period 1901–2010, global mean sea level rose by 0.19 [0.17 to 0.21] m. <a href="http://climate.nasa.gov/key_indicators#seaLevel">Read more about sea level rise.</a></p>
+<p>+The atmospheric concentrations of carbon dioxide (CO2), methane, and nitrous oxide have increased to levels unprecedented in at least the last 800,000 years. CO2 concentrations have increased by 40% since pre-industrial times, primarily from fossil fuel emissions and secondarily from net land use change emissions. The ocean has absorbed about 30% of the emitted anthropogenic carbon dioxide, causing ocean acidification. <a href="http://www.giss.nasa.gov/research/briefs/schmidt_05/">Read more about the greenhouse effect.</a></p>
+<p>+Total radiative forcing is positive, and has led to an uptake of energy by the climate system. The largest contribution to total radiative forcing is caused by the increase in the atmospheric concentration of CO2 since 1750. <a href="http://earthobservatory.nasa.gov/Features/EnergyBalance/page1.php">Read more about radiative forcing.</a></p>
+<p>+Human influence on the climate system is clear. This is evident from the increasing greenhouse gas concentrations in the atmosphere, positive radiative forcing, observed warming, and understanding of the climate system. <a href="http://earthobservatory.nasa.gov/Features/GlobalWarming/page4.php">Read more about the human fingerprint on the climate system. </a></p>
+<p>+Climate models have improved since the AR4. Models reproduce observed continental-scale surface temperature patterns and trends over many decades, including the more rapid warming since the mid-20th century and the cooling immediately following large volcanic eruptions (very high confidence). <a href="http://earthobservatory.nasa.gov/Features/ModelingIntro/">Read more about climate models.</a></p>
+<p>+Observational and model studies of temperature change, climate feedbacks and changes in the Earth’s energy budget together provide confidence in the magnitude of global warming in response to past and future forcing. <a href="http://earthobservatory.nasa.gov/Features/EnergyBalance/">Read more about Earth&#8217;s energy budget. </a></p>
+<p>+Human influence has been detected in warming of the atmosphere and the ocean, in changes in the global water cycle, in reductions in snow and ice, in global mean sea level rise, and in changes in some climate extremes. This evidence for human influence has grown since AR4. It is extremely likely that human influence has been the dominant cause of the observed warming since the mid-20th century. <a href="http://climate.nasa.gov/evidence">Read more about the human influence on climate.</a></p>
+<p>+Continued emissions of greenhouse gases will cause further warming and changes in all components of the climate system. Limiting climate change will require substantial and sustained reductions of greenhouse gas emissions. <a href="http://climate.nasa.gov/causes">Read more about greenhouse gases.  </a></p>
+<p>+Global surface temperature change for the end of the 21st century is likely to exceed 1.5°C relative to 1850 to 1900 for all RCP scenarios except RCP2.6. It is likely to exceed 2°C for RCP6.0 and RCP8.5, and more likely than not to exceed 2°C for RCP4.5. <a href="http://earthobservatory.nasa.gov/GlobalMaps/view.php?d1=MOD_LSTAD_M">Read more about global surface temperatures. </a></p>
+<p>+Warming will continue beyond 2100 under all RCP scenarios except RCP2.6. Warming will continue to exhibit interannual-to-decadal variability and will not be regionally uniform. <a href="http://data.giss.nasa.gov/gistemp/">Read more about the NASA GISS tempearture record.</a></p>
+<p>+Changes in the global water cycle in response to the warming over the 21st century will not be uniform. The contrast in precipitation between wet and dry regions and between wet and dry seasons will increase, although there may be regional exceptions. <a href="http://earthobservatory.nasa.gov/Features/Water/page1.php">Read more about the water cycle. </a></p>
+<p>+The global ocean will continue to warm during the 21st century. Heat will penetrate from the surface to the deep ocean and affect ocean circulation. <a href="http://earthobservatory.nasa.gov/Features/HeatBucket/">Read more about how oceans absorb heat.</a></p>
+<p>+It is very likely that the Arctic sea ice cover will continue to shrink and thin and that Northern Hemisphere spring snow cover will decrease during the 21st century as global mean surface temperature rises. Global glacier volume will further decrease. <a href="http://earthobservatory.nasa.gov/Features/SeaIce/page1.php">Read more about sea ice.</a></p>
+<p>+Global mean sea level will continue to rise during the 21st century. Under all RCP scenarios the rate of sea level rise will very likely exceed that observed during 1971–2010 due to increased ocean warming and increased loss of mass from glaciers and ice sheets. <a href="http://earthobservatory.nasa.gov/GlobalMaps/view.php?d1=MYD28M">Read more about sea surface temperature.</a></p>
+<p>+Climate change will affect carbon cycle processes in a way that will exacerbate the increase of CO2 in the atmosphere (high confidence). Further uptake of carbon by the ocean will increase ocean acidification. <a href="http://earthobservatory.nasa.gov/Features/OceanCarbon/">Read more about the ocean&#8217;s carbon balance.</a></p>
+<p>+Cumulative emissions of CO2 largely determine global mean surface warming by the late 21st century and beyond. Most aspects of climate change will persist for many centuries even if emissions of CO2 are stopped. This represents a substantial multi-century climate change commitment created by past, present and future emissions of CO2. <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=82142&amp;eocn=home&amp;eoci=iotd_title">Read more about carbon dioxide.</a></p>
+        </div>
+        
+        <div class="section">
+            <p class="postmetadata"> Posted in <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/uncategorized/" rel="category tag">Uncategorized</a> |   <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/27/key-science-points-from-the-2013-ipcc-report/#comments" title="Comment on Key Science Points from the 2013 IPCC Report">7 Comments and counting</a></p>
+
+        </div>
+            
+    </div>
+    
+        
+    <div class="post">
+    
+        <div class="section">
+            <h2><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/23/a-view-inside-super-typhoon-usagi/" rel="bookmark" title="Permanent Link to A View Inside Super Typhoon Usagi">A View Inside Super Typhoon Usagi</a></h2>
+            <span class="date">September 23rd, 2013  by Adam Voiland</span>
+        </div>
+        
+        <div class="section">
+            <p style="text-align: center"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/files/2013/09/usagi_trmm_2013262lrg.jpg"><img class="aligncenter size-full wp-image-3999" alt="usagi_trmm_2013262" src="http://earthobservatory.nasa.gov/blogs/earthmatters/files/2013/09/usagi_trmm_2013262.jpg" width="720" height="480" /></a></p>
+<p>As category 4 <a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=82121&amp;eocn=home&amp;eoci=nh">Super Typhoon Usagi</a> churned toward Taiwan on <a href="http://rapidfire.sci.gsfc.nasa.gov/cgi-bin/imagery/single.cgi?image=Usagi.A2013262.0215.2km.jpg">September 19, 2013,</a> a satellite orbiting hundreds of miles above used a <a href="http://trmm.gsfc.nasa.gov/overview_dir/pr.html">radar instrument</a> to map the storm’s inner structure. The instrument on the <a href="http://trmm.gsfc.nasa.gov/">Tropical Rainfall Measuring Mission</a> (TRMM) observed two tall complexes of rain clouds called <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=7733">hot towers</a> in the inner <a href="http://ww2010.atmos.uiuc.edu/%28Gh%29/guides/mtr/hurr/stages/cane/wall.rxml">eyewall,</a> a sign that Usagi was a well-organized storm and strengthening.</p>
+<p>Tropical cyclone <a href="http://www.hurricanescience.org/science/science/development/">&#8220;heat engines&#8221;</a> extract heat from the ocean&#8217;s surface through evaporation and convert a portion of that energy into destructive winds that circle under the eyewall of the storm. All tropical cyclones have heat engines, but several features detected by TRMM suggested that Usagi&#8217;s was running particularly efficiently. Radars almost always see eyewalls in strong tropical cyclones, for instance, but they are rarely as symmetrical as Usagi&#8217;s is in the visualization shown above. NASA Goddard Space Flight Center researcher<a href="http://www.nasa.gov/mission_pages/hurricanes/bios/kelley_bio.html#.UkCp7LbX-_0"> Owen Kelley</a> produced the visualization based on TRMM data from the <a href="http://pmm.nasa.gov">Precipitation Measurement Missions</a> science team at NASA and from the <a href="http://www.eorc.jaxa.jp/TRMM/index_e.htm">Japan Aerospace Exploration Agenc</a>y (JAXA)<em>.</em></p>
+<p>In the 3D portion of the image, heavy precipitation is shown in dark red. Light precipitation is gray, green, yellow or light red, with the color reflecting how high the storm has lofted the rain production (higher than 8.5 kilometers is green; above 11.5 kilometers is yellow; and higher than 14 kilometers is red). Note that the underlying image, which shows the temperature of cloud tops, uses a different color scale.  In it, cool cloud tops are pink and white, medium temperature cloud tops are gray and blue, and warm cloud tops are dark gray and black.</p>
+<p>Even the heavy precipitation at the base of the eyewall is fairly symmetric, which is somewhat unusual according to <a href="http://www.nasa.gov/vision/earth/lookingatearth/kelley_bio.html">Kelley</a>. Tropical cyclone eyewalls that are this symmetric are called <a href="http://en.wikipedia.org/wiki/Annular_tropical_cyclone">&#8220;annular,&#8221;</a> and they have a tendency to maintain their intensity for longer periods than tropical cyclones with more lopsided eyewalls. At two locations in the inner eyewall, updrafts were strong enough to produce hot towers<b>—</b>features that are associated with strengthening cyclones.  A few hours after TRMM collected the data visualized here, Usagi intensified briefly into a category 5 storm, the highest category <a href="http://www.nhc.noaa.gov/aboutsshws.php">on the scale.  </a></p>
+<p>Read this <a href="http://earthobservatory.nasa.gov/Features/Simpson/simpson3.php">Earth Observatory feature</a> and <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2012/09/12/discovering-hot-towers/">blog post</a> to learn more about how the <a href="http://www.nasa.gov/topics/people/features/joanne-simpson.html">late Joanne Simpson</a> pioneered the study of hot towers. The video below, <a href="http://svs.gsfc.nasa.gov/vis/a000000/a003400/a003413/index.html">produced</a> by NASA Goddard’s Scientific Visualization Studio, offers another view of how hot towers work.</p>
+<p><iframe width="425" height="344" src="http://www.youtube.com/embed/kUG4-TEqPYc?wmode=transparent" frameborder="0" allowfullscreen> </iframe></p>
+        </div>
+        
+        <div class="section">
+            <p class="postmetadata"> Posted in <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/uncategorized/" rel="category tag">Uncategorized</a> |   <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/23/a-view-inside-super-typhoon-usagi/#comments" title="Comment on A View Inside Super Typhoon Usagi">2 Comments and counting</a></p>
+
+        </div>
+            
+    </div>
+    
+        
+    <div class="post">
+    
+        <div class="section">
+            <h2><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/20/september-puzzler-answer-chara-sands/" rel="bookmark" title="Permanent Link to September Puzzler Answer: Chara Sands">September Puzzler Answer: Chara Sands</a></h2>
+            <span class="date">September 20th, 2013  by Adam Voiland</span>
+        </div>
+        
+        <div class="section">
+            <p>Congratulations to <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/16/september-puzzler-2/#comment-12670">Felix Bossert</a> for being the quickest to solve the <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/16/september-puzzler-2/?src=earthmatters-rss">September puzzler.</a> The answer is the Chara Sands.  See the <a href="http://www.earthobservatory.nasa.gov/IOTD/view.php?id=82112&amp;eocn=home&amp;eoci=iotd_grid">Image of the Day</a> that published on September 21, 2013, for a second image and details about the area. Also congratulations to <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/16/september-puzzler-2/#comment-12738">Robert Emberson</a> for providing interesting details about the geologic history of the dunes.</p>
+<p>It only took Bossert a few hours to get the answer<b>—</b>impressive because we hadn&#8217;t even promoted the puzzler through our <a href="http://earthobservatory.nasa.gov/Subscribe/">email newsletter,</a> <a href="https://www.facebook.com/NASAEarthObservatory">Facebook page,</a> or <a href="https://twitter.com/NASA_EO">Twitter feed.</a> I can&#8217;t say I&#8217;m surprised because Felix is a veteran of the geology puzzler <a href="http://woge-felix.blogspot.com/p/rules-of-geological-whereongoogleearth.html">Where on Google Earth</a> (WOGE).  Give WOGE a try, but make sure <a href="http://woge-felix.blogspot.com/p/rules-of-geological-whereongoogleearth.html">know the rules </a>and be prepared to host the next WOGE if you win.)</p>
+<p><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/files/2013/09/charasands_oli_2013192.jpg"><img class="aligncenter size-full wp-image-3968" alt="charasands_oli_2013192" src="http://earthobservatory.nasa.gov/blogs/earthmatters/files/2013/09/charasands_oli_2013192.jpg" width="720" height="480" /></a></p>
+<p>&nbsp;</p>
+        </div>
+        
+        <div class="section">
+            <p class="postmetadata"> Posted in <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/eos-satellite-puzzler/" rel="category tag">EO's Satellite Puzzler</a> |   <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/20/september-puzzler-answer-chara-sands/#comments" title="Comment on September Puzzler Answer: Chara Sands">1 Comment so far</a></p>
+
+        </div>
+            
+    </div>
+    
+        
+    <div class="post">
+    
+        <div class="section">
+            <h2><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/16/september-puzzler-2/" rel="bookmark" title="Permanent Link to September Puzzler">September Puzzler</a></h2>
+            <span class="date">September 16th, 2013  by Adam Voiland</span>
+        </div>
+        
+        <div class="section">
+            <p><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/files/2013/09/puzzler_sep_2013.jpg"><img class="aligncenter size-full wp-image-3940" alt="puzzler_sep_2013" src="http://earthobservatory.nasa.gov/blogs/earthmatters/files/2013/09/puzzler_sep_2013.jpg" width="720" height="480" /></a><br />
+Each month, Earth Observatory offers up a puzzling satellite image here on <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/">Earth Matters</a>. The September 2013 puzzler is above. <strong><em>Your challenge is to use the comments section to tell us what part of the world we are looking at, when the image was acquired, and why the scene is interesting.</em></strong></p>
+<p><strong>How to answer.</strong> Your answer can be a few words or several paragraphs. (Try to keep it shorter than 300 words). You might simply tell us what part of the world an image shows. Or you can dig deeper and explain what satellite and instrument produced the image, what spectral bands were used to create it, or what is compelling about some obscure speck in the far corner of an image. If you think something is interesting or noteworthy, tell us about it.</p>
+<p><strong>The prize.</strong> We can’t offer prize money for being the first to respond or for digging up the most interesting kernels of information. But, we can promise you credit and glory (well, maybe just credit). Roughly one week after a puzzler image appears on this blog, we will post an annotated and captioned version as our <a href="http://earthobservatory.nasa.gov/IOTD/">Image of the Day</a>. In the credits, we’ll acknowledge the person who was first to correctly ID the image. We’ll also recognize people who offer the most interesting tidbits of information. Please include your preferred name or alias with your comment. If you work for an institution that you want us to recognize, please mention that as well.</p>
+<p><strong>Recent winners.</strong> If you’ve won the puzzler in the last few months, please sit on your hands for at least a few days to give others a chance to play.</p>
+        </div>
+        
+        <div class="section">
+            <p class="postmetadata"> Posted in <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/eos-satellite-puzzler/" rel="category tag">EO's Satellite Puzzler</a> |   <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/16/september-puzzler-2/#comments" title="Comment on September Puzzler">19 Comments and counting</a></p>
+
+        </div>
+            
+    </div>
+    
+        
+    <div class="post">
+    
+        <div class="section">
+            <h2><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/13/have-a-question-about-climate-science/" rel="bookmark" title="Permanent Link to Have a Question about Climate Science? #askclimate">Have a Question about Climate Science? #askclimate</a></h2>
+            <span class="date">September 13th, 2013  by Adam Voiland</span>
+        </div>
+        
+        <div class="section">
+            <p><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/files/2013/09/climate365_askclimate.jpg"><img class="aligncenter size-large wp-image-3929" alt="climate365_askclimate" src="http://earthobservatory.nasa.gov/blogs/earthmatters/files/2013/09/climate365_askclimate-720x504.jpg" width="720" height="504" /></a></p>
+<p><em>Note: See the comment thread for an archive of questions and answers related to this event.</em></p>
+<p>Do you have questions about how NASA measures, models, and visualizes our changing climate?</p>
+<p>Here&#8217;s your chance to ask them directly. Earth Observatory is hosting a climate Q &amp; A with NASA scientists at 2 pm EDT on Wednesday, September 18. <a href="http://www.giss.nasa.gov/staff/gschmidt/">Gavin Schmidt</a> and <a href="http://www.ldeo.columbia.edu/~bc9z/Home.html">Benjamin Cook</a><b>—</b>both climate specialists from NASA&#8217;s Goddard Institute for Space Studies in New York City<b>—</b>will be answering questions live via the <a href="https://twitter.com/NASA_EO">@NASA_EO</a> Twitter feed. Earth Observatory <a href="http://earthobservatory.nasa.gov/About/">artists and writers </a>will also be available to answer your questions about how we visualize and communicate climate data.</p>
+<p>There&#8217;s no such thing as a dumb question. Climate change science can be confusing, complex, and controversial. Our goal is to help you cut through the noise and find out what the science actually says. Need inspiration as you think about your questions? <a href="http://earthobservatory.nasa.gov/blogs/climateqa/">Here</a> are some of the more common questions we&#8217;ve received over the years.  You can also read through some of our stories about key climate change topics including: <a href="http://earthobservatory.nasa.gov/Features/GlobalWarming/">warming,</a> <a href="http://earthobservatory.nasa.gov/Features/Aerosols/">aerosols,</a> <a href="http://earthobservatory.nasa.gov/Features/ClimateStorms/page1.php">extreme storms,</a> <a href="http://earthobservatory.nasa.gov/Features/Water/">the water cycle,</a> and the <a href="http://earthobservatory.nasa.gov/Features/CarbonCycle/">carbon cycle.</a></p>
+<p><strong>Start sending your questions now by posting a comment in the thread below or by sending a tweet tagged #askclimate.</strong></p>
+<p><iframe width="425" height="344" src="http://www.youtube.com/embed/G0KV2MluelY?wmode=transparent" frameborder="0" allowfullscreen> </iframe></p>
+        </div>
+        
+        <div class="section">
+            <p class="postmetadata"> Posted in <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/nasa-news/" rel="category tag">NASA News</a> |   <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/13/have-a-question-about-climate-science/#comments" title="Comment on Have a Question about Climate Science? #askclimate">113 Comments and counting</a></p>
+
+        </div>
+            
+    </div>
+    
+        
+    <div class="post">
+    
+        <div class="section">
+            <h2><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/04/this-september-ask-a-nasa-climate-scientist/" rel="bookmark" title="Permanent Link to This September, Ask a NASA Climate Scientist">This September, Ask a NASA Climate Scientist</a></h2>
+            <span class="date">September 4th, 2013  by Patrick Lynch</span>
+        </div>
+        
+        <div class="section">
+            <p><iframe width="425" height="344" src="http://www.youtube.com/embed/G0KV2MluelY?wmode=transparent" frameborder="0" allowfullscreen> </iframe></p>
+<p>The topic of climate change inspires a lot of debate. At NASA, it has also inspired a lot of <a href="http://earthobservatory.nasa.gov/Features/GlobalWarming/">science.</a></p>
+<p>NASA scientists examine the Earth&#8217;s climate and how it is changing – gaining knowledge (or insight?) through decades of satellite observations, powerful computer models and expert scientific analysis.</p>
+<p>Over the course of this month, these NASA climate experts will answer selected questions through the agency&#8217;s social media channels – primarily on YouTube, Twitter and Google+.</p>
+<p>But first – we need your questions.</p>
+<p>Have a <a href="http://earthobservatory.nasa.gov/blogs/climateqa/">question</a> that&#8217;s always confounded you about Earth&#8217;s climate? Wonder why it matters that the climate is changing now if it has changed before? Or how scientists know changes seen in recent decades are the result of human activities, not natural causes?</p>
+<p>Go ahead. Ask a climate scientist.</p>
+<p>Here&#8217;s how you can take part:</p>
+<p><strong>YouTube<br />
+</strong>NASA scientists will be recording video responses to some of the questions we receive. The responses will be posted to the <a href="http://www.youtube.com/user/NASAexplorer">NASAExplorer YouTube channel.</a></p>
+<p>To submit a question, record a short, 10-15 second video with your question and upload it to YouTube – and be sure to tag the video &#8220;#askclimate&#8221; so that we can find it. You can also simply post a question on Twitter with the same hashtag, &#8220;#askclimate.&#8221;</p>
+<p><strong>Twitter<br />
+</strong>NASA scientists will directly answer questions in three separate Twitter chats, covering key climate topics. Again, all these chats will use the hashtag &#8220;#askclimate.&#8221; You can join in on these dates and at these accounts:</p>
+<p><strong>Wed., Sept. 4, 2 p.m. EDT<br />
+</strong><a href="https://twitter.com/NASA_ICE">@NASA_ICE</a></p>
+<p><strong>Wed., Sept. 11, 2 p.m. EDT<br />
+</strong><a href="https://twitter.com/EarthVitalSigns">@EarthVitalSigns</a></p>
+<p><strong>Google+ Hangouts<br />
+</strong>On Sept. 27, the U.N. Intergovernmental Panel on Climate Change will release the Summary For Policymakers of its Fifth Assessment Report. This plain-language document, intended for the public, lays out what is a consensus understanding by the scientific community of the state of climate change science.</p>
+<p>On Mon., Sept. 30, NASA will host two Google+ Hangouts – one in English, one with Spanish-speaking scientists – to continue the discussion about climate science and answer questions about the IPCC report.</p>
+<p>Watch for announcements via <a href="https://plus.google.com/+NASA">NASA&#8217;s Google+</a> and our <a href="https://plus.google.com/+NASA">other social media accounts</a> about the specific times and details for these events.</p>
+        </div>
+        
+        <div class="section">
+            <p class="postmetadata"> Posted in <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/nasa-news/" rel="category tag">NASA News</a> |   <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/04/this-september-ask-a-nasa-climate-scientist/#comments" title="Comment on This September, Ask a NASA Climate Scientist">1 Comment so far</a></p>
+
+        </div>
+            
+    </div>
+    
+        
+    <div class="section">
+        		            </div>
+
+
+<!-- Content Ends -->
+
+                            </div>
+
+                        </div>
+                        <div class="bot"></div>
+                    </div>
+
+                </div>
+
+                <div class="col-r">
+
+                    <div class="feature-nav">
+
+                        <h3><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/">Earth Matters</a></h3>
+
+                        <ul>
+                            <li><strong>Browse by Topic</strong></li>
+                            	<li class="cat-item cat-item-1136"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/aerial-imagery/" >Aerial Imagery</a>
+</li>
+	<li class="cat-item cat-item-1135"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/astronaut-photography/" >Astronaut Photography</a>
+</li>
+	<li class="cat-item cat-item-670"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/earth-indicator/" >Earth Indicator</a>
+</li>
+	<li class="cat-item cat-item-676"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/eos-satellite-puzzler/" >EO&#039;s Satellite Puzzler</a>
+</li>
+	<li class="cat-item cat-item-1131"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/from-the-archives/" >From the Archives</a>
+</li>
+	<li class="cat-item cat-item-1147"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/ground-photography/" >Ground Photography</a>
+</li>
+	<li class="cat-item cat-item-1127"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/nasa-news/" >NASA News</a>
+</li>
+	<li class="cat-item cat-item-1138"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/natural-hazards/" >Natural Hazards</a>
+</li>
+	<li class="cat-item cat-item-664"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/news-roundup/" >News Roundup</a>
+</li>
+	<li class="cat-item cat-item-1132"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/reader-mail/" >Reader Mail</a>
+</li>
+	<li class="cat-item cat-item-1133"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/reader-pics/" >Reader Pics</a>
+</li>
+	<li class="cat-item cat-item-1143"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/research-news/" >Research News</a>
+</li>
+	<li class="cat-item cat-item-1137"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/satellite-abcs/" >Satellite ABCs</a>
+</li>
+	<li class="cat-item cat-item-1134"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/tournament-earth/" >Tournament Earth</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/uncategorized/" >Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-665"><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/category/where-on-earth/" >Where on Earth?</a>
+</li>
+                        </ul>
+
+                        <ul id="local_nav">
+                            <li><strong>Browse by Date</strong></li>
+                            	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2015/02/'>February 2015</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2015/01/'>January 2015</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/12/'>December 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/11/'>November 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/10/'>October 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/09/'>September 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/08/'>August 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/07/'>July 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/06/'>June 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/05/'>May 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/04/'>April 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/03/'>March 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/02/'>February 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2014/01/'>January 2014</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/12/'>December 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/11/'>November 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/10/'>October 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/09/'>September 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/08/'>August 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/07/'>July 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/06/'>June 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/05/'>May 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/04/'>April 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/03/'>March 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/02/'>February 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2013/01/'>January 2013</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/12/'>December 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/11/'>November 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/10/'>October 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/09/'>September 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/08/'>August 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/07/'>July 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/06/'>June 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/05/'>May 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/04/'>April 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/03/'>March 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/02/'>February 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2012/01/'>January 2012</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/11/'>November 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/10/'>October 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/09/'>September 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/08/'>August 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/07/'>July 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/06/'>June 2011</a></li>
+	<li><a href='http://earthobservatory.nasa.gov/blogs/earthmatters/2011/05/'>May 2011</a></li>
+                        </ul>
+
+
+                        <ul>
+                                                    </ul>
+
+                        <ul>
+                        <li><img src="/siteimages/globals/icn-feed-14x14.png" width="14" height="14" alt="RSS"/> <strong>RSS</strong></li>
+                        <li><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/feed/">Entries (RSS)</a></li>
+                        <li><a href="http://earthobservatory.nasa.gov/blogs/earthmatters/comments/feed/">Comments (RSS)</a></li>
+                        </ul>
+                    </div>                    <div class="side-sub">
+                        <a href="/Subscribe/" class="btn-subscribe">Subscribe Today</a>
+                        <div class="subscribe-feeds">
+                        <!--
+                            <a href="/Subscribe/feeds.php" class="btn-rss">RSS</a>
+                            <a href="/Subscribe/feeds.php" class="btn-rss">Google Earth</a>
+                            <a href="http://www.facebook.com/NASAEarthObservatory" class="btn-fb">Facebook</a>
+                            <a href="http://twitter.com/nasa_eo/" class="btn-twitter">Twitter</a>
+                        -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cf"></div>
+
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div id="footer-in">
+                <div class="footer-btn">
+                    <a href="/Subscribe/feeds.php" alt="RSS Feeds"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-rss.png" height="16" width="16" alt="RSS Feeds"></a>
+                    <a href="http://instagram.com/nasa_eo/" alt="Instagram"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-instagram.png" height="16" width="16" alt="Instagram"></a>
+                    <a href="http://www.facebook.com/NASAEarthObservatory" alt="Find us on Facebook"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-facebook.png" height="16" width="16" alt="Find us on Facebook"></a>
+                    <a href="http://twitter.com/nasa_eo/" alt="Follow us on Twitter"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-twitter.png" height="16" width="16" alt="Follow us on Twitter"></a>
+                </div> <!-- /footer-btn -->
+                <div class="footer-sub">
+                    <a href="/Subscribe/index.php?src=subscribe-foot">Subscribe Today</a>
+                </div> <!-- /footer-sub -->             
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="/Subscribe/feeds.php">Feeds</a></li>
+                        <li><a href="/Contact/">Contact Us</a></li>
+                        <li><a href="/About/">About the Earth Observatory</a></li>
+                        <li><a href="/ImageUse/">Image Use Policy</a></li>
+                        <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy &amp; Important Notices</a></li>
+                    </ul>
+                    The Earth Observatory is part of the <a href="http://eospso.nasa.gov/">EOS Project Science Office</a> located at <a href="http://www.nasa.gov/goddard/">NASA Goddard Space Flight Center</a><br>
+                    webmaster: <a href="/Contact/">Paul Przyborski</a> | NASA official: <a href="/Contact/">Charles Ichoku</a>
+                </div> <!-- /footer-links -->
+            </div> <!-- /footer-in -->
+        </div> <!-- /footer -->
+
+    </body>
+</html>
+<script>
+$('#content img').each(function(index) {
+    if ($(this).width() == 720) {
+      $(this).addClass('wide');
+    }
+    
+});
+</script>

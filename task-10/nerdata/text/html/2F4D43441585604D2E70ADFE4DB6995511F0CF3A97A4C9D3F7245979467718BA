@@ -1,0 +1,1856 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- default/layout.jsp ------------------------------------------------ -->
+    
+        <title>Very Long Baseline Interferometry Data from NASA CDDIS</title>
+    
+    
+    <script type="text/javascript" src="default/javascript.js"></script>
+    <script type="text/javascript" src="default/custom.js"></script>
+
+<!-- OpenSearch instructions -->
+<link rel="search"
+    type="application/opensearchdescription+xml"
+    title="NASA EOSDIS DAAC"
+    href="/KeywordSearch/default/openSearch.jsp?Portal=daacs" />
+    <script type="text/javascript" src="WidgetWrappers/WidgetWrappers.nocache.js"></script>
+    <link rel="stylesheet" type="text/css" href="PageViewerApp/gwt/standard/standard.css">
+<link rel="stylesheet" type="text/css" href="css/gxt-all.css">
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="daacs/styles.css">
+    
+</head>
+
+<body onLoad="browserDetect(); tabOn(current_Tab); menuOn(current_Item);" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<script language="javascript1.2">
+    <!--
+    current_Tab = "";
+    current_Item = "m10";
+    // -->
+</script>
+
+<table height="100%" width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td valign="top" align="left">
+            <style type="text/css">
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+background-position: 50% -2%;
+background-color: #02172C;
+height: 905px;
+background-image: url(daacs/images/bgV2.jpg);
+background-repeat: no-repeat;
+}
+
+#eosdis-tophat
+{
+    position: absolute ! important;
+    top: 0 ! important;
+  }
+
+ table.grid {
+    font-weight: bold;
+    margin-top: 300px;
+    margin-left: 18%;
+    font-family: arial,sans-serif;
+    font-size:16px;
+    border-top: 0px;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.menulinks
+{
+  color: #D7ECff;
+  text-decoration: underline;
+  font-weight: normal;
+ }
+
+
+.outline
+{
+  border-top: 1px solid #000000;
+
+}
+
+</style>
+
+
+            <table width="750" border="0" cellpadding="0" cellspacing="0" summary="This table is used to format the content area">
+                <tr>
+                    <td width="152"  valign="top" align="center"><a href="#skipNav"></a>
+                        <img src="default/images/spacer.gif" width="148" height="17" alt=""><img src="default/images/spacer.gif" width="148" height="25" alt="">
+                                              <img src="default/images/spacer.gif" width="120" height="18" alt="">
+                    </td>
+                    <td width="598" valign="top" align="left">
+                        <a href="#skipContents"></a>
+                        <table width="598" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td colspan="2"><img src="default/images/spacer.gif" width="598" height="17" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td  colspan="2"><img src="default/images/spacer.gif" width="598" height="2" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td width="9"><a href="#skipContent"></a><img src="default/images/spacer.gif" width="13" height="25" alt=""></td>
+                            </tr>
+                        </table>
+                        <table width="598" cellpadding="0" cellspacing="0" border="0">
+                            <!-- JNP added this row to put space above thumbnail -->
+                            <tr>
+                                <td width="9"><img src="default/images/spacer.gif" width="9" height="5" alt="">
+                                </td>
+                                <td width="589">
+                                    <img src="default/images/spacer.gif" width="589" height="5" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="9"><img src="default/images/spacer.gif" width="9" height="5" alt="">
+                                </td>
+                                <td width="589">
+                                    
+
+
+
+
+
+
+<!-- start default/fullRecord.jsp -------------------------------------------------------------  -->
+<script language="JavaScript" src="default/newcollapse_expand_single_item.js"></script>
+<script language="JavaScript" src="default/newcollapse_expand_summary.js"></script>
+<script type="text/javascript" src="default/supplemental_common.js"></script>
+<script src="gmaps_util.js" type="text/javascript"></script>
+<style type="text/css">
+.taboutline 
+{
+  border: 1px solid #000000;
+  color: #ffffff;
+  
+}
+
+.taboutline a  
+{
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.taboutline a:visited
+{
+  color: #ffffff;
+}
+
+
+</style>
+<noscript>
+    <div class="jsalert">
+        <strong>Are you using a browser that doesn't support JavaScript or have you disabled JavaScript?</strong><br>
+        <br>
+        If you have disabled JavaScript, you must re-enable JavaScript to use this page.<br>
+        Or you can view this record using the <span style="color:#090">
+        <a href="Metadata.do?Portal=daacs&KeywordPath=Parameters%7CSOLID+EARTH%7CGEODETICS%7CGEOID+CHARACTERISTICS&EntryId=CDDIS_VLBI_data&MetadataView=Text&MetadataType=0&lbnode=mdlb3"  >Text Only Format</a></span>.
+    </div>
+</noscript>
+
+<div style="width:1024px;height:100px;position:absolute;margin-left:-500px; left:50%;top:30%">
+
+<table style="margin-bottom:-2px; margin-left:-3px;">
+ <tr>
+              <td class="taboutline" colspan="1" width="300" bgcolor="#083260" align="center"><a href="/KeywordSearch/Home.do?Portal=daacs&MetadataType=0">Home</a></td>
+              <td colspan="4" style="background-color: transparent;">&nbsp;</td>
+           </tr>
+</table>
+<!-- Start record table -->
+<table width="1024" bgcolor="ffffff" cellspacing="10">
+    
+    <!-- Bread crumb =========================================================== -->
+    <tr>
+       <td>                                                                                                                   <span class="breadCrumbtxt">Record Search Query:</span>
+           <span class="breadCrumb"><a href="Keywords.do?Portal=daacs&KeywordPath=Parameters&MetadataType=0&&lbnode=mdlb3" target=""  >Science Keywords</a>><a href="Keywords.do?Portal=daacs&KeywordPath=Parameters%7CSOLID+EARTH&MetadataType=0&&lbnode=mdlb3" target=""  >SOLID EARTH</a>><a href="Keywords.do?Portal=daacs&KeywordPath=Parameters%7CSOLID+EARTH%7CGEODETICS&MetadataType=0&&lbnode=mdlb3" target=""  >GEODETICS</a>>GEOID CHARACTERISTICS</span><br><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+
+            <!-- Entry Title and Entry ID ============================================== -->
+            
+
+
+
+
+
+<!-- default/dif/entry_title.jsp -->
+<!-- Entry_Title ============================================================-->
+<div class="fieldSection">
+    <div class="mediumText">
+        <div>
+            <strong>
+                Very Long Baseline Interferometry Data from NASA CDDIS
+            </strong>
+        </div>
+        <!-- Entry_ID =======================================================-->
+        
+            <span class="field">Entry ID:</span>
+            <span class="textrecord">
+                CDDIS_VLBI_data
+            </span>
+            <br/>
+            <br/>
+        
+    </div>
+</div>
+
+
+            <!-- DIF tab bar =========================================================== -->
+            
+
+
+
+
+
+
+<!-- start to default/dif/dif_tab_bar_full_record.jsp ========================================== -->
+
+<table border="0" cellpadding="1" cellspacing="1">
+<tr>
+    <td class="mediumText"> 
+    <strong>
+        <!-- Test for Get Data Tab ===================================================== -->
+        
+        
+            
+                
+                    
+                    
+                        
+                    
+                 
+            
+                
+                    
+                    
+                        
+                    
+                 
+            
+                
+                    
+                    
+                        
+                    
+                 
+            
+                
+                    
+                    
+                 
+            
+        
+          
+        <span style="float:left; margin-left:15%">
+            <span class="textrecord">[</span>
+            <span class="textrecord">
+                <a href="Metadata.do?Portal=daacs&KeywordPath=Parameters%7CSOLID+EARTH%7CGEODETICS%7CGEOID+CHARACTERISTICS&EntryId=CDDIS_VLBI_data&MetadataView=Data&MetadataType=0&lbnode=mdlb3"  >
+                    <span style="font-size:12px;color: #0066CC;text-decoration: underline;">Get Data</span></a>
+            </span>
+            <span class="textrecord">]</span>
+            </span>
+         
+        <!-- Test for Get Data Tab ===================================================== -->
+             <strong>
+            
+                <div style="float:right;margin-right:15%">
+            
+                <span class="tab" id="updateTabTop">
+                    <span class="textrecord">[</span>
+                    <span class="textrecord">
+                        <span class="textabs" onClick="dbDetails(this)">
+                            Update this Record
+                        </span>
+                        <span class="textrecord">]</span>
+                    </span>
+                </span>
+                </div>
+            </strong>
+    </strong>
+    </td>
+</tr>
+<tr>
+    <td width="570" align="center" class="mediumText">
+        <script type="text/javascript">
+            function dbDetails(obj)
+            {
+                var dbDetailsWindow =document.getElementById("dbDetailsWindow");
+                var tab2 = document.getElementById("updateTabTop");
+                
+                if (dbDetailsWindow!=null)
+                {
+                    if (dbDetailsWindow.state && dbDetailsWindow.state==true)
+                    {
+                        dbDetailsWindow.style.display="none";
+                        dbDetailsWindow.state = false;
+                        tab2.style.backgroundColor = "";
+                        tab2.style.border="";
+                    }
+                    else
+                    {
+                        dbDetailsWindow.style.display="block";
+                        dbDetailsWindow.state = true;
+                        tab2.style.backgroundColor
+                            = dbDetailsWindow.style.backgroundColor;
+                        tab2.style.border="1px solid";
+                        tab2.style.borderBottom="0px";
+                    }
+                }
+            }
+        </script> 
+           
+        <div id="dbDetailsWindow" class="textrecord" style="float:right;margin-right:2%;display:none;padding:0.5em 0;width:280px;border:1px solid black; background-color:rgb(236, 233, 216);">
+           
+
+            <div>Updating this record requires registration.</div>
+            
+            <div style="float:left;margin:0.5em;border-right:1px solid;width:125px;">
+                (Account holders)
+                <div class="texttabs">
+                
+                
+                    
+                    <a target="_blank"
+                            href='http://gcmd.nasa.gov/DocumentBuilder/Home.do?Portal=daacs&amp;OrigMetadataNode=GCMD&amp;EntryId=CDDIS_VLBI_data&amp;Portal=daacs&amp;RequestAction=Build&amp;MetadataType=0&amp;UseCacheDocument=true&amp;interface=FROMGETDIF'>
+                        Update this Record</a>
+                
+                
+                
+                </div>
+            </div>
+            <div style="float:right;margin:0.5em;border-left:1px solid;width:125px;">
+                <div>
+                    <a class="texttabs"
+                        href="/User/authoring.html">Need an account?</a>
+                    <div>&nbsp;</div>
+                </div>
+            </div>
+            <div style="clear:both"><a href="javascript:dbDetails()">close</a>
+        </div>
+    </td>
+</tr>
+</table>
+<br>
+<!-- end to default/dif/dif_tab_bar_full_record.jsp ============================================ -->
+
+
+            <!-- Aggregation =========================================================== -->
+            
+
+
+
+
+
+
+
+
+            <!-- Summary =============================================================== -->
+            
+
+
+
+
+
+
+<!-- default/dif/summary.jsp -->
+
+
+    <div class="fieldSection">
+        <div class="field">Summary</div>
+         <div class="fieldSummary">        
+        
+            
+            <div>
+                
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Abstract: </strong>
+                            Very Long Baseline Interferometry (VLBI) is a geometric technique: it measures the time difference between the arrival at two Earth-based antennas of a radio wavefront emitted by a distant quasar. VLBI precisely locates points on Earth by comparing radio signals from a quasar radio source located in deep space received at different times at different Earth ground stations. This method gives relative positions of the Earth stations. VLBI data can be used to calculate information on Earth rotation, length of day, polar motion, baseline and velocities of stations. Products generated by VLBI contribute to research in many areas, including solid Earth, tides, studies of the vertical, fundamental astronomy, and VLBI technique improvement.     
+                        </div>
+                    
+                    
+                
+            </div>
+        
+    </div>
+   </div>
+
+
+            <!-- Related URL =========================================================== -->
+            
+
+
+
+
+
+
+
+<!-- default/dif/related_url.jsp -->
+
+
+    <div class="fieldSection">
+        <span class="field">Related URL</span>
+        
+            
+            <table border="0" width="80%">
+                <tr><td>
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+                                        <a href="RedirectAction.do?target=lxbVrcKDjjUvXK%2FSC2FmK%2Bv5IpEDTQq0xV6v%2BPlzMhLFdVOp%2FSnvJA%3D%3D" target="_blank">
+                                            
+                                                GET DATA
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                VLBI data bases 
+                            </div>
+                        
+                        
+                            <div style="display: none;" id="related"  align="left">
+                        
+                        
+                            <br/>
+                        
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+                                        <a href="RedirectAction.do?target=%2FzbWkHTuAA%2FTTDkamOHLulsVJbwtO2248XnzQLp8vp%2B%2FSugSavJaBdLuwwTw9GvoSLKuGJLN%2FuVY%0D%0AjXAgLX%2FlzjSwyLRKSt%2BK2hunDlUKLPtb3spDTH5ircqfi4qRCwFt" target="_blank">
+                                            
+                                                GET DATA
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                CDDIS VLBI data summary information 
+                            </div>
+                        
+                        
+                        
+                            <br/>
+                        
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+                                        <a href="RedirectAction.do?target=i%2Flo2J3CXYeo8tqRAtBWxDS2fjqpYDA4TedKD88XHpj7yMO8unuIWAMXI4AnfeZXPkIEVf2VRo9T%0D%0ATzOyig2i2f6v4WLPPxsjVvgVd4xriCX4BbP9fYF9Mcai24nCdDnfjzMF8%2BzfhSTxbqSweuQzW0dC%0D%0A%2F%2BmQHMEgt5DeJp7%2F2I0%3D" target="_blank">
+                                            
+                                                GET DATA
+                                                 >
+                                                    ECHO
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                Refine your granule search with ECHO's next generation Earth Science discovery tool (Reverb) using information from this record. 
+                            </div>
+                        
+                        
+                        
+                            <br/>
+                        
+                    
+                        
+                        
+                            
+                                
+                                    <div class="textrecord">
+                                        <strong>Link: </strong>
+                                        <a href="RedirectAction.do?target=XHvDNaIR8402P2n4qfgaAVsVJbwtO224q9c6gAbK1uo%3D" target="_blank">
+                                            
+                                                VIEW PROJECT HOME PAGE
+                                                
+                                            
+                                            
+                                        </a>
+                                    </div>
+                                
+                            
+                        
+                        
+                            <div class="textrecord">
+                                <strong>Description: </strong>
+                                International VLBI Service for Geodesy and Astrometry 
+                            </div>
+                        
+                        
+                        
+                    
+                    
+                        </div>
+                        <a onClick="shoh('related');">
+                            <img src="default/images/more.gif" alt="View entire list" name="imgrelated" border="0" align="absbottom"> </a>
+                    
+                </td></tr>
+            </table>
+        
+    </div>
+
+
+            <!-- Multimedia_Sample and Spatial Coverage ================================ -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<!-- default/dif/google_map.jsp-->
+
+
+
+
+
+
+    
+        
+            
+            
+            
+            
+        
+    
+
+
+<div class="fieldSection">
+    <div class="field">Geographic Coverage</div>
+
+    
+        
+            
+                <script language="javascript">
+                    var box = [];
+                    box.push(90.0);
+                    box.push(-90.0);
+                    box.push(180.0);
+                    box.push(-180.0);
+                    bboxes.push(box);
+                </script>
+            
+        
+        <script type="text/javascript">
+            
+            function doGoogleMapOpen()
+            {
+                showWindow("map1");
+                initGoogleMap();
+            }
+            
+            function doGoogleMapLoad(list)
+            {
+                showWindow("map1");
+                loadGoogleMap(list);
+            }
+            
+            function doneLoadingPageViewer()
+            {
+                var html = 
+                    "<div style=\"text-align:center\"><div id=\"map1\""
+                    + " style=\"overflow:hidden; height:100%; width:100%;"
+                    + " max-width:640px; max-height:640px; text-align:center;\""
+                    + " title=\"Google map with geographic coverage"
+                    + " highlighted.\"><" + "/div><" + "/div>";
+                setWindow("map1", "Interactive Map", html, 270, 292, 650, 675);
+            }
+            
+        </script>
+        
+        
+            <div class="map_area">
+                <div>
+                    <img id="smap1" src='ImageReducerAction.do?url=iU7GspUsafedS4aoVwVf96NjQ99Da%2Fhec%2Bn7lKhlXM1xp0stNu%2BEc3pgZiOluHaqTZ2LSuMemyVA%0D%0AsgkHA6thI9VSdDtUvcczBRccbuMPWrU6dYB%2Ba%2FjEc2QcAJ1Up8e79tNKthEeR5%2BfoiHFdWJdk%2BTp%0D%0A%2FdGv4LZ5Un9VQ8ztPm0NoPeSvEdhr%2FGkrSam8LEqt4N%2FSsK4Vg4%2Bm%2B%2BYY6buOdvFafGNBEIq28Vp%0D%0A8Y0EQioj1fozvqHZ8Eq2HIftWIrUUqUQM5tZHSWZls%2FbRdMVao16w2sOcUd8&maxWidth=640&maxHeight=640' width="260" height="260">
+                </div>
+                <!-- <div class="screen_control directions" onclick="doGoogleMapOpen()">
+                    (Click for Interactive Map)
+                </div> -->
+            </div>
+            
+            <div class="textrecord screen_control">
+                <strong>Spatial coordinates&nbsp; &nbsp;</strong>
+            </div>
+            
+            
+        
+        
+        
+            <table>
+                
+                
+                <tr>
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>N: </strong>90.0
+                                </span>
+                            </td>
+                        
+                    
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>S: </strong>-90.0
+                                </span>
+                            </td>
+                        
+                    
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>E: </strong>180.0
+                                </span>
+                            </td>
+                        
+                    
+                    
+                    
+                        <td>&nbsp;</td>
+                        
+                            <td nowrap>
+                                <span class="textrecord" style="color:#000000">
+                                    <strong>W: </strong>-180.0
+                                </span>
+                            </td>
+                        
+                    
+                    
+                    
+                </tr>
+                
+                
+                
+                
+            </table>
+        
+        
+        <br/>
+    
+</div>
+
+
+
+
+</div>
+
+            <!-- Citation ============================================================== -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <span class="field">Data Set Citation</span>
+        
+        
+            <div style="width:90%">
+                
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Dataset Originator/Creator: </strong>
+                            W. Schlüter, D. Behrend
+                        </div>
+                    
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Dataset Title: </strong>
+                            The International VLBI Service for Geodesy and Astrometry (IVS): current capabilities and future prospects
+                        </div>
+                    
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Dataset Series Name: </strong>
+                            Journal of Geodesy Special Issue on VLBI
+                        </div>
+                    
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Dataset Release Date: </strong>
+                            June 2007
+                         </div>
+                    
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Dataset Release Place: </strong>
+                            Germany
+                        </div>
+                    
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Dataset Publisher: </strong>
+                            Springer Berlin / Heidelberg
+                        </div>
+                    
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Version: </strong>
+                            Vol. 81, Nos. 6–8, pp. 379–387
+                        </div>
+                    
+
+                    
+
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Issue Identification: </strong>
+                            Journal of Geodesy
+                        </div>
+                    
+                    
+                    
+                        <div class="textrecord">
+                            <strong>Data Presentation Form: </strong>
+                            Journal of Geodesy Special Issue on VLBI
+                        </div>
+                    
+
+                    
+
+                   
+                    
+                    
+                        <span class="textrecord">
+                            <strong>Online Resource: </strong>
+                            <span class="textrecord">
+                                
+                                    <a href="RedirectAction.do?target=S6cqF6vMwKyZ2Y6Qp6cF12k4uWoB3mkkZe8XuNAPsUKBzPo9MOvPr02tSEuy076z%2FPpZ2EfeIe8%3D" target="_blank">
+                                        http://www.springerlink.com/content/w157601h292183w7/</a>
+                                
+                            </span>
+                            <br/>
+                    
+
+                    
+                    
+                
+                
+                
+            </div>
+        
+    </div>
+
+
+            <!-- Reference/Publications ================================================ -->
+            
+
+
+
+
+
+
+
+
+
+<!-- Parent_DIF ============================================================ -->
+
+
+
+
+            <!-- Temporal Coverage ===================================================== -->
+            
+
+
+
+
+<!-- default/dif/temporal_coverage.jsp -->
+
+
+<div class="fieldSection">
+    <div class="field">Temporal Coverage </div>
+    
+        
+        <div>
+            
+                
+                
+                    <div class="textrecord">
+                        <strong>Start Date: </strong>
+                        1979-01-01
+                    </div>
+                
+                
+                
+                
+            
+            
+        </div>
+    
+</div>
+
+
+            <!-- Paleo Temporal Coverage =============================================== -->
+            
+
+
+
+
+
+
+
+
+            <!-- Location Keywords ===================================================== -->
+            
+
+
+
+
+<!-- default/dif/location.jsp -->
+
+
+    <div class="fieldSection">
+        <div class="field">Location Keywords</div>
+        
+            
+            <div>
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BLocation%3A+Location_Category%3D%27GEOGRAPHIC+REGION%27%2C+Location_Type%3D%27GLOBAL%27%5D&Portal=daacs&MetadataType=0"  >
+                            GEOGRAPHIC REGION
+                            
+                                > GLOBAL
+                            
+                            
+                            
+                            
+                            
+                        </a>
+                    </div>
+                    
+                
+                
+            </div>
+        
+    </div>
+
+
+            <!-- Data Resolution ======================================================= -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <div class="field">Data Resolution</div>
+        <div>
+        
+        
+            
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                <span class="textrecord"><strong>Temporal Resolution:</strong>
+                1 day
+                </span><br/>
+            
+
+            
+                <span class="textrecord"><strong>Temporal Resolution Range:</strong>
+                Daily - < Weekly
+                </span><br/>
+            
+
+            
+
+                
+
+                
+                
+
+            
+        </div>
+    </div>
+
+
+            <!-- Parameters ============================================================ -->
+            
+
+
+
+
+
+
+
+<!-- start to dif/parameters.jsp ---------------------------------------------->
+
+    <div class="fieldSection">
+        <div class="field">Science Keywords </div>
+        
+        
+            
+            <div style="width:95%">
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27SOLID+EARTH%27%2C+Term%3D%27GRAVITY%2FGRAVITATIONAL+FIELD%27%2C+Variable_Level_1%3D%27CONTROL+SURVEYS%27%5D&Portal=daacs&MetadataType=0"  >
+                            
+                                SOLID EARTH
+                            
+                            
+                                >
+                                GRAVITY/GRAVITATIONAL FIELD
+                            
+                            
+                                >
+                                CONTROL SURVEYS
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=daacs&KeywordPath=Parameters%7CSOLID+EARTH%7CGEODETICS%7CGEOID+CHARACTERISTICS&NumericId=62961&MetadataType=0&lbnode=mdlb3"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27SOLID+EARTH%27%2C+Term%3D%27GRAVITY%2FGRAVITATIONAL+FIELD%27%2C+Variable_Level_1%3D%27CRUSTAL+MOTION%27%5D&Portal=daacs&MetadataType=0"  >
+                            
+                                SOLID EARTH
+                            
+                            
+                                >
+                                GRAVITY/GRAVITATIONAL FIELD
+                            
+                            
+                                >
+                                CRUSTAL MOTION
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=daacs&KeywordPath=Parameters%7CSOLID+EARTH%7CGEODETICS%7CGEOID+CHARACTERISTICS&NumericId=62963&MetadataType=0&lbnode=mdlb3"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                        <div style="display: none;" id="parameters"  align="left">
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27SOLID+EARTH%27%2C+Term%3D%27GEODETICS%27%2C+Variable_Level_1%3D%27GEOID+CHARACTERISTICS%27%5D&Portal=daacs&MetadataType=0"  >
+                            
+                                SOLID EARTH
+                            
+                            
+                                >
+                                GEODETICS
+                            
+                            
+                                >
+                                GEOID CHARACTERISTICS
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=daacs&KeywordPath=Parameters%7CSOLID+EARTH%7CGEODETICS%7CGEOID+CHARACTERISTICS&NumericId=62965&MetadataType=0&lbnode=mdlb3"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27SOLID+EARTH%27%2C+Term%3D%27GRAVITY%2FGRAVITATIONAL+FIELD%27%2C+Variable_Level_1%3D%27CRUSTAL+MOTION%27%2C+Variable_Level_2%3D%27OCEAN+CRUST+DEFORMATION%27%5D&Portal=daacs&MetadataType=0"  >
+                            
+                                SOLID EARTH
+                            
+                            
+                                >
+                                GRAVITY/GRAVITATIONAL FIELD
+                            
+                            
+                                >
+                                CRUSTAL MOTION
+                            
+                            
+                                >
+                                OCEAN CRUST DEFORMATION
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=daacs&KeywordPath=Parameters%7CSOLID+EARTH%7CGEODETICS%7CGEOID+CHARACTERISTICS&NumericId=62969&MetadataType=0&lbnode=mdlb3"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27SOLID+EARTH%27%2C+Term%3D%27GRAVITY%2FGRAVITATIONAL+FIELD%27%2C+Variable_Level_1%3D%27POLAR+MOTION%27%5D&Portal=daacs&MetadataType=0"  >
+                            
+                                SOLID EARTH
+                            
+                            
+                                >
+                                GRAVITY/GRAVITATIONAL FIELD
+                            
+                            
+                                >
+                                POLAR MOTION
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=daacs&KeywordPath=Parameters%7CSOLID+EARTH%7CGEODETICS%7CGEOID+CHARACTERISTICS&NumericId=62971&MetadataType=0&lbnode=mdlb3"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27SOLID+EARTH%27%2C+Term%3D%27GEODETICS%27%2C+Variable_Level_1%3D%27COORDINATE+REFERENCE+SYSTEM%27%5D&Portal=daacs&MetadataType=0"  >
+                            
+                                SOLID EARTH
+                            
+                            
+                                >
+                                GEODETICS
+                            
+                            
+                                >
+                                COORDINATE REFERENCE SYSTEM
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=daacs&KeywordPath=Parameters%7CSOLID+EARTH%7CGEODETICS%7CGEOID+CHARACTERISTICS&NumericId=62973&MetadataType=0&lbnode=mdlb3"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27SOLID+EARTH%27%2C+Term%3D%27GRAVITY%2FGRAVITATIONAL+FIELD%27%2C+Variable_Level_1%3D%27ROTATIONAL+MOTION%2FVARIATIONS%27%5D&Portal=daacs&MetadataType=0"  >
+                            
+                                SOLID EARTH
+                            
+                            
+                                >
+                                GRAVITY/GRAVITATIONAL FIELD
+                            
+                            
+                                >
+                                ROTATIONAL MOTION/VARIATIONS
+                            
+                            
+                            
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Definitions.do?Portal=daacs&KeywordPath=Parameters%7CSOLID+EARTH%7CGEODETICS%7CGEOID+CHARACTERISTICS&NumericId=62975&MetadataType=0&lbnode=mdlb3"  onClick="exit(this.href,500,275,this); return false"  ><IMG 
+                            SRC="default/images/info_icon.gif" alt="Parameter Definition" 
+                            width="14" height="14" BORDER=0 ALIGN="BOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                
+                    </div>
+                    <a onClick="shoh('parameters');">
+                        <img src="default/images/more.gif" alt="View entire list" 
+                            name="imgparameters" border="0" align="absbottom"> </a>
+                
+            </div>
+        
+    </div>
+
+<!-- end to dif/parameters.jsp --------------------------------------------- -->
+
+            <!-- ISO_Topic_Category  =================================================== -->
+            
+
+
+
+
+<!-- default/dif/iso_topic_category.jsp -->
+
+
+
+    <div class="fieldSection">
+        <div class="field">ISO Topic Category </div>
+        <div>
+            
+                
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BISO_Topic_Category%3D%27ELEVATION%27%5D&Portal=daacs&MetadataType=0"  >
+                            ELEVATION
+                        </a>
+                    </div>
+                    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BISO_Topic_Category%3D%27GEOSCIENTIFIC+INFORMATION%27%5D&Portal=daacs&MetadataType=0"  >
+                            GEOSCIENTIFIC INFORMATION
+                        </a>
+                    </div>
+                    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BISO_Topic_Category%3D%27OCEANS%27%5D&Portal=daacs&MetadataType=0"  >
+                            OCEANS
+                        </a>
+                    </div>
+                    
+                
+                
+            
+        </div>
+    </div>
+
+
+            <!-- Sources =============================================================== -->
+            
+
+
+
+
+
+<!-- start default slash dif slash source dot jsp -------------------------  -->
+
+<div class="fieldSection">
+    <div class="field">Platform</div>
+    
+        
+        <table border="0" WIDTH="100%">
+            <tr>
+                <td>
+                    
+                        
+                            <span class="textrecord">
+                                <a href="Keywords.do?KeywordPath=%5BSource_Name%3A+Short_Name%3D%27GROUND+STATIONS%27%5D&Portal=daacs&MetadataType=0"  >
+                                    GROUND STATIONS
+                                    
+                                </a>
+                            </span>
+                        
+                            <a href="Supplementals.do?Portal=daacs&KeywordPath=Platforms&NumericId=11451&MetadataType=0&lbnode=mdlb3"  onClick="exit(this.href,574,355,this); return false"  ><IMG 
+                                SRC="default/images/ancdesc.gif" alt="Ancillary Description" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                        
+                        <br />
+                        
+                    
+                    
+                </td>
+            </tr>
+        </table>
+    
+</div>
+
+<!-- start default slash dif slash source dot jsp -------------------------  -->
+
+            <!-- Sensors =============================================================== -->
+            
+
+
+
+
+
+
+<!-- start default/dif/sensor.jsp -------------------------------------------------------------  -->
+
+<div class="fieldSection">
+    <div class="field">Instrument</div>
+    
+        
+        <table border="0" width="100%"><tr><td>
+            
+                
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27Interferometers%27%5D&Portal=daacs&MetadataType=0"  >
+                            Interferometers
+                            
+                        </a>
+                    </span>
+                    
+                    
+                        <a href="Supplementals.do?Portal=daacs&KeywordPath=Instruments&NumericId=9367&MetadataType=0&lbnode=mdlb3"  onClick="exit(this.href,574,355,this); return false"  ><IMG 
+                            SRC="default/images/ancdesc.gif" alt="Ancillary Description" BORDER=0 
+                            ALIGN="ABSBOTTOM"></a>
+                    
+                    <br />
+                
+            
+                
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BSensor_Name%3A+Short_Name%3D%27VLBI%27%5D&Portal=daacs&MetadataType=0"  >
+                            VLBI
+                            
+                                &gt;
+                                Very Long Baseline Interferometry
+                            
+                        </a>
+                    </span>
+                    
+                    
+                        <a href="Supplementals.do?Portal=daacs&KeywordPath=Instruments&NumericId=10003&MetadataType=0&lbnode=mdlb3"  onClick="exit(this.href,574,355,this); return false"  ><IMG 
+                            SRC="default/images/ancdesc.gif" alt="Ancillary Description" BORDER=0 
+                            ALIGN="ABSBOTTOM"></a>
+                    
+                    <br />
+                
+            
+            
+        </td></tr></table>
+    
+</div>
+
+
+<!-- stop default/dif/source.jsp ------------------------------------------------------------------>
+
+
+            <!-- Project/Campaign ====================================================== -->
+            
+
+
+
+
+<!-- start default/dif/project.jsp ------------------------------------------------------------- -->
+
+
+
+    <div class="fieldSection">
+        <div class="field">Project</div>
+        
+            
+            <div>
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BProject%3A+Short_Name%3D%27EOSDIS%27%5D&Portal=daacs&MetadataType=0"  >
+                            EOSDIS
+                            
+                                &gt;
+                                Earth Observing System Data Information System
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Supplementals.do?Portal=daacs&KeywordPath=Projects&NumericId=6629&MetadataType=0&lbnode=mdlb3"  onClick="return exit(this.href,525,355,this)"  >
+                            <IMG SRC="default/images/definition.gif" alt="Supplemental Info" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BProject%3A+Short_Name%3D%27IVS%27%5D&Portal=daacs&MetadataType=0"  >
+                            IVS
+                            
+                                &gt;
+                                International VLBI Service for Geodesy and Astrometry
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Supplementals.do?Portal=daacs&KeywordPath=Projects&NumericId=6817&MetadataType=0&lbnode=mdlb3"  onClick="return exit(this.href,525,355,this)"  >
+                            <IMG SRC="default/images/definition.gif" alt="Supplemental Info" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                    
+                    <br />
+                    
+                
+                
+            </div>
+        
+    </div>
+
+<!-- stop default/dif/project.jsp -------------------------------------------------------------  -->
+
+
+            <!-- Quality =============================================================== -->
+            
+
+
+
+
+
+
+
+
+
+            <!-- Access Constraints ==================================================== -->
+            
+
+
+
+
+
+<!-- start to access_contraints.jsp -->
+
+<!-- end to access_constraints.jsp -->
+
+            <!-- Use Constraints ======================================================= -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <span class="field">Use Constraints</span>
+        <span class="textrecord">
+            Cite: W. Schlüter, D. Behrend, "The International VLBI Service for Geodesy and Astrometry (IVS): current capabilities and future prospects", Journal of Geodesy, Vol. 81, Nos. 6–8, pp. 379–387, June 2007. DOI 10.1007/s00190-006-0131-z. 
+        </span>
+    </div>
+
+
+
+            <!-- Keywords  ============================================================= -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <div class="field">Ancillary Keywords</div>
+        
+            
+            <div>
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BKeyword%3D%27EARTH+ROTATION%27%5D&Portal=daacs&MetadataType=0"  >
+                            EARTH ROTATION</a>
+                    </div>
+                    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BKeyword%3D%27SEA+LEVEL+VARIATIONS%27%5D&Portal=daacs&MetadataType=0"  >
+                            SEA LEVEL VARIATIONS</a>
+                    </div>
+                    
+                
+                    
+                    <div class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BKeyword%3D%27REFERENCE+FRAME%27%5D&Portal=daacs&MetadataType=0"  >
+                            REFERENCE FRAME</a>
+                    </div>
+                    
+                
+                
+            </div>
+        
+    </div>
+
+
+            <!-- Dataset Progress ====================================================== -->
+            
+
+
+
+
+<!-- default/dif/data_set_progress.jsp -->
+
+
+
+    <div class="fieldSection">
+        <div class="field">Data Set Progress</div>
+        <div class="textrecord">
+            IN WORK
+        </div>
+    </div>
+
+
+            <!-- Originating Center ==================================================== -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <div class="field">Originating Center</div>
+        
+            
+            
+                
+                <div class="textrecord">
+                    <a href="Keywords.do?KeywordPath=%5BOriginating_Center%3D%27CDDIS%27%5D&Portal=daacs&MetadataType=0"  >
+                        CDDIS
+                    </a>
+                </div>
+                
+                
+            
+            
+        
+    </div>
+
+
+            <!-- Data Center =========================================================== -->
+            
+
+
+
+
+
+
+
+
+<!-- default/dif/data_center.jsp -->
+
+
+
+
+    <div class="fieldSection">
+        <div class="field">Data Center</div>
+        
+            
+            
+            <table border="0" width="100%" cellpadding="0" cellspacing="0">    <tr> <td>
+                
+                    
+                    <span class="textrecord">
+                        <a href="Keywords.do?KeywordPath=%5BData_Center%3A+Short_Name%3D%27NASA%2FGSFC%2FSSED%2FCDDIS%27%5D&Portal=daacs&MetadataType=0"  >
+                            <!--NASA/GSFC/SSED/CDDIS-->
+                            
+                                Crustal Dynamics Data Information System, Solar System Exploration Division, Goddard Space Flight Center, NASA
+                            
+                        </a>
+                    </span>
+                    
+                        <a href="Supplementals.do?Portal=daacs&KeywordPath=DataCenters&NumericId=239&MetadataType=0&lbnode=mdlb3"  onClick="return exit(this.href,574,355,this);"  ><IMG SRC="default/images/definition.gif" alt="Supplemental Info" BORDER=0 ALIGN="ABSBOTTOM"></a>
+                    
+                    <br/>
+                    
+                    
+                        
+                            <span class="textrecord"><strong>Data Center URL: </strong></span>
+                            <span class="textrecord"><a href="RedirectAction.do?target=%2FzbWkHTuAA%2FTTDkamOHLulsVJbwtO224zuNREJ%2BwqJE%3D" target="_blank">http://cddis.gsfc.nasa.gov/</a></span><br/>
+                        
+                    
+                    
+                    
+                        
+                    
+                    
+                    <!-- Personnel Table -->
+                    
+                        
+                            
+                                <br/>
+                                <table width="90%" align="center" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td  height="2" colspan="2" valign="top" class="field">Data Center Personnel</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="textrecord">
+                                                <strong>Name: </strong>
+                                                <a href="Keywords.do?KeywordPath=%5BPersonnel%3A+Last_Name%3D%27NOLL%27%2C+First_Name%3D%27CAREY%27%5D&Portal=daacs&MetadataType=0"  >
+                                                    CAREY
+                                                    
+                                                    NOLL
+                                                </a>
+                                            <div/>
+                                            
+                                                
+                                                    
+                                                        <div class="textrecord">
+                                                            <strong>Phone: </strong>
+                                                            301-614-6542
+                                                        </div>
+                                                    
+                                                
+                                            
+                                            
+                                            
+                                                
+                                                    
+                                                        <div class="textrecord">
+                                                            <strong>Fax: </strong>
+                                                            301-614-6015
+                                                        </div>
+                                                    
+                                                
+                                            
+                                            
+                                            
+                                                
+                                                    
+                                                        <div class="textrecord">
+                                                            <strong>Email: </strong>
+                                                            Carey.E.Noll at nasa.gov
+                                                        </div>
+                                                    
+                                                
+                                            
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                            <div class="textrecord"><strong>Contact Address: </strong></div>
+                                                            
+                                                                <div class="textrecord">
+                                                                    
+                                                                        NASA Goddard Space Flight Center<br/>
+                                                                    
+                                                                        Code 690<br/>
+                                                                    
+                                                                </div>
+                                                            
+                                                        
+                    
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>City: </strong>
+                                                                Greenbelt
+                                                            </div>
+                                                        
+                                                        
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>Province or State: </strong>
+                                                                MD
+                                                            </div>
+                                                        
+                                                        
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>Postal Code: </strong>
+                                                                20771
+                                                            </div>
+                                                        
+                                                        
+                                                        
+                                                            <div class="textrecord">
+                                                                <strong>Country: </strong>
+                                                                USA
+                                                            </div>
+                                                        
+                                                    
+                                                
+                                            
+                                        </td>
+                                    </tr>
+                                </table>  <!-- End personnel table -->
+                                
+                            
+                        
+                    
+                    
+                    
+                    
+                    
+                
+                
+                
+            </table>  <!-- end data center table -->
+        
+    </div>
+
+
+
+
+            <!-- Distribution ========================================================== -->
+            
+
+
+
+
+
+
+
+    <div class="fieldSection">
+        <div class="field">Distribution</div>
+        
+        
+        
+        <div>
+            
+            
+            
+                <div class="textrecord">
+                    <strong>Distribution Media: </strong>
+                    On-line
+                </div>
+            
+            
+            
+                <div class="textrecord">
+                    <strong>Distribution Size: </strong>
+                    10-20 Mb/experiment
+                </div>
+            
+            
+            
+                <div class="textrecord">
+                    <strong>Distribution Format: </strong>
+                    On-line
+                </div>
+            
+            
+            
+                <div class="textrecord">
+                    <strong>Fees: </strong>
+                    None
+                </div>
+            
+            
+            
+                
+                
+                
+                
+            
+        </div>
+    </div>
+
+
+            <!-- Personnel ============================================================= -->
+            
+
+
+
+
+<!-- default/dif/personnel.jsp -->
+
+
+
+
+
+<div class="fieldSection">
+    <div class="field">Personnel</div>
+    
+        
+        <div>
+            
+                
+                <div class="textrecord">
+                    <a href="Keywords.do?KeywordPath=%5BPersonnel%3A+Last_Name%3D%27NOLL%27%2C+First_Name%3D%27CAREY%27%5D&Portal=daacs&MetadataType=0"  >
+                        CAREY
+                        
+                        NOLL
+                    </a>
+                </div>
+                
+                
+                    
+                        
+                            <div class="textrecord">
+                                <strong>Role: </strong>
+                                TECHNICAL CONTACT
+                            </div>
+                        
+                            <div class="textrecord">
+                                <strong>Role: </strong>
+                                DIF AUTHOR
+                            </div>
+                        
+                    
+                
+                
+                
+                    
+                        
+                            <div class="textrecord">
+                                <strong>Phone: </strong>
+                                301-614-6542
+                            </div>
+                        
+                    
+                
+                
+                
+                    
+                        
+                            <div class="textrecord">
+                                <strong>Fax: </strong>
+                                301-614-6015
+                            </div>
+                        
+                    
+                
+                
+                
+                    
+                        
+                            <div class="textrecord">
+                                <strong>Email: </strong>
+                                Carey.E.Noll at nasa.gov
+                            </div>
+                        
+                    
+                
+                
+                
+                    
+                        
+                            
+                            
+                                <div class="textrecord">
+                                    <div><strong>Contact Address: </strong></div>
+                                    
+                                        <div>
+                                            
+                                                <address>NASA Goddard Space Flight Center</address>
+                                            
+                                                <address>Code 690</address>
+                                            
+                                        </div>
+                                    
+                                </div>
+                            
+                            
+                            
+                                <div class="textrecord">
+                                    <strong>City: </strong>
+                                    Greenbelt
+                                </div>
+                            
+                            
+                            
+    

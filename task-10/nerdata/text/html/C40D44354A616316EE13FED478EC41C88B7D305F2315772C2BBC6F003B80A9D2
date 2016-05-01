@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=8"><!--fixes IE-->
+    
+    <title>Global Change Master Directory - Variable Definition Page</title>
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+    
+    <link rel="stylesheet" type="text/css" href="default/base.css">
+    <link rel="stylesheet" type="text/css" href="default/base_print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="default/styles.css">
+        
+<!-- other styles -->
+    <link rel="stylesheet" type="text/css" href="GCMD/common.css">
+    
+    <script type="text/javascript" src="default/supplemental_common.js"></script>
+</head>
+<body class="subpage" onload="showOnInline();">
+<div class="shadowBox ltGray" style="margin:5%;">
+<div class="shadowBox_top"><span class="nested"></span></div>
+<div class="shadowBox_contents">
+<span class="nested">
+<table border="0">
+<tr>
+            <td>
+                
+                <span class="field">Parameter Tree:</span><br/>
+                <span class="textrecord">
+                    EARTH SCIENCE > CRYOSPHERE > GLACIERS/ICE SHEETS > ICE SHEETS<br/>
+                    <br/>
+                </span>
+                <span class="field">Definition:</span><br />
+                <span class="textrecord">
+                    A continuous sheet of land ice that covers a very large area and moves outward<br>in many directions. <br>This type of ice mass is so thick as to mask the land surface contours, in<br>contrast to the smaller and thinner highland ice. The continental glacier of<br>Greenland is sometimes called the Inland Ice. This term is often used to<br>describe the great ice masses that characterized the ice ages.
+                </span>
+                <br/>
+                <br/>
+                
+                    <span class="field">Reference:</span><br />
+                    <span class="textrecord">
+                        
+                            American Meteorological Society Glossary of Meteorology. <BR> <a href="RedirectAction.do?target=Dyy8VVjZvH4NJ5I67lf%2FtcvxBPUf3utlxJtVc%2BtP5XiyRAnQxJmtkmGRfRGN6bi7" target="_blank" >http://amsglossary.allenpress.com/glossary/</a> 
+                        
+                    </span>
+                    <br/>
+                    <br/>
+                
+            </td>       
+        </tr>
+</table>
+       </span>
+</div>
+<div class="shadowBox_bottom"><span class="nested"></span></div>
+</div>
+
+    <!-- BEGIN: NetTracker Page Tag -->
+    <script type="text/javascript" language="JavaScript" src="/ntpagetag.js"></script>
+    <noscript>
+        <img src="http://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1"
+            border="0" hspace="0" vspace="0" alt="">
+    </noscript>
+    <!-- END: NetTracker Page Tag -->
+</body>
+</html>

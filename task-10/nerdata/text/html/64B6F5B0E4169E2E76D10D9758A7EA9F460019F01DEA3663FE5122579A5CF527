@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>
+ISS Daily Summary Report &#8211; 01/30/15 | ISS On-Orbit Status Report</title>
+
+</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://blogs.nasa.gov/stationreport/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://blogs.nasa.gov/stationreport/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="shortcut icon" href="https://blogs.nasa.gov/stationreport/wp-content/themes/2012child-NASAblog/images/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="ISS On-Orbit Status Report &raquo; Feed" href="https://blogs.nasa.gov/stationreport/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ISS On-Orbit Status Report &raquo; Comments Feed" href="https://blogs.nasa.gov/stationreport/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ISS On-Orbit Status Report &raquo; ISS Daily Summary Report &#8211; 01/30/15 Comments Feed" href="https://blogs.nasa.gov/stationreport/2015/01/30/iss-daily-summary-report-013015/feed/" />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://blogs.nasa.gov/stationreport/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='https://blogs.nasa.gov/stationreport/wp-content/themes/2012child-NASAblog/style.css?ver=4.0' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='https://blogs.nasa.gov/stationreport/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='wppa_style-css'  href='https://blogs.nasa.gov/stationreport/wp-content/plugins/wp-photo-album-plus/theme/wppa-style.css?ver=5-4-16-000' type='text/css' media='all' />
+<script type='text/javascript' src='https://blogs.nasa.gov/stationreport/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='https://blogs.nasa.gov/stationreport/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://blogs.nasa.gov/stationreport/wp-content/plugins/wp-photo-album-plus/wppa.min.js?ver=5-4-16-000'></script>
+<script type='text/javascript' src='https://blogs.nasa.gov/stationreport/wp-content/plugins/wp-photo-album-plus/wppa-init.en.js?ver=17'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blogs.nasa.gov/stationreport/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blogs.nasa.gov/stationreport/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='ISS Daily Summary Report &#8211; 01/29/15' href='https://blogs.nasa.gov/stationreport/2015/01/29/iss-daily-summary-report-012915/' />
+<link rel='next' title='ISS Daily Summary Report &#8211; 02/02/15' href='https://blogs.nasa.gov/stationreport/2015/02/02/iss-daily-summary-report-020215/' />
+<meta name="generator" content="NASA Blogs" />
+
+<link rel='canonical' href='https://blogs.nasa.gov/stationreport/2015/01/30/iss-daily-summary-report-013015/' />
+<link rel='shortlink' href='https://blogs.nasa.gov/stationreport/?p=1991' />
+<!-- Vipers Video Quicktags v6.5.2 | http://www.viper007bond.com/wordpress-plugins/vipers-video-quicktags/ -->
+<style type="text/css">
+.vvqbox { display: block; max-width: 100%; visibility: visible !important; margin: 10px auto; } .vvqbox img { max-width: 100%; height: 100%; } .vvqbox object { max-width: 100%; } 
+</style>
+<script type="text/javascript">
+// <![CDATA[
+	var vvqflashvars = {};
+	var vvqparams = { wmode: "opaque", allowfullscreen: "true", allowscriptaccess: "always" };
+	var vvqattributes = {};
+	var vvqexpressinstall = "https://blogs.nasa.gov/stationreport/wp-content/plugins/vipers-video-quicktags/resources/expressinstall.swf";
+// ]]>
+</script>
+<!-- WPPA+ BEGIN Page specific urls -->
+<script type="text/javascript">
+	wppaImageDirectory = "https://blogs.nasa.gov/stationreport/wp-content/plugins/wp-photo-album-plus/images/";
+	wppaWppaUrl = "https://blogs.nasa.gov/stationreport/wp-content/plugins/wp-photo-album-plus";
+	wppaIncludeUrl = "https://blogs.nasa.gov/stationreport/wp-includes";
+	wppaAjaxUrl = "https://blogs.nasa.gov/stationreport/wp-admin/admin-ajax.php";
+	wppaUploadUrl = "https://blogs.nasa.gov/stationreport/wp-content/uploads/wppa";
+</script>
+<!-- WPPA+ END Page specific urls -->
+		
+<!-- WPPA+ Kickoff -->
+<!-- Browser detected = NUTCH SPIDER/Nutch-1.10-SNAPSHOT -->
+<!-- WPPA+ Custom styles -->
+<style type="text/css" >
+
+</style>
+<!-- Rendering enabled -->
+<!-- /WPPA Kickoff -->
+
+	
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51194b3816a6a11e"></script>
+<script  type="text/javascript" src="https://blogs.nasa.gov/stationreport/wp-content/themes/twentytwelve/scripts/federated-analytics_NASA.js"></script>
+</head>
+
+<body class="single single-post postid-1991 single-format-standard custom-font-enabled">
+
+
+
+<div id="nasa_gov_header">
+<a href="http://www.nasa.gov"><div id="header_logo"></div></a>
+		<div id="header_right">
+			<div id="header_nav">
+					<div id="top_nav">
+										
+					<a id="top_nav_news" href="http://www.nasa.gov/news/index.html">
+						<span class="nasa_topnav_link_title">NEWS</span>
+						<span class="nasa_topnav_link_desciption">News, features, & press releases</span>
+					</a>
+					<a id="top_nav_missions" href="http://www.nasa.gov/missions/index.html">
+						<span class="nasa_topnav_link_title">MISSIONS</span>
+						<span class="nasa_topnav_link_desciption">Current, future, past missions, & launch dates</span>
+					</a>
+					<a id="top_nav_multimedia" href="http://www.nasa.gov/multimedia/index.html">
+						<span class="nasa_topnav_link_title">MULTIMEDIA</span>
+						<span class="nasa_topnav_link_desciption">Images, videos, NASA TV, & more</span>
+					</a>
+					<a id="top_nav_connect" href="http://www.nasa.gov/connect/index.html">
+						<span class="nasa_topnav_link_title">CONNECT</span>
+						<span class="nasa_topnav_link_desciption">Social media channels & NASA apps</span>
+					</a>
+					<a id="top_nav_about" href="http://www.nasa.gov/about/index.html">
+						<span class="nasa_topnav_link_title">ABOUT NASA</span>
+						<span class="nasa_topnav_link_desciption">Leadership, organization, budget, careers, & more</span>
+					</a>
+					</div>			
+			</div>
+			<div class="clear"></div>
+			<div id="header_body">
+				<div id="blogs_title"><a href="https://blogs.nasa.gov/">blogs.nasa.gov</a></div>
+				<div id="addthis_bar" tabindex="1000">
+					<a class="addthis_button_email at300b" href="http://www.addthis.com/bookmark.php" target="_blank" title="Email">
+					<span class="at16nc at300bs at15nc at15t_email at16t_email"><span class="at_a11y">Share on email</span></span>
+						Send
+					</a>
+					<a class="addthis_button" href="http://www.addthis.com/bookmark.php">
+						Share
+					</a>
+				</div>
+			</div>
+	
+
+		</div>
+
+</div>
+
+
+<div id="page" class="hfeed site">
+
+
+
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="https://blogs.nasa.gov/stationreport/" title="ISS On-Orbit Status Report" rel="home">ISS On-Orbit Status Report</a></h1>
+			
+					</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h3 class="menu-toggle">Menu</h3>
+			<a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
+			<div class="nav-menu"><ul><li ><a href="https://blogs.nasa.gov/stationreport/">Home</a></li></ul></div>
+		</nav><!-- #site-navigation -->
+
+					<a href="https://blogs.nasa.gov/stationreport/"><img src="https://blogs.nasa.gov/stationreport/wp-content/uploads/sites/221/2013/07/cropped-iss032e024165.jpg" class="header-image" width="2000" height="449" alt="" /></a>
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+			
+				
+	<article id="post-1991" class="post-1991 post type-post status-publish format-standard hentry category-2015 category-january-2015">
+				<header class="entry-header">
+			            
+						<h1 class="entry-title">ISS Daily Summary Report &#8211; 01/30/15</h1>
+						
+			<div class="post_header_meta">Posted on <a href="https://blogs.nasa.gov/stationreport/2015/01/30/iss-daily-summary-report-013015/" title="4:45 pm" rel="bookmark"><time class="entry-date" datetime="2015-01-30T16:45:35+00:00">January 30, 2015 at 4:45 pm</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://blogs.nasa.gov/stationreport/author/williamkeeter/" title="View all posts by HQ" rel="author">HQ</a></span></span>.</div>			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p class="p1"><span class="s1"><b>Epigenetics:</b>   Wilmore retrieved 12 culture bags from MERLIN.  The crew transferred the third generation larva samples from incubated culture bags to new culture bags using the transfer syringe. The procedure was repeated for all 12 samples.  The culture bags were then placed in the Cell Biology Experiment Facility (CBEF) to start a 4 day incubation.  Six of the samples will go into the micro-g environment and the rest into a 1-g environment.  This is the third of four (4) planned Epigenetics sessions.  The epigenetics in spaceflown C. elegans is a Japan Aerospace Exploration Agency investigation of whether adaptations to space are transmitted from one cell generation to another without changing the basic DNA of an organism. C. elegans is a millimeter-long roundworm that, like the fruit fly, is widely used as a model for larger organisms. In this investigation, four generations of the worms will be grown aboard station, with adults from each generation preserved for later study on Earth.</span></p>
+<p class="p1"><span class="s1"><b>Coarsening in Solid Liquid Mixtures-4 (CSLM-4):</b>  The sixth sample processing unit (SPU) remains in the hardware as ground teams continue to troubleshoot processing anomalies.  The fifth SPU is stowed and is available for re-processing at a later time.  Electronics Control Unit (ECU) reprogramming and another attempt to process sample 6 are scheduled for GMT 33 (Monday 3 February).  Of the four samples already executed, the first sample processed successfully; second sample (SPU S/N 3) quenched immediately upon initialization (loss of sample). The third and fourth samples processed successfully.  The Coarsening in Solid Liquid Mixtures-4 (CSLM-4) is a materials science investigation that studies the growth and solidification processes (i.e., coarsening) in lead-tin solid-liquid mixtures that contain a small amount (low volume fraction) of tin branch-like (i.e., dendritic) structures, some of which possess many arms. During sample heating, the growth at the tip of each dendrite continues over time, whereas side branches, behind the tip, develop during constant temperature (i.e., isothermal) conditions. By understanding how temperature and time control the growth of such dendrites, researchers hope to develop more efficient and economical means of producing higher quality products derived from the casting of molten metals</span></p>
+<p class="p1"><span class="s1"><b>Space Dynamically Responding Ultrasonic Matrix System (SpaceDRUMS):</b></span><span class="s2">  </span><span class="s1">Virts and Cristoforetti removed and stowed SpaceDRUMS hardware in preparation for return on the SPX-5 flight.  The crew also removed vent closeout panels and installed EXPRESS rack lockers into the opening created by removal of the SpaceDRUMS hardware in the EXpedite the PRocessing of Experiments to Space Station (EXPRESS) Rack 5 (ER5) location. The goal of SpaceDRUMS is to provide a suite of hardware capable of facilitating containerless advanced materials science, including combustion synthesis and fluid physics. That is, inside SpaceDRUMS, samples of experimental materials can be processed without ever touching a container wall.</span></p>
+<p class="p1"><span class="s1"><b>Advanced Plant Experiment (APEX)-03-1:</b>  Wilmore harvested the first set of plants from the second insertion of Petri Plates growing in the Veggie facility for APEX-03. One petri plate is marked for Light Microscopy Module (LMM) imaging.  The crew will configure the LMM and position one APEX-03 Petri Plate onto the LMM Petri Base.  After imagery is taken, the files are transferred for downlink to the experiment teams on the ground.   Advanced Plant EXperiments 03-1 (APEX-03-1) continues a highly successful investigation into the effects of microgravity on the development of roots and cells on plant seedlings. The experiment photographs seedlings of Arabidopsis, or thale cress, every two hours as they grow in petri dishes. After 14 days, the seedlings are preserved for return to Earth and detailed analysis.</span></p>
+<p class="p1"><span class="s1"><b>Alpha Magnetic Spectrometer (AMS):</b>  Cristoforetti performed the standard 6 month hard drive exchange in the UltraBay Adapter within the AMS laptop.  Wilmore took historical documentation photos of Cristoforetti working at the AMS laptop.</span><b> </b></p>
+<p class="p1"><span class="s1"><b>Combustion Integration Rack (CIR):  </b>Wilmore removed CIR alignment guide in preparation for a FLame Extinguishment Experiment (FLEX)-2 run.  The CIR is currently configured for Multiuser Droplet Combustion Apparatus (MDCA) FLEX-2 binary droplet test session which uses small droplets of fuel to study the special burning characteristics of fire in space. The FLEX-2 experiment studies the rate and manner in which fuel is burned, the conditions that are necessary for soot to form, and the way in which a mixture of fuels evaporate before burning.  The results from these experiments will give scientists a better understanding how fires behave in space and will provide important information that will be useful in increasing the fuel efficiency of engines using liquid fuels.</span></p>
+<p class="p1"><span class="s1"><b>NanoRack Cube Sat Deployer (NRCSD):  </b>Virts removed one of the Deployers from the Quad Deployer configuration and replaced it with a Single Deployer.  This is in preparation for a future planned NRCSD jettison using the Japanese Experiment Module Remote Manipulator System (JEMRMS).</span><b> </b></p>
+<p class="p1"><span class="s1"><b>Energy audit:  </b>Cristoforetti audited the Energy urine collection kit and reported to the ground the number of urine collection devices to support planning for launch of additional supplies.<b> </b>Energy measures change in energy balance in crewmembers following long term space flight. Energy also measures adaptations in the components of total energy expenditure of crewmembers, so that an equation to determine the energy requirements of crewmembers during space flight may be derived. Such knowledge of energy requirements is of a great importance to ensure health, good performance and the overall success of a mission, and also contributes to ensure adequate exercise load and cargo allotments for food during space flight.</span></p>
+<p class="p1"><span class="s1"><b>Fruit Fly Lab -1 (FFL-1):  </b>Cristoforetti disassembled and stowed the FFL-1 hardware for return on SPX-5.  None of the fruit flies survived the habitat environment.  The fruit fly colony was expected to survive through the SpaceX-5 mission.  The habitat hardware and the available samples are being returned for evaluation and scientific study on the ground.  Drosophila melanogaster, or the fruit fly, serves as a useful model organism to investigate the biological effects of the space environment. In previous experiments, it’s been shown that the innate immune system of the fly is affected by spaceflight. In this experiment we plan on studying what the combined effect of altered host immunity and altered microbial physiology will be in the space flight environment.</span><b> </b></p>
+<p class="p1"><span class="s1"><b>SpaceX-5 Dragon Cargo Loading:   </b>Virts continued loading cargo into Dragon today.  As of yesterday afternoon, the crew had completed over 80% of the total Dragon cargo ops.  SpaceX-5 unberth is scheduled to occur on 10 February 2015, with splash down occurring later the same day.</span></p>
+<p class="p1"><span class="s1"><b>Columbus Internal Thermal Control Systems (ITCS) Water-sampling</b>: Today, Cristoforetti obtained an ITCS water sample utilizing the Columbus Coolant Fluid Servicer.  This sample will provide confirmation that the water treatment activity earlier in the week was successful.  The sample was prepared for return onboard SpaceX-5 for ground analysis.  </span></p>
+<p class="p1"><span class="s3"><b>Today’s Planned Activities<br />
+</b><b>All activities are completed unless otherwise noted.</b><b><br />
+</b></span></p>
+<ul>
+<li class="p1"><span class="s1">EPGN &#8211; Data Gathering for the Experiment</span></li>
+<li class="p1"><span class="s1">ISS crew and ГОГУ (RSA Flight Control Management Team) weekly conference (S-band) / r/g 7808</span></li>
+<li class="p1"><span class="s1">ENERGY Urine Collection Device audit</span></li>
+<li class="p2"><span class="s7">EKAM &#8211; Battery Swap</span></li>
+<li class="p1"><span class="s1">RELAKSATSIYA. Relaksatsiya P/L Battery Charge / r/g 6827</span></li>
+<li class="p1"><span class="s1">EPGN &#8211; Removal from the module</span></li>
+<li class="p1"><span class="s1">Flushing БКО for installation in СРВК-2М and in Elektron / r/g 7842</span></li>
+<li class="p1"><span class="s1">PROBOY. RSЕ1 Laptop Activity. / r/g 7835</span></li>
+<li class="p1"><span class="s1">PROBOY. Penetration Simulator Ops. / r/g 7836</span></li>
+<li class="p2"><span class="s7">EPGN &#8211; Micro-G Transfer</span></li>
+<li class="p2"><span class="s7">DRAGON Transfer Ops</span></li>
+<li class="p1"><span class="s1">DOS3D &#8211; Power Cable Reconfiguration</span></li>
+<li class="p2"><span class="s7">EPGN &#8211; 1G Transfer</span></li>
+<li class="p1"><span class="s1">[CHT]-50 MП handover to USOS for return on Dragon / r/g 7841</span></li>
+<li class="p1"><span class="s1">COSMOCARD. Closeout Ops. / r/g 7840</span></li>
+<li class="p1"><span class="s1">WRS &#8211; Recycle Tank Fill from EDV</span></li>
+<li class="p2"><span class="s7">CIR &#8211; Hardware Teardown</span></li>
+<li class="p2"><span class="s7">EPGN &#8211; MELFI Insertion</span></li>
+<li class="p1"><span class="s1">ITCS Sampling Using the Columbus Coolant Fluid Servicer (CCFS)</span></li>
+<li class="p1"><span class="s1">Space Dynamically Responding Ultrasonic Matrix (SDRM) System &#8211; Quick Disconnect Removal</span></li>
+<li class="p1"><span class="s1">PROBOY. Copy and Downlink Data / r/g 7835</span></li>
+<li class="p1"><span class="s1">RELAKSATSIYA. Hardware Setup / r/g 7837</span></li>
+<li class="p1"><span class="s1">EKAM &#8211; Battery Swap <b>(Russian Joint Research)</b></span></li>
+<li class="p1"><span class="s1">RELAKSATSIYA. Parameter Adjustment / r/g 7837</span></li>
+<li class="p1"><span class="s1">Dragon Cargo Operations Conference</span></li>
+<li class="p1"><span class="s1">RELAKSATSIYAObservation / r/g 7837</span></li>
+<li class="p2"><span class="s7">CSLM2-SPU &#8211; Data Transfer</span></li>
+<li class="p1"><span class="s1">BAR Experiment Ops / r/g 7838</span></li>
+<li class="p2"><span class="s7">SDRM &#8211; Hardware Removal</span></li>
+<li class="p1"><span class="s1">EXPRESS Rack 5 Locker Installation</span></li>
+<li class="p2"><span class="s7">APEX3 Experiment Setup</span></li>
+<li class="p2"><span class="s7">APEX3 &#8211; Payload Harvest</span></li>
+<li class="p1"><span class="s1">ИК0501 Gas Analyzer О2 Channel Adjustment</span></li>
+<li class="p1"><span class="s1">RGN &#8211; Initiate drain into EDV</span></li>
+<li class="p1"><span class="s1">FIR &#8211; Hardware Checkout, Rack Doors Open. Video Recording</span></li>
+<li class="p2"><span class="s7">CSLM2 &#8211; Closeout Ops</span></li>
+<li class="p1"><span class="s1">APEX3 &#8211; Checking Petri Dishes</span></li>
+<li class="p2"><span class="s7">LMM &#8211; Experiment Ops</span></li>
+<li class="p1"><span class="s1">RGN &#8211; Terminate drain into EDV</span></li>
+<li class="p1"><span class="s1">Life On The Station Photo and Video / r/g 7290</span></li>
+<li class="p2"><span class="s7">FIR Rack Door Close</span></li>
+<li class="p2"><span class="s7">TEPC Relocate</span></li>
+<li class="p1"><span class="s1">AMS Replacement of hard drive.</span></li>
+<li class="p2"><span class="s7">MSG &#8211; Power Down</span></li>
+</ul>
+<p class="p1"><span class="s3"><b>Completed Task List Items</b></span></p>
+<ul>
+<li class="p1"><span class="s1">Dragon Cargo Ops <b>[In work]</b></span></li>
+<li class="p1"><span class="s1">Photo/TV Card Reader Deploy</span></li>
+<li class="p2"><span class="s7">EVA Tool Config <b>[In work]</b></span></li>
+</ul>
+<p class="p1"><span class="s3"><b>Ground Activities<br />
+</b><b>All activities are completed unless otherwise noted.</b><b><br />
+</b></span></p>
+<ul>
+<li class="p2"><span class="s7">Nominal Commanding</span></li>
+</ul>
+<p class="p1"><span class="s3"><b>Three-Day Look Ahead:</b></span></p>
+<ul>
+<li class="p1"><span class="s1"><b>Saturday, 01/31: </b>Weekly Cleaning, Crew Day Off</span></li>
+<li class="p1"><span class="s1"><b>Sunday, 02/01:</b> Crew Day Off</span></li>
+<li class="p1"><span class="s1"><b>Monday, 02/02: </b>Dragon Cargo Ops, LAB IDA Heater/Camera Cable Install, PEPS Inspection, Micro5 CGBA hardware removal</span><b> </b></li>
+</ul>
+<p class="p1"><span class="s3"><b>QUICK ISS Status – Environmental Control Group:</b></span></p>
+<table class="t1" width="438.0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="td1" valign="top">
+<p class="p1"><span class="s1"><b>                              Component</b></span></p>
+</td>
+<td class="td2" valign="top">
+<p class="p1"><span class="s1"><b>Status</b></span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">Elektron</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">On</span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">Vozdukh</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">On</span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">[СКВ] 1 – SM Air Conditioner System (“SKV1”)</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">On</span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">[СКВ] 2 – SM Air Conditioner System (“SKV2”)</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">Off</span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">Carbon Dioxide Removal Assembly (CDRA) Lab</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">Standby</span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">Carbon Dioxide Removal Assembly (CDRA) Node 3</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">Operate</span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">Major Constituent Analyzer (MCA) Lab</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">Idle</span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">Major Constituent Analyzer (MCA) Node 3</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">Operate</span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">Oxygen Generation Assembly (OGA)</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">Process</span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">Urine Processing Assembly (UPA)</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">Standby</span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">Trace Contaminant Control System (TCCS) Lab</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">Off</span></p>
+</td>
+</tr>
+<tr>
+<td class="td3" valign="top">
+<p class="p1"><span class="s1">Trace Contaminant Control System (TCCS) Node 3</span></p>
+</td>
+<td class="td4" valign="top">
+<p class="p1"><span class="s1">Full up</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="p1"><span class="s1"><b> </b></span></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://blogs.nasa.gov/stationreport/category/2015/" rel="category tag">2015</a>, <a href="https://blogs.nasa.gov/stationreport/category/2015/january-2015/" rel="category tag">January</a> on <a href="https://blogs.nasa.gov/stationreport/2015/01/30/iss-daily-summary-report-013015/" title="4:45 pm" rel="bookmark"><time class="entry-date" datetime="2015-01-30T16:45:35+00:00">January 30, 2015</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://blogs.nasa.gov/stationreport/author/williamkeeter/" title="View all posts by HQ" rel="author">HQ</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+				<nav class="nav-single">
+					<h3 class="assistive-text">Post navigation</h3>
+					<span class="nav-previous"><a href="https://blogs.nasa.gov/stationreport/2015/01/29/iss-daily-summary-report-012915/" rel="prev"><span class="meta-nav">&larr;</span> ISS Daily Summary Report &#8211; 01/29/15</a></span>
+					<span class="nav-next"><a href="https://blogs.nasa.gov/stationreport/2015/02/02/iss-daily-summary-report-020215/" rel="next">ISS Daily Summary Report &#8211; 02/02/15 <span class="meta-nav">&rarr;</span></a></span>
+				</nav><!-- .nav-single -->
+
+				
+<div id="comments" class="comments-area">
+
+	
+	
+			
+</div><!-- #comments .comments-area -->
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="search-6" class="widget widget_search"><h3 class="widget-title">Search On-Orbit Reports</h3><form role="search" method="get" id="searchform" class="searchform" action="https://blogs.nasa.gov/stationreport/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></aside><aside id="calendar-2" class="widget widget_calendar"><div id="calendar_wrap"><table id="wp-calendar">
+	<caption>January 2015</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Sunday">S</th>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="https://blogs.nasa.gov/stationreport/2014/12/">&laquo; Dec</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next"><a href="https://blogs.nasa.gov/stationreport/2015/02/">Feb &raquo;</a></td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="4" class="pad">&nbsp;</td><td>1</td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/02/" title="ISS Daily Summary Report &#8211; 01/02/15">2</a></td><td>3</td>
+	</tr>
+	<tr>
+		<td>4</td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/05/" title="ISS Daily Summary Report &#8211; 01/05/15">5</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/06/" title="ISS Daily Summary Report &#8211; 01/06/15">6</a></td><td>7</td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/08/" title="ISS Daily Summary Report &#8211; 01/08/15">8</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/09/" title="ISS Daily Summary Report &#8211; 01/09/15">9</a></td><td>10</td>
+	</tr>
+	<tr>
+		<td>11</td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/12/" title="ISS Daily Summary Report &#8211; 01/12/15">12</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/13/" title="ISS Daily Summary Report &#8211; 01/13/15">13</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/14/" title="ISS Daily Summary Report &#8211; 01/14/15">14</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/15/" title="ISS Daily Summary Report &#8211; 01/15/15">15</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/16/" title="ISS Daily Summary Report &#8211; 01/16/15">16</a></td><td>17</td>
+	</tr>
+	<tr>
+		<td>18</td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/19/" title="ISS Daily Summary Report &#8211; 01/19/15">19</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/20/" title="ISS Daily Summary Report &#8211; 01/20/15">20</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/21/" title="ISS Daily Summary Report &#8211; 01/21/15">21</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/22/" title="ISS Daily Summary Report &#8211; 01/22/15">22</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/23/" title="ISS Daily Summary Report &#8211; 01/23/15">23</a></td><td>24</td>
+	</tr>
+	<tr>
+		<td>25</td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/26/" title="ISS Daily Summary Report &#8211; 01/26/15">26</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/27/" title="ISS Daily Summary Report &#8211; 01/27/15">27</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/28/" title="ISS Daily Summary Report &#8211; 01/28/15">28</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/29/" title="ISS Daily Summary Report &#8211; 01/29/15">29</a></td><td><a href="https://blogs.nasa.gov/stationreport/2015/01/30/" title="ISS Daily Summary Report &#8211; 01/30/15">30</a></td><td>31</td>
+	</tr>
+	</tbody>
+	</table></div></aside><aside id="archives-3" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+	<li><a href='https://blogs.nasa.gov/stationreport/2015/02/'>February 2015</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2015/01/'>January 2015</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/12/'>December 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/11/'>November 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/10/'>October 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/09/'>September 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/08/'>August 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/07/'>July 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/06/'>June 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/05/'>May 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/04/'>April 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/03/'>March 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/02/'>February 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2014/01/'>January 2014</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2013/12/'>December 2013</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2013/11/'>November 2013</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2013/10/'>October 2013</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2013/09/'>September 2013</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2013/08/'>August 2013</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2013/07/'>July 2013</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2013/06/'>June 2013</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2013/05/'>May 2013</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2013/04/'>April 2013</a></li>
+	<li><a href='https://blogs.nasa.gov/stationreport/2013/03/'>March 2013</a></li>
+		</ul>
+</aside><aside id="text-2" class="widget widget_text"><h3 class="widget-title">Past Years</h3>			<div class="textwidget"><a href="http://www.nasa.gov/directorates/heo/reports/iss_reports/2012/ISS_Reports_SearchAgent_archive_1.html">Archived 2012 reports</a><br />
+
+<a href="http://www.nasa.gov/directorates/heo/reports/iss_reports/2011/ISS_Reports_SearchAgent_archive_1.html">Archived 2011 reports</a><br />
+
+<a href="http://www.nasa.gov/directorates/heo/reports/iss_reports/2010/ISS_Reports_SearchAgent_archive_1.html">Archived 2010 reports</a>
+<br />
+<a href="http://www.nasa.gov/directorates/heo/reports/iss_reports/2009/ISS_Reports_SearchAgent_archive_1.html">Archived 2009 reports</a>
+<br />
+<a href="http://www.nasa.gov/pdf/318312main_reports2008.pdf">Archived 2008 reports (PDF)</a><br />
+
+<a href="http://www.nasa.gov/pdf/318303main_reports2007.pdf">Archived 2007 reports (PDF)</a><br />
+
+<a href="http://www.nasa.gov/pdf/318277main_reports2006_Oct-Dec.pdf">Archived 2006 reports Oct-Dec (PDF)</a><br /></div>
+		</aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h3 class="widget-title">Tags</h3><div class="tagcloud"><a href='https://blogs.nasa.gov/stationreport/category/2013/' class='tag-link-6' title='212 topics' style='font-size: 21.416666666667pt;'>2013</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/' class='tag-link-17' title='245 topics' style='font-size: 22pt;'>2014</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2015/' class='tag-link-30' title='27 topics' style='font-size: 12.861111111111pt;'>2015</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/april-2014/' class='tag-link-21' title='19 topics' style='font-size: 11.402777777778pt;'>April</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2013/april/' class='tag-link-10' title='22 topics' style='font-size: 11.986111111111pt;'>April</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/august-2014/' class='tag-link-25' title='21 topics' style='font-size: 11.791666666667pt;'>August</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2013/august/' class='tag-link-12' title='22 topics' style='font-size: 11.986111111111pt;'>August</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2013/december/' class='tag-link-16' title='26 topics' style='font-size: 12.666666666667pt;'>December</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/december-2014/' class='tag-link-29' title='22 topics' style='font-size: 11.986111111111pt;'>December</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/february/' class='tag-link-19' title='18 topics' style='font-size: 11.208333333333pt;'>February</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2015/february-2015/' class='tag-link-32' title='8 topics' style='font-size: 8pt;'>February</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2015/january-2015/' class='tag-link-31' title='19 topics' style='font-size: 11.402777777778pt;'>January</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/january/' class='tag-link-18' title='23 topics' style='font-size: 12.180555555556pt;'>January</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2013/july/' class='tag-link-8' title='21 topics' style='font-size: 11.791666666667pt;'>July</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/july-2014/' class='tag-link-24' title='23 topics' style='font-size: 12.180555555556pt;'>July</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2013/june/' class='tag-link-7' title='20 topics' style='font-size: 11.597222222222pt;'>June</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/june-2014/' class='tag-link-23' title='21 topics' style='font-size: 11.791666666667pt;'>June</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/march-2014/' class='tag-link-20' title='18 topics' style='font-size: 11.208333333333pt;'>March</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2013/march/' class='tag-link-11' title='15 topics' style='font-size: 10.430555555556pt;'>March</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2013/may/' class='tag-link-9' title='21 topics' style='font-size: 11.791666666667pt;'>May</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/may-2014/' class='tag-link-22' title='20 topics' style='font-size: 11.597222222222pt;'>May</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/november-2014/' class='tag-link-28' title='14 topics' style='font-size: 10.236111111111pt;'>November</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2013/november/' class='tag-link-15' title='25 topics' style='font-size: 12.472222222222pt;'>November</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2013/october/' class='tag-link-14' title='21 topics' style='font-size: 11.791666666667pt;'>October</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/october-2014/' class='tag-link-27' title='21 topics' style='font-size: 11.791666666667pt;'>October</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2013/september/' class='tag-link-13' title='18 topics' style='font-size: 11.208333333333pt;'>September</a>
+<a href='https://blogs.nasa.gov/stationreport/category/2014/september-2014/' class='tag-link-26' title='20 topics' style='font-size: 11.597222222222pt;'>September</a></div>
+</aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<div class="clear"></div>
+	
+	
+	<footer id="colophon" role="contentinfo">
+	<a class="nasa_logo_footer" href="http://www.nasa.gov"><span class="hide">NASA Home</span></a>
+	<p id="footercol1">
+	NASA Official: Brian Dunbar
+	</p>
+	<div id="footercol2">
+	<ul>
+		<li><a href="http://www.nasa.gov/recovery/index.html">NASA Information on the American Recovery and Reinvestment Act of 2009</a></li>
+		<li><a href="http://www.nasa.gov/news/budget/index.html">Budgets, Strategic Plans and Accountability Reports</a></li>
+		<li><a href="http://www.hq.nasa.gov/office/codee/nofear.html">Equal Employment Opportunity Data Posted Pursuant to the No Fear Act</a></li>
+		<li><a href="http://www.nasa.gov/about/contact/information_inventories_schedules.html">Information-Dissemination Policies and Inventories</a></li>
+	</ul>
+	</div>
+	<div id="footercol3">
+	<ul>
+		<li><a href="http://www.hq.nasa.gov/office/pao/FOIA/agency/">Freedom of Information Act</a></li>
+		<li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy &amp; Important Notices</a></li>
+		<li><a href="http://www.nasa.gov/offices/nac/home/index.html ">NASA Advisory Council</a></li>
+		<li><a href="http://oig.nasa.gov/hotline.html">Inspector General Hotline</a></li>
+		<li><a href="http://oig.nasa.gov/">Office of the Inspector General</a></li>
+		<li><a href="http://www.nasa.gov/audience/formedia/features/communication_policy.html">NASA Communications Policy</a></li>
+	</ul>
+	</div>
+	<div id="footercol4">
+	<ul>
+		<li><a href="http://www.nasa.gov/about/contact/index.html">Contact NASA</a></li>
+		<li><a href="http://www.nasa.gov/sitemap/sitemap_nasa.html">Site Map</a></li>
+		<li><a href="http://USA.gov">USA.gov</a></li>
+		<li><a href="http://ExpectMore.gov">ExpectMore.gov</a></li>
+		<li><a href="http://www.nasa.gov/open/index.html">Open Government at NASA</a></li>
+		<li><a href="http://www.nasa.gov/help/about/index.html">Help and Preferences</a></li>		
+	</ul>
+	</div>
+	
+	<div class="clear"></div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+<!-- start WPPA+ Footer data -->
+	<div id="wppa-overlay-bg" style="text-align:center; display:none; position:fixed; top:0; left:0; z-index:100090; width:100%; height:2048px; background-color:black;" onclick="wppaOvlOnclick(event)" >
+		<div id="wppa-ovl-legenda-1" onmouseover="jQuery(this).css('visibility','visible');" onmouseout="jQuery(this).css('visibility','hidden');" style="position:absolute; left:0; bottom:0; background-color:black;color:#a7a7a7; visibility:visible;" >
+			Press f for fullscreen.
+		</div>
+	</div>
+	<div id="wppa-overlay-ic" style="position:fixed; top:0; padding-top:10px; z-index:100095; opacity:1; box-shadow:none;"
+		ontouchstart="wppaTouchStart(event, 'wppa-overlay-ic', -1);"  ontouchend="wppaTouchEnd(event);" 
+		ontouchmove="wppaTouchMove(event);" ontouchcancel="wppaTouchCancel(event);" >
+	</div>
+	<img id="wppa-overlay-sp" alt="spinner" style="position:fixed; top:200px; left:200px; z-index:100100; opacity:1; visibility:hidden; box-shadow:none;" src="https://blogs.nasa.gov/stationreport/wp-content/plugins/wp-photo-album-plus/images/loading.gif" />
+	<script type="text/javascript">jQuery("#wppa-overlay-bg").css({height:window.innerHeight});
+		wppaOvlTxtHeight = "auto";
+		wppaOvlCloseTxt = "CLOSE";
+		wppaOvlOpacity = 0.8;
+		wppaOvlOnclickType = "none";
+		wppaOvlTheme = "black";
+		wppaOvlAnimSpeed = 300;
+		wppaOvlSlideSpeed = 5000;
+		wppaVer4WindowWidth = 800;
+		wppaVer4WindowHeight = 600;
+		wppaOvlShowCounter = true;
+		
+		wppaOvlFontSize = "10";
+		
+		wppaOvlFontWeight = "bold"
+		wppaOvlLineHeight = "12"
+	</script>
+	<input type="hidden" id="wppa-nonce" name="wppa-nonce" value="b3d9eb1d8c" />
+	<script type="text/javascript">
+	</script>
+<!-- end WPPA+ Footer data -->
+
+<!-- Do user upload -->
+<!-- Done user upload --><script type='text/javascript' src='https://blogs.nasa.gov/stationreport/wp-content/themes/twentytwelve/js/navigation.js?ver=20140711'></script>
+		<!-- Facebook Comments for WPPA+ -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
+	</body>
+</html>

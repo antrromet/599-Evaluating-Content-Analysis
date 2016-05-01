@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>        
+        <meta charset="utf-8">
+        <title>Why is that Forest Red and That Cloud Blue?  : Feature Articles</title>
+        <!-- Mobile viewport optimized -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- standard metadata -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="title" content="Why is that Forest Red and That Cloud Blue?  : Feature Articles">
+        <!-- NASA required metadata -->
+        <meta name="orgcode" content="610">
+        <meta name="rno" content="Charles.M.Ichoku.1">
+        <meta name="content-owner" content="Paul.D.Przyborski.1">
+        <meta name="webmaster" content="Paul.D.Przyborski.1">
+        <meta name="description" content="Are you distracted by unusual colors in satellite images? They are not photographs, and understanding the difference between them is the key to unlocking the power of false-color images.">
+        <!-- Dublin Core Metadata Initiative (DCMI) metadata - http://dublincore.org/ -->
+        <meta name="DC.Identifier" content="http://earthobservatory.nasa.gov">
+        <meta name="DC.Title" content="NASA Earth Observatory : ">
+        <meta name="DC.Description" content="Are you distracted by unusual colors in satellite images? They are not photographs, and understanding the difference between them is the key to unlocking the power of false-color images.">
+        <meta name="DC.Date" scheme="ISO8601" content="2014-03-04">
+        <meta name="DC.Date.X-MetadataLastModified" scheme="ISO8601" content="2014-03-04">
+        <meta name="DC.Publisher" content="NASA Earth Observatory">
+        <meta name="DC.Publisher.Address" content="http://earthobservatory.nasa.gov/Contact/">
+        <meta name="DC.Language" scheme="ISO639-1" content="en">
+        <meta name="DC.Type" content="Text.Article">
+        <meta name="DC.Format" scheme="IMT" content="text/html">
+        <meta name="DC.Subject" content="remote sensing, electromagnetic spectrum, infrared, thermal, visible light, false-color image, true-color image, natural-color image, band combination">
+        <meta name="DC.Creator" content="Riebeek, Holli">
+        <meta name="DC.Subject" scheme="EO" content="Remote Sensing">
+        <link rel="icon" href="/favicon.ico" type="image/ico">
+        <!-- facebook thumbnail -->
+        <link rel="image_src" href="http://eoimages.gsfc.nasa.gov/images/featureteasers/83000/83255/earthinfrared_mes_2005214_front_feature.jpg" />
+        <!-- google thumbnail -->
+        <meta name="thumbnail" content="http://eoimages.gsfc.nasa.gov/images/featureteasers/83000/83255/earthinfrared_mes_2005214_front_feature.jpg" />
+        
+        <link rel="stylesheet" type="text/css" href="/css/global.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/print_feature.css" media="print">                
+        <script src="/js/eo.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="/js/jquery.easing.js"></script>
+        <script src="/js/global.js"></script>
+        
+                
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        <!--[if IE 6]>
+        <style type="text/css"> body { behavior:url(/js/csshover.htc); } </style>
+        <script src="/js/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+            DD_belatedPNG.fix('.pngbg');
+        </script>
+        <![endif]-->
+        
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-17823747-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+		
+		<script id="_fed_an_js_tag" type="text/javascript" src="/js/federated-analytics.all.min.js?agency=NASA&yt=true"></script>
+
+    </head>
+
+
+    <!--[if lt IE 7 ]><body class="ie6"><![endif]-->
+    <!--[if IE 7 ]><body class="ie7"><![endif]-->
+    <!--[if IE 8 ]><body class="ie8"><![endif]-->
+    <!--[if IE 9 ]><body class="ie9"><![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+        
+        <div id="header">            
+            <div id="header-in">
+                <a href="http://www.nasa.gov" class="nasa-logo">NASA</a>
+                <a href="/?eocn=topnav&eoci=logo" class="logo">Earth Observatory</a>
+                <ul>
+                    <li class="menu-home"><a href="/?eocn=topnav&eoci=home">Home</a></li>
+                    <li class="menu-images"><a href="/Images/?eocn=topnav&eoci=images">Images</a></li>
+                    <li class="menu-maps"><a href="/GlobalMaps/?eocn=topnav&eoci=globalmaps">Global Maps</a></li>
+                    <li class="menu-features"><a href="/Features/?eocn=topnav&eoci=features" class="sel-link">Features</a></li>
+                    <li class="menu-blogs"><a href="/blogs/?eocn=topnav&eoci=blogs">News &amp; Notes</a></li>
+                </ul>
+
+                <div class="search">
+                    <form action="/Search/index.php" id="searchbox_002358070019171462865:rvzidec6wz4" name="qs">
+                    <input type="hidden" name="hq" id="hq" value="site:earthobservatory.nasa.gov/Features/">                    <input type="text" onblur="if (!this.value) this.value=this.defaultValue" onfocus="if (this.value==this.defaultValue) this.value=''; else this.select()" value="Search" name="q">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+
+            <div class="col-double">
+
+                <div class="col-l">
+
+                    <div class="box">
+                        <div class="mid">
+
+                            <div class="feature new">
+                                <div id="feature-content">
+<!-- html begins -->
+
+	<div class="section">
+		<h3>Observing in Visible Light</h3>
+		<p>Data visualizers and remote sensing scientists make true- or false-color images in order to show the features they are most interested in, and they select the wavelength bands most likely to highlight those features.</p>
+	</div>
+
+
+	<div class="figure wide">
+		<div class="image"><a href="http://visibleearth.nasa.gov/view.php?id=83264"><img width="720" height="720" alt="Red, green, and blue bands make up a true-color satellite image." src="images/issukkul_amo_2013238_color_red_green_blue.jpg"></a></div>
+		
+		<div class="caption">
+			<p>Combining red, green, and blue bands results in a true-color satellite image, such as this view of Lake Issyk Kul, Kyrgyzstan. (MODIS <a href="http://visibleearth.nasa.gov/view.php?id=83264">image</a> from <a href="https://earthdata.nasa.gov/labs/worldview/">NASA Worldview.</a>)</p>
+		</div>
+	</div>		
+
+
+	<div class="section">
+		<p><a href="http://science-edu.larc.nasa.gov/EDDOCS/Wavelengths_for_Colors.html#blue">Blue light</a> (450 to 490 nanometers) is among the few wavelengths that water reflects (the rest are absorbed). Hence, blue bands are useful for seeing water surface features and for spotting the sea- or lake floor in shallow waters. You can see that water reflects some blue light in the above image of Lake Issyk Kul, Kyrgyzstan. Water is lighter in the blue band than it is in either the red or green bands, though the lake is too deep for shallow features to be visible. Manmade creations like cities and roads also show up well in blue light. It is also the wavelength most scattered by particles and gas molecules in the atmosphere, which is why the sky is blue.</p>
+
+		<p><a href="http://science-edu.larc.nasa.gov/EDDOCS/Wavelengths_for_Colors.html#green">Green light</a> (490 to 580 nanometers) is useful for monitoring <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=81102">phytoplankton</a> in the ocean and plants on land. The chlorophyll in these organisms absorbs red and blue light, but reflects green light. Sediment in water also reflects green light, so a muddy or sandy body of water will look brighter because it is reflecting both blue and green light.</p>
+	
+		<p><a href="http://science-edu.larc.nasa.gov/EDDOCS/Wavelengths_for_Colors.html#red">Red light</a> (620 to 780 nanometers) can help distinguish minerals and soils that contain a high concentration of iron or iron oxides, making it valuable for studying geology. In the above image, for example, the exposed ground around Lake Issyk Kul varies in tone from pale tan to orange based on the mineral content of the soil. Since chlorophyll absorbs red light, this band is commonly used to monitor the growth and health of trees, grasses, shrubs, and crops. Red light can also help distinguish between different types of plants on a broad scale.</p>
+	</div>
+		
+<!-- html ends -->
+
+                                </div>    
+                                <a id="next" href="#"></a>
+                            </div>
+
+                        </div>
+                        <div class="bot"></div>
+                    </div>
+<div class="box-pagi-news">
+    <span class="pagi-l"><a href="page3.php">Turning Wavelength Data into an Image</a></span>
+    <span class="pagi-r"><a href="page5.php">Observing in Infrared</a></span>
+    |
+</div>
+                </div>
+
+                <div class="col-r">
+            
+<div class="feature-nav">
+<h3>Why is that Forest Red and That Cloud Blue? </h3><ul><li><a href='page1.php'>Introduction</a></li><li><a href='page2.php'>Seeing the Light</a></li><li><a href='page3.php'>Turning Wavelength Data into an Image</a></li><li><strong>Observing in Visible Light</strong></li><li><a href='page5.php'>Observing in Infrared</a></li><li><a href='page6.php'>How to Interpret Common False Color Images</a></li>        </ul>
+
+    <div class="img-share feature-share">
+        <span class="lf">
+            <a href="printall.php">Print this entire article</a>
+        </span>
+
+<span class="share-buttons">    
+    <a href="http://www.facebook.com/share.php?u=<url>" onclick="return fbs_click()" target="_blank" title="Share on Facebook"><img src="/siteimages/buttons/btn-share-facebook.png" height="16" width="16" alt="facebook"></a>
+    <a href="http://twitter.com/home?status=Why+is+that+Forest+Red+and+That+Cloud+Blue?++:+Feature+Articles+http://earthobservatory.nasa.gov/Features/FalseColor/page4.php%3Fsrc=share+%23NASA" onclick="window.open(this.href,'window','width=626,height=436,resizeable,scrollbars,toolbar,menubar');return false"; title="Share on Twitter"><img src="/siteimages/buttons/btn-share-twitter.png" height="16" width="16" alt="twitter"></a>
+    <a href="http://www.stumbleupon.com/submit?url=http://earthobservatory.nasa.gov/Features/FalseColor/page4.php%3Fsrc=share" onclick="window.open(this.href,'window','width=995,height=930,resizeable,scrollbars,toolbar,menubar');return false"; title="Share on StumbleUpon"><img src="/siteimages/buttons/btn-share-stumble.png" height="16" width="16" alt="stumbleupon"></a>   
+    <a href="http://plusone.google.com/_/+1/confirm?hl=en&url=http://earthobservatory.nasa.gov/Features/FalseColor/page4.php%3Fsrc=share&title=Why+is+that+Forest+Red+and+That+Cloud+Blue?++:+Feature+Articles" onclick="window.open(this.href,'window','width=626,height=400,resizeable,scrollbars,toolbar,menubar');return false"; title="Share on Google+"><img src="/siteimages/buttons/btn-share-googleplus.png" height="16" width="16" alt="Google+"></a>
+    <a href="http://pinterest.com/pin/create/button/?url=http://earthobservatory.nasa.gov/Features/FalseColor/page4.php%3Fsrc=share&media=http%3A%2F%2Feoimages.gsfc.nasa.gov%2Fimages%2Ffeatureteasers%2F83000%2F83255%2Fearthinfrared_mes_2005214_front_feature.jpg&description=Why+is+that+Forest+Red+and+That+Cloud+Blue%3F++%3A++%3A+Feature+Articles+%3A+NASA+Earth+Observatory" onclick="window.open(this.href,'window','width=626,height=236,resizeable,scrollbars,toolbar,menubar');return false";><img src="/siteimages/buttons/btn-share-pinterest.png" height="16" width="16" alt="pinterest" title="Pin It"></a>
+
+</span>
+
+<script>
+    function fbs_click() {
+        u=location.href;
+        if (u[u.length-1] == "/") {
+            u=u+"?src=share";
+        } else {
+            u=u+"&src=share";
+        }
+        t=document.title;
+        window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');
+        return false;
+    }
+</script>    </div>    
+</div>                    <div class="side-sub">
+                        <a href="/Subscribe/" class="btn-subscribe">Subscribe Today</a>
+                        <div class="subscribe-feeds">
+                        <!--
+                            <a href="/Subscribe/feeds.php" class="btn-rss">RSS</a>
+                            <a href="/Subscribe/feeds.php" class="btn-rss">Google Earth</a>
+                            <a href="http://www.facebook.com/NASAEarthObservatory" class="btn-fb">Facebook</a>
+                            <a href="http://twitter.com/nasa_eo/" class="btn-twitter">Twitter</a>
+                        -->
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="cf"></div>
+
+            </div>
+
+        </div>
+        <div id="footer">
+            <div id="footer-in">
+                <div class="footer-btn">
+                    <a href="/Subscribe/feeds.php" alt="RSS Feeds"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-rss.png" height="16" width="16" alt="RSS Feeds"></a>
+                    <a href="http://instagram.com/nasa_eo/" alt="Instagram"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-instagram.png" height="16" width="16" alt="Instagram"></a>
+                    <a href="http://www.facebook.com/NASAEarthObservatory" alt="Find us on Facebook"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-facebook.png" height="16" width="16" alt="Find us on Facebook"></a>
+                    <a href="http://twitter.com/nasa_eo/" alt="Follow us on Twitter"><img src="http://eoimages2.gsfc.nasa.gov/siteimages/buttons/btn-share-twitter.png" height="16" width="16" alt="Follow us on Twitter"></a>
+                </div> <!-- /footer-btn -->
+                <div class="footer-sub">
+                    <a href="/Subscribe/index.php?src=subscribe-foot">Subscribe Today</a>
+                </div> <!-- /footer-sub -->             
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="/Subscribe/feeds.php">Feeds</a></li>
+                        <li><a href="/Contact/">Contact Us</a></li>
+                        <li><a href="/About/">About the Earth Observatory</a></li>
+                        <li><a href="/ImageUse/">Image Use Policy</a></li>
+                        <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy &amp; Important Notices</a></li>
+                    </ul>
+                    The Earth Observatory is part of the <a href="http://eospso.nasa.gov/">EOS Project Science Office</a> located at <a href="http://www.nasa.gov/goddard/">NASA Goddard Space Flight Center</a><br>
+                    webmaster: <a href="/Contact/">Paul Przyborski</a> | NASA official: <a href="/Contact/">Charles Ichoku</a>
+                </div> <!-- /footer-links -->
+            </div> <!-- /footer-in -->
+        </div> <!-- /footer -->
+
+
+        <script type="text/javascript">
+                
+            function mobileCookie() {
+                        
+                var theDate = new Date();
+                var oneYearLater = new Date(theDate.getTime() + 31536000000);
+                var expiryDate = oneYearLater.toGMTString();
+            
+                document.cookie = 'eoMobile=false; expires='+expiryDate+'; path=/';
+                setTimeout("window.location = 'http://earthobservatory.nasa.gov/Features/FalseColor/page4.php'",500);
+            
+            }
+            
+        </script>
+
+    </body>
+</html>
